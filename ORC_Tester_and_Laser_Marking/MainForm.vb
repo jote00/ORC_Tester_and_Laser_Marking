@@ -215,4 +215,400 @@ Public Class MainForm
             MsgBox("Failed to connect/disconnect from PLC: " & ex.Message, MsgBoxStyle.Critical)
         End Try
     End Sub
+
+    'Button Manual Setup
+
+    'Button Manual Station 1
+
+    Private Sub btn_stn1_cyl1_fw_Click(sender As Object, e As EventArgs) Handles btn_stn1_cyl1_fw.Click
+        If btn_stn1_cyl1_bw.Text = "Is Backward" Then
+            btn_stn1_cyl1_bw.PerformClick()
+        End If
+
+        If btn_stn1_cyl1_fw.Text = "Forward" Then
+            STN1_CYL1 = FORWARD
+            btn_stn1_cyl1_fw.Image = My.Resources.button_white_trnsprnt
+            btn_stn1_cyl1_fw.Text = "Is Forward"
+        ElseIf btn_stn1_cyl1_fw.Text = "Is Forward" Then
+            STN1_CYL1 = IDLE
+            btn_stn1_cyl1_fw.Image = My.Resources.button_silver_trnsprnt
+            btn_stn1_cyl1_fw.Text = "Forward"
+        End If
+    End Sub
+
+    Private Sub btn_stn1_cyl1_bw_Click(sender As Object, e As EventArgs) Handles btn_stn1_cyl1_bw.Click
+        If btn_stn1_cyl1_fw.Text = "Is Forward" Then
+            btn_stn1_cyl1_fw.PerformClick()
+        End If
+
+        If btn_stn1_cyl1_bw.Text = "Backward" Then
+            STN1_CYL1 = BACKWARD
+            btn_stn1_cyl1_bw.Image = My.Resources.button_white_trnsprnt
+            btn_stn1_cyl1_bw.Text = "Is Backward"
+        ElseIf btn_stn1_cyl1_bw.Text = "Is Backward" Then
+            STN1_CYL1 = IDLE
+            btn_stn1_cyl1_bw.Image = My.Resources.button_silver_trnsprnt
+            btn_stn1_cyl1_bw.Text = "Backward"
+        End If
+    End Sub
+
+    'Button Manual Station3
+
+    Private Sub btn_stn3_cyl1_fw_Click(sender As Object, e As EventArgs) Handles btn_stn3_cyl1_fw.Click
+        If btn_stn3_cyl1_bw.Text = "Is Backward" Then
+            btn_stn3_cyl1_bw.PerformClick()
+        End If
+
+        If btn_stn3_cyl1_fw.Text = "Forward" Then
+            STN3_CYL1 = FORWARD
+            btn_stn3_cyl1_fw.Image = My.Resources.button_white
+            btn_stn3_cyl1_fw.Text = "Is Forward"
+        ElseIf btn_stn3_cyl1_fw.Text = "Is Forward" Then
+            STN3_CYL1 = IDLE
+            btn_stn3_cyl1_fw.Image = My.Resources.button_silver
+            btn_stn3_cyl1_fw.Text = "Forward"
+        End If
+    End Sub
+
+    Private Sub btn_stn3_cyl1_bw_Click(sender As Object, e As EventArgs) Handles btn_stn3_cyl1_bw.Click
+        If btn_stn3_cyl1_fw.Text = "Is Forward" Then
+            btn_stn3_cyl1_fw.PerformClick()
+        End If
+
+        If btn_stn3_cyl1_bw.Text = "Backward" Then
+            STN3_CYL1 = BACKWARD
+            btn_stn3_cyl1_bw.Image = My.Resources.button_white
+            btn_stn3_cyl1_bw.Text = "Is Backward"
+        ElseIf btn_stn3_cyl1_bw.Text = "Is Backward" Then
+            STN3_CYL1 = IDLE
+            btn_stn3_cyl1_bw.Image = My.Resources.button_silver
+            btn_stn3_cyl1_bw.Text = "Backward"
+        End If
+    End Sub
+
+    Private Sub btn_stn3_cyl2_fw_Click(sender As Object, e As EventArgs) Handles btn_stn3_cyl2_fw.Click
+        If btn_stn3_cyl2_bw.Text = "Is Backward" Then
+            btn_stn3_cyl2_bw.PerformClick()
+        End If
+
+        If btn_stn3_cyl2_fw.Text = "Forward" Then
+            STN3_CYL2 = FORWARD
+            btn_stn3_cyl2_fw.Image = My.Resources.button_white
+            btn_stn3_cyl2_fw.Text = "Is Forward"
+        ElseIf btn_stn3_cyl2_fw.Text = "Is Forward" Then
+            STN3_CYL2 = IDLE
+            btn_stn3_cyl2_fw.Image = My.Resources.button_silver
+            btn_stn3_cyl2_fw.Text = "Forward"
+        End If
+    End Sub
+
+    Private Sub btn_stn3_cyl2_bw_Click(sender As Object, e As EventArgs) Handles btn_stn3_cyl2_bw.Click
+        If btn_stn3_cyl3_bw.Text = "Is Backward" Then
+            btn_stn3_cyl3_bw.PerformClick()
+        End If
+
+        If btn_stn3_cyl3_fw.Text = "Forward" Then
+            STN3_CYL3 = FORWARD
+            btn_stn3_cyl3_fw.Image = My.Resources.button_white
+            btn_stn3_cyl3_fw.Text = "Is Forward"
+        ElseIf btn_stn3_cyl3_fw.Text = "Is Forward" Then
+            STN3_CYL3 = IDLE
+            btn_stn3_cyl3_fw.Image = My.Resources.button_silver
+            btn_stn3_cyl3_fw.Text = "Forward"
+        End If
+    End Sub
+
+    Private Sub btn_stn3_cyl3_fw_Click(sender As Object, e As EventArgs) Handles btn_stn3_cyl3_fw.Click
+        If btn_stn3_cyl3_bw.Text = "Is Backward" Then
+            btn_stn3_cyl3_bw.PerformClick()
+        End If
+
+        If btn_stn3_cyl3_fw.Text = "Forward" Then
+            STN3_CYL3 = FORWARD
+            btn_stn3_cyl3_fw.Image = My.Resources.button_white
+            btn_stn3_cyl3_fw.Text = "Is Forward"
+        ElseIf btn_stn3_cyl3_fw.Text = "Is Forward" Then
+            STN3_CYL3 = IDLE
+            btn_stn3_cyl3_fw.Image = My.Resources.button_silver
+            btn_stn3_cyl3_fw.Text = "Forward"
+        End If
+    End Sub
+
+    Private Sub btn_stn3_cyl3_bw_Click(sender As Object, e As EventArgs) Handles btn_stn3_cyl3_bw.Click
+        If btn_stn3_cyl3_fw.Text = "Is Forward" Then
+            btn_stn3_cyl3_fw.PerformClick()
+        End If
+
+        If btn_stn3_cyl3_bw.Text = "Backward" Then
+            STN3_CYL3 = BACKWARD
+            btn_stn3_cyl3_bw.Image = My.Resources.button_white
+            btn_stn3_cyl3_bw.Text = "Is Backward"
+        ElseIf btn_stn3_cyl3_bw.Text = "Is Backward" Then
+            STN3_CYL3 = IDLE
+            btn_stn3_cyl3_bw.Image = My.Resources.button_silver
+            btn_stn3_cyl3_bw.Text = "Backward"
+        End If
+    End Sub
+
+    Private Sub btn_stn3_cyl4_fw_Click(sender As Object, e As EventArgs) Handles btn_stn3_cyl4_fw.Click
+        If btn_stn3_cyl4_bw.Text = "Is Backward" Then
+            btn_stn3_cyl4_bw.PerformClick()
+        End If
+
+        If btn_stn3_cyl4_fw.Text = "Forward" Then
+            STN3_CYL4 = FORWARD
+            btn_stn3_cyl4_fw.Image = My.Resources.button_white
+            btn_stn3_cyl4_fw.Text = "Is Forward"
+        ElseIf btn_stn3_cyl4_fw.Text = "Is Forward" Then
+            STN3_CYL4 = IDLE
+            btn_stn3_cyl4_fw.Image = My.Resources.button_silver
+            btn_stn3_cyl4_fw.Text = "Forward"
+        End If
+    End Sub
+
+    Private Sub btn_stn3_cyl4_bw_Click(sender As Object, e As EventArgs) Handles btn_stn3_cyl4_bw.Click
+        If btn_stn3_cyl4_fw.Text = "Is Forward" Then
+            btn_stn3_cyl4_fw.PerformClick()
+        End If
+
+        If btn_stn3_cyl4_bw.Text = "Backward" Then
+            STN3_CYL4 = BACKWARD
+            btn_stn3_cyl4_bw.Image = My.Resources.button_white
+            btn_stn3_cyl4_bw.Text = "Is Backward"
+        ElseIf btn_stn3_cyl4_bw.Text = "Is Backward" Then
+            STN3_CYL4 = IDLE
+            btn_stn3_cyl4_bw.Image = My.Resources.button_silver
+            btn_stn3_cyl4_bw.Text = "Backward"
+        End If
+    End Sub
+
+
+    'Button Manual Station 4
+
+    Private Sub btn_stn4_cyl1_fw_Click(sender As Object, e As EventArgs) Handles btn_stn4_cyl1_fw.Click
+        If btn_stn4_cyl1_bw.Text = "Is Backward" Then
+            btn_stn4_cyl1_bw.PerformClick()
+        End If
+
+        If btn_stn4_cyl1_fw.Text = "Forward" Then
+            STN4_CYL1 = FORWARD
+            btn_stn4_cyl1_fw.Image = My.Resources.button_white_trnsprnt
+            btn_stn4_cyl1_fw.Text = "Is Forward"
+        ElseIf btn_stn4_cyl1_fw.Text = "Is Forward" Then
+            STN4_CYL1 = IDLE
+            btn_stn4_cyl1_fw.Image = My.Resources.button_silver_trnsprnt
+            btn_stn4_cyl1_fw.Text = "Forward"
+        End If
+    End Sub
+
+    Private Sub btn_stn4_cyl1_bw_Click(sender As Object, e As EventArgs) Handles btn_stn4_cyl1_bw.Click
+        If btn_stn4_cyl1_fw.Text = "Is Forward" Then
+            btn_stn4_cyl1_fw.PerformClick()
+        End If
+
+        If btn_stn4_cyl1_bw.Text = "Backward" Then
+            STN4_CYL1 = BACKWARD
+            btn_stn4_cyl1_bw.Image = My.Resources.button_white
+            btn_stn4_cyl1_bw.Text = "Is Backward"
+        ElseIf btn_stn4_cyl1_bw.Text = "Is Backward" Then
+            STN4_CYL1 = IDLE
+            btn_stn4_cyl1_bw.Image = My.Resources.button_silver
+            btn_stn4_cyl1_bw.Text = "Backward"
+        End If
+    End Sub
+
+
+    'Button Manual Station 5
+
+    Private Sub btn_stn5_cyl1_fw_Click(sender As Object, e As EventArgs) Handles btn_stn5_cyl1_fw.Click
+        If btn_stn5_cyl1_bw.Text = "Is Backward" Then
+            btn_stn5_cyl1_bw.PerformClick()
+        End If
+
+        If btn_stn5_cyl1_fw.Text = "Forward" Then
+            STN5_CYL1 = FORWARD
+            btn_stn5_cyl1_fw.Image = My.Resources.button_white
+            btn_stn5_cyl1_fw.Text = "Is Forward"
+        ElseIf btn_stn5_cyl1_fw.Text = "Is Forward" Then
+            STN5_CYL1 = IDLE
+            btn_stn5_cyl1_fw.Image = My.Resources.button_silver
+            btn_stn5_cyl1_fw.Text = "Forward"
+        End If
+    End Sub
+
+    Private Sub btn_stn5_cyl1_bw_Click(sender As Object, e As EventArgs) Handles btn_stn5_cyl1_bw.Click
+        If btn_stn5_cyl1_fw.Text = "Is Forward" Then
+            btn_stn5_cyl1_fw.PerformClick()
+        End If
+
+        If btn_stn5_cyl1_bw.Text = "Backward" Then
+            STN5_CYL1 = BACKWARD
+            btn_stn5_cyl1_bw.Image = My.Resources.button_white
+            btn_stn5_cyl1_bw.Text = "Is Backward"
+        ElseIf btn_stn5_cyl1_bw.Text = "Is Backward" Then
+            STN5_CYL1 = IDLE
+            btn_stn5_cyl1_bw.Image = My.Resources.button_silver
+            btn_stn5_cyl1_bw.Text = "Backward"
+        End If
+    End Sub
+
+    Private Sub btn_stn5_cyl2_fw_Click(sender As Object, e As EventArgs) Handles btn_stn5_cyl2_fw.Click
+        If btn_stn5_cyl2_bw.Text = "Is Backward" Then
+            btn_stn5_cyl2_bw.PerformClick()
+        End If
+
+        If btn_stn5_cyl2_fw.Text = "Forward" Then
+            STN5_CYL2 = FORWARD
+            btn_stn5_cyl2_fw.Image = My.Resources.button_white
+            btn_stn5_cyl2_fw.Text = "Is Forward"
+        ElseIf btn_stn5_cyl2_fw.Text = "Is Forward" Then
+            STN5_CYL2 = IDLE
+            btn_stn5_cyl2_fw.Image = My.Resources.button_silver
+            btn_stn5_cyl2_fw.Text = "Forward"
+        End If
+    End Sub
+
+    Private Sub btn_stn5_cyl2_bw_Click(sender As Object, e As EventArgs) Handles btn_stn5_cyl2_bw.Click
+        If btn_stn5_cyl2_fw.Text = "Is Forward" Then
+            btn_stn5_cyl2_fw.PerformClick()
+        End If
+
+        If btn_stn5_cyl2_bw.Text = "Backward" Then
+            STN5_CYL2 = BACKWARD
+            btn_stn5_cyl2_bw.Image = My.Resources.button_white
+            btn_stn5_cyl2_bw.Text = "Is Backward"
+        ElseIf btn_stn5_cyl2_bw.Text = "Is Backward" Then
+            STN5_CYL2 = IDLE
+            btn_stn5_cyl2_bw.Image = My.Resources.button_silver
+            btn_stn5_cyl2_bw.Text = "Backward"
+        End If
+    End Sub
+
+    Private Sub btn_stn5_cyl3_fw_Click(sender As Object, e As EventArgs) Handles btn_stn5_cyl3_fw.Click
+        If btn_stn5_cyl3_bw.Text = "Is Backward" Then
+            btn_stn5_cyl3_bw.PerformClick()
+        End If
+
+        If btn_stn5_cyl3_fw.Text = "Forward" Then
+            STN5_CYL3 = FORWARD
+            btn_stn5_cyl3_fw.Image = My.Resources.button_white
+            btn_stn5_cyl3_fw.Text = "Is Forward"
+        ElseIf btn_stn5_cyl3_fw.Text = "Is Forward" Then
+            STN5_CYL3 = IDLE
+            btn_stn5_cyl3_fw.Image = My.Resources.button_silver
+            btn_stn5_cyl3_fw.Text = "Forward"
+        End If
+    End Sub
+
+    Private Sub btn_stn5_cyl3_bw_Click(sender As Object, e As EventArgs) Handles btn_stn5_cyl3_bw.Click
+        If btn_stn5_cyl3_fw.Text = "Is Forward" Then
+            btn_stn5_cyl3_fw.PerformClick()
+        End If
+
+        If btn_stn5_cyl3_bw.Text = "Backward" Then
+            STN5_CYL3 = BACKWARD
+            btn_stn5_cyl3_bw.Image = My.Resources.button_white
+            btn_stn5_cyl3_bw.Text = "Is Backward"
+        ElseIf btn_stn5_cyl3_bw.Text = "Is Backward" Then
+            STN5_CYL3 = IDLE
+            btn_stn5_cyl3_bw.Image = My.Resources.button_silver
+            btn_stn5_cyl3_bw.Text = "Backward"
+        End If
+    End Sub
+
+    Private Sub btn_stn6_cyl1_fw_Click(sender As Object, e As EventArgs) Handles btn_stn6_cyl1_fw.Click
+        If btn_stn6_cyl1_bw.Text = "Is Backward" Then
+            btn_stn6_cyl1_bw.PerformClick()
+        End If
+
+        If btn_stn6_cyl1_fw.Text = "Forward" Then
+            STN6_CYL1 = FORWARD
+            btn_stn6_cyl1_fw.Image = My.Resources.button_white
+            btn_stn6_cyl1_fw.Text = "Is Forward"
+        ElseIf btn_stn6_cyl1_fw.Text = "Is Forward" Then
+            STN6_CYL1 = IDLE
+            btn_stn6_cyl1_fw.Image = My.Resources.button_silver
+            btn_stn6_cyl1_fw.Text = "Forward"
+        End If
+    End Sub
+
+    Private Sub btn_stn6_cyl1_bw_Click(sender As Object, e As EventArgs) Handles btn_stn6_cyl1_bw.Click
+        If btn_stn6_cyl1_fw.Text = "Is Forward" Then
+            btn_stn6_cyl1_fw.PerformClick()
+        End If
+
+        If btn_stn6_cyl1_bw.Text = "Backward" Then
+            STN6_CYL1 = BACKWARD
+            btn_stn6_cyl1_bw.Image = My.Resources.button_white
+            btn_stn6_cyl1_bw.Text = "Is Backward"
+        ElseIf btn_stn6_cyl1_bw.Text = "Is Backward" Then
+            STN6_CYL1 = IDLE
+            btn_stn6_cyl1_bw.Image = My.Resources.button_silver
+            btn_stn6_cyl1_bw.Text = "Backward"
+        End If
+    End Sub
+
+    Private Sub btn_stn6_cyl2_fw_Click(sender As Object, e As EventArgs) Handles btn_stn6_cyl2_fw.Click
+        If btn_stn6_cyl2_bw.Text = "Is Backward" Then
+            btn_stn6_cyl2_bw.PerformClick()
+        End If
+
+        If btn_stn6_cyl2_fw.Text = "Forward" Then
+            STN6_CYL2 = FORWARD
+            btn_stn6_cyl2_fw.Image = My.Resources.button_white
+            btn_stn6_cyl2_fw.Text = "Is Forward"
+        ElseIf btn_stn6_cyl2_fw.Text = "Is Forward" Then
+            STN6_CYL2 = IDLE
+            btn_stn6_cyl2_fw.Image = My.Resources.button_silver
+            btn_stn6_cyl2_fw.Text = "Forward"
+        End If
+    End Sub
+
+    Private Sub btn_stn6_cyl2_bw_Click(sender As Object, e As EventArgs) Handles btn_stn6_cyl2_bw.Click
+        If btn_stn6_cyl2_fw.Text = "Is Forward" Then
+            btn_stn6_cyl2_fw.PerformClick()
+        End If
+
+        If btn_stn6_cyl2_bw.Text = "Backward" Then
+            STN6_CYL2 = BACKWARD
+            btn_stn6_cyl2_bw.Image = My.Resources.button_white
+            btn_stn6_cyl2_bw.Text = "Is Backward"
+        ElseIf btn_stn6_cyl2_bw.Text = "Is Backward" Then
+            STN6_CYL2 = IDLE
+            btn_stn6_cyl2_bw.Image = My.Resources.button_silver
+            btn_stn6_cyl2_bw.Text = "Backward"
+        End If
+    End Sub
+
+    Private Sub btn_stn6_cyl3_fw_Click(sender As Object, e As EventArgs) Handles btn_stn6_cyl3_fw.Click
+        If btn_stn6_cyl3_bw.Text = "Is Backward" Then
+            btn_stn6_cyl3_bw.PerformClick()
+        End If
+
+        If btn_stn6_cyl3_fw.Text = "Forward" Then
+            STN6_CYL3 = FORWARD
+            btn_stn6_cyl3_fw.Image = My.Resources.button_white
+            btn_stn6_cyl3_fw.Text = "Is Forward"
+        ElseIf btn_stn6_cyl3_fw.Text = "Is Forward" Then
+            STN6_CYL3 = IDLE
+            btn_stn6_cyl3_fw.Image = My.Resources.button_silver
+            btn_stn6_cyl3_fw.Text = "Forward"
+        End If
+    End Sub
+
+    Private Sub btn_stn6_cyl3_bw_Click(sender As Object, e As EventArgs) Handles btn_stn6_cyl3_bw.Click
+        If btn_stn6_cyl3_fw.Text = "Is Forward" Then
+            btn_stn6_cyl3_fw.PerformClick()
+        End If
+
+        If btn_stn6_cyl3_bw.Text = "Backward" Then
+            STN6_CYL3 = BACKWARD
+            btn_stn6_cyl3_bw.Image = My.Resources.button_white
+            btn_stn6_cyl3_bw.Text = "Is Backward"
+        ElseIf btn_stn6_cyl3_bw.Text = "Is Backward" Then
+            STN6_CYL3 = IDLE
+            btn_stn6_cyl3_bw.Image = My.Resources.button_silver
+            btn_stn6_cyl3_bw.Text = "Backward"
+        End If
+    End Sub
 End Class
