@@ -21,6 +21,7 @@ Public Class MainForm
 
     End Sub
 
+    'Main Button
 
     Private Sub btnHome_Click(sender As Object, e As EventArgs) Handles btnHome.Click
         ShowTabControl("home")
@@ -158,7 +159,7 @@ Public Class MainForm
         End If
 
     End Sub
-
+    'Tab Manual
     Private Sub btnSTN1_Click(sender As Object, e As EventArgs) Handles btnSTN1.Click
         ShowTabManual("STN1")
     End Sub
@@ -183,4 +184,35 @@ Public Class MainForm
         ShowTabManual("STN6")
     End Sub
 
+
+    'Tab Setting
+    Private Sub btn_connect_plc_Click(sender As Object, e As EventArgs) Handles btn_connect_plc.Click
+        Try
+            If btn_connect_plc.Text = "Connect" Then
+
+                modbusClient.IPAddress = txt_ip_plc.Text
+                modbusClient.Port = Convert.ToInt32(txt_port_plc.Text)
+                modbusClient.Connect()
+
+                btn_connect_plc.Text = "Disconnect"
+                ind_connect_plc.BackColor = Color.LawnGreen
+                ind_plc_status.BackColor = Color.LawnGreen
+                ModbusRW.Enabled = True
+                MODBUS_ERR = False
+
+            ElseIf btn_connect_plc.Text = "Disconnect" Then
+
+                modbusClient.Disconnect()
+
+                btn_connect_plc.Text = "Connect"
+                ind_connect_plc.BackColor = Color.Green
+                ind_plc_status.BackColor = Color.Green
+                ModbusRW.Enabled = False
+
+            End If
+
+        Catch ex As Exception
+            MsgBox("Failed to connect/disconnect from PLC: " & ex.Message, MsgBoxStyle.Critical)
+        End Try
+    End Sub
 End Class
