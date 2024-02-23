@@ -9,8 +9,8 @@ Public Class MainForm
     Dim ManualState As Boolean
 
     Private Sub MainForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'Dim loadingForm As New LoadingForm()
-        'loadingForm.ShowDialog()
+        Dim loadingForm As New LoadingForm()
+        loadingForm.ShowDialog()
 
 
         ShowTabControl("home")

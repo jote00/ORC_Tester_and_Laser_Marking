@@ -77,6 +77,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Declaration.vb" />
+    <Compile Include="LoadingForm.Designer.vb">
+      <DependentUpon>LoadingForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoadingForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MainForm.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="LoadingForm.resx">
+      <DependentUpon>LoadingForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.vb</DependentUpon>
     </EmbeddedResource>
@@ -162,6 +171,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\button_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_login.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

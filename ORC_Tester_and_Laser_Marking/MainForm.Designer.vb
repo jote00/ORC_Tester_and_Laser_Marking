@@ -2223,9 +2223,9 @@ Partial Class MainForm
         Me.Label116.Location = New System.Drawing.Point(8, 86)
         Me.Label116.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label116.Name = "Label116"
-        Me.Label116.Size = New System.Drawing.Size(130, 18)
+        Me.Label116.Size = New System.Drawing.Size(142, 18)
         Me.Label116.TabIndex = 36
-        Me.Label116.Text = "ST3 Measurement"
+        Me.Label116.Text = "ST3 Measurement 1"
         '
         'Label117
         '
@@ -2267,9 +2267,9 @@ Partial Class MainForm
         Me.Label119.Location = New System.Drawing.Point(8, 114)
         Me.Label119.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label119.Name = "Label119"
-        Me.Label119.Size = New System.Drawing.Size(71, 18)
+        Me.Label119.Size = New System.Drawing.Size(142, 18)
         Me.Label119.TabIndex = 36
-        Me.Label119.Text = "Unknown"
+        Me.Label119.Text = "ST3 Measurement 2"
         '
         'laabel1
         '
@@ -6468,12 +6468,6 @@ Partial Class MainForm
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.tab_man_stn6)
-        Me.Controls.Add(Me.tab_man_stn5)
-        Me.Controls.Add(Me.tab_man_stn4)
-        Me.Controls.Add(Me.tab_man_stn3)
-        Me.Controls.Add(Me.tab_man_stn2)
-        Me.Controls.Add(Me.tab_man_stn1)
         Me.Controls.Add(Me.tabHome)
         Me.Controls.Add(Me.tabSetting)
         Me.Controls.Add(Me.tab_mon_stn6)
@@ -6482,6 +6476,12 @@ Partial Class MainForm
         Me.Controls.Add(Me.tab_mon_stn3)
         Me.Controls.Add(Me.tab_mon_stn2)
         Me.Controls.Add(Me.tab_mon_stn1)
+        Me.Controls.Add(Me.tab_man_stn6)
+        Me.Controls.Add(Me.tab_man_stn5)
+        Me.Controls.Add(Me.tab_man_stn4)
+        Me.Controls.Add(Me.tab_man_stn3)
+        Me.Controls.Add(Me.tab_man_stn2)
+        Me.Controls.Add(Me.tab_man_stn1)
         Me.Name = "MainForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "MainForm"
