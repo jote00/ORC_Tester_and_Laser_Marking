@@ -943,7 +943,7 @@ Partial Class MainForm
         Me.tab_man_stn1.Location = New System.Drawing.Point(86, 142)
         Me.tab_man_stn1.Name = "tab_man_stn1"
         Me.tab_man_stn1.SelectedIndex = 0
-        Me.tab_man_stn1.Size = New System.Drawing.Size(1174, 700)
+        Me.tab_man_stn1.Size = New System.Drawing.Size(1252, 700)
         Me.tab_man_stn1.TabIndex = 6
         Me.tab_man_stn1.Visible = False
         '
@@ -954,7 +954,7 @@ Partial Class MainForm
         Me.TabPage2.Location = New System.Drawing.Point(4, 38)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(1166, 658)
+        Me.TabPage2.Size = New System.Drawing.Size(1244, 658)
         Me.TabPage2.TabIndex = 2
         Me.TabPage2.Text = "Station 1"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -1071,7 +1071,7 @@ Partial Class MainForm
         Me.tab_man_stn2.Location = New System.Drawing.Point(86, 142)
         Me.tab_man_stn2.Name = "tab_man_stn2"
         Me.tab_man_stn2.SelectedIndex = 0
-        Me.tab_man_stn2.Size = New System.Drawing.Size(1174, 700)
+        Me.tab_man_stn2.Size = New System.Drawing.Size(1252, 700)
         Me.tab_man_stn2.TabIndex = 7
         Me.tab_man_stn2.Visible = False
         '
@@ -1081,7 +1081,7 @@ Partial Class MainForm
         Me.TabPage3.Location = New System.Drawing.Point(4, 38)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(1166, 658)
+        Me.TabPage3.Size = New System.Drawing.Size(1244, 658)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Station 2"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -1093,7 +1093,7 @@ Partial Class MainForm
         Me.tab_man_stn3.Location = New System.Drawing.Point(86, 142)
         Me.tab_man_stn3.Name = "tab_man_stn3"
         Me.tab_man_stn3.SelectedIndex = 0
-        Me.tab_man_stn3.Size = New System.Drawing.Size(1174, 700)
+        Me.tab_man_stn3.Size = New System.Drawing.Size(1252, 700)
         Me.tab_man_stn3.TabIndex = 8
         Me.tab_man_stn3.Visible = False
         '
@@ -1107,7 +1107,7 @@ Partial Class MainForm
         Me.TabPage4.Location = New System.Drawing.Point(4, 38)
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage4.Size = New System.Drawing.Size(1166, 658)
+        Me.TabPage4.Size = New System.Drawing.Size(1244, 658)
         Me.TabPage4.TabIndex = 2
         Me.TabPage4.Text = "Station 3"
         Me.TabPage4.UseVisualStyleBackColor = True
@@ -1118,7 +1118,7 @@ Partial Class MainForm
         Me.GroupBox9.Controls.Add(Me.GroupBox10)
         Me.GroupBox9.Controls.Add(Me.GroupBox11)
         Me.GroupBox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox9.Location = New System.Drawing.Point(134, 336)
+        Me.GroupBox9.Location = New System.Drawing.Point(158, 336)
         Me.GroupBox9.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox9.Name = "GroupBox9"
         Me.GroupBox9.Padding = New System.Windows.Forms.Padding(4)
@@ -1237,7 +1237,7 @@ Partial Class MainForm
         Me.GroupBox12.Controls.Add(Me.GroupBox13)
         Me.GroupBox12.Controls.Add(Me.GroupBox14)
         Me.GroupBox12.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox12.Location = New System.Drawing.Point(744, 336)
+        Me.GroupBox12.Location = New System.Drawing.Point(781, 336)
         Me.GroupBox12.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox12.Name = "GroupBox12"
         Me.GroupBox12.Padding = New System.Windows.Forms.Padding(4)
@@ -1356,7 +1356,7 @@ Partial Class MainForm
         Me.GroupBox6.Controls.Add(Me.GroupBox7)
         Me.GroupBox6.Controls.Add(Me.GroupBox8)
         Me.GroupBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox6.Location = New System.Drawing.Point(742, 17)
+        Me.GroupBox6.Location = New System.Drawing.Point(779, 18)
         Me.GroupBox6.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox6.Name = "GroupBox6"
         Me.GroupBox6.Padding = New System.Windows.Forms.Padding(4)
@@ -1475,7 +1475,7 @@ Partial Class MainForm
         Me.GroupBox70.Controls.Add(Me.GroupBox5)
         Me.GroupBox70.Controls.Add(Me.GroupBox71)
         Me.GroupBox70.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox70.Location = New System.Drawing.Point(134, 18)
+        Me.GroupBox70.Location = New System.Drawing.Point(158, 18)
         Me.GroupBox70.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox70.Name = "GroupBox70"
         Me.GroupBox70.Padding = New System.Windows.Forms.Padding(4)
@@ -1595,7 +1595,7 @@ Partial Class MainForm
         Me.tab_man_stn4.Location = New System.Drawing.Point(86, 142)
         Me.tab_man_stn4.Name = "tab_man_stn4"
         Me.tab_man_stn4.SelectedIndex = 0
-        Me.tab_man_stn4.Size = New System.Drawing.Size(1174, 700)
+        Me.tab_man_stn4.Size = New System.Drawing.Size(1252, 700)
         Me.tab_man_stn4.TabIndex = 9
         Me.tab_man_stn4.Visible = False
         '
@@ -1606,7 +1606,7 @@ Partial Class MainForm
         Me.TabPage5.Location = New System.Drawing.Point(4, 38)
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage5.Size = New System.Drawing.Size(1166, 658)
+        Me.TabPage5.Size = New System.Drawing.Size(1244, 658)
         Me.TabPage5.TabIndex = 2
         Me.TabPage5.Text = "Station 4"
         Me.TabPage5.UseVisualStyleBackColor = True
@@ -1723,7 +1723,7 @@ Partial Class MainForm
         Me.tab_man_stn5.Location = New System.Drawing.Point(86, 142)
         Me.tab_man_stn5.Name = "tab_man_stn5"
         Me.tab_man_stn5.SelectedIndex = 0
-        Me.tab_man_stn5.Size = New System.Drawing.Size(1174, 700)
+        Me.tab_man_stn5.Size = New System.Drawing.Size(1252, 700)
         Me.tab_man_stn5.TabIndex = 10
         Me.tab_man_stn5.Visible = False
         '
@@ -1736,7 +1736,7 @@ Partial Class MainForm
         Me.TabPage6.Location = New System.Drawing.Point(4, 38)
         Me.TabPage6.Name = "TabPage6"
         Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage6.Size = New System.Drawing.Size(1166, 658)
+        Me.TabPage6.Size = New System.Drawing.Size(1244, 658)
         Me.TabPage6.TabIndex = 2
         Me.TabPage6.Text = "Station 5"
         Me.TabPage6.UseVisualStyleBackColor = True
@@ -1747,7 +1747,7 @@ Partial Class MainForm
         Me.GroupBox24.Controls.Add(Me.GroupBox25)
         Me.GroupBox24.Controls.Add(Me.GroupBox26)
         Me.GroupBox24.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox24.Location = New System.Drawing.Point(830, 169)
+        Me.GroupBox24.Location = New System.Drawing.Point(866, 169)
         Me.GroupBox24.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox24.Name = "GroupBox24"
         Me.GroupBox24.Padding = New System.Windows.Forms.Padding(4)
@@ -1866,7 +1866,7 @@ Partial Class MainForm
         Me.GroupBox21.Controls.Add(Me.GroupBox22)
         Me.GroupBox21.Controls.Add(Me.GroupBox23)
         Me.GroupBox21.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox21.Location = New System.Drawing.Point(455, 169)
+        Me.GroupBox21.Location = New System.Drawing.Point(491, 169)
         Me.GroupBox21.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox21.Name = "GroupBox21"
         Me.GroupBox21.Padding = New System.Windows.Forms.Padding(4)
@@ -1985,7 +1985,7 @@ Partial Class MainForm
         Me.GroupBox18.Controls.Add(Me.GroupBox19)
         Me.GroupBox18.Controls.Add(Me.GroupBox20)
         Me.GroupBox18.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox18.Location = New System.Drawing.Point(63, 169)
+        Me.GroupBox18.Location = New System.Drawing.Point(99, 169)
         Me.GroupBox18.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox18.Name = "GroupBox18"
         Me.GroupBox18.Padding = New System.Windows.Forms.Padding(4)
@@ -2105,7 +2105,7 @@ Partial Class MainForm
         Me.tab_man_stn6.Location = New System.Drawing.Point(86, 142)
         Me.tab_man_stn6.Name = "tab_man_stn6"
         Me.tab_man_stn6.SelectedIndex = 0
-        Me.tab_man_stn6.Size = New System.Drawing.Size(1174, 700)
+        Me.tab_man_stn6.Size = New System.Drawing.Size(1252, 700)
         Me.tab_man_stn6.TabIndex = 11
         Me.tab_man_stn6.Visible = False
         '
@@ -2118,7 +2118,7 @@ Partial Class MainForm
         Me.TabPage7.Location = New System.Drawing.Point(4, 38)
         Me.TabPage7.Name = "TabPage7"
         Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage7.Size = New System.Drawing.Size(1166, 658)
+        Me.TabPage7.Size = New System.Drawing.Size(1244, 658)
         Me.TabPage7.TabIndex = 2
         Me.TabPage7.Text = "Station 6"
         Me.TabPage7.UseVisualStyleBackColor = True
@@ -2129,7 +2129,7 @@ Partial Class MainForm
         Me.GroupBox27.Controls.Add(Me.GroupBox28)
         Me.GroupBox27.Controls.Add(Me.GroupBox29)
         Me.GroupBox27.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox27.Location = New System.Drawing.Point(830, 169)
+        Me.GroupBox27.Location = New System.Drawing.Point(866, 169)
         Me.GroupBox27.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox27.Name = "GroupBox27"
         Me.GroupBox27.Padding = New System.Windows.Forms.Padding(4)
@@ -2248,7 +2248,7 @@ Partial Class MainForm
         Me.GroupBox30.Controls.Add(Me.GroupBox31)
         Me.GroupBox30.Controls.Add(Me.GroupBox32)
         Me.GroupBox30.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox30.Location = New System.Drawing.Point(455, 169)
+        Me.GroupBox30.Location = New System.Drawing.Point(491, 169)
         Me.GroupBox30.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox30.Name = "GroupBox30"
         Me.GroupBox30.Padding = New System.Windows.Forms.Padding(4)
@@ -2367,7 +2367,7 @@ Partial Class MainForm
         Me.GroupBox33.Controls.Add(Me.GroupBox34)
         Me.GroupBox33.Controls.Add(Me.GroupBox35)
         Me.GroupBox33.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox33.Location = New System.Drawing.Point(63, 169)
+        Me.GroupBox33.Location = New System.Drawing.Point(99, 169)
         Me.GroupBox33.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox33.Name = "GroupBox33"
         Me.GroupBox33.Padding = New System.Windows.Forms.Padding(4)
@@ -2487,7 +2487,7 @@ Partial Class MainForm
         Me.tab_mon_stn1.Location = New System.Drawing.Point(86, 142)
         Me.tab_mon_stn1.Name = "tab_mon_stn1"
         Me.tab_mon_stn1.SelectedIndex = 0
-        Me.tab_mon_stn1.Size = New System.Drawing.Size(1174, 700)
+        Me.tab_mon_stn1.Size = New System.Drawing.Size(1252, 700)
         Me.tab_mon_stn1.TabIndex = 12
         Me.tab_mon_stn1.Visible = False
         '
@@ -2498,7 +2498,7 @@ Partial Class MainForm
         Me.TabPage8.Location = New System.Drawing.Point(4, 38)
         Me.TabPage8.Name = "TabPage8"
         Me.TabPage8.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage8.Size = New System.Drawing.Size(1166, 658)
+        Me.TabPage8.Size = New System.Drawing.Size(1244, 658)
         Me.TabPage8.TabIndex = 2
         Me.TabPage8.Text = "Station 1"
         Me.TabPage8.UseVisualStyleBackColor = True
@@ -2631,7 +2631,7 @@ Partial Class MainForm
         Me.tab_mon_stn2.Location = New System.Drawing.Point(86, 142)
         Me.tab_mon_stn2.Name = "tab_mon_stn2"
         Me.tab_mon_stn2.SelectedIndex = 0
-        Me.tab_mon_stn2.Size = New System.Drawing.Size(1174, 700)
+        Me.tab_mon_stn2.Size = New System.Drawing.Size(1252, 700)
         Me.tab_mon_stn2.TabIndex = 13
         Me.tab_mon_stn2.Visible = False
         '
@@ -2641,7 +2641,7 @@ Partial Class MainForm
         Me.TabPage9.Location = New System.Drawing.Point(4, 38)
         Me.TabPage9.Name = "TabPage9"
         Me.TabPage9.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage9.Size = New System.Drawing.Size(1166, 658)
+        Me.TabPage9.Size = New System.Drawing.Size(1244, 658)
         Me.TabPage9.TabIndex = 2
         Me.TabPage9.Text = "Station 2"
         Me.TabPage9.UseVisualStyleBackColor = True
@@ -2660,7 +2660,7 @@ Partial Class MainForm
         Me.home.Location = New System.Drawing.Point(4, 38)
         Me.home.Name = "home"
         Me.home.Padding = New System.Windows.Forms.Padding(3)
-        Me.home.Size = New System.Drawing.Size(1166, 658)
+        Me.home.Size = New System.Drawing.Size(1244, 658)
         Me.home.TabIndex = 2
         Me.home.Text = "Home"
         Me.home.UseVisualStyleBackColor = True
@@ -4159,7 +4159,7 @@ Partial Class MainForm
         Me.tabHome.Location = New System.Drawing.Point(86, 142)
         Me.tabHome.Name = "tabHome"
         Me.tabHome.SelectedIndex = 0
-        Me.tabHome.Size = New System.Drawing.Size(1174, 700)
+        Me.tabHome.Size = New System.Drawing.Size(1252, 700)
         Me.tabHome.TabIndex = 5
         Me.tabHome.Visible = False
         '
@@ -4170,7 +4170,7 @@ Partial Class MainForm
         Me.tab_mon_stn3.Location = New System.Drawing.Point(86, 142)
         Me.tab_mon_stn3.Name = "tab_mon_stn3"
         Me.tab_mon_stn3.SelectedIndex = 0
-        Me.tab_mon_stn3.Size = New System.Drawing.Size(1174, 700)
+        Me.tab_mon_stn3.Size = New System.Drawing.Size(1252, 700)
         Me.tab_mon_stn3.TabIndex = 14
         Me.tab_mon_stn3.Visible = False
         '
@@ -4184,7 +4184,7 @@ Partial Class MainForm
         Me.TabPage10.Location = New System.Drawing.Point(4, 38)
         Me.TabPage10.Name = "TabPage10"
         Me.TabPage10.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage10.Size = New System.Drawing.Size(1166, 658)
+        Me.TabPage10.Size = New System.Drawing.Size(1244, 658)
         Me.TabPage10.TabIndex = 2
         Me.TabPage10.Text = "Station 3"
         Me.TabPage10.UseVisualStyleBackColor = True
@@ -4195,7 +4195,7 @@ Partial Class MainForm
         Me.GroupBox39.Controls.Add(Me.GroupBox41)
         Me.GroupBox39.Controls.Add(Me.GroupBox40)
         Me.GroupBox39.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox39.Location = New System.Drawing.Point(134, 336)
+        Me.GroupBox39.Location = New System.Drawing.Point(158, 336)
         Me.GroupBox39.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox39.Name = "GroupBox39"
         Me.GroupBox39.Padding = New System.Windows.Forms.Padding(4)
@@ -4330,14 +4330,14 @@ Partial Class MainForm
         Me.GroupBox42.Controls.Add(Me.GroupBox44)
         Me.GroupBox42.Controls.Add(Me.GroupBox43)
         Me.GroupBox42.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox42.Location = New System.Drawing.Point(744, 336)
+        Me.GroupBox42.Location = New System.Drawing.Point(781, 336)
         Me.GroupBox42.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox42.Name = "GroupBox42"
         Me.GroupBox42.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox42.Size = New System.Drawing.Size(287, 302)
         Me.GroupBox42.TabIndex = 45
         Me.GroupBox42.TabStop = False
-        Me.GroupBox42.Text = "V303"
+        Me.GroupBox42.Text = "V304"
         '
         'GroupBox44
         '
@@ -4465,7 +4465,7 @@ Partial Class MainForm
         Me.GroupBox45.Controls.Add(Me.GroupBox47)
         Me.GroupBox45.Controls.Add(Me.GroupBox46)
         Me.GroupBox45.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox45.Location = New System.Drawing.Point(742, 17)
+        Me.GroupBox45.Location = New System.Drawing.Point(779, 18)
         Me.GroupBox45.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox45.Name = "GroupBox45"
         Me.GroupBox45.Padding = New System.Windows.Forms.Padding(4)
@@ -4600,7 +4600,7 @@ Partial Class MainForm
         Me.GroupBox48.Controls.Add(Me.GroupBox50)
         Me.GroupBox48.Controls.Add(Me.GroupBox49)
         Me.GroupBox48.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox48.Location = New System.Drawing.Point(134, 18)
+        Me.GroupBox48.Location = New System.Drawing.Point(158, 18)
         Me.GroupBox48.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox48.Name = "GroupBox48"
         Me.GroupBox48.Padding = New System.Windows.Forms.Padding(4)
@@ -4736,7 +4736,7 @@ Partial Class MainForm
         Me.tab_mon_stn4.Location = New System.Drawing.Point(86, 142)
         Me.tab_mon_stn4.Name = "tab_mon_stn4"
         Me.tab_mon_stn4.SelectedIndex = 0
-        Me.tab_mon_stn4.Size = New System.Drawing.Size(1174, 700)
+        Me.tab_mon_stn4.Size = New System.Drawing.Size(1252, 700)
         Me.tab_mon_stn4.TabIndex = 15
         Me.tab_mon_stn4.Visible = False
         '
@@ -4747,7 +4747,7 @@ Partial Class MainForm
         Me.TabPage11.Location = New System.Drawing.Point(4, 38)
         Me.TabPage11.Name = "TabPage11"
         Me.TabPage11.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage11.Size = New System.Drawing.Size(1166, 658)
+        Me.TabPage11.Size = New System.Drawing.Size(1244, 658)
         Me.TabPage11.TabIndex = 2
         Me.TabPage11.Text = "Station 4"
         Me.TabPage11.UseVisualStyleBackColor = True
@@ -4880,7 +4880,7 @@ Partial Class MainForm
         Me.tab_mon_stn5.Location = New System.Drawing.Point(86, 142)
         Me.tab_mon_stn5.Name = "tab_mon_stn5"
         Me.tab_mon_stn5.SelectedIndex = 0
-        Me.tab_mon_stn5.Size = New System.Drawing.Size(1174, 700)
+        Me.tab_mon_stn5.Size = New System.Drawing.Size(1252, 700)
         Me.tab_mon_stn5.TabIndex = 16
         Me.tab_mon_stn5.Visible = False
         '
@@ -4893,7 +4893,7 @@ Partial Class MainForm
         Me.TabPage12.Location = New System.Drawing.Point(4, 38)
         Me.TabPage12.Name = "TabPage12"
         Me.TabPage12.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage12.Size = New System.Drawing.Size(1166, 658)
+        Me.TabPage12.Size = New System.Drawing.Size(1244, 658)
         Me.TabPage12.TabIndex = 2
         Me.TabPage12.Text = "Station 5"
         Me.TabPage12.UseVisualStyleBackColor = True
@@ -4904,7 +4904,7 @@ Partial Class MainForm
         Me.GroupBox57.Controls.Add(Me.GroupBox58)
         Me.GroupBox57.Controls.Add(Me.GroupBox59)
         Me.GroupBox57.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox57.Location = New System.Drawing.Point(830, 169)
+        Me.GroupBox57.Location = New System.Drawing.Point(866, 169)
         Me.GroupBox57.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox57.Name = "GroupBox57"
         Me.GroupBox57.Padding = New System.Windows.Forms.Padding(4)
@@ -5039,7 +5039,7 @@ Partial Class MainForm
         Me.GroupBox60.Controls.Add(Me.GroupBox61)
         Me.GroupBox60.Controls.Add(Me.GroupBox62)
         Me.GroupBox60.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox60.Location = New System.Drawing.Point(455, 169)
+        Me.GroupBox60.Location = New System.Drawing.Point(491, 169)
         Me.GroupBox60.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox60.Name = "GroupBox60"
         Me.GroupBox60.Padding = New System.Windows.Forms.Padding(4)
@@ -5174,7 +5174,7 @@ Partial Class MainForm
         Me.GroupBox63.Controls.Add(Me.GroupBox64)
         Me.GroupBox63.Controls.Add(Me.GroupBox65)
         Me.GroupBox63.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox63.Location = New System.Drawing.Point(63, 169)
+        Me.GroupBox63.Location = New System.Drawing.Point(99, 169)
         Me.GroupBox63.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox63.Name = "GroupBox63"
         Me.GroupBox63.Padding = New System.Windows.Forms.Padding(4)
@@ -5310,7 +5310,7 @@ Partial Class MainForm
         Me.tab_mon_stn6.Location = New System.Drawing.Point(86, 142)
         Me.tab_mon_stn6.Name = "tab_mon_stn6"
         Me.tab_mon_stn6.SelectedIndex = 0
-        Me.tab_mon_stn6.Size = New System.Drawing.Size(1174, 700)
+        Me.tab_mon_stn6.Size = New System.Drawing.Size(1252, 700)
         Me.tab_mon_stn6.TabIndex = 17
         Me.tab_mon_stn6.Visible = False
         '
@@ -5323,7 +5323,7 @@ Partial Class MainForm
         Me.TabPage13.Location = New System.Drawing.Point(4, 38)
         Me.TabPage13.Name = "TabPage13"
         Me.TabPage13.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage13.Size = New System.Drawing.Size(1166, 658)
+        Me.TabPage13.Size = New System.Drawing.Size(1244, 658)
         Me.TabPage13.TabIndex = 2
         Me.TabPage13.Text = "Station 6"
         Me.TabPage13.UseVisualStyleBackColor = True
@@ -5334,7 +5334,7 @@ Partial Class MainForm
         Me.GroupBox51.Controls.Add(Me.GroupBox52)
         Me.GroupBox51.Controls.Add(Me.GroupBox53)
         Me.GroupBox51.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox51.Location = New System.Drawing.Point(830, 169)
+        Me.GroupBox51.Location = New System.Drawing.Point(866, 169)
         Me.GroupBox51.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox51.Name = "GroupBox51"
         Me.GroupBox51.Padding = New System.Windows.Forms.Padding(4)
@@ -5469,7 +5469,7 @@ Partial Class MainForm
         Me.GroupBox66.Controls.Add(Me.GroupBox67)
         Me.GroupBox66.Controls.Add(Me.GroupBox68)
         Me.GroupBox66.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox66.Location = New System.Drawing.Point(455, 169)
+        Me.GroupBox66.Location = New System.Drawing.Point(491, 169)
         Me.GroupBox66.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox66.Name = "GroupBox66"
         Me.GroupBox66.Padding = New System.Windows.Forms.Padding(4)
@@ -5604,7 +5604,7 @@ Partial Class MainForm
         Me.GroupBox69.Controls.Add(Me.GroupBox72)
         Me.GroupBox69.Controls.Add(Me.GroupBox73)
         Me.GroupBox69.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox69.Location = New System.Drawing.Point(63, 169)
+        Me.GroupBox69.Location = New System.Drawing.Point(99, 169)
         Me.GroupBox69.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox69.Name = "GroupBox69"
         Me.GroupBox69.Padding = New System.Windows.Forms.Padding(4)
@@ -5740,7 +5740,7 @@ Partial Class MainForm
         Me.tabSetting.Location = New System.Drawing.Point(86, 142)
         Me.tabSetting.Name = "tabSetting"
         Me.tabSetting.SelectedIndex = 0
-        Me.tabSetting.Size = New System.Drawing.Size(1174, 700)
+        Me.tabSetting.Size = New System.Drawing.Size(1252, 700)
         Me.tabSetting.TabIndex = 18
         Me.tabSetting.Visible = False
         '
@@ -5757,7 +5757,7 @@ Partial Class MainForm
         Me.setting.Location = New System.Drawing.Point(4, 38)
         Me.setting.Name = "setting"
         Me.setting.Padding = New System.Windows.Forms.Padding(3)
-        Me.setting.Size = New System.Drawing.Size(1166, 658)
+        Me.setting.Size = New System.Drawing.Size(1244, 658)
         Me.setting.TabIndex = 2
         Me.setting.Text = "Configuration"
         Me.setting.UseVisualStyleBackColor = True
