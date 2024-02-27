@@ -2,6 +2,14 @@
 
     Public MODBUS_ERR
 
+    Public PLC_READY As Integer = 0
+    Public ADDR_PLC_READY As Integer
+    Public RUNNING_STATE As Integer = 0
+    Public ADDR_RUNNING_STATE As Integer
+    Public RUNNING_MODE As Integer = 0
+    Public ADDR_RUNNING_MODE As Integer
+
+
 
     'For Cylinder
     Public FORWARD As Integer = 1

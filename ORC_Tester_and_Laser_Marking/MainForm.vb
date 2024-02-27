@@ -8,6 +8,8 @@ Public Class MainForm
     Dim modbusClient As ModbusClient = New ModbusClient()
     Dim ManualState As Boolean
 
+    Dim EmgState As Integer = 0
+
     Private Sub MainForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim loadingForm As New LoadingForm()
         loadingForm.ShowDialog()
@@ -20,6 +22,14 @@ Public Class MainForm
 
 
     End Sub
+
+
+    Private Sub DateTime_Tick(sender As Object, e As EventArgs) Handles DateTime.Tick
+        lbl_date.Text = Date.Now.ToString("dd-MM-yyyy")
+        lbl_curr_time.Text = Date.Now.ToString("hh:mm:ss")
+    End Sub
+
+
 
     'Main Button
 
@@ -611,4 +621,42 @@ Public Class MainForm
             btn_stn6_cyl3_bw.Text = "Backward"
         End If
     End Sub
+
+    Private Sub Status_Tick(sender As Object, e As EventArgs) Handles Status.Tick
+
+        'Status Bar
+
+        If RUNNING_STATE = 1 Then 'running
+            status_bar.Image = My.Resources.GUI___statusBar1
+            lbl_auto_man.BackColor = Color.FromArgb(50, 173, 60)
+            lbl_run_state.BackColor = Color.FromArgb(50, 173, 60)
+            lbl_curr_time.BackColor = Color.FromArgb(50, 173, 60)
+            lbl_date.BackColor = Color.FromArgb(50, 173, 60)
+        ElseIf RUNNING_STATE = 2 Then 'stopping
+            status_bar.Image = My.Resources.GUI___statusBar2
+            lbl_auto_man.BackColor = Color.FromArgb(255, 202, 24)
+            lbl_run_state.BackColor = Color.FromArgb(255, 202, 24)
+            lbl_curr_time.BackColor = Color.FromArgb(255, 202, 24)
+            lbl_date.BackColor = Color.FromArgb(255, 202, 24)
+        ElseIf RUNNING_STATE = 5 Then 'emg
+            If EmgState = 0 Then
+                status_bar.Image = My.Resources.GUI___statusBar3
+                lbl_auto_man.BackColor = Color.FromArgb(236, 28, 36)
+                lbl_run_state.BackColor = Color.FromArgb(236, 28, 36)
+                lbl_curr_time.BackColor = Color.FromArgb(236, 28, 36)
+                lbl_date.BackColor = Color.FromArgb(236, 28, 36)
+                EmgState = 1
+            Else
+                status_bar.Image = My.Resources.GUI___SignUpButtonOn40
+                lbl_auto_man.BackColor = Color.DarkGray
+                lbl_run_state.BackColor = Color.DarkGray
+                lbl_curr_time.BackColor = Color.DarkGray
+                lbl_date.BackColor = Color.DarkGray
+                EmgState = 0
+            End If
+        End If
+
+
+    End Sub
+
 End Class

@@ -175,5 +175,23 @@
   <ItemGroup>
     <None Include="Resources\bg_login.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-run-56.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-stop-56.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GUI - statusBar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GUI - statusBar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GUI - statusBar3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mark-ok.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
