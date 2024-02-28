@@ -90,6 +90,7 @@
       <DependentUpon>MainForm.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Modbus.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -192,6 +193,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\mark-ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\led-green-off.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

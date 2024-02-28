@@ -5,10 +5,10 @@ Imports EasyModbus
 
 Public Class MainForm
 
-    Dim modbusClient As ModbusClient = New ModbusClient()
-    Dim ManualState As Boolean
 
-    Dim EmgState As Integer = 0
+
+    Dim ManualState As Boolean
+    'Dim EmgState As Integer = 0
 
     Private Sub MainForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim loadingForm As New LoadingForm()
@@ -19,9 +19,25 @@ Public Class MainForm
         ShowTabManual("None")
 
 
+        'Fungsi Auto Connect
+        AutoConnection()
+
+        If Connected() Then
+            btn_connect_plc.Text = "Disconnect"
+            ind_connect_plc.BackColor = Color.LawnGreen
+            ind_plc_status.BackColor = Color.LawnGreen
+            ModbusRW.Enabled = True
+            MODBUS_ERR = False
+        Else
+            ind_connect_plc.BackColor = Color.DarkRed
+            ind_plc_status.BackColor = Color.DarkRed
+            ModbusRW.Enabled = False
+            MODBUS_ERR = True
+        End If
 
 
     End Sub
+
 
 
     Private Sub DateTime_Tick(sender As Object, e As EventArgs) Handles DateTime.Tick
@@ -30,7 +46,7 @@ Public Class MainForm
     End Sub
 
 
-
+    '###############################################################################################################################################################################################
     'Main Button
 
     Private Sub btnHome_Click(sender As Object, e As EventArgs) Handles btnHome.Click
@@ -48,7 +64,7 @@ Public Class MainForm
     Private Sub btnSetting_Click(sender As Object, e As EventArgs) Handles btnSetting.Click
         ShowTabControl("setting")
     End Sub
-
+    '###############################################################################################################################################################################################
     'Show Tab Control
     Private Sub ShowTabControl(mode As String)
 
@@ -78,7 +94,7 @@ Public Class MainForm
         End If
     End Sub
 
-
+    '###############################################################################################################################################################################################
     'Show Button Station
 
     Private Sub ShowButtonSTN(mode As Integer)
@@ -99,7 +115,7 @@ Public Class MainForm
         End If
     End Sub
 
-
+    '###############################################################################################################################################################################################
     'Show Tab Manual
     Private Sub ShowTabManual(mode As String)
         If mode = "STN1" Then
@@ -169,6 +185,7 @@ Public Class MainForm
         End If
 
     End Sub
+    '###############################################################################################################################################################################################
     'Tab Manual
     Private Sub btnSTN1_Click(sender As Object, e As EventArgs) Handles btnSTN1.Click
         ShowTabManual("STN1")
@@ -194,38 +211,84 @@ Public Class MainForm
         ShowTabManual("STN6")
     End Sub
 
-
+    '###############################################################################################################################################################################################
     'Tab Setting
+
+
+    'PLC Connection
     Private Sub btn_connect_plc_Click(sender As Object, e As EventArgs) Handles btn_connect_plc.Click
+        If btn_connect_plc.Text = "Connect" Then
+            Try
+                ManualConnection()
+
+                If Connected() Then
+
+
+
+                    btn_connect_plc.Text = "Disconnect"
+                    ind_connect_plc.BackColor = Color.LawnGreen
+                    ind_plc_status.BackColor = Color.LawnGreen
+                    ModbusRW.Enabled = True
+                    MODBUS_ERR = False
+
+
+                End If
+
+
+
+            Catch ex As Exception
+                MsgBox("Failed to connect from PLC: " & ex.Message, MsgBoxStyle.Critical)
+            End Try
+
+        ElseIf btn_connect_plc.Text = "Disconnect" Then
+            Try
+                Disconnect()
+                If Not Connected() Then
+
+                    btn_connect_plc.Text = "Connect"
+                    ind_connect_plc.BackColor = Color.Green
+                    ind_plc_status.BackColor = Color.Green
+                    ModbusRW.Enabled = False
+                End If
+
+            Catch ex As Exception
+                MsgBox("Failed to disconnect from PLC: " & ex.Message, MsgBoxStyle.Critical)
+            End Try
+        End If
+
+    End Sub
+
+    'Read And Write data Modbus Button
+
+    Private Sub btn_read_Click(sender As Object, e As EventArgs) Handles btn_read.Click
         Try
-            If btn_connect_plc.Text = "Connect" Then
+            Dim address As Integer = Integer.Parse(txtAddress.Text) - 1
+            Dim readValue As Integer = Modbus.ReadModbus(address, 1)(0)
 
-                modbusClient.IPAddress = txt_ip_plc.Text
-                modbusClient.Port = Convert.ToInt32(txt_port_plc.Text)
-                modbusClient.Connect()
-
-                btn_connect_plc.Text = "Disconnect"
-                ind_connect_plc.BackColor = Color.LawnGreen
-                ind_plc_status.BackColor = Color.LawnGreen
-                ModbusRW.Enabled = True
-                MODBUS_ERR = False
-
-            ElseIf btn_connect_plc.Text = "Disconnect" Then
-
-                modbusClient.Disconnect()
-
-                btn_connect_plc.Text = "Connect"
-                ind_connect_plc.BackColor = Color.Green
-                ind_plc_status.BackColor = Color.Green
-                ModbusRW.Enabled = False
-
-            End If
-
+            rtbSetting.Text = $"Value at address {address + 1}: {readValue}"
         Catch ex As Exception
-            MsgBox("Failed to connect/disconnect from PLC: " & ex.Message, MsgBoxStyle.Critical)
+            rtbSetting.Text = $"Failed to read data : {ex.Message}"
         End Try
     End Sub
 
+    Private Sub btn_write_Click(sender As Object, e As EventArgs) Handles btn_write.Click
+        Try
+
+            Dim address As Integer = Integer.Parse(txtAddress.Text) - 1
+            Dim value As Integer = Integer.Parse(txtValue.Text)
+
+
+            Modbus.WriteModbus(address, value)
+
+            rtbSetting.Text = $"Successfully write value {value} at Address {address + 1}"
+        Catch ex As Exception
+
+            rtbSetting.Text = $"Failed to write data: {ex.Message}"
+        End Try
+    End Sub
+
+
+    '###############################################################################################################################################################################################
     'Button Manual Setup
 
     'Button Manual Station 1
@@ -262,7 +325,7 @@ Public Class MainForm
         End If
     End Sub
 
-    'Button Manual Station3
+    'Button Manual Station 3.1
 
     Private Sub btn_stn3_cyl1_fw_Click(sender As Object, e As EventArgs) Handles btn_stn3_cyl1_fw.Click
         If btn_stn3_cyl1_bw.Text = "Is Backward" Then
@@ -391,6 +454,10 @@ Public Class MainForm
             btn_stn3_cyl4_bw.Text = "Backward"
         End If
     End Sub
+
+    'Button Manual Station 3.2
+
+
 
 
     'Button Manual Station 4
@@ -622,41 +689,6 @@ Public Class MainForm
         End If
     End Sub
 
-    Private Sub Status_Tick(sender As Object, e As EventArgs) Handles Status.Tick
-
-        'Status Bar
-
-        If RUNNING_STATE = 1 Then 'running
-            status_bar.Image = My.Resources.GUI___statusBar1
-            lbl_auto_man.BackColor = Color.FromArgb(50, 173, 60)
-            lbl_run_state.BackColor = Color.FromArgb(50, 173, 60)
-            lbl_curr_time.BackColor = Color.FromArgb(50, 173, 60)
-            lbl_date.BackColor = Color.FromArgb(50, 173, 60)
-        ElseIf RUNNING_STATE = 2 Then 'stopping
-            status_bar.Image = My.Resources.GUI___statusBar2
-            lbl_auto_man.BackColor = Color.FromArgb(255, 202, 24)
-            lbl_run_state.BackColor = Color.FromArgb(255, 202, 24)
-            lbl_curr_time.BackColor = Color.FromArgb(255, 202, 24)
-            lbl_date.BackColor = Color.FromArgb(255, 202, 24)
-        ElseIf RUNNING_STATE = 5 Then 'emg
-            If EmgState = 0 Then
-                status_bar.Image = My.Resources.GUI___statusBar3
-                lbl_auto_man.BackColor = Color.FromArgb(236, 28, 36)
-                lbl_run_state.BackColor = Color.FromArgb(236, 28, 36)
-                lbl_curr_time.BackColor = Color.FromArgb(236, 28, 36)
-                lbl_date.BackColor = Color.FromArgb(236, 28, 36)
-                EmgState = 1
-            Else
-                status_bar.Image = My.Resources.GUI___SignUpButtonOn40
-                lbl_auto_man.BackColor = Color.DarkGray
-                lbl_run_state.BackColor = Color.DarkGray
-                lbl_curr_time.BackColor = Color.DarkGray
-                lbl_date.BackColor = Color.DarkGray
-                EmgState = 0
-            End If
-        End If
-
-
-    End Sub
 
 End Class
+
