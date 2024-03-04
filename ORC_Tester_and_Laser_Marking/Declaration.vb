@@ -11,7 +11,7 @@
     Public IDLE As Integer = 0
 
 
-    Public ADDR_STN1_CYL1 As Integer
+    Public ADDR_STN1_CYL1 As Integer = 1
 
     Public STN1_CYL1 As Integer = 0
     Public LAST_STN1_CYL1 As Integer = 0
@@ -57,7 +57,7 @@
     Public LAST_STN6_CYL2 As Integer = 0
     Public LAST_STN6_CYL3 As Integer = 0
 
-    Public ADDR_STN1_SEN1 As Integer
+    Public ADDR_STN1_SEN1 As Integer = 2
 
     Public ADDR_STN3_SEN1 As Integer
     Public ADDR_STN3_SEN2 As Integer

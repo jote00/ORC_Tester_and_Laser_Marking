@@ -5,6 +5,7 @@ Imports EasyModbus
 
 Public Class MainForm
 
+    Dim statioWrite As Thread
     Dim stationRead As Thread
     Dim ManualState As Boolean
     'Dim EmgState As Integer = 0
@@ -15,6 +16,8 @@ Public Class MainForm
 
         stationRead = New Thread(AddressOf plcReading)
         stationRead.Start()
+        statioWrite = New Thread(AddressOf plcWriting)
+        statioWrite.Start()
 
         ShowTabControl("home")
         ShowTabManual("None")
@@ -295,16 +298,26 @@ Public Class MainForm
 
     'Button Manual Station 1
 
+    'Private Sub UpdateSTN1_CYL1(value As Integer)
+    '    If Me.InvokeRequired Then
+    '        Me.Invoke(Sub() UpdateSTN1_CYL1(value))   // Kalo mau pakek Invoke
+    '    Else
+    '        STN1_CYL1 = value
+    '    End If
+    'End Sub
+
     Private Sub btn_stn1_cyl1_fw_Click(sender As Object, e As EventArgs) Handles btn_stn1_cyl1_fw.Click
         If btn_stn1_cyl1_bw.Text = "Is Backward" Then
             btn_stn1_cyl1_bw.PerformClick()
         End If
 
         If btn_stn1_cyl1_fw.Text = "Forward" Then
+            'UpdateSTN1_CYL1(FORWARD)
             STN1_CYL1 = FORWARD
             btn_stn1_cyl1_fw.Image = My.Resources.button_white_trnsprnt
             btn_stn1_cyl1_fw.Text = "Is Forward"
         ElseIf btn_stn1_cyl1_fw.Text = "Is Forward" Then
+            'UpdateSTN1_CYL1(IDLE)
             STN1_CYL1 = IDLE
             btn_stn1_cyl1_fw.Image = My.Resources.button_silver_trnsprnt
             btn_stn1_cyl1_fw.Text = "Forward"
@@ -317,10 +330,12 @@ Public Class MainForm
         End If
 
         If btn_stn1_cyl1_bw.Text = "Backward" Then
+            'UpdateSTN1_CYL1(BACKWARD)
             STN1_CYL1 = BACKWARD
             btn_stn1_cyl1_bw.Image = My.Resources.button_white_trnsprnt
             btn_stn1_cyl1_bw.Text = "Is Backward"
         ElseIf btn_stn1_cyl1_bw.Text = "Is Backward" Then
+            'UpdateSTN1_CYL1(IDLE)
             STN1_CYL1 = IDLE
             btn_stn1_cyl1_bw.Image = My.Resources.button_silver_trnsprnt
             btn_stn1_cyl1_bw.Text = "Backward"
@@ -1140,6 +1155,99 @@ Public Class MainForm
         Loop
     End Sub
 
+    '###############################################################################################################################################################################################
+    'PLC Writing
 
+    Private Sub ModbusWriter(output As Integer, address As Integer)
+        If output = FORWARD Then
+            Modbus.WriteModbus(address, FORWARD)
+        ElseIf output = BACKWARD Then
+            Modbus.WriteModbus(address, BACKWARD)
+        Else
+            Modbus.WriteModbus(address, IDLE)
+        End If
+    End Sub
+
+    Private Sub plcWriting()
+        Do
+            If Connected() Then
+
+                'Station 1
+
+                If STN1_CYL1 <> LAST_STN1_CYL1 Then
+                    ModbusWriter(STN1_CYL1, ADDR_STN1_CYL1)
+                    LAST_STN1_CYL1 = STN1_CYL1
+                End If
+
+
+                'Station 3
+
+                If STN3_CYL1 <> LAST_STN3_CYL1 Then
+                    ModbusWriter(STN3_CYL1, ADDR_STN3_CYL1)
+                    LAST_STN3_CYL1 = STN3_CYL1
+                End If
+
+                If STN3_CYL2 <> LAST_STN3_CYL2 Then
+                    ModbusWriter(STN3_CYL2, ADDR_STN3_CYL2)
+                    LAST_STN3_CYL2 = STN3_CYL2
+                End If
+
+                If STN3_CYL3 <> LAST_STN3_CYL3 Then
+                    ModbusWriter(STN3_CYL3, ADDR_STN3_CYL3)
+                    LAST_STN3_CYL3 = STN3_CYL3
+                End If
+
+                If STN3_CYL4 <> LAST_STN3_CYL4 Then
+                    ModbusWriter(STN3_CYL1, ADDR_STN3_CYL4)
+                    LAST_STN3_CYL4 = STN3_CYL4
+                End If
+
+                'Station 4
+
+                If STN4_CYL1 <> LAST_STN4_CYL1 Then
+                    ModbusWriter(STN4_CYL1, ADDR_STN4_CYL1)
+                    LAST_STN4_CYL1 = STN4_CYL1
+                End If
+
+                'Station 5
+
+                If STN5_CYL1 <> LAST_STN5_CYL1 Then
+                    ModbusWriter(STN5_CYL1, ADDR_STN5_CYL1)
+                    LAST_STN5_CYL1 = STN5_CYL1
+                End If
+
+                If STN5_CYL2 <> LAST_STN5_CYL2 Then
+                    ModbusWriter(STN5_CYL2, ADDR_STN5_CYL2)
+                    LAST_STN5_CYL2 = STN5_CYL2
+                End If
+
+                If STN5_CYL3 <> LAST_STN5_CYL3 Then
+                    ModbusWriter(STN5_CYL3, ADDR_STN5_CYL3)
+                    LAST_STN5_CYL3 = STN5_CYL3
+                End If
+
+                'Station 6
+
+                If STN6_CYL1 <> LAST_STN6_CYL1 Then
+                    ModbusWriter(STN6_CYL1, ADDR_STN6_CYL1)
+                    LAST_STN6_CYL1 = STN6_CYL1
+                End If
+
+                If STN6_CYL2 <> LAST_STN6_CYL2 Then
+                    ModbusWriter(STN6_CYL2, ADDR_STN6_CYL2)
+                    LAST_STN6_CYL2 = STN6_CYL2
+                End If
+
+                If STN6_CYL3 <> LAST_STN6_CYL3 Then
+                    ModbusWriter(STN6_CYL3, ADDR_STN6_CYL3)
+                    LAST_STN6_CYL3 = STN6_CYL3
+                End If
+
+            End If
+
+            Thread.Sleep(100)
+
+        Loop
+    End Sub
 End Class
 
