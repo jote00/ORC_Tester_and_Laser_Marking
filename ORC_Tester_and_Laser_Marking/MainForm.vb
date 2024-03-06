@@ -1175,7 +1175,7 @@ Public Class MainForm
                 'Station 1
 
                 If STN1_CYL1 <> LAST_STN1_CYL1 Then
-                    ModbusWriter(STN1_CYL1, ADDR_STN1_SEN1)
+                    ModbusWriter(STN1_CYL1, ADDR_STN1_CYL1)
                     LAST_STN1_CYL1 = STN1_CYL1
                 End If
 
@@ -1183,63 +1183,63 @@ Public Class MainForm
                 'Station 3  
 
                 If STN3_CYL1 <> LAST_STN3_CYL1 Then
-                    ModbusWriter(STN3_CYL1, ADDR_STN3_SEN1)
+                    ModbusWriter(STN3_CYL1, ADDR_STN3_CYL1)
                     LAST_STN3_CYL1 = STN3_CYL1
                 End If
 
                 If STN3_CYL2 <> LAST_STN3_CYL2 Then
-                    ModbusWriter(STN3_CYL2, ADDR_STN3_SEN2)
+                    ModbusWriter(STN3_CYL2, ADDR_STN3_CYL2)
                     LAST_STN3_CYL2 = STN3_CYL2
                 End If
 
                 If STN3_CYL3 <> LAST_STN3_CYL3 Then
-                    ModbusWriter(STN3_CYL3, ADDR_STN3_SEN3)
+                    ModbusWriter(STN3_CYL3, ADDR_STN3_CYL3)
                     LAST_STN3_CYL3 = STN3_CYL3
                 End If
 
                 If STN3_CYL4 <> LAST_STN3_CYL4 Then
-                    ModbusWriter(STN3_CYL4, ADDR_STN3_SEN4)
+                    ModbusWriter(STN3_CYL4, ADDR_STN3_CYL4)
                     LAST_STN3_CYL4 = STN3_CYL4
                 End If
 
                 'Station 4
 
                 If STN4_CYL1 <> LAST_STN4_CYL1 Then
-                    ModbusWriter(STN4_CYL1, ADDR_STN4_SEN1)
+                    ModbusWriter(STN4_CYL1, ADDR_STN4_CYL1)
                     LAST_STN4_CYL1 = STN4_CYL1
                 End If
 
                 'Station 5
 
                 If STN5_CYL1 <> LAST_STN5_CYL1 Then
-                    ModbusWriter(STN5_CYL1, ADDR_STN5_SEN1)
+                    ModbusWriter(STN5_CYL1, ADDR_STN5_CYL1)
                     LAST_STN5_CYL1 = STN5_CYL1
                 End If
 
                 If STN5_CYL2 <> LAST_STN5_CYL2 Then
-                    ModbusWriter(STN5_CYL2, ADDR_STN5_SEN2)
+                    ModbusWriter(STN5_CYL2, ADDR_STN5_CYL2)
                     LAST_STN5_CYL2 = STN5_CYL2
                 End If
 
                 If STN5_CYL3 <> LAST_STN5_CYL3 Then
-                    ModbusWriter(STN5_CYL3, ADDR_STN5_SEN3)
+                    ModbusWriter(STN5_CYL3, ADDR_STN5_CYL3)
                     LAST_STN5_CYL3 = STN5_CYL3
                 End If
 
                 'Station 6
 
                 If STN6_CYL1 <> LAST_STN6_CYL1 Then
-                    ModbusWriter(STN6_CYL1, ADDR_STN6_SEN1)
+                    ModbusWriter(STN6_CYL1, ADDR_STN6_CYL1)
                     LAST_STN6_CYL1 = STN6_CYL1
                 End If
 
                 If STN6_CYL2 <> LAST_STN6_CYL2 Then
-                    ModbusWriter(STN6_CYL2, ADDR_STN6_SEN2)
+                    ModbusWriter(STN6_CYL2, ADDR_STN6_CYL2)
                     LAST_STN6_CYL2 = STN6_CYL2
                 End If
 
                 If STN6_CYL3 <> LAST_STN6_CYL3 Then
-                    ModbusWriter(STN6_CYL3, ADDR_STN6_SEN3)
+                    ModbusWriter(STN6_CYL3, ADDR_STN6_CYL3)
                     LAST_STN6_CYL3 = STN6_CYL3
                 End If
 

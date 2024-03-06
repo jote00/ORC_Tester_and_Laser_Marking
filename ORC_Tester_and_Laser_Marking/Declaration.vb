@@ -8,15 +8,15 @@
     Public IDLE As Integer = 0
 
 
-    'Public ADDR_STN1_CYL1 As Integer = 5101
+    Public ADDR_STN1_CYL1 As Integer = 5101
 
     Public STN1_CYL1 As Integer = 0
     Public LAST_STN1_CYL1 As Integer = 0
 
-    'Public ADDR_STN3_CYL1 As Integer = 5301
-    'Public ADDR_STN3_CYL2 As Integer = 5302
-    'Public ADDR_STN3_CYL3 As Integer = 5303
-    'Public ADDR_STN3_CYL4 As Integer = 5304
+    Public ADDR_STN3_CYL1 As Integer = 5301
+    Public ADDR_STN3_CYL2 As Integer = 5302
+    Public ADDR_STN3_CYL3 As Integer = 5303
+    Public ADDR_STN3_CYL4 As Integer = 5304
 
     Public STN3_CYL1 As Integer = 0
     Public STN3_CYL2 As Integer = 0
@@ -27,14 +27,14 @@
     Public LAST_STN3_CYL3 As Integer = 0
     Public LAST_STN3_CYL4 As Integer = 0
 
-    'Public ADDR_STN4_CYL1 As Integer = 5401
+    Public ADDR_STN4_CYL1 As Integer = 5401
 
     Public STN4_CYL1 As Integer = 0
     Public LAST_STN4_CYL1 As Integer = 0
 
-    'Public ADDR_STN5_CYL1 As Integer = 5501
-    'Public ADDR_STN5_CYL2 As Integer = 5502
-    'Public ADDR_STN5_CYL3 As Integer = 5503
+    Public ADDR_STN5_CYL1 As Integer = 5501
+    Public ADDR_STN5_CYL2 As Integer = 5502
+    Public ADDR_STN5_CYL3 As Integer = 5503
 
     Public STN5_CYL1 As Integer = 0
     Public STN5_CYL2 As Integer = 0
@@ -43,9 +43,9 @@
     Public LAST_STN5_CYL2 As Integer = 0
     Public LAST_STN5_CYL3 As Integer = 0
 
-    'Public ADDR_STN6_CYL1 As Integer = 5601
-    'Public ADDR_STN6_CYL2 As Integer = 5602
-    'Public ADDR_STN6_CYL3 As Integer = 5603
+    Public ADDR_STN6_CYL1 As Integer = 5601
+    Public ADDR_STN6_CYL2 As Integer = 5602
+    Public ADDR_STN6_CYL3 As Integer = 5603
 
     Public STN6_CYL1 As Integer = 0
     Public STN6_CYL2 As Integer = 0
