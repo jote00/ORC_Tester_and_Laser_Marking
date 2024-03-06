@@ -33,6 +33,7 @@ Partial Class MainForm
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.btnSTN6 = New System.Windows.Forms.Button()
+        Me.btnMonitoring = New System.Windows.Forms.Button()
         Me.btnSTN5 = New System.Windows.Forms.Button()
         Me.btnSTN4 = New System.Windows.Forms.Button()
         Me.btnSTN3 = New System.Windows.Forms.Button()
@@ -40,7 +41,6 @@ Partial Class MainForm
         Me.btnSTN1 = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.btnSetting = New System.Windows.Forms.Button()
-        Me.btnMonitoring = New System.Windows.Forms.Button()
         Me.btnManual = New System.Windows.Forms.Button()
         Me.btnHome = New System.Windows.Forms.Button()
         Me.tab_man_stn1 = New System.Windows.Forms.TabControl()
@@ -881,6 +881,20 @@ Partial Class MainForm
         Me.btnSTN6.Text = "ST 6"
         Me.btnSTN6.UseVisualStyleBackColor = False
         '
+        'btnMonitoring
+        '
+        Me.btnMonitoring.FlatAppearance.BorderSize = 0
+        Me.btnMonitoring.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMonitoring.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.icons8_monitor_56
+        Me.btnMonitoring.Location = New System.Drawing.Point(8, 622)
+        Me.btnMonitoring.Name = "btnMonitoring"
+        Me.btnMonitoring.Size = New System.Drawing.Size(60, 84)
+        Me.btnMonitoring.TabIndex = 6
+        Me.btnMonitoring.Text = "Monitor"
+        Me.btnMonitoring.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnMonitoring.UseVisualStyleBackColor = True
+        Me.btnMonitoring.Visible = False
+        '
         'btnSTN5
         '
         Me.btnSTN5.BackColor = System.Drawing.SystemColors.ControlLightLight
@@ -969,20 +983,6 @@ Partial Class MainForm
         Me.btnSetting.Text = "Setting"
         Me.btnSetting.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnSetting.UseVisualStyleBackColor = True
-        '
-        'btnMonitoring
-        '
-        Me.btnMonitoring.FlatAppearance.BorderSize = 0
-        Me.btnMonitoring.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMonitoring.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.icons8_monitor_56
-        Me.btnMonitoring.Location = New System.Drawing.Point(8, 622)
-        Me.btnMonitoring.Name = "btnMonitoring"
-        Me.btnMonitoring.Size = New System.Drawing.Size(60, 84)
-        Me.btnMonitoring.TabIndex = 6
-        Me.btnMonitoring.Text = "Monitor"
-        Me.btnMonitoring.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.btnMonitoring.UseVisualStyleBackColor = True
-        Me.btnMonitoring.Visible = False
         '
         'btnManual
         '
@@ -1285,7 +1285,7 @@ Partial Class MainForm
         Me.btn_stn3_cyl3_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn3_cyl3_bw.Location = New System.Drawing.Point(7, 125)
         Me.btn_stn3_cyl3_bw.Name = "btn_stn3_cyl3_bw"
-        Me.btn_stn3_cyl3_bw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn3_cyl3_bw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn3_cyl3_bw.TabIndex = 46
         Me.btn_stn3_cyl3_bw.Text = "Backward"
         Me.btn_stn3_cyl3_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1300,7 +1300,7 @@ Partial Class MainForm
         Me.btn_stn3_cyl3_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn3_cyl3_fw.Location = New System.Drawing.Point(7, 29)
         Me.btn_stn3_cyl3_fw.Name = "btn_stn3_cyl3_fw"
-        Me.btn_stn3_cyl3_fw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn3_cyl3_fw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn3_cyl3_fw.TabIndex = 0
         Me.btn_stn3_cyl3_fw.Text = "Forward"
         Me.btn_stn3_cyl3_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1404,7 +1404,7 @@ Partial Class MainForm
         Me.btn_stn3_cyl4_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn3_cyl4_bw.Location = New System.Drawing.Point(7, 125)
         Me.btn_stn3_cyl4_bw.Name = "btn_stn3_cyl4_bw"
-        Me.btn_stn3_cyl4_bw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn3_cyl4_bw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn3_cyl4_bw.TabIndex = 46
         Me.btn_stn3_cyl4_bw.Text = "Backward"
         Me.btn_stn3_cyl4_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1419,7 +1419,7 @@ Partial Class MainForm
         Me.btn_stn3_cyl4_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn3_cyl4_fw.Location = New System.Drawing.Point(7, 29)
         Me.btn_stn3_cyl4_fw.Name = "btn_stn3_cyl4_fw"
-        Me.btn_stn3_cyl4_fw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn3_cyl4_fw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn3_cyl4_fw.TabIndex = 0
         Me.btn_stn3_cyl4_fw.Text = "Forward"
         Me.btn_stn3_cyl4_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1523,7 +1523,7 @@ Partial Class MainForm
         Me.btn_stn3_cyl2_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn3_cyl2_bw.Location = New System.Drawing.Point(7, 125)
         Me.btn_stn3_cyl2_bw.Name = "btn_stn3_cyl2_bw"
-        Me.btn_stn3_cyl2_bw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn3_cyl2_bw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn3_cyl2_bw.TabIndex = 46
         Me.btn_stn3_cyl2_bw.Text = "Backward"
         Me.btn_stn3_cyl2_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1538,7 +1538,7 @@ Partial Class MainForm
         Me.btn_stn3_cyl2_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn3_cyl2_fw.Location = New System.Drawing.Point(7, 29)
         Me.btn_stn3_cyl2_fw.Name = "btn_stn3_cyl2_fw"
-        Me.btn_stn3_cyl2_fw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn3_cyl2_fw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn3_cyl2_fw.TabIndex = 0
         Me.btn_stn3_cyl2_fw.Text = "Forward"
         Me.btn_stn3_cyl2_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1642,7 +1642,7 @@ Partial Class MainForm
         Me.btn_stn3_cyl1_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn3_cyl1_bw.Location = New System.Drawing.Point(7, 125)
         Me.btn_stn3_cyl1_bw.Name = "btn_stn3_cyl1_bw"
-        Me.btn_stn3_cyl1_bw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn3_cyl1_bw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn3_cyl1_bw.TabIndex = 46
         Me.btn_stn3_cyl1_bw.Text = "Backward"
         Me.btn_stn3_cyl1_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1657,7 +1657,7 @@ Partial Class MainForm
         Me.btn_stn3_cyl1_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn3_cyl1_fw.Location = New System.Drawing.Point(7, 29)
         Me.btn_stn3_cyl1_fw.Name = "btn_stn3_cyl1_fw"
-        Me.btn_stn3_cyl1_fw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn3_cyl1_fw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn3_cyl1_fw.TabIndex = 0
         Me.btn_stn3_cyl1_fw.Text = "Forward"
         Me.btn_stn3_cyl1_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -2412,7 +2412,7 @@ Partial Class MainForm
         Me.btn_stn5_cyl3_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn5_cyl3_bw.Location = New System.Drawing.Point(7, 125)
         Me.btn_stn5_cyl3_bw.Name = "btn_stn5_cyl3_bw"
-        Me.btn_stn5_cyl3_bw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn5_cyl3_bw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn5_cyl3_bw.TabIndex = 46
         Me.btn_stn5_cyl3_bw.Text = "Backward"
         Me.btn_stn5_cyl3_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -2427,7 +2427,7 @@ Partial Class MainForm
         Me.btn_stn5_cyl3_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn5_cyl3_fw.Location = New System.Drawing.Point(7, 29)
         Me.btn_stn5_cyl3_fw.Name = "btn_stn5_cyl3_fw"
-        Me.btn_stn5_cyl3_fw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn5_cyl3_fw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn5_cyl3_fw.TabIndex = 0
         Me.btn_stn5_cyl3_fw.Text = "Forward"
         Me.btn_stn5_cyl3_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -2531,7 +2531,7 @@ Partial Class MainForm
         Me.btn_stn5_cyl2_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn5_cyl2_bw.Location = New System.Drawing.Point(7, 125)
         Me.btn_stn5_cyl2_bw.Name = "btn_stn5_cyl2_bw"
-        Me.btn_stn5_cyl2_bw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn5_cyl2_bw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn5_cyl2_bw.TabIndex = 46
         Me.btn_stn5_cyl2_bw.Text = "Backward"
         Me.btn_stn5_cyl2_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -2546,7 +2546,7 @@ Partial Class MainForm
         Me.btn_stn5_cyl2_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn5_cyl2_fw.Location = New System.Drawing.Point(7, 29)
         Me.btn_stn5_cyl2_fw.Name = "btn_stn5_cyl2_fw"
-        Me.btn_stn5_cyl2_fw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn5_cyl2_fw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn5_cyl2_fw.TabIndex = 0
         Me.btn_stn5_cyl2_fw.Text = "Forward"
         Me.btn_stn5_cyl2_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -2650,7 +2650,7 @@ Partial Class MainForm
         Me.btn_stn5_cyl1_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn5_cyl1_bw.Location = New System.Drawing.Point(7, 125)
         Me.btn_stn5_cyl1_bw.Name = "btn_stn5_cyl1_bw"
-        Me.btn_stn5_cyl1_bw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn5_cyl1_bw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn5_cyl1_bw.TabIndex = 46
         Me.btn_stn5_cyl1_bw.Text = "Backward"
         Me.btn_stn5_cyl1_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -2665,7 +2665,7 @@ Partial Class MainForm
         Me.btn_stn5_cyl1_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn5_cyl1_fw.Location = New System.Drawing.Point(7, 29)
         Me.btn_stn5_cyl1_fw.Name = "btn_stn5_cyl1_fw"
-        Me.btn_stn5_cyl1_fw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn5_cyl1_fw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn5_cyl1_fw.TabIndex = 0
         Me.btn_stn5_cyl1_fw.Text = "Forward"
         Me.btn_stn5_cyl1_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -2794,7 +2794,7 @@ Partial Class MainForm
         Me.btn_stn6_cyl3_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn6_cyl3_bw.Location = New System.Drawing.Point(7, 125)
         Me.btn_stn6_cyl3_bw.Name = "btn_stn6_cyl3_bw"
-        Me.btn_stn6_cyl3_bw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn6_cyl3_bw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn6_cyl3_bw.TabIndex = 46
         Me.btn_stn6_cyl3_bw.Text = "Backward"
         Me.btn_stn6_cyl3_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -2809,7 +2809,7 @@ Partial Class MainForm
         Me.btn_stn6_cyl3_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn6_cyl3_fw.Location = New System.Drawing.Point(7, 29)
         Me.btn_stn6_cyl3_fw.Name = "btn_stn6_cyl3_fw"
-        Me.btn_stn6_cyl3_fw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn6_cyl3_fw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn6_cyl3_fw.TabIndex = 0
         Me.btn_stn6_cyl3_fw.Text = "Forward"
         Me.btn_stn6_cyl3_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -2913,7 +2913,7 @@ Partial Class MainForm
         Me.btn_stn6_cyl2_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn6_cyl2_bw.Location = New System.Drawing.Point(7, 125)
         Me.btn_stn6_cyl2_bw.Name = "btn_stn6_cyl2_bw"
-        Me.btn_stn6_cyl2_bw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn6_cyl2_bw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn6_cyl2_bw.TabIndex = 46
         Me.btn_stn6_cyl2_bw.Text = "Backward"
         Me.btn_stn6_cyl2_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -2928,7 +2928,7 @@ Partial Class MainForm
         Me.btn_stn6_cyl2_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn6_cyl2_fw.Location = New System.Drawing.Point(7, 29)
         Me.btn_stn6_cyl2_fw.Name = "btn_stn6_cyl2_fw"
-        Me.btn_stn6_cyl2_fw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn6_cyl2_fw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn6_cyl2_fw.TabIndex = 0
         Me.btn_stn6_cyl2_fw.Text = "Forward"
         Me.btn_stn6_cyl2_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -3032,7 +3032,7 @@ Partial Class MainForm
         Me.btn_stn6_cyl1_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn6_cyl1_bw.Location = New System.Drawing.Point(7, 125)
         Me.btn_stn6_cyl1_bw.Name = "btn_stn6_cyl1_bw"
-        Me.btn_stn6_cyl1_bw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn6_cyl1_bw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn6_cyl1_bw.TabIndex = 46
         Me.btn_stn6_cyl1_bw.Text = "Backward"
         Me.btn_stn6_cyl1_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -3047,7 +3047,7 @@ Partial Class MainForm
         Me.btn_stn6_cyl1_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
         Me.btn_stn6_cyl1_fw.Location = New System.Drawing.Point(7, 29)
         Me.btn_stn6_cyl1_fw.Name = "btn_stn6_cyl1_fw"
-        Me.btn_stn6_cyl1_fw.Size = New System.Drawing.Size(90, 90)
+        Me.btn_stn6_cyl1_fw.Size = New System.Drawing.Size(100, 90)
         Me.btn_stn6_cyl1_fw.TabIndex = 0
         Me.btn_stn6_cyl1_fw.Text = "Forward"
         Me.btn_stn6_cyl1_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -7053,8 +7053,6 @@ Partial Class MainForm
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.tab_man_stn3)
-        Me.Controls.Add(Me.tab_man_stn2)
         Me.Controls.Add(Me.tab_man_stn1)
         Me.Controls.Add(Me.tabHome)
         Me.Controls.Add(Me.tabSetting)
@@ -7067,6 +7065,8 @@ Partial Class MainForm
         Me.Controls.Add(Me.tab_man_stn6)
         Me.Controls.Add(Me.tab_man_stn5)
         Me.Controls.Add(Me.tab_man_stn4)
+        Me.Controls.Add(Me.tab_man_stn3)
+        Me.Controls.Add(Me.tab_man_stn2)
         Me.Name = "MainForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "MainForm"
