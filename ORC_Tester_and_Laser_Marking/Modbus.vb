@@ -115,17 +115,31 @@ Module Modbus
 
     'Read Double Integer
 
-    Public Function ReadModbusDInt(addr As Integer, array As Integer) As Integer()
+    Public Function ReadDoubleAddrees(addr As Integer) As Integer
+        Dim address_val() As Integer
+        Dim result As Integer
+
         Try
-            If Connected() Then
-                Return modbus_Client.ReadHoldingRegisters(addr, array)
-            Else
-                Console.WriteLine("Not connected to PLC.")
-                Return New Integer() {}
-            End If
+            address_val = modbus_Client.ReadHoldingRegisters(addr, 2)
+            result = (CInt(address_val(0)) And &HFFFF) Or (CInt(address_val(1)) << 16)
         Catch ex As Exception
-            Console.WriteLine("Error reading from Modbus: " & ex.Message)
-            Return New Integer() {}
+            result = Nothing
         End Try
+
+        Return result
     End Function
+
+    Public Sub WriteDoubleInteger(addr As Integer, val As Int32)
+        Try
+            Dim values(1) As Int32
+            values(0) = CInt((val >> 16) And &HFFFF)
+            values(1) = CInt(val And &HFFFF)
+            Dim result(1) As Integer
+            result(0) = values(1)
+            result(1) = values(0)
+            modbus_Client.WriteMultipleRegisters(addr, result)
+        Catch ex As Exception
+
+        End Try
+    End Sub
 End Module

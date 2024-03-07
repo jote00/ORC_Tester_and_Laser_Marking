@@ -2,7 +2,7 @@
 
     Public MODBUS_ERR
 
-    'For Cylinder
+    'For Cylinder  ----------------------------------------------
     Public FORWARD As Integer = 1
     Public BACKWARD As Integer = 2
     Public IDLE As Integer = 0
@@ -71,15 +71,25 @@
     Public ADDR_STN6_SEN2 As Integer = 6602
     Public ADDR_STN6_SEN3 As Integer = 6603
 
-    'For Festo
+    'For Festo  ----------------------------------------------
     Public UP As Integer = 1
     Public DOWN As Integer = 2
 
+    'Indicator
     Public ADDR_STN3_TRIG_LFESTO = 370
     Public ADDR_STN3_IND_LFESTO = 371
 
     Public ADDR_STN3_TRIG_RFESTO = 380
     Public ADDR_STN3_IND_RFESTO = 381
+
+    'Data
+    Public ADDR_STN3_PSTN_LFESTO = 374 '(Punya 2 address,startnya dari 374)
+    Public ADDR_STN3_SPD_LFESTO = 376
+    Public ADDR_STN3_ALM_LFESTO = 378
+
+    Public ADDR_STN3_PSTN_RFESTO = 384 '(Punya 2 address,startnya dari 384)
+    Public ADDR_STN3_SPD_RFESTO = 386
+    Public ADDR_STN3_ALM_RFESTO = 388
 
 
 End Module

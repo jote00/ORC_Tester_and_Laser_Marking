@@ -762,6 +762,25 @@ Public Class MainForm
                 Dim readRSVON As Integer = ReadBit(ADDR_STN3_IND_RFESTO, 3)
                 Dim readREMG As Integer = ReadBit(ADDR_STN3_IND_RFESTO, 4)
 
+
+
+                'Text Box Festo read ----------------------------------------------
+                Me.Invoke(Sub()
+
+                              tbx_Lfesto_position.Text = ReadDoubleAddrees(ADDR_STN3_PSTN_LFESTO)
+                              tbx_Lfesto_speed.Text = ReadModbus(ADDR_STN3_SPD_LFESTO, 1)(0)
+                              tbx_Lfesto_alarm.Text = ReadModbus(ADDR_STN3_ALM_LFESTO, 1)(0)
+
+                              tbx_Rfesto_position.Text = ReadDoubleAddrees(ADDR_STN3_PSTN_RFESTO)
+                              tbx_Rfesto_speed.Text = ReadModbus(ADDR_STN3_SPD_RFESTO, 1)(0)
+                              tbx_Rfesto_alarm.Text = ReadModbus(ADDR_STN3_ALM_RFESTO, 1)(0)
+                          End Sub)
+
+
+
+
+
+
                 'Station 1 ----------------------------------------------
                 'CylSen 1
                 If readS11.Length > 0 AndAlso readS11(0) = FORWARD Then
