@@ -719,34 +719,48 @@ Public Class MainForm
 
             If Connected() Then
 
+
+
                 Dim readS11 = ReadModbus(ADDR_STN1_SEN1, 1)
-                ' Dim readA11 = ReadModbus(ADDR_STN1_CYL1, 1)
+                ' Dim readA11 = ReadModbus(ADDR_STN1_CYL1, 1)  'STN1
 
                 Dim readS31 = ReadModbus(ADDR_STN3_SEN1, 1)
                 Dim readS32 = ReadModbus(ADDR_STN3_SEN2, 1)
                 Dim readS33 = ReadModbus(ADDR_STN3_SEN3, 1)
                 Dim readS34 = ReadModbus(ADDR_STN3_SEN4, 1)
                 'Dim readA31 = ReadModbus(ADDR_STN3_CYL1, 1)
-                'Dim readA32 = ReadModbus(ADDR_STN3_CYL2, 1)
+                'Dim readA32 = ReadModbus(ADDR_STN3_CYL2, 1)   'STN3
                 'Dim readA33 = ReadModbus(ADDR_STN3_CYL3, 1)
                 'Dim readA34 = ReadModbus(ADDR_STN3_CYL4, 1)
 
                 Dim readS41 = ReadModbus(ADDR_STN4_SEN1, 1)
-                'Dim readA41 = ReadModbus(ADDR_STN4_CYL1, 1)
+                'Dim readA41 = ReadModbus(ADDR_STN4_CYL1, 1)   'STN4
 
                 Dim readS51 = ReadModbus(ADDR_STN5_SEN1, 1)
                 Dim readS52 = ReadModbus(ADDR_STN5_SEN2, 1)
-                Dim readS53 = ReadModbus(ADDR_STN5_SEN3, 1)
+                Dim readS53 = ReadModbus(ADDR_STN5_SEN3, 1)    'STN5
                 'Dim readA51 = ReadModbus(ADDR_STN5_CYL1, 1)
                 'Dim readA52 = ReadModbus(ADDR_STN5_CYL2, 1)
                 'Dim readA53 = ReadModbus(ADDR_STN5_CYL3, 1)
 
                 Dim readS61 = ReadModbus(ADDR_STN6_SEN1, 1)
                 Dim readS62 = ReadModbus(ADDR_STN6_SEN2, 1)
-                Dim readS63 = ReadModbus(ADDR_STN6_SEN3, 1)
+                Dim readS63 = ReadModbus(ADDR_STN6_SEN3, 1)    'STN6
                 'Dim readA61 = ReadModbus(ADDR_STN6_CYL1, 1)
                 'Dim readA62 = ReadModbus(ADDR_STN6_CYL2, 1)
                 'Dim readA63 = ReadModbus(ADDR_STN6_CYL3, 1)
+
+                Dim readLALM As Integer = ReadBit(ADDR_STN3_IND_LFESTO, 0)
+                Dim readLPEND As Integer = ReadBit(ADDR_STN3_IND_LFESTO, 1)
+                Dim readLHEND As Integer = ReadBit(ADDR_STN3_IND_LFESTO, 2)   'Indicator LFesto
+                Dim readLSVON As Integer = ReadBit(ADDR_STN3_IND_LFESTO, 3)
+                Dim readLEMG As Integer = ReadBit(ADDR_STN3_IND_LFESTO, 4)
+
+                Dim readRALM As Integer = ReadBit(ADDR_STN3_IND_RFESTO, 0)
+                Dim readRPEND As Integer = ReadBit(ADDR_STN3_IND_RFESTO, 1)
+                Dim readRHEND As Integer = ReadBit(ADDR_STN3_IND_RFESTO, 2)   'Indicator RFesto
+                Dim readRSVON As Integer = ReadBit(ADDR_STN3_IND_RFESTO, 3)
+                Dim readREMG As Integer = ReadBit(ADDR_STN3_IND_RFESTO, 4)
 
                 'Station 1 ----------------------------------------------
                 'CylSen 1
@@ -858,6 +872,69 @@ Public Class MainForm
                     man_stn3_cyl4_min.Image = My.Resources.led_red_on
                     'mon_stn3_cyl4_min.Image = My.Resources.led_red_off
                 End If
+
+                'Festo Left
+                If readLALM = 1 Then
+                    ind_stn3_Lfesto_alm.Image = My.Resources.led_green_on
+                Else
+                    ind_stn3_Lfesto_alm.Image = My.Resources.led_red_on
+                End If
+
+                If readLPEND = 1 Then
+                    ind_stn3_Lfesto_pend.Image = My.Resources.led_green_on
+                Else
+                    ind_stn3_Lfesto_pend.Image = My.Resources.led_red_on
+                End If
+
+                If readLHEND = 1 Then
+                    ind_stn3_Lfesto_hend.Image = My.Resources.led_green_on
+                Else
+                    ind_stn3_Lfesto_hend.Image = My.Resources.led_red_on
+                End If
+
+                If readLSVON = 1 Then
+                    ind_stn3_Lfesto_svon.Image = My.Resources.led_green_on
+                Else
+                    ind_stn3_Lfesto_svon.Image = My.Resources.led_red_on
+                End If
+
+                If readLEMG = 1 Then
+                    ind_stn3_Lfesto_emg.Image = My.Resources.led_green_on
+                Else
+                    ind_stn3_Lfesto_emg.Image = My.Resources.led_red_on
+                End If
+
+                'Festo Right
+                If readRALM = 1 Then
+                    ind_stn3_Rfesto_alm.Image = My.Resources.led_green_on
+                Else
+                    ind_stn3_Rfesto_alm.Image = My.Resources.led_red_on
+                End If
+
+                If readRPEND = 1 Then
+                    ind_stn3_Rfesto_pend.Image = My.Resources.led_green_on
+                Else
+                    ind_stn3_Rfesto_pend.Image = My.Resources.led_red_on
+                End If
+
+                If readRHEND = 1 Then
+                    ind_stn3_Rfesto_hend.Image = My.Resources.led_green_on
+                Else
+                    ind_stn3_Rfesto_hend.Image = My.Resources.led_red_on
+                End If
+
+                If readRSVON = 1 Then
+                    ind_stn3_Rfesto_svon.Image = My.Resources.led_green_on
+                Else
+                    ind_stn3_Rfesto_svon.Image = My.Resources.led_red_on
+                End If
+
+                If readREMG = 1 Then
+                    ind_stn3_Rfesto_emg.Image = My.Resources.led_green_on
+                Else
+                    ind_stn3_Rfesto_emg.Image = My.Resources.led_red_on
+                End If
+
 
                 'CylAct 1
 

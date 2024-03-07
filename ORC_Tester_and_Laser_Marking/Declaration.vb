@@ -75,5 +75,11 @@
     Public UP As Integer = 1
     Public DOWN As Integer = 2
 
+    Public ADDR_STN3_TRIG_LFESTO = 370
+    Public ADDR_STN3_IND_LFESTO = 371
+
+    Public ADDR_STN3_TRIG_RFESTO = 380
+    Public ADDR_STN3_IND_RFESTO = 381
+
 
 End Module
