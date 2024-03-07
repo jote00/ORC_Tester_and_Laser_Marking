@@ -476,7 +476,6 @@ Public Class MainForm
 
 
 
-
     'Button Manual Station 4
 
     Private Sub btn_stn4_cyl1_fw_Click(sender As Object, e As EventArgs) Handles btn_stn4_cyl1_fw.Click
@@ -1345,7 +1344,9 @@ Public Class MainForm
 
         Loop
     End Sub
+    'Alarm Reset Button Festo 
+    Private Sub btn_Lfesto_alarm_MouseDown(sender As Object, e As MouseEventArgs) Handles btn_Lfesto_alarm.MouseDown
 
-
+    End Sub
 End Class
 

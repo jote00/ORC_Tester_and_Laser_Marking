@@ -75,12 +75,13 @@
     Public UP As Integer = 1
     Public DOWN As Integer = 2
 
-    'Indicator
-    Public ADDR_STN3_TRIG_LFESTO = 370
-    Public ADDR_STN3_IND_LFESTO = 371
+    'Trigger
+    Public ADDR_STN3_TRIG_LFESTO = 370 '16bit
+    Public ADDR_STN3_TRIG_RFESTO = 380 '16bit
 
-    Public ADDR_STN3_TRIG_RFESTO = 380
-    Public ADDR_STN3_IND_RFESTO = 381
+    'Indicator
+    Public ADDR_STN3_IND_LFESTO = 371 '16bit
+    Public ADDR_STN3_IND_RFESTO = 381 '16bit
 
     'Data
     Public ADDR_STN3_PSTN_LFESTO = 374 '(Punya 2 address,startnya dari 374)
@@ -90,6 +91,7 @@
     Public ADDR_STN3_PSTN_RFESTO = 384 '(Punya 2 address,startnya dari 384)
     Public ADDR_STN3_SPD_RFESTO = 386
     Public ADDR_STN3_ALM_RFESTO = 388
+
 
 
 End Module
