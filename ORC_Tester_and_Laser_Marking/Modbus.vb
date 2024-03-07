@@ -72,6 +72,7 @@ Module Modbus
         End Try
     End Sub
 
+    'Read Bit
     Public Function ReadBit(addr As Integer, bit As Integer) As Integer
         Dim address_val() As Integer
         address_val = modbus_Client.ReadHoldingRegisters(addr, 1)
@@ -85,6 +86,7 @@ Module Modbus
         Next
     End Function
 
+    'Write Bit
     Public Sub WriteBit(addr As Integer, bit As Integer, val As Integer)
         Dim address_val() As Integer
         address_val = modbus_Client.ReadHoldingRegisters(addr, 1)
@@ -110,4 +112,20 @@ Module Modbus
 
         modbus_Client.WriteSingleRegister(addr, integer_val)
     End Sub
+
+    'Read Double Integer
+
+    Public Function ReadModbusDInt(addr As Integer, array As Integer) As Integer()
+        Try
+            If Connected() Then
+                Return modbus_Client.ReadHoldingRegisters(addr, array)
+            Else
+                Console.WriteLine("Not connected to PLC.")
+                Return New Integer() {}
+            End If
+        Catch ex As Exception
+            Console.WriteLine("Error reading from Modbus: " & ex.Message)
+            Return New Integer() {}
+        End Try
+    End Function
 End Module

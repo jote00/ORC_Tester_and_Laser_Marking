@@ -69,21 +69,10 @@ Partial Class MainForm
         Me.GroupBox71 = New System.Windows.Forms.GroupBox()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.GroupBox74 = New System.Windows.Forms.GroupBox()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Button17 = New System.Windows.Forms.Button()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Label99 = New System.Windows.Forms.Label()
         Me.Label100 = New System.Windows.Forms.Label()
         Me.Label101 = New System.Windows.Forms.Label()
         Me.Label102 = New System.Windows.Forms.Label()
-        Me.Label103 = New System.Windows.Forms.Label()
-        Me.Label104 = New System.Windows.Forms.Label()
         Me.Label105 = New System.Windows.Forms.Label()
         Me.GroupBox75 = New System.Windows.Forms.GroupBox()
         Me.Button4 = New System.Windows.Forms.Button()
@@ -535,6 +524,21 @@ Partial Class MainForm
         Me.man_stn4_cyl1_max = New System.Windows.Forms.PictureBox()
         Me.btn_stn4_cyl1_bw = New System.Windows.Forms.Button()
         Me.btn_stn4_cyl1_fw = New System.Windows.Forms.Button()
+        Me.Label106 = New System.Windows.Forms.Label()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Label103 = New System.Windows.Forms.Label()
+        Me.Label104 = New System.Windows.Forms.Label()
+        Me.Label107 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Button13 = New System.Windows.Forms.Button()
+        Me.Button14 = New System.Windows.Forms.Button()
+        Me.Button15 = New System.Windows.Forms.Button()
+        Me.Button16 = New System.Windows.Forms.Button()
+        Me.Button17 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout
         Me.Panel2.SuspendLayout
         Me.Panel3.SuspendLayout
@@ -649,105 +653,105 @@ Partial Class MainForm
         Me.grp_plc.SuspendLayout
         Me.GroupBox177.SuspendLayout
         Me.GroupBox180.SuspendLayout
-        CType(Me.MC_Status, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.status_bar, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn3_cyl3_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn3_cyl3_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn3_cyl4_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn3_cyl4_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn3_cyl2_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn3_cyl2_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn3_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn3_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn3_Rfesto_emg, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn3_Rfesto_svon, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn3_Rfesto_alm, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn3_Rfesto_hend, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn3_Rfesto_pend, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn3_Lfesto_emg, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn3_Lfesto_svon, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn3_Lfesto_alm, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn3_Lfesto_hend, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn3_Lfesto_pend, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn1_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn1_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_plc_status, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_software_open, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.connect_multi_ind, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_connect_plc, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn_6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn_3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn_5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn_2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn_4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn_1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.connect_laser_ind, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn6_cyl3_bw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn6_cyl3_fw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn6_cyl3_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn6_cyl3_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn6_cyl2_bw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn6_cyl2_fw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn6_cyl2_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn6_cyl2_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn6_cyl1_bw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn6_cyl1_fw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn6_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn6_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn5_cyl3_bw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn5_cyl3_fw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn5_cyl3_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn5_cyl3_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn5_cyl2_bw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn5_cyl2_fw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn5_cyl2_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn5_cyl2_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn5_cyl1_bw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn5_cyl1_fw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn5_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn5_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn4_cyl1_bw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn4_cyl1_fw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn4_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn4_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn3_cyl3_bw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn3_cyl3_fw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn3_cyl3_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn3_cyl3_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn3_cyl4_bw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn3_cyl4_fw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn3_cyl4_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn3_cyl4_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn3_cyl2_bw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn3_cyl2_fw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn3_cyl2_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn3_cyl2_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn3_cyl1_bw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn3_cyl1_fw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn3_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn3_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn1_cyl1_bw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ind_stn1_cyl1_fw, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn1_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mon_stn1_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn6_cyl3_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn6_cyl3_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn6_cyl2_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn6_cyl2_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn6_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn6_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn5_cyl3_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn5_cyl3_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn5_cyl2_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn5_cyl2_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn5_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn5_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn4_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.man_stn4_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SuspendLayout()
+        CType(Me.MC_Status, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.status_bar, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn3_cyl3_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn3_cyl3_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn3_cyl4_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn3_cyl4_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn3_cyl2_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn3_cyl2_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn3_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn3_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn3_Rfesto_emg, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn3_Rfesto_svon, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn3_Rfesto_alm, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn3_Rfesto_hend, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn3_Rfesto_pend, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn3_Lfesto_emg, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn3_Lfesto_svon, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn3_Lfesto_alm, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn3_Lfesto_hend, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn3_Lfesto_pend, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn1_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn1_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_plc_status, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_software_open, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.connect_multi_ind, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_connect_plc, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn_6, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn_3, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn_5, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn_2, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn_4, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn_1, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.connect_laser_ind, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn6_cyl3_bw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn6_cyl3_fw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn6_cyl3_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn6_cyl3_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn6_cyl2_bw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn6_cyl2_fw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn6_cyl2_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn6_cyl2_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn6_cyl1_bw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn6_cyl1_fw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn6_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn6_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn5_cyl3_bw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn5_cyl3_fw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn5_cyl3_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn5_cyl3_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn5_cyl2_bw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn5_cyl2_fw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn5_cyl2_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn5_cyl2_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn5_cyl1_bw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn5_cyl1_fw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn5_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn5_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn4_cyl1_bw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn4_cyl1_fw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn4_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn4_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn3_cyl3_bw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn3_cyl3_fw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn3_cyl3_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn3_cyl3_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn3_cyl4_bw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn3_cyl4_fw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn3_cyl4_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn3_cyl4_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn3_cyl2_bw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn3_cyl2_fw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn3_cyl2_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn3_cyl2_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn3_cyl1_bw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn3_cyl1_fw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn3_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn3_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn1_cyl1_bw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.ind_stn1_cyl1_fw, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn1_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.mon_stn1_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn6_cyl3_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn6_cyl3_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn6_cyl2_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn6_cyl2_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn6_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn6_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn5_cyl3_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn5_cyl3_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn5_cyl2_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn5_cyl2_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn5_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn5_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn4_cyl1_min, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.man_stn4_cyl1_max, System.ComponentModel.ISupportInitialize).BeginInit
+        Me.SuspendLayout
         '
         'Panel1
         '
@@ -1335,126 +1339,35 @@ Partial Class MainForm
         '
         'GroupBox74
         '
-        Me.GroupBox74.Controls.Add(Me.Button11)
-        Me.GroupBox74.Controls.Add(Me.Button12)
-        Me.GroupBox74.Controls.Add(Me.Button13)
-        Me.GroupBox74.Controls.Add(Me.Button14)
-        Me.GroupBox74.Controls.Add(Me.Button15)
-        Me.GroupBox74.Controls.Add(Me.Button16)
         Me.GroupBox74.Controls.Add(Me.Button17)
-        Me.GroupBox74.Controls.Add(Me.TextBox3)
-        Me.GroupBox74.Controls.Add(Me.TextBox4)
         Me.GroupBox74.Controls.Add(Me.Label99)
+        Me.GroupBox74.Controls.Add(Me.Button16)
         Me.GroupBox74.Controls.Add(Me.Label100)
+        Me.GroupBox74.Controls.Add(Me.Button15)
         Me.GroupBox74.Controls.Add(Me.Label101)
+        Me.GroupBox74.Controls.Add(Me.Button14)
         Me.GroupBox74.Controls.Add(Me.Label102)
-        Me.GroupBox74.Controls.Add(Me.Label103)
-        Me.GroupBox74.Controls.Add(Me.Label104)
+        Me.GroupBox74.Controls.Add(Me.Button13)
         Me.GroupBox74.Controls.Add(Me.Label105)
+        Me.GroupBox74.Controls.Add(Me.Button12)
+        Me.GroupBox74.Controls.Add(Me.Button11)
         Me.GroupBox74.Controls.Add(Me.ind_stn3_Rfesto_emg)
+        Me.GroupBox74.Controls.Add(Me.TextBox6)
         Me.GroupBox74.Controls.Add(Me.ind_stn3_Rfesto_svon)
+        Me.GroupBox74.Controls.Add(Me.TextBox4)
         Me.GroupBox74.Controls.Add(Me.ind_stn3_Rfesto_alm)
+        Me.GroupBox74.Controls.Add(Me.TextBox3)
         Me.GroupBox74.Controls.Add(Me.ind_stn3_Rfesto_hend)
         Me.GroupBox74.Controls.Add(Me.ind_stn3_Rfesto_pend)
+        Me.GroupBox74.Controls.Add(Me.Label103)
+        Me.GroupBox74.Controls.Add(Me.Label104)
+        Me.GroupBox74.Controls.Add(Me.Label107)
         Me.GroupBox74.Location = New System.Drawing.Point(630, 54)
         Me.GroupBox74.Name = "GroupBox74"
-        Me.GroupBox74.Size = New System.Drawing.Size(583, 524)
+        Me.GroupBox74.Size = New System.Drawing.Size(583, 565)
         Me.GroupBox74.TabIndex = 2
         Me.GroupBox74.TabStop = False
         Me.GroupBox74.Text = "Festo R"
-        '
-        'Button11
-        '
-        Me.Button11.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button11.Location = New System.Drawing.Point(55, 369)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(118, 58)
-        Me.Button11.TabIndex = 3
-        Me.Button11.Text = "SERVO ON"
-        Me.Button11.UseVisualStyleBackColor = False
-        '
-        'Button12
-        '
-        Me.Button12.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button12.Location = New System.Drawing.Point(403, 450)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(118, 58)
-        Me.Button12.TabIndex = 3
-        Me.Button12.Text = "POWER RESET"
-        Me.Button12.UseVisualStyleBackColor = False
-        '
-        'Button13
-        '
-        Me.Button13.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button13.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button13.Location = New System.Drawing.Point(403, 369)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(118, 58)
-        Me.Button13.TabIndex = 3
-        Me.Button13.Text = "ALARM RESET"
-        Me.Button13.UseVisualStyleBackColor = False
-        '
-        'Button14
-        '
-        Me.Button14.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button14.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button14.Location = New System.Drawing.Point(229, 369)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(118, 58)
-        Me.Button14.TabIndex = 3
-        Me.Button14.Text = "HOMING"
-        Me.Button14.UseVisualStyleBackColor = False
-        '
-        'Button15
-        '
-        Me.Button15.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button15.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button15.Location = New System.Drawing.Point(403, 288)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(118, 58)
-        Me.Button15.TabIndex = 3
-        Me.Button15.Text = "JISL"
-        Me.Button15.UseVisualStyleBackColor = False
-        '
-        'Button16
-        '
-        Me.Button16.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button16.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button16.Location = New System.Drawing.Point(229, 288)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(118, 58)
-        Me.Button16.TabIndex = 3
-        Me.Button16.Text = "JOG +"
-        Me.Button16.UseVisualStyleBackColor = False
-        '
-        'Button17
-        '
-        Me.Button17.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button17.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button17.Location = New System.Drawing.Point(55, 288)
-        Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(118, 58)
-        Me.Button17.TabIndex = 3
-        Me.Button17.Text = "JOG -"
-        Me.Button17.UseVisualStyleBackColor = False
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(189, 230)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(309, 26)
-        Me.TextBox3.TabIndex = 2
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(189, 184)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(309, 26)
-        Me.TextBox4.TabIndex = 2
         '
         'Label99
         '
@@ -1496,26 +1409,6 @@ Partial Class MainForm
         Me.Label102.TabIndex = 1
         Me.Label102.Text = "HEND"
         '
-        'Label103
-        '
-        Me.Label103.AutoSize = True
-        Me.Label103.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label103.Location = New System.Drawing.Point(51, 233)
-        Me.Label103.Name = "Label103"
-        Me.Label103.Size = New System.Drawing.Size(110, 20)
-        Me.Label103.TabIndex = 1
-        Me.Label103.Text = "Alarm Number"
-        '
-        'Label104
-        '
-        Me.Label104.AutoSize = True
-        Me.Label104.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label104.Location = New System.Drawing.Point(51, 187)
-        Me.Label104.Name = "Label104"
-        Me.Label104.Size = New System.Drawing.Size(122, 20)
-        Me.Label104.TabIndex = 1
-        Me.Label104.Text = "Current Position"
-        '
         'Label105
         '
         Me.Label105.AutoSize = True
@@ -1536,12 +1429,14 @@ Partial Class MainForm
         Me.GroupBox75.Controls.Add(Me.Button6)
         Me.GroupBox75.Controls.Add(Me.Button3)
         Me.GroupBox75.Controls.Add(Me.TextBox2)
+        Me.GroupBox75.Controls.Add(Me.TextBox5)
         Me.GroupBox75.Controls.Add(Me.TextBox1)
         Me.GroupBox75.Controls.Add(Me.Label96)
         Me.GroupBox75.Controls.Add(Me.Label94)
         Me.GroupBox75.Controls.Add(Me.Label95)
         Me.GroupBox75.Controls.Add(Me.Label93)
         Me.GroupBox75.Controls.Add(Me.Label98)
+        Me.GroupBox75.Controls.Add(Me.Label106)
         Me.GroupBox75.Controls.Add(Me.Label97)
         Me.GroupBox75.Controls.Add(Me.Label87)
         Me.GroupBox75.Controls.Add(Me.ind_stn3_Lfesto_emg)
@@ -1551,7 +1446,7 @@ Partial Class MainForm
         Me.GroupBox75.Controls.Add(Me.ind_stn3_Lfesto_pend)
         Me.GroupBox75.Location = New System.Drawing.Point(25, 54)
         Me.GroupBox75.Name = "GroupBox75"
-        Me.GroupBox75.Size = New System.Drawing.Size(583, 524)
+        Me.GroupBox75.Size = New System.Drawing.Size(583, 565)
         Me.GroupBox75.TabIndex = 2
         Me.GroupBox75.TabStop = False
         Me.GroupBox75.Text = "Festo L"
@@ -1560,7 +1455,7 @@ Partial Class MainForm
         '
         Me.Button4.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(55, 369)
+        Me.Button4.Location = New System.Drawing.Point(55, 398)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(118, 58)
         Me.Button4.TabIndex = 3
@@ -1571,7 +1466,7 @@ Partial Class MainForm
         '
         Me.Button10.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.Location = New System.Drawing.Point(403, 450)
+        Me.Button10.Location = New System.Drawing.Point(403, 479)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(118, 58)
         Me.Button10.TabIndex = 3
@@ -1582,7 +1477,7 @@ Partial Class MainForm
         '
         Me.Button9.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.Location = New System.Drawing.Point(403, 369)
+        Me.Button9.Location = New System.Drawing.Point(403, 398)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(118, 58)
         Me.Button9.TabIndex = 3
@@ -1593,7 +1488,7 @@ Partial Class MainForm
         '
         Me.Button8.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(229, 369)
+        Me.Button8.Location = New System.Drawing.Point(229, 398)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(118, 58)
         Me.Button8.TabIndex = 3
@@ -1604,7 +1499,7 @@ Partial Class MainForm
         '
         Me.Button7.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(403, 288)
+        Me.Button7.Location = New System.Drawing.Point(403, 317)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(118, 58)
         Me.Button7.TabIndex = 3
@@ -1615,7 +1510,7 @@ Partial Class MainForm
         '
         Me.Button6.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(229, 288)
+        Me.Button6.Location = New System.Drawing.Point(229, 317)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(118, 58)
         Me.Button6.TabIndex = 3
@@ -1626,7 +1521,7 @@ Partial Class MainForm
         '
         Me.Button3.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(55, 288)
+        Me.Button3.Location = New System.Drawing.Point(55, 317)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(118, 58)
         Me.Button3.TabIndex = 3
@@ -1636,7 +1531,7 @@ Partial Class MainForm
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(189, 230)
+        Me.TextBox2.Location = New System.Drawing.Point(189, 265)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(309, 26)
         Me.TextBox2.TabIndex = 2
@@ -1644,7 +1539,7 @@ Partial Class MainForm
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(189, 184)
+        Me.TextBox1.Location = New System.Drawing.Point(189, 173)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(309, 26)
         Me.TextBox1.TabIndex = 2
@@ -1693,21 +1588,21 @@ Partial Class MainForm
         '
         Me.Label98.AutoSize = True
         Me.Label98.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label98.Location = New System.Drawing.Point(51, 233)
+        Me.Label98.Location = New System.Drawing.Point(51, 268)
         Me.Label98.Name = "Label98"
-        Me.Label98.Size = New System.Drawing.Size(110, 20)
+        Me.Label98.Size = New System.Drawing.Size(92, 20)
         Me.Label98.TabIndex = 1
-        Me.Label98.Text = "Alarm Number"
+        Me.Label98.Text = "Alarm Code"
         '
         'Label97
         '
         Me.Label97.AutoSize = True
         Me.Label97.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label97.Location = New System.Drawing.Point(51, 187)
+        Me.Label97.Location = New System.Drawing.Point(48, 176)
         Me.Label97.Name = "Label97"
-        Me.Label97.Size = New System.Drawing.Size(122, 20)
+        Me.Label97.Size = New System.Drawing.Size(69, 20)
         Me.Label97.TabIndex = 1
-        Me.Label97.Text = "Current Position"
+        Me.Label97.Text = " Position"
         '
         'Label87
         '
@@ -7044,6 +6939,155 @@ Partial Class MainForm
         Me.btn_stn4_cyl1_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btn_stn4_cyl1_fw.UseVisualStyleBackColor = True
         '
+        'Label106
+        '
+        Me.Label106.AutoSize = True
+        Me.Label106.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label106.Location = New System.Drawing.Point(51, 220)
+        Me.Label106.Name = "Label106"
+        Me.Label106.Size = New System.Drawing.Size(56, 20)
+        Me.Label106.TabIndex = 1
+        Me.Label106.Text = "Speed"
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox5.Location = New System.Drawing.Point(189, 219)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(309, 26)
+        Me.TextBox5.TabIndex = 2
+        '
+        'Label103
+        '
+        Me.Label103.AutoSize = True
+        Me.Label103.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label103.Location = New System.Drawing.Point(52, 176)
+        Me.Label103.Name = "Label103"
+        Me.Label103.Size = New System.Drawing.Size(69, 20)
+        Me.Label103.TabIndex = 1
+        Me.Label103.Text = " Position"
+        '
+        'Label104
+        '
+        Me.Label104.AutoSize = True
+        Me.Label104.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label104.Location = New System.Drawing.Point(55, 220)
+        Me.Label104.Name = "Label104"
+        Me.Label104.Size = New System.Drawing.Size(56, 20)
+        Me.Label104.TabIndex = 1
+        Me.Label104.Text = "Speed"
+        '
+        'Label107
+        '
+        Me.Label107.AutoSize = True
+        Me.Label107.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label107.Location = New System.Drawing.Point(55, 268)
+        Me.Label107.Name = "Label107"
+        Me.Label107.Size = New System.Drawing.Size(92, 20)
+        Me.Label107.TabIndex = 1
+        Me.Label107.Text = "Alarm Code"
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.Location = New System.Drawing.Point(193, 173)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(309, 26)
+        Me.TextBox3.TabIndex = 2
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox4.Location = New System.Drawing.Point(193, 219)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(309, 26)
+        Me.TextBox4.TabIndex = 2
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox6.Location = New System.Drawing.Point(193, 265)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(309, 26)
+        Me.TextBox6.TabIndex = 2
+        '
+        'Button11
+        '
+        Me.Button11.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button11.Location = New System.Drawing.Point(59, 317)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(118, 58)
+        Me.Button11.TabIndex = 3
+        Me.Button11.Text = "JOG -"
+        Me.Button11.UseVisualStyleBackColor = False
+        '
+        'Button12
+        '
+        Me.Button12.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button12.Location = New System.Drawing.Point(233, 317)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(118, 58)
+        Me.Button12.TabIndex = 3
+        Me.Button12.Text = "JOG +"
+        Me.Button12.UseVisualStyleBackColor = False
+        '
+        'Button13
+        '
+        Me.Button13.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Button13.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button13.Location = New System.Drawing.Point(407, 317)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(118, 58)
+        Me.Button13.TabIndex = 3
+        Me.Button13.Text = "JISL"
+        Me.Button13.UseVisualStyleBackColor = False
+        '
+        'Button14
+        '
+        Me.Button14.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Button14.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button14.Location = New System.Drawing.Point(233, 398)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(118, 58)
+        Me.Button14.TabIndex = 3
+        Me.Button14.Text = "HOMING"
+        Me.Button14.UseVisualStyleBackColor = False
+        '
+        'Button15
+        '
+        Me.Button15.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Button15.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button15.Location = New System.Drawing.Point(407, 398)
+        Me.Button15.Name = "Button15"
+        Me.Button15.Size = New System.Drawing.Size(118, 58)
+        Me.Button15.TabIndex = 3
+        Me.Button15.Text = "ALARM RESET"
+        Me.Button15.UseVisualStyleBackColor = False
+        '
+        'Button16
+        '
+        Me.Button16.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Button16.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button16.Location = New System.Drawing.Point(407, 479)
+        Me.Button16.Name = "Button16"
+        Me.Button16.Size = New System.Drawing.Size(118, 58)
+        Me.Button16.TabIndex = 3
+        Me.Button16.Text = "POWER RESET"
+        Me.Button16.UseVisualStyleBackColor = False
+        '
+        'Button17
+        '
+        Me.Button17.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Button17.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button17.Location = New System.Drawing.Point(59, 398)
+        Me.Button17.Name = "Button17"
+        Me.Button17.Size = New System.Drawing.Size(118, 58)
+        Me.Button17.TabIndex = 3
+        Me.Button17.Text = "SERVO ON"
+        Me.Button17.UseVisualStyleBackColor = False
+        '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -7071,273 +7115,273 @@ Partial Class MainForm
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "MainForm"
         Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
+        Me.Panel1.PerformLayout
         Me.Panel2.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
         Me.tab_man_stn1.ResumeLayout(False)
         Me.TabPage2.ResumeLayout(False)
         Me.V.ResumeLayout(False)
         Me.GroupBox4.ResumeLayout(False)
-        Me.GroupBox4.PerformLayout()
+        Me.GroupBox4.PerformLayout
         Me.GroupBox3.ResumeLayout(False)
         Me.tab_man_stn2.ResumeLayout(False)
         Me.tab_man_stn3.ResumeLayout(False)
         Me.TabPage4.ResumeLayout(False)
-        Me.TabPage4.PerformLayout()
+        Me.TabPage4.PerformLayout
         Me.GroupBox9.ResumeLayout(False)
         Me.GroupBox10.ResumeLayout(False)
-        Me.GroupBox10.PerformLayout()
+        Me.GroupBox10.PerformLayout
         Me.GroupBox11.ResumeLayout(False)
         Me.GroupBox12.ResumeLayout(False)
         Me.GroupBox13.ResumeLayout(False)
-        Me.GroupBox13.PerformLayout()
+        Me.GroupBox13.PerformLayout
         Me.GroupBox14.ResumeLayout(False)
         Me.GroupBox6.ResumeLayout(False)
         Me.GroupBox7.ResumeLayout(False)
-        Me.GroupBox7.PerformLayout()
+        Me.GroupBox7.PerformLayout
         Me.GroupBox8.ResumeLayout(False)
         Me.GroupBox70.ResumeLayout(False)
         Me.GroupBox5.ResumeLayout(False)
-        Me.GroupBox5.PerformLayout()
+        Me.GroupBox5.PerformLayout
         Me.GroupBox71.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.GroupBox74.ResumeLayout(False)
-        Me.GroupBox74.PerformLayout()
+        Me.GroupBox74.PerformLayout
         Me.GroupBox75.ResumeLayout(False)
-        Me.GroupBox75.PerformLayout()
+        Me.GroupBox75.PerformLayout
         Me.tab_man_stn4.ResumeLayout(False)
         Me.TabPage5.ResumeLayout(False)
         Me.GroupBox15.ResumeLayout(False)
         Me.GroupBox16.ResumeLayout(False)
-        Me.GroupBox16.PerformLayout()
+        Me.GroupBox16.PerformLayout
         Me.GroupBox17.ResumeLayout(False)
         Me.tab_man_stn5.ResumeLayout(False)
         Me.TabPage6.ResumeLayout(False)
-        Me.TabPage6.PerformLayout()
+        Me.TabPage6.PerformLayout
         Me.GroupBox24.ResumeLayout(False)
         Me.GroupBox25.ResumeLayout(False)
-        Me.GroupBox25.PerformLayout()
+        Me.GroupBox25.PerformLayout
         Me.GroupBox26.ResumeLayout(False)
         Me.GroupBox21.ResumeLayout(False)
         Me.GroupBox22.ResumeLayout(False)
-        Me.GroupBox22.PerformLayout()
+        Me.GroupBox22.PerformLayout
         Me.GroupBox23.ResumeLayout(False)
         Me.GroupBox18.ResumeLayout(False)
         Me.GroupBox19.ResumeLayout(False)
-        Me.GroupBox19.PerformLayout()
+        Me.GroupBox19.PerformLayout
         Me.GroupBox20.ResumeLayout(False)
         Me.tab_man_stn6.ResumeLayout(False)
         Me.TabPage7.ResumeLayout(False)
-        Me.TabPage7.PerformLayout()
+        Me.TabPage7.PerformLayout
         Me.GroupBox27.ResumeLayout(False)
         Me.GroupBox28.ResumeLayout(False)
-        Me.GroupBox28.PerformLayout()
+        Me.GroupBox28.PerformLayout
         Me.GroupBox29.ResumeLayout(False)
         Me.GroupBox30.ResumeLayout(False)
         Me.GroupBox31.ResumeLayout(False)
-        Me.GroupBox31.PerformLayout()
+        Me.GroupBox31.PerformLayout
         Me.GroupBox32.ResumeLayout(False)
         Me.GroupBox33.ResumeLayout(False)
         Me.GroupBox34.ResumeLayout(False)
-        Me.GroupBox34.PerformLayout()
+        Me.GroupBox34.PerformLayout
         Me.GroupBox35.ResumeLayout(False)
         Me.tab_mon_stn1.ResumeLayout(False)
         Me.TabPage8.ResumeLayout(False)
         Me.GroupBox36.ResumeLayout(False)
         Me.GroupBox38.ResumeLayout(False)
-        Me.GroupBox38.PerformLayout()
+        Me.GroupBox38.PerformLayout
         Me.GroupBox37.ResumeLayout(False)
-        Me.GroupBox37.PerformLayout()
+        Me.GroupBox37.PerformLayout
         Me.tab_mon_stn2.ResumeLayout(False)
         Me.home.ResumeLayout(False)
-        Me.home.PerformLayout()
+        Me.home.PerformLayout
         Me.GroupBox175.ResumeLayout(False)
-        Me.GroupBox175.PerformLayout()
+        Me.GroupBox175.PerformLayout
         Me.GroupBox78.ResumeLayout(False)
-        Me.GroupBox78.PerformLayout()
+        Me.GroupBox78.PerformLayout
         Me.GroupBox76.ResumeLayout(False)
-        Me.GroupBox76.PerformLayout()
+        Me.GroupBox76.PerformLayout
         Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
+        Me.GroupBox2.PerformLayout
         Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
+        Me.GroupBox1.PerformLayout
         Me.tabHome.ResumeLayout(False)
         Me.tab_mon_stn3.ResumeLayout(False)
         Me.TabPage10.ResumeLayout(False)
-        Me.TabPage10.PerformLayout()
+        Me.TabPage10.PerformLayout
         Me.GroupBox39.ResumeLayout(False)
         Me.GroupBox41.ResumeLayout(False)
-        Me.GroupBox41.PerformLayout()
+        Me.GroupBox41.PerformLayout
         Me.GroupBox40.ResumeLayout(False)
-        Me.GroupBox40.PerformLayout()
+        Me.GroupBox40.PerformLayout
         Me.GroupBox42.ResumeLayout(False)
         Me.GroupBox44.ResumeLayout(False)
-        Me.GroupBox44.PerformLayout()
+        Me.GroupBox44.PerformLayout
         Me.GroupBox43.ResumeLayout(False)
-        Me.GroupBox43.PerformLayout()
+        Me.GroupBox43.PerformLayout
         Me.GroupBox45.ResumeLayout(False)
         Me.GroupBox47.ResumeLayout(False)
-        Me.GroupBox47.PerformLayout()
+        Me.GroupBox47.PerformLayout
         Me.GroupBox46.ResumeLayout(False)
-        Me.GroupBox46.PerformLayout()
+        Me.GroupBox46.PerformLayout
         Me.GroupBox48.ResumeLayout(False)
         Me.GroupBox50.ResumeLayout(False)
-        Me.GroupBox50.PerformLayout()
+        Me.GroupBox50.PerformLayout
         Me.GroupBox49.ResumeLayout(False)
-        Me.GroupBox49.PerformLayout()
+        Me.GroupBox49.PerformLayout
         Me.tab_mon_stn4.ResumeLayout(False)
         Me.TabPage11.ResumeLayout(False)
         Me.GroupBox54.ResumeLayout(False)
         Me.GroupBox55.ResumeLayout(False)
-        Me.GroupBox55.PerformLayout()
+        Me.GroupBox55.PerformLayout
         Me.GroupBox56.ResumeLayout(False)
-        Me.GroupBox56.PerformLayout()
+        Me.GroupBox56.PerformLayout
         Me.tab_mon_stn5.ResumeLayout(False)
         Me.TabPage12.ResumeLayout(False)
-        Me.TabPage12.PerformLayout()
+        Me.TabPage12.PerformLayout
         Me.GroupBox57.ResumeLayout(False)
         Me.GroupBox58.ResumeLayout(False)
-        Me.GroupBox58.PerformLayout()
+        Me.GroupBox58.PerformLayout
         Me.GroupBox59.ResumeLayout(False)
-        Me.GroupBox59.PerformLayout()
+        Me.GroupBox59.PerformLayout
         Me.GroupBox60.ResumeLayout(False)
         Me.GroupBox61.ResumeLayout(False)
-        Me.GroupBox61.PerformLayout()
+        Me.GroupBox61.PerformLayout
         Me.GroupBox62.ResumeLayout(False)
-        Me.GroupBox62.PerformLayout()
+        Me.GroupBox62.PerformLayout
         Me.GroupBox63.ResumeLayout(False)
         Me.GroupBox64.ResumeLayout(False)
-        Me.GroupBox64.PerformLayout()
+        Me.GroupBox64.PerformLayout
         Me.GroupBox65.ResumeLayout(False)
-        Me.GroupBox65.PerformLayout()
+        Me.GroupBox65.PerformLayout
         Me.tab_mon_stn6.ResumeLayout(False)
         Me.TabPage13.ResumeLayout(False)
-        Me.TabPage13.PerformLayout()
+        Me.TabPage13.PerformLayout
         Me.GroupBox51.ResumeLayout(False)
         Me.GroupBox52.ResumeLayout(False)
-        Me.GroupBox52.PerformLayout()
+        Me.GroupBox52.PerformLayout
         Me.GroupBox53.ResumeLayout(False)
-        Me.GroupBox53.PerformLayout()
+        Me.GroupBox53.PerformLayout
         Me.GroupBox66.ResumeLayout(False)
         Me.GroupBox67.ResumeLayout(False)
-        Me.GroupBox67.PerformLayout()
+        Me.GroupBox67.PerformLayout
         Me.GroupBox68.ResumeLayout(False)
-        Me.GroupBox68.PerformLayout()
+        Me.GroupBox68.PerformLayout
         Me.GroupBox69.ResumeLayout(False)
         Me.GroupBox72.ResumeLayout(False)
-        Me.GroupBox72.PerformLayout()
+        Me.GroupBox72.PerformLayout
         Me.GroupBox73.ResumeLayout(False)
-        Me.GroupBox73.PerformLayout()
+        Me.GroupBox73.PerformLayout
         Me.tabSetting.ResumeLayout(False)
         Me.setting.ResumeLayout(False)
         Me.GroupBox179.ResumeLayout(False)
-        Me.GroupBox179.PerformLayout()
+        Me.GroupBox179.PerformLayout
         Me.GroupBox169.ResumeLayout(False)
-        Me.GroupBox169.PerformLayout()
+        Me.GroupBox169.PerformLayout
         Me.grp_plc.ResumeLayout(False)
-        Me.grp_plc.PerformLayout()
+        Me.grp_plc.PerformLayout
         Me.GroupBox177.ResumeLayout(False)
-        Me.GroupBox177.PerformLayout()
+        Me.GroupBox177.PerformLayout
         Me.GroupBox180.ResumeLayout(False)
-        Me.GroupBox180.PerformLayout()
-        CType(Me.MC_Status, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.status_bar, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn3_cyl3_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn3_cyl3_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn3_cyl4_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn3_cyl4_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn3_cyl2_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn3_cyl2_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn3_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn3_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn3_Rfesto_emg, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn3_Rfesto_svon, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn3_Rfesto_alm, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn3_Rfesto_hend, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn3_Rfesto_pend, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn3_Lfesto_emg, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn3_Lfesto_svon, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn3_Lfesto_alm, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn3_Lfesto_hend, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn3_Lfesto_pend, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn1_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn1_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_plc_status, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_software_open, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.connect_multi_ind, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_connect_plc, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn_6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn_3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn_5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn_2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn_4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn_1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.connect_laser_ind, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn6_cyl3_bw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn6_cyl3_fw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn6_cyl3_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn6_cyl3_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn6_cyl2_bw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn6_cyl2_fw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn6_cyl2_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn6_cyl2_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn6_cyl1_bw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn6_cyl1_fw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn6_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn6_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn5_cyl3_bw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn5_cyl3_fw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn5_cyl3_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn5_cyl3_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn5_cyl2_bw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn5_cyl2_fw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn5_cyl2_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn5_cyl2_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn5_cyl1_bw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn5_cyl1_fw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn5_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn5_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn4_cyl1_bw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn4_cyl1_fw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn4_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn4_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn3_cyl3_bw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn3_cyl3_fw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn3_cyl3_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn3_cyl3_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn3_cyl4_bw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn3_cyl4_fw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn3_cyl4_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn3_cyl4_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn3_cyl2_bw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn3_cyl2_fw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn3_cyl2_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn3_cyl2_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn3_cyl1_bw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn3_cyl1_fw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn3_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn3_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn1_cyl1_bw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ind_stn1_cyl1_fw, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn1_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mon_stn1_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn6_cyl3_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn6_cyl3_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn6_cyl2_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn6_cyl2_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn6_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn6_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn5_cyl3_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn5_cyl3_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn5_cyl2_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn5_cyl2_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn5_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn5_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn4_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.man_stn4_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox180.PerformLayout
+        CType(Me.MC_Status, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.status_bar, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn3_cyl3_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn3_cyl3_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn3_cyl4_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn3_cyl4_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn3_cyl2_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn3_cyl2_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn3_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn3_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn3_Rfesto_emg, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn3_Rfesto_svon, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn3_Rfesto_alm, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn3_Rfesto_hend, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn3_Rfesto_pend, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn3_Lfesto_emg, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn3_Lfesto_svon, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn3_Lfesto_alm, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn3_Lfesto_hend, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn3_Lfesto_pend, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn1_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn1_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_plc_status, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_software_open, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.connect_multi_ind, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_connect_plc, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn_6, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn_3, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn_5, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn_2, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn_4, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn_1, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.connect_laser_ind, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn6_cyl3_bw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn6_cyl3_fw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn6_cyl3_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn6_cyl3_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn6_cyl2_bw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn6_cyl2_fw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn6_cyl2_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn6_cyl2_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn6_cyl1_bw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn6_cyl1_fw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn6_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn6_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn5_cyl3_bw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn5_cyl3_fw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn5_cyl3_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn5_cyl3_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn5_cyl2_bw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn5_cyl2_fw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn5_cyl2_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn5_cyl2_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn5_cyl1_bw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn5_cyl1_fw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn5_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn5_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn4_cyl1_bw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn4_cyl1_fw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn4_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn4_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn3_cyl3_bw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn3_cyl3_fw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn3_cyl3_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn3_cyl3_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn3_cyl4_bw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn3_cyl4_fw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn3_cyl4_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn3_cyl4_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn3_cyl2_bw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn3_cyl2_fw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn3_cyl2_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn3_cyl2_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn3_cyl1_bw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn3_cyl1_fw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn3_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn3_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn1_cyl1_bw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.ind_stn1_cyl1_fw, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn1_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.mon_stn1_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn6_cyl3_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn6_cyl3_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn6_cyl2_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn6_cyl2_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn6_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn6_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn5_cyl3_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn5_cyl3_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn5_cyl2_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn5_cyl2_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn5_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn5_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn4_cyl1_min, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.man_stn4_cyl1_max, System.ComponentModel.ISupportInitialize).EndInit
         Me.ResumeLayout(False)
 
     End Sub
@@ -7820,21 +7864,10 @@ Partial Class MainForm
     Friend WithEvents ind_stn3_Lfesto_hend As PictureBox
     Friend WithEvents ind_stn3_Lfesto_pend As PictureBox
     Friend WithEvents GroupBox74 As GroupBox
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents Button13 As Button
-    Friend WithEvents Button14 As Button
-    Friend WithEvents Button15 As Button
-    Friend WithEvents Button16 As Button
-    Friend WithEvents Button17 As Button
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Label99 As Label
     Friend WithEvents Label100 As Label
     Friend WithEvents Label101 As Label
     Friend WithEvents Label102 As Label
-    Friend WithEvents Label103 As Label
-    Friend WithEvents Label104 As Label
     Friend WithEvents Label105 As Label
     Friend WithEvents ind_stn3_Rfesto_emg As PictureBox
     Friend WithEvents ind_stn3_Rfesto_svon As PictureBox
@@ -7854,4 +7887,19 @@ Partial Class MainForm
     Friend WithEvents Label95 As Label
     Friend WithEvents Label98 As Label
     Friend WithEvents Label97 As Label
+    Friend WithEvents Button17 As Button
+    Friend WithEvents Button16 As Button
+    Friend WithEvents Button15 As Button
+    Friend WithEvents Button14 As Button
+    Friend WithEvents Button13 As Button
+    Friend WithEvents Button12 As Button
+    Friend WithEvents Button11 As Button
+    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents Label103 As Label
+    Friend WithEvents Label104 As Label
+    Friend WithEvents Label107 As Label
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents Label106 As Label
 End Class
