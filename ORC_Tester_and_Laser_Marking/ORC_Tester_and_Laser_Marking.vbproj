@@ -200,5 +200,8 @@
   <ItemGroup>
     <None Include="Resources\led-red-on.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\led-green-on.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

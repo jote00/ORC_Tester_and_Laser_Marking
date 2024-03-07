@@ -1713,7 +1713,7 @@ Partial Class MainForm
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(118, 58)
         Me.Button11.TabIndex = 3
-        Me.Button11.Text = "FESTO ON"
+        Me.Button11.Text = "SERVO ON"
         Me.Button11.UseVisualStyleBackColor = False
         '
         'Button12
@@ -1956,7 +1956,7 @@ Partial Class MainForm
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(118, 58)
         Me.Button4.TabIndex = 3
-        Me.Button4.Text = "FESTO ON"
+        Me.Button4.Text = "SERVO ON"
         Me.Button4.UseVisualStyleBackColor = False
         '
         'Button10
@@ -7053,6 +7053,8 @@ Partial Class MainForm
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.tab_man_stn3)
+        Me.Controls.Add(Me.tab_man_stn2)
         Me.Controls.Add(Me.tab_man_stn1)
         Me.Controls.Add(Me.tabHome)
         Me.Controls.Add(Me.tabSetting)
@@ -7065,8 +7067,6 @@ Partial Class MainForm
         Me.Controls.Add(Me.tab_man_stn6)
         Me.Controls.Add(Me.tab_man_stn5)
         Me.Controls.Add(Me.tab_man_stn4)
-        Me.Controls.Add(Me.tab_man_stn3)
-        Me.Controls.Add(Me.tab_man_stn2)
         Me.Name = "MainForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "MainForm"

@@ -751,20 +751,20 @@ Public Class MainForm
                 'Station 1 ----------------------------------------------
                 'CylSen 1
                 If readS11.Length > 0 AndAlso readS11(0) = FORWARD Then
-                    man_stn1_cyl1_max.Image = My.Resources.led_red_on
+                    man_stn1_cyl1_max.Image = My.Resources.led_green_on
                     'mon_stn1_cyl1_max.Image = My.Resources.led_red_on
 
                 Else
-                    man_stn1_cyl1_max.Image = My.Resources.led_red_off
+                    man_stn1_cyl1_max.Image = My.Resources.led_red_on
                     'mon_stn1_cyl1_max.Image = My.Resources.led_red_off
                 End If
 
 
                 If readS11.Length > 0 AndAlso readS11(0) = BACKWARD Then
-                    man_stn1_cyl1_min.Image = My.Resources.led_red_on
+                    man_stn1_cyl1_min.Image = My.Resources.led_green_on
                     'mon_stn1_cyl1_min.Image = My.Resources.led_red_on
                 Else
-                    man_stn1_cyl1_min.Image = My.Resources.led_red_off
+                    man_stn1_cyl1_min.Image = My.Resources.led_red_on
                     'mon_stn1_cyl1_min.Image = My.Resources.led_red_off
                 End If
 
@@ -785,77 +785,77 @@ Public Class MainForm
                 'Station 3 ----------------------------------------------
                 'CylSen 1
                 If readS31.Length > 0 AndAlso readS31(0) = FORWARD Then
-                    man_stn3_cyl1_max.Image = My.Resources.led_red_on
+                    man_stn3_cyl1_max.Image = My.Resources.led_green_on
                     'mon_stn3_cyl1_max.Image = My.Resources.led_red_on
 
                 Else
-                    man_stn3_cyl1_max.Image = My.Resources.led_red_off
+                    man_stn3_cyl1_max.Image = My.Resources.led_red_on
                     'mon_stn3_cyl1_max.Image = My.Resources.led_red_off
                 End If
 
 
                 If readS31.Length > 0 AndAlso readS31(0) = BACKWARD Then
-                    man_stn3_cyl1_min.Image = My.Resources.led_red_on
+                    man_stn3_cyl1_min.Image = My.Resources.led_green_on
                     'mon_stn3_cyl1_min.Image = My.Resources.led_red_on
                 Else
-                    man_stn3_cyl1_min.Image = My.Resources.led_red_off
-                    mon_stn3_cyl1_min.Image = My.Resources.led_red_off
+                    man_stn3_cyl1_min.Image = My.Resources.led_red_on
+                    'mon_stn3_cyl1_min.Image = My.Resources.led_red_off
                 End If
 
                 'CylSen 2
                 If readS32.Length > 0 AndAlso readS32(0) = FORWARD Then
-                    man_stn3_cyl2_max.Image = My.Resources.led_red_on
+                    man_stn3_cyl2_max.Image = My.Resources.led_green_on
                     ' mon_stn3_cyl2_max.Image = My.Resources.led_red_on
 
                 Else
-                    man_stn3_cyl2_max.Image = My.Resources.led_red_off
+                    man_stn3_cyl2_max.Image = My.Resources.led_red_on
                     ' mon_stn3_cyl2_max.Image = My.Resources.led_red_off
                 End If
 
 
                 If readS32.Length > 0 AndAlso readS32(0) = BACKWARD Then
-                    man_stn3_cyl2_min.Image = My.Resources.led_red_on
+                    man_stn3_cyl2_min.Image = My.Resources.led_green_on
                     'mon_stn3_cyl2_min.Image = My.Resources.led_red_on
                 Else
-                    man_stn3_cyl2_min.Image = My.Resources.led_red_off
+                    man_stn3_cyl2_min.Image = My.Resources.led_red_on
                     'mon_stn3_cyl2_min.Image = My.Resources.led_red_off
                 End If
 
                 'CylSen 3
                 If readS33.Length > 0 AndAlso readS33(0) = FORWARD Then
-                    man_stn3_cyl3_max.Image = My.Resources.led_red_on
+                    man_stn3_cyl3_max.Image = My.Resources.led_green_on
                     'mon_stn3_cyl3_max.Image = My.Resources.led_red_on
 
                 Else
-                    man_stn3_cyl3_max.Image = My.Resources.led_red_off
+                    man_stn3_cyl3_max.Image = My.Resources.led_red_on
                     'mon_stn3_cyl3_max.Image = My.Resources.led_red_off
                 End If
 
 
                 If readS33.Length > 0 AndAlso readS33(0) = BACKWARD Then
-                    man_stn3_cyl3_min.Image = My.Resources.led_red_on
+                    man_stn3_cyl3_min.Image = My.Resources.led_green_on
                     'mon_stn3_cyl3_min.Image = My.Resources.led_red_on
                 Else
-                    man_stn3_cyl3_min.Image = My.Resources.led_red_off
+                    man_stn3_cyl3_min.Image = My.Resources.led_red_on
                     'mon_stn3_cyl3_min.Image = My.Resources.led_red_off
                 End If
 
                 'CylSen 4
                 If readS34.Length > 0 AndAlso readS34(0) = FORWARD Then
-                    man_stn3_cyl4_max.Image = My.Resources.led_red_on
+                    man_stn3_cyl4_max.Image = My.Resources.led_green_on
                     'mon_stn3_cyl4_max.Image = My.Resources.led_red_on
 
                 Else
-                    man_stn3_cyl4_max.Image = My.Resources.led_red_off
+                    man_stn3_cyl4_max.Image = My.Resources.led_red_on
                     'mon_stn3_cyl4_max.Image = My.Resources.led_red_off
                 End If
 
 
                 If readS34.Length > 0 AndAlso readS34(0) = BACKWARD Then
-                    man_stn3_cyl4_min.Image = My.Resources.led_red_on
+                    man_stn3_cyl4_min.Image = My.Resources.led_green_on
                     'mon_stn3_cyl4_min.Image = My.Resources.led_red_on
                 Else
-                    man_stn3_cyl4_min.Image = My.Resources.led_red_off
+                    man_stn3_cyl4_min.Image = My.Resources.led_red_on
                     'mon_stn3_cyl4_min.Image = My.Resources.led_red_off
                 End If
 
@@ -918,20 +918,20 @@ Public Class MainForm
                 'Station 4 ----------------------------------------------
                 'CylSen 1
                 If readS41.Length > 0 AndAlso readS41(0) = FORWARD Then
-                    man_stn4_cyl1_max.Image = My.Resources.led_red_on
+                    man_stn4_cyl1_max.Image = My.Resources.led_green_on
                     'mon_stn4_cyl1_max.Image = My.Resources.led_red_on
 
                 Else
-                    man_stn4_cyl1_max.Image = My.Resources.led_red_off
+                    man_stn4_cyl1_max.Image = My.Resources.led_red_on
                     'mon_stn4_cyl1_max.Image = My.Resources.led_red_off
                 End If
 
 
                 If readS41.Length > 0 AndAlso readS41(0) = BACKWARD Then
-                    man_stn4_cyl1_min.Image = My.Resources.led_red_on
+                    man_stn4_cyl1_min.Image = My.Resources.led_green_on
                     'mon_stn4_cyl1_min.Image = My.Resources.led_red_on
                 Else
-                    man_stn4_cyl1_min.Image = My.Resources.led_red_off
+                    man_stn4_cyl1_min.Image = My.Resources.led_red_on
                     'mon_stn4_cyl1_min.Image = My.Resources.led_red_off
                 End If
 
@@ -952,58 +952,58 @@ Public Class MainForm
                 'Station 5 ----------------------------------------------
                 'CylSen 1
                 If readS51.Length > 0 AndAlso readS51(0) = FORWARD Then
-                    man_stn5_cyl1_max.Image = My.Resources.led_red_on
+                    man_stn5_cyl1_max.Image = My.Resources.led_green_on
                     'mon_stn5_cyl1_max.Image = My.Resources.led_red_on
 
                 Else
-                    man_stn5_cyl1_max.Image = My.Resources.led_red_off
+                    man_stn5_cyl1_max.Image = My.Resources.led_red_on
                     'mon_stn5_cyl1_max.Image = My.Resources.led_red_off
                 End If
 
 
                 If readS51.Length > 0 AndAlso readS51(0) = BACKWARD Then
-                    man_stn5_cyl1_min.Image = My.Resources.led_red_on
+                    man_stn5_cyl1_min.Image = My.Resources.led_green_on
                     'mon_stn5_cyl1_min.Image = My.Resources.led_red_on
                 Else
-                    man_stn5_cyl1_min.Image = My.Resources.led_red_off
+                    man_stn5_cyl1_min.Image = My.Resources.led_red_on
                     'mon_stn5_cyl1_min.Image = My.Resources.led_red_off
                 End If
 
                 'CylSen 2
                 If readS52.Length > 0 AndAlso readS52(0) = FORWARD Then
-                    man_stn5_cyl2_max.Image = My.Resources.led_red_on
+                    man_stn5_cyl2_max.Image = My.Resources.led_green_on
                     'mon_stn3_cyl2_max.Image = My.Resources.led_red_on
 
                 Else
-                    man_stn5_cyl2_max.Image = My.Resources.led_red_off
+                    man_stn5_cyl2_max.Image = My.Resources.led_red_on
                     'mon_stn5_cyl2_max.Image = My.Resources.led_red_off
                 End If
 
 
                 If readS52.Length > 0 AndAlso readS52(0) = BACKWARD Then
-                    man_stn5_cyl2_min.Image = My.Resources.led_red_on
+                    man_stn5_cyl2_min.Image = My.Resources.led_green_on
                     'mon_stn5_cyl2_min.Image = My.Resources.led_red_on
                 Else
-                    man_stn5_cyl2_min.Image = My.Resources.led_red_off
+                    man_stn5_cyl2_min.Image = My.Resources.led_red_on
                     'mon_stn5_cyl2_min.Image = My.Resources.led_red_off
                 End If
 
                 'CylSen 3
                 If readS53.Length > 0 AndAlso readS53(0) = FORWARD Then
-                    man_stn5_cyl3_max.Image = My.Resources.led_red_on
+                    man_stn5_cyl3_max.Image = My.Resources.led_green_on
                     'mon_stn5_cyl3_max.Image = My.Resources.led_red_on
 
                 Else
-                    man_stn5_cyl3_max.Image = My.Resources.led_red_off
+                    man_stn5_cyl3_max.Image = My.Resources.led_red_on
                     'mon_stn5_cyl3_max.Image = My.Resources.led_red_off
                 End If
 
 
                 If readS53.Length > 0 AndAlso readS53(0) = BACKWARD Then
-                    man_stn5_cyl3_min.Image = My.Resources.led_red_on
+                    man_stn5_cyl3_min.Image = My.Resources.led_green_on
                     'mon_stn5_cyl3_min.Image = My.Resources.led_red_on
                 Else
-                    man_stn5_cyl3_min.Image = My.Resources.led_red_off
+                    man_stn5_cyl3_min.Image = My.Resources.led_red_on
                     'mon_stn5_cyl3_min.Image = My.Resources.led_red_off
                 End If
 
@@ -1052,58 +1052,58 @@ Public Class MainForm
                 'Station 6 ----------------------------------------------
                 'CylSen 1
                 If readS61.Length > 0 AndAlso readS61(0) = FORWARD Then
-                    man_stn6_cyl1_max.Image = My.Resources.led_red_on
+                    man_stn6_cyl1_max.Image = My.Resources.led_green_on
                     ' mon_stn6_cyl1_max.Image = My.Resources.led_red_on
 
                 Else
-                    man_stn6_cyl1_max.Image = My.Resources.led_red_off
+                    man_stn6_cyl1_max.Image = My.Resources.led_red_on
                     ' mon_stn6_cyl1_max.Image = My.Resources.led_red_off
                 End If
 
 
                 If readS61.Length > 0 AndAlso readS61(0) = BACKWARD Then
-                    man_stn6_cyl1_min.Image = My.Resources.led_red_on
+                    man_stn6_cyl1_min.Image = My.Resources.led_green_on
                     'mon_stn6_cyl1_min.Image = My.Resources.led_red_on
                 Else
-                    man_stn6_cyl1_min.Image = My.Resources.led_red_off
+                    man_stn6_cyl1_min.Image = My.Resources.led_red_on
                     'mon_stn6_cyl1_min.Image = My.Resources.led_red_off
                 End If
 
                 'CylSen 2
                 If readS62.Length > 0 AndAlso readS62(0) = FORWARD Then
-                    man_stn6_cyl2_max.Image = My.Resources.led_red_on
+                    man_stn6_cyl2_max.Image = My.Resources.led_green_on
                     'mon_stn6_cyl2_max.Image = My.Resources.led_red_on
 
                 Else
-                    man_stn6_cyl2_max.Image = My.Resources.led_red_off
+                    man_stn6_cyl2_max.Image = My.Resources.led_red_on
                     'mon_stn6_cyl2_max.Image = My.Resources.led_red_off
                 End If
 
 
                 If readS62.Length > 0 AndAlso readS62(0) = BACKWARD Then
-                    man_stn6_cyl2_min.Image = My.Resources.led_red_on
+                    man_stn6_cyl2_min.Image = My.Resources.led_green_on
                     'mon_stn6_cyl2_min.Image = My.Resources.led_red_on
                 Else
-                    man_stn6_cyl2_min.Image = My.Resources.led_red_off
+                    man_stn6_cyl2_min.Image = My.Resources.led_red_on
                     'mon_stn6_cyl2_min.Image = My.Resources.led_red_off
                 End If
 
                 'CylSen 3
                 If readS63.Length > 0 AndAlso readS63(0) = FORWARD Then
-                    man_stn6_cyl3_max.Image = My.Resources.led_red_on
+                    man_stn6_cyl3_max.Image = My.Resources.led_green_on
                     'mon_stn6_cyl3_max.Image = My.Resources.led_red_on
 
                 Else
-                    man_stn6_cyl3_max.Image = My.Resources.led_red_off
+                    man_stn6_cyl3_max.Image = My.Resources.led_red_on
                     'mon_stn6_cyl3_max.Image = My.Resources.led_red_off
                 End If
 
 
                 If readS63.Length > 0 AndAlso readS63(0) = BACKWARD Then
-                    man_stn6_cyl3_min.Image = My.Resources.led_red_on
+                    man_stn6_cyl3_min.Image = My.Resources.led_green_on
                     'mon_stn6_cyl3_min.Image = My.Resources.led_red_on
                 Else
-                    man_stn6_cyl3_min.Image = My.Resources.led_red_off
+                    man_stn6_cyl3_min.Image = My.Resources.led_red_on
                     'mon_stn6_cyl3_min.Image = My.Resources.led_red_off
                 End If
 
