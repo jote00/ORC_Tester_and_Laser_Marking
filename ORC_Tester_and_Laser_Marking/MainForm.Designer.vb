@@ -2000,6 +2000,7 @@ Partial Class MainForm
         '
         Me.btn_Lfesto_alarm.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btn_Lfesto_alarm.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_Lfesto_alarm.ForeColor = System.Drawing.Color.Black
         Me.btn_Lfesto_alarm.Location = New System.Drawing.Point(403, 398)
         Me.btn_Lfesto_alarm.Name = "btn_Lfesto_alarm"
         Me.btn_Lfesto_alarm.Size = New System.Drawing.Size(118, 58)
