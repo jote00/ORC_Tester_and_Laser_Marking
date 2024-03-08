@@ -65,7 +65,9 @@ Public Class MainForm
     'Private Sub btnMonitoring_Click(sender As Object, e As EventArgs) Handles btnMonitoring.Click
     '    ShowTabControl("monitoring")
     'End Sub
-
+    Private Sub btnReferences_Click(sender As Object, e As EventArgs) Handles btnReferences.Click
+        ShowTabControl("references")
+    End Sub
     Private Sub btnSetting_Click(sender As Object, e As EventArgs) Handles btnSetting.Click
         ShowTabControl("setting")
     End Sub
@@ -90,6 +92,12 @@ Public Class MainForm
             End If
         Else
             ShowButtonSTN(0)
+        End If
+
+        If mode = "references" Then
+            tabReferences.Visible = True
+        Else
+            tabReferences.Visible = False
         End If
 
         If mode = "setting" Then
@@ -1564,5 +1572,7 @@ Public Class MainForm
         btn_Rfesto_power.BackColor = originalColors.Item1
         btn_Rfesto_power.ForeColor = originalColors.Item2
     End Sub
+
+
 End Class
 
