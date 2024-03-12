@@ -328,39 +328,39 @@ Public Class MainForm
     '    End If
     'End Sub
 
-    Private Sub btn_stn1_cyl1_fw_Click(sender As Object, e As EventArgs) Handles btn_stn1_cyl1_fw.Click
-        If btn_stn1_cyl1_bw.Text = "Is Backward" Then
-            btn_stn1_cyl1_bw.PerformClick()
+    Private Sub btn_stn1_cyl1_fw_Click(sender As Object, e As EventArgs)
+        If btn_stn1_cyl1_bwd.Text = "Is Backward" Then
+            btn_stn1_cyl1_bwd.PerformClick()
         End If
 
-        If btn_stn1_cyl1_fw.Text = "Forward" Then
+        If btn_stn1_cyl1_fwd.Text = "Forward" Then
             'UpdateSTN1_CYL1(FORWARD)
             STN1_CYL1 = FORWARD
-            btn_stn1_cyl1_fw.Image = My.Resources.button_white_trnsprnt
-            btn_stn1_cyl1_fw.Text = "Is Forward"
-        ElseIf btn_stn1_cyl1_fw.Text = "Is Forward" Then
+            btn_stn1_cyl1_fwd.Image = My.Resources.button_white_trnsprnt
+            btn_stn1_cyl1_fwd.Text = "Is Forward"
+        ElseIf btn_stn1_cyl1_fwd.Text = "Is Forward" Then
             'UpdateSTN1_CYL1(IDLE)
             STN1_CYL1 = IDLE
-            btn_stn1_cyl1_fw.Image = My.Resources.button_silver_trnsprnt
-            btn_stn1_cyl1_fw.Text = "Forward"
+            btn_stn1_cyl1_fwd.Image = My.Resources.button_silver_trnsprnt
+            btn_stn1_cyl1_fwd.Text = "Forward"
         End If
     End Sub
 
-    Private Sub btn_stn1_cyl1_bw_Click(sender As Object, e As EventArgs) Handles btn_stn1_cyl1_bw.Click
-        If btn_stn1_cyl1_fw.Text = "Is Forward" Then
-            btn_stn1_cyl1_fw.PerformClick()
+    Private Sub btn_stn1_cyl1_bw_Click(sender As Object, e As EventArgs)
+        If btn_stn1_cyl1_fwd.Text = "Is Forward" Then
+            btn_stn1_cyl1_fwd.PerformClick()
         End If
 
-        If btn_stn1_cyl1_bw.Text = "Backward" Then
+        If btn_stn1_cyl1_bwd.Text = "Backward" Then
             'UpdateSTN1_CYL1(BACKWARD)
             STN1_CYL1 = BACKWARD
-            btn_stn1_cyl1_bw.Image = My.Resources.button_white_trnsprnt
-            btn_stn1_cyl1_bw.Text = "Is Backward"
-        ElseIf btn_stn1_cyl1_bw.Text = "Is Backward" Then
+            btn_stn1_cyl1_bwd.Image = My.Resources.button_white_trnsprnt
+            btn_stn1_cyl1_bwd.Text = "Is Backward"
+        ElseIf btn_stn1_cyl1_bwd.Text = "Is Backward" Then
             'UpdateSTN1_CYL1(IDLE)
             STN1_CYL1 = IDLE
-            btn_stn1_cyl1_bw.Image = My.Resources.button_silver_trnsprnt
-            btn_stn1_cyl1_bw.Text = "Backward"
+            btn_stn1_cyl1_bwd.Image = My.Resources.button_silver_trnsprnt
+            btn_stn1_cyl1_bwd.Text = "Backward"
         End If
     End Sub
 
@@ -500,35 +500,35 @@ Public Class MainForm
 
     'Button Manual Station 4
 
-    Private Sub btn_stn4_cyl1_fw_Click(sender As Object, e As EventArgs) Handles btn_stn4_cyl1_fw.Click
-        If btn_stn4_cyl1_bw.Text = "Is Backward" Then
-            btn_stn4_cyl1_bw.PerformClick()
+    Private Sub btn_stn4_cyl1_fw_Click(sender As Object, e As EventArgs)
+        If btn_stn4_cyl1_bwd.Text = "Is Backward" Then
+            btn_stn4_cyl1_bwd.PerformClick()
         End If
 
-        If btn_stn4_cyl1_fw.Text = "Forward" Then
+        If btn_stn4_cyl1_fwd.Text = "Forward" Then
             STN4_CYL1 = FORWARD
-            btn_stn4_cyl1_fw.Image = My.Resources.button_white_trnsprnt
-            btn_stn4_cyl1_fw.Text = "Is Forward"
-        ElseIf btn_stn4_cyl1_fw.Text = "Is Forward" Then
+            btn_stn4_cyl1_fwd.Image = My.Resources.button_white_trnsprnt
+            btn_stn4_cyl1_fwd.Text = "Is Forward"
+        ElseIf btn_stn4_cyl1_fwd.Text = "Is Forward" Then
             STN4_CYL1 = IDLE
-            btn_stn4_cyl1_fw.Image = My.Resources.button_silver_trnsprnt
-            btn_stn4_cyl1_fw.Text = "Forward"
+            btn_stn4_cyl1_fwd.Image = My.Resources.button_silver_trnsprnt
+            btn_stn4_cyl1_fwd.Text = "Forward"
         End If
     End Sub
 
-    Private Sub btn_stn4_cyl1_bw_Click(sender As Object, e As EventArgs) Handles btn_stn4_cyl1_bw.Click
-        If btn_stn4_cyl1_fw.Text = "Is Forward" Then
-            btn_stn4_cyl1_fw.PerformClick()
+    Private Sub btn_stn4_cyl1_bw_Click(sender As Object, e As EventArgs)
+        If btn_stn4_cyl1_fwd.Text = "Is Forward" Then
+            btn_stn4_cyl1_fwd.PerformClick()
         End If
 
-        If btn_stn4_cyl1_bw.Text = "Backward" Then
+        If btn_stn4_cyl1_bwd.Text = "Backward" Then
             STN4_CYL1 = BACKWARD
-            btn_stn4_cyl1_bw.Image = My.Resources.button_white_trnsprnt
-            btn_stn4_cyl1_bw.Text = "Is Backward"
-        ElseIf btn_stn4_cyl1_bw.Text = "Is Backward" Then
+            btn_stn4_cyl1_bwd.Image = My.Resources.button_white_trnsprnt
+            btn_stn4_cyl1_bwd.Text = "Is Backward"
+        ElseIf btn_stn4_cyl1_bwd.Text = "Is Backward" Then
             STN4_CYL1 = IDLE
-            btn_stn4_cyl1_bw.Image = My.Resources.button_silver_trnsprnt
-            btn_stn4_cyl1_bw.Text = "Backward"
+            btn_stn4_cyl1_bwd.Image = My.Resources.button_silver_trnsprnt
+            btn_stn4_cyl1_bwd.Text = "Backward"
         End If
     End Sub
 
@@ -805,20 +805,20 @@ Public Class MainForm
                 'Station 1 ----------------------------------------------
                 'CylSen 1
                 If readS11.Length > 0 AndAlso readS11(0) = FORWARD Then
-                    man_stn1_cyl1_max.Image = My.Resources.led_green_on
+                    man_stn1_cyl1_maxd.Image = My.Resources.led_green_on
                     'mon_stn1_cyl1_max.Image = My.Resources.led_red_on
 
                 Else
-                    man_stn1_cyl1_max.Image = My.Resources.led_red_on
+                    man_stn1_cyl1_maxd.Image = My.Resources.led_red_on
                     'mon_stn1_cyl1_max.Image = My.Resources.led_red_off
                 End If
 
 
                 If readS11.Length > 0 AndAlso readS11(0) = BACKWARD Then
-                    man_stn1_cyl1_min.Image = My.Resources.led_green_on
+                    man_stn1_cyl1_mind.Image = My.Resources.led_green_on
                     'mon_stn1_cyl1_min.Image = My.Resources.led_red_on
                 Else
-                    man_stn1_cyl1_min.Image = My.Resources.led_red_on
+                    man_stn1_cyl1_mind.Image = My.Resources.led_red_on
                     'mon_stn1_cyl1_min.Image = My.Resources.led_red_off
                 End If
 
@@ -1035,20 +1035,20 @@ Public Class MainForm
                 'Station 4 ----------------------------------------------
                 'CylSen 1
                 If readS41.Length > 0 AndAlso readS41(0) = FORWARD Then
-                    man_stn4_cyl1_max.Image = My.Resources.led_green_on
+                    man_stn4_cyl1_maxf.Image = My.Resources.led_green_on
                     'mon_stn4_cyl1_max.Image = My.Resources.led_red_on
 
                 Else
-                    man_stn4_cyl1_max.Image = My.Resources.led_red_on
+                    man_stn4_cyl1_maxf.Image = My.Resources.led_red_on
                     'mon_stn4_cyl1_max.Image = My.Resources.led_red_off
                 End If
 
 
                 If readS41.Length > 0 AndAlso readS41(0) = BACKWARD Then
-                    man_stn4_cyl1_min.Image = My.Resources.led_green_on
+                    man_stn4_cyl1_minc.Image = My.Resources.led_green_on
                     'mon_stn4_cyl1_min.Image = My.Resources.led_red_on
                 Else
-                    man_stn4_cyl1_min.Image = My.Resources.led_red_on
+                    man_stn4_cyl1_minc.Image = My.Resources.led_red_on
                     'mon_stn4_cyl1_min.Image = My.Resources.led_red_off
                 End If
 
@@ -1668,5 +1668,7 @@ Public Class MainForm
             MsgBox("Error " + ex.Message)
         End Try
     End Sub
+
+
 End Class
 
