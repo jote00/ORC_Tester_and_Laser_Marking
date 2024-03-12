@@ -1646,22 +1646,27 @@ Public Class MainForm
     End Sub
 
     Private Sub dgv_ref_CellDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgv_ref.CellDoubleClick
-        Call ConnectionDB.connection_db()
-        Dim sc As New SqlCommand("SELECT * FROM tbl_References WHERE [References]='" & dgv_ref.CurrentCell.Value & "'", ConnectionDB.Connection)
-        Dim rd As SqlDataReader = sc.ExecuteReader
-        rd.Read()
+        Try
 
-        tbx_ref.Text = dgv_ref.CurrentCell.Value
-        tbx_punching.Text = rd.Item("Punching Mode")
-        tbx_lvl_dist.Text = rd.Item("Level Distance")
-        tbx_lvl_toler.Text = rd.Item("Level Tolerance")
-        tbx_oring.Text = rd.Item("Oring Check")
-        tbx_Ldist.Text = rd.Item("Festo LEFT Distance")
-        tbx_Rdist.Text = rd.Item("Festo RIGHT Distance")
-        tbx_Lspeed.Text = rd.Item("Festo LEFT Speed")
-        tbx_Rspeed.Text = rd.Item("Festo RIGHT Speed")
-        tbx_laser_template.Text = rd.Item("Laser Template")
-        tbx_camera_program.Text = rd.Item("Camera Program")
+            Call ConnectionDB.connection_db()
+            Dim sc As New SqlCommand("SELECT * FROM tbl_References WHERE [References]='" & dgv_ref.CurrentCell.Value & "'", ConnectionDB.Connection)
+            Dim rd As SqlDataReader = sc.ExecuteReader
+            rd.Read()
+
+            tbx_ref.Text = dgv_ref.CurrentCell.Value
+            tbx_punching.Text = rd.Item("Punching Mode")
+            tbx_lvl_dist.Text = rd.Item("Level Distance")
+            tbx_lvl_toler.Text = rd.Item("Level Tolerance")
+            tbx_oring.Text = rd.Item("Oring Check")
+            tbx_Ldist.Text = rd.Item("Festo LEFT Distance")
+            tbx_Rdist.Text = rd.Item("Festo RIGHT Distance")
+            tbx_Lspeed.Text = rd.Item("Festo LEFT Speed")
+            tbx_Rspeed.Text = rd.Item("Festo RIGHT Speed")
+            tbx_laser_template.Text = rd.Item("Laser Template")
+            tbx_camera_program.Text = rd.Item("Camera Program")
+        Catch ex As Exception
+            MsgBox("Error " + ex.Message)
+        End Try
     End Sub
 End Class
 
