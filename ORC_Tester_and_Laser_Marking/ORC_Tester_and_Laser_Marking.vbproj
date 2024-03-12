@@ -48,6 +48,9 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ControlBPM">
+      <HintPath>..\Libraries\libraries\ControlBPM.dll</HintPath>
+    </Reference>
     <Reference Include="EasyModbus, Version=5.6.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\EasyModbusTCP.5.6.0\lib\net40\EasyModbus.dll</HintPath>
     </Reference>
@@ -76,6 +79,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConnectionDB.vb" />
     <Compile Include="Declaration.vb" />
     <Compile Include="LoadingForm.Designer.vb">
       <DependentUpon>LoadingForm.vb</DependentUpon>

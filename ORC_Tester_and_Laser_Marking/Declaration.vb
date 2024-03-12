@@ -1,6 +1,14 @@
 ﻿Module Declaration
-
+    Public Config As New machineConfig
     Public MODBUS_ERR
+
+
+    Public Structure machineConfig
+        Dim dbHostName As String
+        Dim dbUsername As String
+        Dim dbPassword As String
+        Dim dbDatabase As String
+    End Structure
 
     'For Cylinder  ----------------------------------------------
     Public FORWARD As Integer = 1
