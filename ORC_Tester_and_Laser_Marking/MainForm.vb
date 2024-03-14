@@ -2,16 +2,15 @@
 Imports System.Data.SqlClient
 Imports System.IO
 Imports ControlBPM
-
 Public Class MainForm
-
-    Dim statioWrite As Thread
+    Dim stationWrite As Thread
     Dim stationRead As Thread
     Dim ManualState As Boolean
 
     Dim fullPath As String = System.AppDomain.CurrentDomain.BaseDirectory
     Dim projectFolder As String = fullPath.Replace("\ORC_Tester_and_Laser_Marking\bin\Debug\", "").Replace("\ORC_Tester_and_Laser_Marking\bin\Release\", "")
     Dim iniPath As String = projectFolder + "\Config\Config.INI"
+    Dim logFileName As String = $"Log_{Date.Now.ToString("yyyyMMdd")}.csv"
     'Dim EmgState As Integer = 0
 
     Private Sub MainForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -20,11 +19,12 @@ Public Class MainForm
 
         stationRead = New Thread(AddressOf plcReading)
         stationRead.Start()
-        statioWrite = New Thread(AddressOf plcWriting)
-        statioWrite.Start()
+        stationWrite = New Thread(AddressOf plcWriting)
+        stationWrite.Start()
 
         ShowTabControl("home")
         ShowTabManual("None")
+
 
 
         'Fungsi Auto Connect
@@ -34,12 +34,10 @@ Public Class MainForm
         If Connected() Then
             btn_connect_plc.Text = "Disconnect"
             ind_connect_plc.BackColor = Color.LawnGreen
-            ind_plc_status.BackColor = Color.LawnGreen
             ModbusRW.Enabled = True
             MODBUS_ERR = False
         Else
-            ind_connect_plc.BackColor = Color.DarkRed
-            ind_plc_status.BackColor = Color.DarkRed
+            ind_connect_plc.BackColor = Color.Red
             ModbusRW.Enabled = False
             MODBUS_ERR = True
         End If
@@ -52,6 +50,7 @@ Public Class MainForm
 
         End With
 
+        Status.Enabled = True
     End Sub
 
 
@@ -82,6 +81,13 @@ Public Class MainForm
         dgv_ref.ColumnHeadersDefaultCellStyle.Font = New Font("Arial", 10)
         dgv_ref.DefaultCellStyle.Font = New Font("Arial", 10)
     End Sub
+
+    Private Sub btnLog_Click(sender As Object, e As EventArgs) Handles btnLog.Click
+        dgv_log.ColumnHeadersDefaultCellStyle.Font = New Font("Arial", 10)
+        dgv_log.DefaultCellStyle.Font = New Font("Arial", 10)
+        ShowTabControl("log")
+    End Sub
+
     Private Sub btnSetting_Click(sender As Object, e As EventArgs) Handles btnSetting.Click
         ShowTabControl("setting")
     End Sub
@@ -112,6 +118,12 @@ Public Class MainForm
             tabReferences.Visible = True
         Else
             tabReferences.Visible = False
+        End If
+
+        If mode = "log" Then
+            tabLog.Visible = True
+        Else
+            tabLog.Visible = False
         End If
 
         If mode = "setting" Then
@@ -254,7 +266,6 @@ Public Class MainForm
 
                     btn_connect_plc.Text = "Disconnect"
                     ind_connect_plc.BackColor = Color.LawnGreen
-                    ind_plc_status.BackColor = Color.LawnGreen
                     ModbusRW.Enabled = True
                     MODBUS_ERR = False
 
@@ -273,8 +284,7 @@ Public Class MainForm
                 If Not Connected() Then
 
                     btn_connect_plc.Text = "Connect"
-                    ind_connect_plc.BackColor = Color.Green
-                    ind_plc_status.BackColor = Color.Green
+                    ind_connect_plc.BackColor = Color.Red
                     ModbusRW.Enabled = False
                 End If
 
@@ -783,6 +793,14 @@ Public Class MainForm
                 Dim readRSVON As Integer = ReadBit(ADDR_STN3_IND_RFESTO, 3)
                 Dim readREMG As Integer = ReadBit(ADDR_STN3_IND_RFESTO, 4)
 
+
+                'Check PLC
+                PLC_READY = Modbus.ReadModbus(ADDR_PLC_READY, 1)(0)
+                If PLC_READY Then
+                    ind_plc_status.BackColor = Color.Lime
+                Else
+                    ind_plc_status.BackColor = Color.Red
+                End If
 
 
                 'Text Box Festo read ----------------------------------------------
@@ -1588,6 +1606,132 @@ Public Class MainForm
     End Sub
 
 
+
+    '###############################################################################################################################################################################################
+    'SCANNER
+
+    'Private Sub Status_Tick(sender As Object, e As EventArgs) Handles Status.Tick
+    '    Select Case SCAN_MODE
+    '        Case 0
+    '            If txt_ref.Text <> "" Then
+    '                Call ConnectionDB.connection_db()
+
+    '                Dim sc As New SqlCommand("SELECT * FROM tbl_References WHERE [References]='" & txt_ref.Text & "'", ConnectionDB.Connection)
+    '                Dim rd As SqlDataReader = sc.ExecuteReader
+    '                rd.Read()
+    '                If Not rd.HasRows Then
+    '                    'txt_msg.Text = "Invalid Reference"
+    '                    txt_ref.Text = ""
+    '                    Exit Sub
+    '                End If
+
+    '                SCAN_MODE = 1
+    '            End If
+    '        Case 1
+    '            If txt_ope_id.Text <> "" Then
+    '                SCAN_MODE = 2
+    '            End If
+    '        Case 2
+    '            If txt_po_num.Text <> "" Then
+    '                'Insert data to database
+    '                Call ConnectionDB.connection_db()
+    '                Dim sc As New SqlCommand("SELECT * FROM tbl_References WHERE [References]='" & txt_ref.Text & "'", ConnectionDB.Connection)
+    '                Dim rd As SqlDataReader = sc.ExecuteReader
+    '                rd.Read()
+
+
+
+    '                'write to plc
+    '                Modbus.WriteModbus(ADDR_PUNCHING_MODE, rd.Item("Punching Mode"))
+    '                Modbus.WriteDataFloat(ADDR_LVL_DIST, Single.Parse(rd.Item("Level Distance").Replace(",", ".")))
+    '                Modbus.WriteDataFloat(ADDR_LVL_TOLER, Single.Parse(rd.Item("Level Tolerance").Replace(",", ".")))
+    '                Modbus.WriteModbus(ADDR_ORING, rd.Item("Oring Check"))
+    '                Modbus.WriteModbus(ADDR_FESTO_LDIST, rd.Item("Festo LEFT Distance"))
+    '                Modbus.WriteModbus(ADDR_FESTO_RDIST, rd.Item("Festo RIGHT Distance"))
+    '                Modbus.WriteModbus(ADDR_FESTO_LSPEED, rd.Item("Festo LEFT Speed"))
+    '                Modbus.WriteModbus(ADDR_FESTO_RSPEED, rd.Item("Festo RIGHT Distance"))
+    '                Modbus.WriteModbus(ADDR_LASER_TEMPLATE, rd.Item("Laser Tempalte"))
+    '                Modbus.WriteModbus(ADDR_CAMERA_PROGRAM, rd.Item("Camera Program"))
+
+    '                '    Select Case LASER_STATE
+    '                '        Case 0
+    '                '            Laser.GetMarkStatus
+    '                '            If Laser.ReadData("2") Then
+    '                '                LASER_STATE += 1
+    '                '            End If
+    '                '        Case 1
+    '                '            Laser.SetMarkingTemplate(rd.Item("Laser Template"))
+    '                '            If Laser.ReadData("Ok") Then
+    '                '                LASER_STATE += 1
+    '                '            End If
+    '                '        Case 2
+    '                '            SCAN_MODE = 3
+    '                '    End Select
+
+    '                SCAN_MODE = 3
+    '            End If
+    '    End Select
+    'End Sub
+
+    Private Sub Status_Tick(sender As Object, e As EventArgs) Handles Status.Tick
+        Select Case SCAN_MODE
+            Case 0
+                If txt_ref.Text <> "" Then
+                    Call ConnectionDB.connection_db()
+                    Dim sc As New SqlCommand("SELECT * FROM tbl_References WHERE [References]=@Reference", ConnectionDB.Connection)
+                    sc.Parameters.AddWithValue("@Reference", txt_ref.Text)
+                    Dim rd As SqlDataReader = sc.ExecuteReader()
+
+                    If rd.HasRows Then
+                        SCAN_MODE = 1
+                    Else
+                        MsgBox("Invalid Reference")
+                        txt_ref.Text = ""
+                    End If
+
+                    rd.Close()
+                End If
+
+            Case 1
+                If txt_ope_id.Text <> "" Then
+                    SCAN_MODE = 2
+                End If
+
+            Case 2
+                If txt_po_num.Text <> "" Then
+                    Call ConnectionDB.connection_db()
+                    Dim sc As New SqlCommand("SELECT * FROM tbl_References WHERE [References]=@Reference", ConnectionDB.Connection)
+                    sc.Parameters.AddWithValue("@Reference", txt_ref.Text)
+                    Dim rd As SqlDataReader = sc.ExecuteReader()
+
+                    If rd.HasRows Then
+                        rd.Read()
+                        Modbus.WriteModbus(ADDR_PUNCHING_MODE, rd.Item("Punching Mode"))
+                        Modbus.WriteDataFloat(ADDR_LVL_DIST, Single.Parse(rd.Item("Level Distance").Replace(",", ".")))
+                        Modbus.WriteDataFloat(ADDR_LVL_TOLER, Single.Parse(rd.Item("Level Tolerance").Replace(",", ".")))
+                        Modbus.WriteModbus(ADDR_ORING, rd.Item("Oring Check"))
+                        Modbus.WriteDataFloat(ADDR_FESTO_LDIST, rd.Item("Festo LEFT Distance"))
+                        Modbus.WriteDataFloat(ADDR_FESTO_RDIST, rd.Item("Festo RIGHT Distance"))
+                        Modbus.WriteModbus(ADDR_FESTO_LSPEED, rd.Item("Festo LEFT Speed"))
+                        Modbus.WriteModbus(ADDR_FESTO_RSPEED, rd.Item("Festo RIGHT Distance"))
+                        Modbus.WriteModbus(ADDR_LASER_TEMPLATE, rd.Item("Laser Template"))
+                        Modbus.WriteModbus(ADDR_CAMERA_PROGRAM, rd.Item("Camera Program"))
+
+
+
+                        SCAN_MODE = 3
+                    Else
+                        MsgBox("Invalid Reference")
+                        txt_ref.Text = ""
+                    End If
+
+                    rd.Close()
+                End If
+        End Select
+    End Sub
+
+
+
     '###############################################################################################################################################################################################
     'Tab References
 
@@ -1666,6 +1810,74 @@ Public Class MainForm
             tbx_camera_program.Text = rd.Item("Camera Program")
         Catch ex As Exception
             MsgBox("Error " + ex.Message)
+        End Try
+    End Sub
+
+    '###############################################################################################################################################################################################
+    'Tab Data Logger
+
+    Public Sub Save_Datalog()
+        Try
+            DateTimePickerStartDate.Value = Now.Today
+            DateTimePickerEndDate.Value = Now.Today
+            Dim range1 As String = DateTimePickerStartDate.Value.ToString("yyyy-MM-dd 00:00:00")
+            Dim range2 As String = DateTimePickerEndDate.Value.ToString("yyyy-MM-dd 23:59:59")
+
+            Call ConnectionDB.connection_db()
+            ' Try
+            Dim sc As New SqlCommand("SELECT * FROM tb_data WHERE [Date Time] BETWEEN '" + range1 + "' AND '" + range2 + "' ORDER BY [Sequence Number] ASC", ConnectionDB.Connection)
+            Dim adapter As New SqlDataAdapter(sc)
+            Dim ds As New DataSet
+
+            adapter.Fill(ds)
+            dgv_log.DataSource = ds.Tables(0)
+
+            dgv_log.ClearSelection()
+
+            logFileName = $"Log_{Date.Now.ToString("yyyyMMdd")}.csv"
+            Dim strFile As String = projectFolder & "\Log\" & logFileName
+            Dim fileExists As Boolean = File.Exists(strFile)
+
+            If dgv_log.RowCount > 0 Then
+                Dim value As String = ""
+                Dim dr As New DataGridViewRow()
+
+                Dim swOut As StreamWriter = File.CreateText(strFile)
+
+                'write header rows to csv
+                For i As Integer = 0 To dgv_log.Columns.Count - 1
+                    If i > 0 Then
+                        swOut.Write(";")
+                    End If
+                    swOut.Write(dgv_log.Columns(i).HeaderText)
+                Next
+
+                swOut.WriteLine()
+
+                'write DataGridView rows to csv
+                For j As Integer = 0 To dgv_log.Rows.Count - 1
+                    If j > 0 Then
+                        swOut.WriteLine()
+                    End If
+
+                    dr = dgv_log.Rows(j)
+
+                    For i As Integer = 0 To dgv_log.Columns.Count - 1
+                        If i > 0 Then
+                            swOut.Write(";")
+                        End If
+                        If IsDBNull(dr.Cells(i).Value) Then
+                            value = "0"
+                        Else
+                            value = CStr(dr.Cells(i).Value)
+                        End If
+                        swOut.Write(value)
+                    Next
+                Next
+                swOut.Close()
+            End If
+        Catch ex As Exception
+
         End Try
     End Sub
 

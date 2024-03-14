@@ -142,4 +142,47 @@ Module Modbus
 
         End Try
     End Sub
+
+    Private Sub WriteHelperFloat(Value As Single, StartAddress As Integer)
+
+        Dim values() As Integer = ConvertFloat2DW(Value)
+        modbus_Client.WriteMultipleRegisters(StartAddress, values)
+
+    End Sub
+
+    Private Function ConvertFloat2DW(fval As Single) As Integer()
+        Dim byVals As Byte() = BitConverter.GetBytes(fval)
+
+        ' Swap the byte order for "Float Swap" format
+        Dim bytes(3) As Byte
+        bytes(0) = byVals(2)
+        bytes(1) = byVals(3)
+        bytes(2) = byVals(0)
+        bytes(3) = byVals(1)
+
+        ' Convert to Short array for Modbus WriteMultipleRegisters
+        Dim values(1) As Short
+        values(0) = BitConverter.ToInt16(bytes, 0)
+        values(1) = BitConverter.ToInt16(bytes, 2)
+
+        ' Convert to Integer array for Modbus WriteMultipleRegisters
+        Dim result(1) As Integer
+        result(0) = values(1)
+        result(1) = values(0)
+
+        Return result
+    End Function
+
+    Public Sub WriteDataFloat(StartAddress As Integer, Value As String)
+        Try
+            WriteHelperFloat(Value, StartAddress)
+        Catch ex As Exception
+            MODBUS_ERR = True
+            'MsgBox("Modbus Error Write! " & ex.Message)
+            If MainForm.btn_connect_plc.Text = "Disconnect" Then
+                MainForm.btn_connect_plc.PerformClick()
+            End If
+        End Try
+    End Sub
+
 End Module
