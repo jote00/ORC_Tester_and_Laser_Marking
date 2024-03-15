@@ -331,8 +331,6 @@ Partial Class MainForm
         Me.ind_plc_status = New System.Windows.Forms.PictureBox()
         Me.Label64 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.btn_stop = New System.Windows.Forms.Button()
-        Me.btn_run = New System.Windows.Forms.Button()
         Me.ind_software_stop = New System.Windows.Forms.PictureBox()
         Me.ind_software_run = New System.Windows.Forms.PictureBox()
         Me.ind_software_open = New System.Windows.Forms.PictureBox()
@@ -3660,7 +3658,7 @@ Partial Class MainForm
         Me.GroupBox78.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox78.Name = "GroupBox78"
         Me.GroupBox78.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox78.Size = New System.Drawing.Size(648, 408)
+        Me.GroupBox78.Size = New System.Drawing.Size(648, 222)
         Me.GroupBox78.TabIndex = 62
         Me.GroupBox78.TabStop = False
         Me.GroupBox78.Text = "Production Data :"
@@ -3694,9 +3692,9 @@ Partial Class MainForm
         Me.Label84.Location = New System.Drawing.Point(8, 171)
         Me.Label84.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label84.Name = "Label84"
-        Me.Label84.Size = New System.Drawing.Size(71, 18)
+        Me.Label84.Size = New System.Drawing.Size(188, 18)
         Me.Label84.TabIndex = 36
-        Me.Label84.Text = "Unknown"
+        Me.Label84.Text = "ST5 Camera Result RIGHT"
         '
         'laabel2
         '
@@ -3716,9 +3714,9 @@ Partial Class MainForm
         Me.Label116.Location = New System.Drawing.Point(8, 86)
         Me.Label116.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label116.Name = "Label116"
-        Me.Label116.Size = New System.Drawing.Size(142, 18)
+        Me.Label116.Size = New System.Drawing.Size(170, 18)
         Me.Label116.TabIndex = 36
-        Me.Label116.Text = "ST3 Measurement 1"
+        Me.Label116.Text = "ST3 Measurement LEFT"
         '
         'Label117
         '
@@ -3749,9 +3747,9 @@ Partial Class MainForm
         Me.Label257.Location = New System.Drawing.Point(8, 143)
         Me.Label257.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label257.Name = "Label257"
-        Me.Label257.Size = New System.Drawing.Size(71, 18)
+        Me.Label257.Size = New System.Drawing.Size(182, 18)
         Me.Label257.TabIndex = 36
-        Me.Label257.Text = "Unknown"
+        Me.Label257.Text = "ST5 Camera Result LEFT "
         '
         'Label119
         '
@@ -3760,9 +3758,9 @@ Partial Class MainForm
         Me.Label119.Location = New System.Drawing.Point(8, 114)
         Me.Label119.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label119.Name = "Label119"
-        Me.Label119.Size = New System.Drawing.Size(142, 18)
+        Me.Label119.Size = New System.Drawing.Size(180, 18)
         Me.Label119.TabIndex = 36
-        Me.Label119.Text = "ST3 Measurement 2"
+        Me.Label119.Text = "ST3 Measurement RIGHT"
         '
         'laabel1
         '
@@ -3771,9 +3769,9 @@ Partial Class MainForm
         Me.laabel1.Location = New System.Drawing.Point(8, 198)
         Me.laabel1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.laabel1.Name = "laabel1"
-        Me.laabel1.Size = New System.Drawing.Size(71, 18)
+        Me.laabel1.Size = New System.Drawing.Size(106, 18)
         Me.laabel1.TabIndex = 36
-        Me.laabel1.Text = "Unknown"
+        Me.laabel1.Text = "Product Result"
         '
         'Label121
         '
@@ -4660,10 +4658,10 @@ Partial Class MainForm
         '
         Me.txt_alarm_copy.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txt_alarm_copy.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_alarm_copy.Location = New System.Drawing.Point(400, 591)
+        Me.txt_alarm_copy.Location = New System.Drawing.Point(400, 419)
         Me.txt_alarm_copy.Margin = New System.Windows.Forms.Padding(4)
         Me.txt_alarm_copy.Name = "txt_alarm_copy"
-        Me.txt_alarm_copy.Size = New System.Drawing.Size(647, 59)
+        Me.txt_alarm_copy.Size = New System.Drawing.Size(647, 129)
         Me.txt_alarm_copy.TabIndex = 59
         Me.txt_alarm_copy.Text = ""
         '
@@ -4672,7 +4670,7 @@ Partial Class MainForm
         Me.GroupBox76.Controls.Add(Me.ind_plc_status)
         Me.GroupBox76.Controls.Add(Me.Label64)
         Me.GroupBox76.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox76.Location = New System.Drawing.Point(66, 575)
+        Me.GroupBox76.Location = New System.Drawing.Point(66, 555)
         Me.GroupBox76.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox76.Name = "GroupBox76"
         Me.GroupBox76.Padding = New System.Windows.Forms.Padding(4)
@@ -4704,8 +4702,6 @@ Partial Class MainForm
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.btn_stop)
-        Me.GroupBox2.Controls.Add(Me.btn_run)
         Me.GroupBox2.Controls.Add(Me.ind_software_stop)
         Me.GroupBox2.Controls.Add(Me.ind_software_run)
         Me.GroupBox2.Controls.Add(Me.ind_software_open)
@@ -4713,36 +4709,12 @@ Partial Class MainForm
         Me.GroupBox2.Controls.Add(Me.Label1)
         Me.GroupBox2.Controls.Add(Me.Label65)
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(66, 382)
+        Me.GroupBox2.Location = New System.Drawing.Point(66, 407)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(267, 187)
+        Me.GroupBox2.Size = New System.Drawing.Size(267, 141)
         Me.GroupBox2.TabIndex = 1
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "PC Status"
-        '
-        'btn_stop
-        '
-        Me.btn_stop.FlatAppearance.BorderSize = 0
-        Me.btn_stop.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_stop.Location = New System.Drawing.Point(139, 134)
-        Me.btn_stop.Margin = New System.Windows.Forms.Padding(4)
-        Me.btn_stop.Name = "btn_stop"
-        Me.btn_stop.Size = New System.Drawing.Size(112, 41)
-        Me.btn_stop.TabIndex = 68
-        Me.btn_stop.Text = "Stop"
-        Me.btn_stop.UseVisualStyleBackColor = True
-        '
-        'btn_run
-        '
-        Me.btn_run.FlatAppearance.BorderSize = 0
-        Me.btn_run.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_run.Location = New System.Drawing.Point(22, 134)
-        Me.btn_run.Margin = New System.Windows.Forms.Padding(4)
-        Me.btn_run.Name = "btn_run"
-        Me.btn_run.Size = New System.Drawing.Size(109, 41)
-        Me.btn_run.TabIndex = 67
-        Me.btn_run.Text = "Run "
-        Me.btn_run.UseVisualStyleBackColor = True
         '
         'ind_software_stop
         '
@@ -8363,8 +8335,6 @@ Partial Class MainForm
     Friend WithEvents ind_plc_status As PictureBox
     Friend WithEvents Label64 As Label
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents btn_stop As Button
-    Friend WithEvents btn_run As Button
     Friend WithEvents ind_software_stop As PictureBox
     Friend WithEvents ind_software_run As PictureBox
     Friend WithEvents ind_software_open As PictureBox

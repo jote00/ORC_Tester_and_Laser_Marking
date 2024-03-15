@@ -2,6 +2,7 @@
     Public Config As New machineConfig
     Public MODBUS_ERR As Boolean = False
 
+    Public ADDR_TEST As Integer = 9090
 
     Public Structure machineConfig
         Dim dbHostName As String
@@ -13,9 +14,9 @@
     Public PLC_READY As Integer = 0
     Public ADDR_PLC_READY As Integer = 60200
     Public RUNNING_STATE As Integer = 0
-    Public ADDR_RUNNING_STATE As Integer
+    Public ADDR_RUNNING_STATE As Integer = 2
     Public RUNNING_MODE As Integer = 0
-    Public ADDR_RUNNING_MODE As Integer
+    Public ADDR_RUNNING_MODE As Integer = 1
 
     Public SCAN_MODE As Integer = 0
     Public LASER_STATE As Integer = 0

@@ -37,10 +37,18 @@ Public Class MainForm
             ModbusRW.Enabled = True
             MODBUS_ERR = False
         Else
+            btn_connect_plc.Text = "Connect"
             ind_connect_plc.BackColor = Color.Red
             ModbusRW.Enabled = False
             MODBUS_ERR = True
         End If
+
+        'If Disconnect() Then
+        '    btn_connect_plc.Text = "Connect"
+        '    ind_connect_plc.BackColor = Color.Red
+        '    ModbusRW.Enabled = False
+        '    MODBUS_ERR = True
+        'End If
 
         With Config
             .dbHostName = ReadINI(iniPath, "DATABASE", "Hostname")
@@ -796,11 +804,24 @@ Public Class MainForm
 
                 'Check PLC
                 PLC_READY = Modbus.ReadModbus(ADDR_PLC_READY, 1)(0)
-                If PLC_READY Then
+                If PLC_READY = 1 Then
                     ind_plc_status.BackColor = Color.Lime
                 Else
                     ind_plc_status.BackColor = Color.Red
                 End If
+
+                'Running Mode
+                RUNNING_MODE = Modbus.ReadModbus(ADDR_RUNNING_MODE, 1)(0)
+                Me.Invoke(Sub()
+                              Select Case RUNNING_MODE
+                                  Case 0
+                                      lbl_auto_man.Text = "..."
+                                  Case 1
+                                      lbl_auto_man.Text = "AUTO"
+                                  Case 2
+                                      lbl_auto_man.Text = "MANUAL"
+                              End Select
+                          End Sub)
 
 
                 'Text Box Festo read ----------------------------------------------
@@ -814,7 +835,6 @@ Public Class MainForm
                               tbx_Rfesto_speed.Text = ReadModbus(ADDR_STN3_SPD_RFESTO, 1)(0)
                               tbx_Rfesto_alarm.Text = ReadModbus(ADDR_STN3_ALM_RFESTO, 1)(0)
                           End Sub)
-
 
 
 
@@ -1242,6 +1262,7 @@ Public Class MainForm
                     'mon_stn6_cyl3_min.Image = My.Resources.led_red_off
                 End If
 
+
                 'CylAct 1
 
                 'If readA61(0) = FORWARD Then
@@ -1302,6 +1323,7 @@ Public Class MainForm
             Modbus.WriteModbus(address, IDLE)
         End If
     End Sub
+
 
     Private Sub plcWriting()
         Do
@@ -1646,11 +1668,11 @@ Public Class MainForm
     '                Modbus.WriteDataFloat(ADDR_LVL_DIST, Single.Parse(rd.Item("Level Distance").Replace(",", ".")))
     '                Modbus.WriteDataFloat(ADDR_LVL_TOLER, Single.Parse(rd.Item("Level Tolerance").Replace(",", ".")))
     '                Modbus.WriteModbus(ADDR_ORING, rd.Item("Oring Check"))
-    '                Modbus.WriteModbus(ADDR_FESTO_LDIST, rd.Item("Festo LEFT Distance"))
-    '                Modbus.WriteModbus(ADDR_FESTO_RDIST, rd.Item("Festo RIGHT Distance"))
+    '                Modbus.WriteDoubleInteger(ADDR_FESTO_LDIST, rd.Item("Festo LEFT Distance"))
+    '                Modbus.WriteDoubleInteger(ADDR_FESTO_RDIST, rd.Item("Festo RIGHT Distance"))
     '                Modbus.WriteModbus(ADDR_FESTO_LSPEED, rd.Item("Festo LEFT Speed"))
-    '                Modbus.WriteModbus(ADDR_FESTO_RSPEED, rd.Item("Festo RIGHT Distance"))
-    '                Modbus.WriteModbus(ADDR_LASER_TEMPLATE, rd.Item("Laser Tempalte"))
+    '                Modbus.WriteModbus(ADDR_FESTO_RSPEED, rd.Item("Festo RIGHT Speed"))
+    '                Modbus.WriteModbus(ADDR_LASER_TEMPLATE, rd.Item("Laser Template"))
     '                Modbus.WriteModbus(ADDR_CAMERA_PROGRAM, rd.Item("Camera Program"))
 
     '                '    Select Case LASER_STATE
@@ -1710,10 +1732,10 @@ Public Class MainForm
                         Modbus.WriteDataFloat(ADDR_LVL_DIST, Single.Parse(rd.Item("Level Distance").Replace(",", ".")))
                         Modbus.WriteDataFloat(ADDR_LVL_TOLER, Single.Parse(rd.Item("Level Tolerance").Replace(",", ".")))
                         Modbus.WriteModbus(ADDR_ORING, rd.Item("Oring Check"))
-                        Modbus.WriteDataFloat(ADDR_FESTO_LDIST, rd.Item("Festo LEFT Distance"))
-                        Modbus.WriteDataFloat(ADDR_FESTO_RDIST, rd.Item("Festo RIGHT Distance"))
+                        Modbus.WriteDoubleInteger(ADDR_FESTO_LDIST, rd.Item("Festo LEFT Distance"))
+                        Modbus.WriteDoubleInteger(ADDR_FESTO_RDIST, rd.Item("Festo RIGHT Distance"))
                         Modbus.WriteModbus(ADDR_FESTO_LSPEED, rd.Item("Festo LEFT Speed"))
-                        Modbus.WriteModbus(ADDR_FESTO_RSPEED, rd.Item("Festo RIGHT Distance"))
+                        Modbus.WriteModbus(ADDR_FESTO_RSPEED, rd.Item("Festo RIGHT Speed"))
                         Modbus.WriteModbus(ADDR_LASER_TEMPLATE, rd.Item("Laser Template"))
                         Modbus.WriteModbus(ADDR_CAMERA_PROGRAM, rd.Item("Camera Program"))
 
