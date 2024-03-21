@@ -829,16 +829,18 @@ Partial Class MainForm
         Me.Panel1.Controls.Add(Me.PictureBox3)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1424, 136)
+        Me.Panel1.Size = New System.Drawing.Size(1899, 167)
         Me.Panel1.TabIndex = 0
         '
         'MC_Status
         '
         Me.MC_Status.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.mark_ok
-        Me.MC_Status.Location = New System.Drawing.Point(1111, 22)
+        Me.MC_Status.Location = New System.Drawing.Point(1481, 27)
+        Me.MC_Status.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MC_Status.Name = "MC_Status"
-        Me.MC_Status.Size = New System.Drawing.Size(79, 79)
+        Me.MC_Status.Size = New System.Drawing.Size(105, 97)
         Me.MC_Status.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.MC_Status.TabIndex = 117
         Me.MC_Status.TabStop = False
@@ -850,10 +852,10 @@ Partial Class MainForm
         Me.lbl_date.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.lbl_date.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_date.ForeColor = System.Drawing.Color.White
-        Me.lbl_date.Location = New System.Drawing.Point(912, 76)
-        Me.lbl_date.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_date.Location = New System.Drawing.Point(1216, 94)
+        Me.lbl_date.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_date.Name = "lbl_date"
-        Me.lbl_date.Size = New System.Drawing.Size(122, 25)
+        Me.lbl_date.Size = New System.Drawing.Size(152, 31)
         Me.lbl_date.TabIndex = 94
         Me.lbl_date.Text = "00-00-0000"
         '
@@ -864,10 +866,10 @@ Partial Class MainForm
         Me.lbl_curr_time.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.lbl_curr_time.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_curr_time.ForeColor = System.Drawing.Color.White
-        Me.lbl_curr_time.Location = New System.Drawing.Point(938, 28)
-        Me.lbl_curr_time.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_curr_time.Location = New System.Drawing.Point(1251, 34)
+        Me.lbl_curr_time.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_curr_time.Name = "lbl_curr_time"
-        Me.lbl_curr_time.Size = New System.Drawing.Size(96, 25)
+        Me.lbl_curr_time.Size = New System.Drawing.Size(120, 31)
         Me.lbl_curr_time.TabIndex = 93
         Me.lbl_curr_time.Text = "12:00:00"
         '
@@ -878,10 +880,10 @@ Partial Class MainForm
         Me.lbl_run_state.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.lbl_run_state.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_run_state.ForeColor = System.Drawing.Color.White
-        Me.lbl_run_state.Location = New System.Drawing.Point(354, 67)
-        Me.lbl_run_state.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_run_state.Location = New System.Drawing.Point(472, 82)
+        Me.lbl_run_state.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_run_state.Name = "lbl_run_state"
-        Me.lbl_run_state.Size = New System.Drawing.Size(112, 25)
+        Me.lbl_run_state.Size = New System.Drawing.Size(144, 31)
         Me.lbl_run_state.TabIndex = 92
         Me.lbl_run_state.Text = "STOPPED"
         '
@@ -892,10 +894,10 @@ Partial Class MainForm
         Me.lbl_auto_man.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.lbl_auto_man.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_auto_man.ForeColor = System.Drawing.Color.White
-        Me.lbl_auto_man.Location = New System.Drawing.Point(354, 28)
-        Me.lbl_auto_man.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_auto_man.Location = New System.Drawing.Point(472, 34)
+        Me.lbl_auto_man.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_auto_man.Name = "lbl_auto_man"
-        Me.lbl_auto_man.Size = New System.Drawing.Size(100, 25)
+        Me.lbl_auto_man.Size = New System.Drawing.Size(127, 31)
         Me.lbl_auto_man.TabIndex = 91
         Me.lbl_auto_man.Text = "MANUAL"
         '
@@ -903,10 +905,10 @@ Partial Class MainForm
         '
         Me.status_bar.BackColor = System.Drawing.SystemColors.Control
         Me.status_bar.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.GUI___SignUpButtonOn40
-        Me.status_bar.Location = New System.Drawing.Point(332, 13)
-        Me.status_bar.Margin = New System.Windows.Forms.Padding(4)
+        Me.status_bar.Location = New System.Drawing.Point(443, 16)
+        Me.status_bar.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.status_bar.Name = "status_bar"
-        Me.status_bar.Size = New System.Drawing.Size(721, 97)
+        Me.status_bar.Size = New System.Drawing.Size(961, 119)
         Me.status_bar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.status_bar.TabIndex = 87
         Me.status_bar.TabStop = False
@@ -914,10 +916,10 @@ Partial Class MainForm
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.telemecanique_sensors_logo_transparent
-        Me.PictureBox3.Location = New System.Drawing.Point(13, 13)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox3.Location = New System.Drawing.Point(17, 16)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(288, 79)
+        Me.PictureBox3.Size = New System.Drawing.Size(384, 97)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox3.TabIndex = 58
         Me.PictureBox3.TabStop = False
@@ -932,9 +934,10 @@ Partial Class MainForm
         Me.panel11111.Controls.Add(Me.btnSTN2)
         Me.panel11111.Controls.Add(Me.btnSTN1)
         Me.panel11111.Dock = System.Windows.Forms.DockStyle.Right
-        Me.panel11111.Location = New System.Drawing.Point(1344, 136)
+        Me.panel11111.Location = New System.Drawing.Point(1792, 167)
+        Me.panel11111.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.panel11111.Name = "panel11111"
-        Me.panel11111.Size = New System.Drawing.Size(80, 709)
+        Me.panel11111.Size = New System.Drawing.Size(107, 873)
         Me.panel11111.TabIndex = 2
         '
         'btnSTN6
@@ -942,10 +945,10 @@ Partial Class MainForm
         Me.btnSTN6.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.btnSTN6.FlatAppearance.BorderSize = 0
         Me.btnSTN6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSTN6.Location = New System.Drawing.Point(4, 372)
-        Me.btnSTN6.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnSTN6.Location = New System.Drawing.Point(5, 458)
+        Me.btnSTN6.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btnSTN6.Name = "btnSTN6"
-        Me.btnSTN6.Size = New System.Drawing.Size(72, 65)
+        Me.btnSTN6.Size = New System.Drawing.Size(96, 80)
         Me.btnSTN6.TabIndex = 68
         Me.btnSTN6.Text = "ST 6"
         Me.btnSTN6.UseVisualStyleBackColor = False
@@ -955,9 +958,10 @@ Partial Class MainForm
         Me.btnMonitoring.FlatAppearance.BorderSize = 0
         Me.btnMonitoring.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnMonitoring.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.icons8_monitor_56
-        Me.btnMonitoring.Location = New System.Drawing.Point(8, 622)
+        Me.btnMonitoring.Location = New System.Drawing.Point(11, 766)
+        Me.btnMonitoring.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnMonitoring.Name = "btnMonitoring"
-        Me.btnMonitoring.Size = New System.Drawing.Size(60, 84)
+        Me.btnMonitoring.Size = New System.Drawing.Size(80, 103)
         Me.btnMonitoring.TabIndex = 6
         Me.btnMonitoring.Text = "Monitor"
         Me.btnMonitoring.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -969,10 +973,10 @@ Partial Class MainForm
         Me.btnSTN5.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.btnSTN5.FlatAppearance.BorderSize = 0
         Me.btnSTN5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSTN5.Location = New System.Drawing.Point(4, 299)
-        Me.btnSTN5.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnSTN5.Location = New System.Drawing.Point(5, 368)
+        Me.btnSTN5.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btnSTN5.Name = "btnSTN5"
-        Me.btnSTN5.Size = New System.Drawing.Size(72, 65)
+        Me.btnSTN5.Size = New System.Drawing.Size(96, 80)
         Me.btnSTN5.TabIndex = 68
         Me.btnSTN5.Text = "ST 5"
         Me.btnSTN5.UseVisualStyleBackColor = False
@@ -982,10 +986,10 @@ Partial Class MainForm
         Me.btnSTN4.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.btnSTN4.FlatAppearance.BorderSize = 0
         Me.btnSTN4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSTN4.Location = New System.Drawing.Point(4, 226)
-        Me.btnSTN4.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnSTN4.Location = New System.Drawing.Point(5, 278)
+        Me.btnSTN4.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btnSTN4.Name = "btnSTN4"
-        Me.btnSTN4.Size = New System.Drawing.Size(72, 65)
+        Me.btnSTN4.Size = New System.Drawing.Size(96, 80)
         Me.btnSTN4.TabIndex = 68
         Me.btnSTN4.Text = "ST 4"
         Me.btnSTN4.UseVisualStyleBackColor = False
@@ -995,10 +999,10 @@ Partial Class MainForm
         Me.btnSTN3.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.btnSTN3.FlatAppearance.BorderSize = 0
         Me.btnSTN3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSTN3.Location = New System.Drawing.Point(4, 153)
-        Me.btnSTN3.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnSTN3.Location = New System.Drawing.Point(5, 188)
+        Me.btnSTN3.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btnSTN3.Name = "btnSTN3"
-        Me.btnSTN3.Size = New System.Drawing.Size(72, 65)
+        Me.btnSTN3.Size = New System.Drawing.Size(96, 80)
         Me.btnSTN3.TabIndex = 68
         Me.btnSTN3.Text = "ST 3"
         Me.btnSTN3.UseVisualStyleBackColor = False
@@ -1008,10 +1012,10 @@ Partial Class MainForm
         Me.btnSTN2.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.btnSTN2.FlatAppearance.BorderSize = 0
         Me.btnSTN2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSTN2.Location = New System.Drawing.Point(4, 80)
-        Me.btnSTN2.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnSTN2.Location = New System.Drawing.Point(5, 98)
+        Me.btnSTN2.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btnSTN2.Name = "btnSTN2"
-        Me.btnSTN2.Size = New System.Drawing.Size(72, 65)
+        Me.btnSTN2.Size = New System.Drawing.Size(96, 80)
         Me.btnSTN2.TabIndex = 68
         Me.btnSTN2.Text = "ST 2"
         Me.btnSTN2.UseVisualStyleBackColor = False
@@ -1021,10 +1025,10 @@ Partial Class MainForm
         Me.btnSTN1.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.btnSTN1.FlatAppearance.BorderSize = 0
         Me.btnSTN1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSTN1.Location = New System.Drawing.Point(4, 7)
-        Me.btnSTN1.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnSTN1.Location = New System.Drawing.Point(5, 9)
+        Me.btnSTN1.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btnSTN1.Name = "btnSTN1"
-        Me.btnSTN1.Size = New System.Drawing.Size(72, 65)
+        Me.btnSTN1.Size = New System.Drawing.Size(96, 80)
         Me.btnSTN1.TabIndex = 67
         Me.btnSTN1.Text = "ST 1"
         Me.btnSTN1.UseVisualStyleBackColor = False
@@ -1038,9 +1042,10 @@ Partial Class MainForm
         Me.Panel3.Controls.Add(Me.btnManual)
         Me.Panel3.Controls.Add(Me.btnHome)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Panel3.Location = New System.Drawing.Point(0, 136)
+        Me.Panel3.Location = New System.Drawing.Point(0, 167)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(80, 709)
+        Me.Panel3.Size = New System.Drawing.Size(107, 873)
         Me.Panel3.TabIndex = 4
         '
         'Button3
@@ -1049,9 +1054,10 @@ Partial Class MainForm
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.icons8_siren_56
-        Me.Button3.Location = New System.Drawing.Point(3, 285)
+        Me.Button3.Location = New System.Drawing.Point(4, 351)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(74, 88)
+        Me.Button3.Size = New System.Drawing.Size(99, 108)
         Me.Button3.TabIndex = 10
         Me.Button3.Text = "Alarm"
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1063,9 +1069,10 @@ Partial Class MainForm
         Me.btnLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnLog.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLog.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.icons8_log_56
-        Me.btnLog.Location = New System.Drawing.Point(3, 379)
+        Me.btnLog.Location = New System.Drawing.Point(4, 466)
+        Me.btnLog.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnLog.Name = "btnLog"
-        Me.btnLog.Size = New System.Drawing.Size(74, 88)
+        Me.btnLog.Size = New System.Drawing.Size(99, 108)
         Me.btnLog.TabIndex = 9
         Me.btnLog.Text = "Log"
         Me.btnLog.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1078,9 +1085,10 @@ Partial Class MainForm
         Me.btnReferences.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnReferences.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnReferences.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.icons8_open_book_56
-        Me.btnReferences.Location = New System.Drawing.Point(3, 191)
+        Me.btnReferences.Location = New System.Drawing.Point(4, 235)
+        Me.btnReferences.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnReferences.Name = "btnReferences"
-        Me.btnReferences.Size = New System.Drawing.Size(74, 88)
+        Me.btnReferences.Size = New System.Drawing.Size(99, 108)
         Me.btnReferences.TabIndex = 8
         Me.btnReferences.Text = "References"
         Me.btnReferences.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1092,9 +1100,10 @@ Partial Class MainForm
         Me.btnSetting.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSetting.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSetting.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.icons8_setting_56
-        Me.btnSetting.Location = New System.Drawing.Point(3, 473)
+        Me.btnSetting.Location = New System.Drawing.Point(4, 582)
+        Me.btnSetting.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnSetting.Name = "btnSetting"
-        Me.btnSetting.Size = New System.Drawing.Size(74, 88)
+        Me.btnSetting.Size = New System.Drawing.Size(99, 108)
         Me.btnSetting.TabIndex = 7
         Me.btnSetting.Text = "Setting"
         Me.btnSetting.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1106,9 +1115,10 @@ Partial Class MainForm
         Me.btnManual.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnManual.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnManual.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.icons8_manual_56
-        Me.btnManual.Location = New System.Drawing.Point(3, 97)
+        Me.btnManual.Location = New System.Drawing.Point(4, 119)
+        Me.btnManual.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnManual.Name = "btnManual"
-        Me.btnManual.Size = New System.Drawing.Size(74, 88)
+        Me.btnManual.Size = New System.Drawing.Size(99, 108)
         Me.btnManual.TabIndex = 5
         Me.btnManual.Text = "Manual"
         Me.btnManual.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1120,9 +1130,10 @@ Partial Class MainForm
         Me.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnHome.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnHome.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.icons8_home_56
-        Me.btnHome.Location = New System.Drawing.Point(3, 3)
+        Me.btnHome.Location = New System.Drawing.Point(4, 4)
+        Me.btnHome.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnHome.Name = "btnHome"
-        Me.btnHome.Size = New System.Drawing.Size(74, 88)
+        Me.btnHome.Size = New System.Drawing.Size(99, 108)
         Me.btnHome.TabIndex = 3
         Me.btnHome.Text = "Home"
         Me.btnHome.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1132,10 +1143,11 @@ Partial Class MainForm
         '
         Me.tab_man_stn1.Controls.Add(Me.TabPage2)
         Me.tab_man_stn1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tab_man_stn1.Location = New System.Drawing.Point(86, 142)
+        Me.tab_man_stn1.Location = New System.Drawing.Point(115, 175)
+        Me.tab_man_stn1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tab_man_stn1.Name = "tab_man_stn1"
         Me.tab_man_stn1.SelectedIndex = 0
-        Me.tab_man_stn1.Size = New System.Drawing.Size(1252, 700)
+        Me.tab_man_stn1.Size = New System.Drawing.Size(1669, 862)
         Me.tab_man_stn1.TabIndex = 6
         Me.tab_man_stn1.Visible = False
         '
@@ -1143,10 +1155,11 @@ Partial Class MainForm
         '
         Me.TabPage2.Controls.Add(Me.GroupBox77)
         Me.TabPage2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabPage2.Location = New System.Drawing.Point(4, 38)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 45)
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(1244, 658)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage2.Size = New System.Drawing.Size(1661, 813)
         Me.TabPage2.TabIndex = 2
         Me.TabPage2.Text = "Station 1"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -1157,11 +1170,11 @@ Partial Class MainForm
         Me.GroupBox77.Controls.Add(Me.GroupBox79)
         Me.GroupBox77.Controls.Add(Me.GroupBox80)
         Me.GroupBox77.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox77.Location = New System.Drawing.Point(28, 18)
-        Me.GroupBox77.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox77.Location = New System.Drawing.Point(37, 22)
+        Me.GroupBox77.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox77.Name = "GroupBox77"
-        Me.GroupBox77.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox77.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox77.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox77.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox77.TabIndex = 46
         Me.GroupBox77.TabStop = False
         Me.GroupBox77.Text = "V101"
@@ -1173,11 +1186,11 @@ Partial Class MainForm
         Me.GroupBox79.Controls.Add(Me.Label109)
         Me.GroupBox79.Controls.Add(Me.man_stn1_cyl1_max)
         Me.GroupBox79.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox79.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox79.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox79.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox79.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox79.Name = "GroupBox79"
-        Me.GroupBox79.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox79.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox79.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox79.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox79.TabIndex = 46
         Me.GroupBox79.TabStop = False
         Me.GroupBox79.Text = "Sensor"
@@ -1186,20 +1199,20 @@ Partial Class MainForm
         '
         Me.Label108.AutoSize = True
         Me.Label108.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label108.Location = New System.Drawing.Point(23, 192)
-        Me.Label108.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label108.Location = New System.Drawing.Point(31, 236)
+        Me.Label108.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label108.Name = "Label108"
-        Me.Label108.Size = New System.Drawing.Size(64, 18)
+        Me.Label108.Size = New System.Drawing.Size(83, 24)
         Me.Label108.TabIndex = 46
         Me.Label108.Text = "Minimun"
         '
         'man_stn1_cyl1_min
         '
         Me.man_stn1_cyl1_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn1_cyl1_min.Location = New System.Drawing.Point(8, 147)
-        Me.man_stn1_cyl1_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn1_cyl1_min.Location = New System.Drawing.Point(11, 181)
+        Me.man_stn1_cyl1_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn1_cyl1_min.Name = "man_stn1_cyl1_min"
-        Me.man_stn1_cyl1_min.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn1_cyl1_min.Size = New System.Drawing.Size(143, 50)
         Me.man_stn1_cyl1_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn1_cyl1_min.TabIndex = 3
         Me.man_stn1_cyl1_min.TabStop = False
@@ -1208,20 +1221,20 @@ Partial Class MainForm
         '
         Me.Label109.AutoSize = True
         Me.Label109.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label109.Location = New System.Drawing.Point(23, 96)
-        Me.Label109.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label109.Location = New System.Drawing.Point(31, 118)
+        Me.Label109.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label109.Name = "Label109"
-        Me.Label109.Size = New System.Drawing.Size(73, 18)
+        Me.Label109.Size = New System.Drawing.Size(93, 24)
         Me.Label109.TabIndex = 2
         Me.Label109.Text = "Maximum"
         '
         'man_stn1_cyl1_max
         '
         Me.man_stn1_cyl1_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn1_cyl1_max.Location = New System.Drawing.Point(8, 51)
-        Me.man_stn1_cyl1_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn1_cyl1_max.Location = New System.Drawing.Point(11, 63)
+        Me.man_stn1_cyl1_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn1_cyl1_max.Name = "man_stn1_cyl1_max"
-        Me.man_stn1_cyl1_max.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn1_cyl1_max.Size = New System.Drawing.Size(143, 50)
         Me.man_stn1_cyl1_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn1_cyl1_max.TabIndex = 1
         Me.man_stn1_cyl1_max.TabStop = False
@@ -1231,11 +1244,11 @@ Partial Class MainForm
         Me.GroupBox80.Controls.Add(Me.btn_stn1_cyl1_bw)
         Me.GroupBox80.Controls.Add(Me.btn_stn1_cyl1_fw)
         Me.GroupBox80.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox80.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox80.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox80.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox80.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox80.Name = "GroupBox80"
-        Me.GroupBox80.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox80.Size = New System.Drawing.Size(120, 238)
+        Me.GroupBox80.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox80.Size = New System.Drawing.Size(160, 293)
         Me.GroupBox80.TabIndex = 4
         Me.GroupBox80.TabStop = False
         Me.GroupBox80.Text = "Button"
@@ -1247,9 +1260,10 @@ Partial Class MainForm
         Me.btn_stn1_cyl1_bw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn1_cyl1_bw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn1_cyl1_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn1_cyl1_bw.Location = New System.Drawing.Point(7, 125)
+        Me.btn_stn1_cyl1_bw.Location = New System.Drawing.Point(9, 154)
+        Me.btn_stn1_cyl1_bw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn1_cyl1_bw.Name = "btn_stn1_cyl1_bw"
-        Me.btn_stn1_cyl1_bw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn1_cyl1_bw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn1_cyl1_bw.TabIndex = 46
         Me.btn_stn1_cyl1_bw.Text = "Backward"
         Me.btn_stn1_cyl1_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1262,9 +1276,10 @@ Partial Class MainForm
         Me.btn_stn1_cyl1_fw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn1_cyl1_fw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn1_cyl1_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn1_cyl1_fw.Location = New System.Drawing.Point(7, 29)
+        Me.btn_stn1_cyl1_fw.Location = New System.Drawing.Point(9, 36)
+        Me.btn_stn1_cyl1_fw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn1_cyl1_fw.Name = "btn_stn1_cyl1_fw"
-        Me.btn_stn1_cyl1_fw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn1_cyl1_fw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn1_cyl1_fw.TabIndex = 0
         Me.btn_stn1_cyl1_fw.Text = "Forward"
         Me.btn_stn1_cyl1_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1274,20 +1289,22 @@ Partial Class MainForm
         '
         Me.tab_man_stn2.Controls.Add(Me.TabPage3)
         Me.tab_man_stn2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tab_man_stn2.Location = New System.Drawing.Point(86, 142)
+        Me.tab_man_stn2.Location = New System.Drawing.Point(115, 175)
+        Me.tab_man_stn2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tab_man_stn2.Name = "tab_man_stn2"
         Me.tab_man_stn2.SelectedIndex = 0
-        Me.tab_man_stn2.Size = New System.Drawing.Size(1252, 700)
+        Me.tab_man_stn2.Size = New System.Drawing.Size(1669, 862)
         Me.tab_man_stn2.TabIndex = 7
         Me.tab_man_stn2.Visible = False
         '
         'TabPage3
         '
         Me.TabPage3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabPage3.Location = New System.Drawing.Point(4, 38)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 45)
+        Me.TabPage3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(1244, 658)
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage3.Size = New System.Drawing.Size(1661, 813)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Station 2"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -1297,10 +1314,11 @@ Partial Class MainForm
         Me.tab_man_stn3.Controls.Add(Me.TabPage4)
         Me.tab_man_stn3.Controls.Add(Me.TabPage1)
         Me.tab_man_stn3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tab_man_stn3.Location = New System.Drawing.Point(86, 142)
+        Me.tab_man_stn3.Location = New System.Drawing.Point(115, 175)
+        Me.tab_man_stn3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tab_man_stn3.Name = "tab_man_stn3"
         Me.tab_man_stn3.SelectedIndex = 0
-        Me.tab_man_stn3.Size = New System.Drawing.Size(1252, 700)
+        Me.tab_man_stn3.Size = New System.Drawing.Size(1669, 862)
         Me.tab_man_stn3.TabIndex = 8
         Me.tab_man_stn3.Visible = False
         '
@@ -1311,10 +1329,11 @@ Partial Class MainForm
         Me.TabPage4.Controls.Add(Me.GroupBox6)
         Me.TabPage4.Controls.Add(Me.GroupBox70)
         Me.TabPage4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabPage4.Location = New System.Drawing.Point(4, 38)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 45)
+        Me.TabPage4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage4.Size = New System.Drawing.Size(1244, 658)
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage4.Size = New System.Drawing.Size(1661, 813)
         Me.TabPage4.TabIndex = 2
         Me.TabPage4.Text = "Station 3"
         Me.TabPage4.UseVisualStyleBackColor = True
@@ -1325,11 +1344,11 @@ Partial Class MainForm
         Me.GroupBox9.Controls.Add(Me.GroupBox10)
         Me.GroupBox9.Controls.Add(Me.GroupBox11)
         Me.GroupBox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox9.Location = New System.Drawing.Point(382, 18)
-        Me.GroupBox9.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox9.Location = New System.Drawing.Point(509, 22)
+        Me.GroupBox9.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox9.Name = "GroupBox9"
-        Me.GroupBox9.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox9.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox9.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox9.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox9.TabIndex = 47
         Me.GroupBox9.TabStop = False
         Me.GroupBox9.Text = "V303"
@@ -1341,11 +1360,11 @@ Partial Class MainForm
         Me.GroupBox10.Controls.Add(Me.Label10)
         Me.GroupBox10.Controls.Add(Me.man_stn3_cyl3_max)
         Me.GroupBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox10.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox10.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox10.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox10.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox10.Name = "GroupBox10"
-        Me.GroupBox10.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox10.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox10.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox10.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox10.TabIndex = 46
         Me.GroupBox10.TabStop = False
         Me.GroupBox10.Text = "Sensor"
@@ -1354,20 +1373,20 @@ Partial Class MainForm
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(23, 192)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label9.Location = New System.Drawing.Point(31, 236)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(64, 18)
+        Me.Label9.Size = New System.Drawing.Size(83, 24)
         Me.Label9.TabIndex = 46
         Me.Label9.Text = "Minimun"
         '
         'man_stn3_cyl3_min
         '
         Me.man_stn3_cyl3_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn3_cyl3_min.Location = New System.Drawing.Point(8, 147)
-        Me.man_stn3_cyl3_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn3_cyl3_min.Location = New System.Drawing.Point(11, 181)
+        Me.man_stn3_cyl3_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn3_cyl3_min.Name = "man_stn3_cyl3_min"
-        Me.man_stn3_cyl3_min.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn3_cyl3_min.Size = New System.Drawing.Size(143, 50)
         Me.man_stn3_cyl3_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn3_cyl3_min.TabIndex = 3
         Me.man_stn3_cyl3_min.TabStop = False
@@ -1376,20 +1395,20 @@ Partial Class MainForm
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(23, 96)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label10.Location = New System.Drawing.Point(31, 118)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(73, 18)
+        Me.Label10.Size = New System.Drawing.Size(93, 24)
         Me.Label10.TabIndex = 2
         Me.Label10.Text = "Maximum"
         '
         'man_stn3_cyl3_max
         '
         Me.man_stn3_cyl3_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn3_cyl3_max.Location = New System.Drawing.Point(8, 51)
-        Me.man_stn3_cyl3_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn3_cyl3_max.Location = New System.Drawing.Point(11, 63)
+        Me.man_stn3_cyl3_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn3_cyl3_max.Name = "man_stn3_cyl3_max"
-        Me.man_stn3_cyl3_max.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn3_cyl3_max.Size = New System.Drawing.Size(143, 50)
         Me.man_stn3_cyl3_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn3_cyl3_max.TabIndex = 1
         Me.man_stn3_cyl3_max.TabStop = False
@@ -1399,11 +1418,11 @@ Partial Class MainForm
         Me.GroupBox11.Controls.Add(Me.btn_stn3_cyl3_bw)
         Me.GroupBox11.Controls.Add(Me.btn_stn3_cyl3_fw)
         Me.GroupBox11.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox11.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox11.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox11.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox11.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox11.Name = "GroupBox11"
-        Me.GroupBox11.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox11.Size = New System.Drawing.Size(120, 238)
+        Me.GroupBox11.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox11.Size = New System.Drawing.Size(160, 293)
         Me.GroupBox11.TabIndex = 4
         Me.GroupBox11.TabStop = False
         Me.GroupBox11.Text = "Button"
@@ -1415,9 +1434,10 @@ Partial Class MainForm
         Me.btn_stn3_cyl3_bw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn3_cyl3_bw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn3_cyl3_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn3_cyl3_bw.Location = New System.Drawing.Point(7, 125)
+        Me.btn_stn3_cyl3_bw.Location = New System.Drawing.Point(9, 154)
+        Me.btn_stn3_cyl3_bw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn3_cyl3_bw.Name = "btn_stn3_cyl3_bw"
-        Me.btn_stn3_cyl3_bw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn3_cyl3_bw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn3_cyl3_bw.TabIndex = 46
         Me.btn_stn3_cyl3_bw.Text = "Backward"
         Me.btn_stn3_cyl3_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1430,9 +1450,10 @@ Partial Class MainForm
         Me.btn_stn3_cyl3_fw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn3_cyl3_fw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn3_cyl3_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn3_cyl3_fw.Location = New System.Drawing.Point(7, 29)
+        Me.btn_stn3_cyl3_fw.Location = New System.Drawing.Point(9, 36)
+        Me.btn_stn3_cyl3_fw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn3_cyl3_fw.Name = "btn_stn3_cyl3_fw"
-        Me.btn_stn3_cyl3_fw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn3_cyl3_fw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn3_cyl3_fw.TabIndex = 0
         Me.btn_stn3_cyl3_fw.Text = "Forward"
         Me.btn_stn3_cyl3_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1444,11 +1465,11 @@ Partial Class MainForm
         Me.GroupBox12.Controls.Add(Me.GroupBox13)
         Me.GroupBox12.Controls.Add(Me.GroupBox14)
         Me.GroupBox12.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox12.Location = New System.Drawing.Point(384, 336)
-        Me.GroupBox12.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox12.Location = New System.Drawing.Point(512, 414)
+        Me.GroupBox12.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox12.Name = "GroupBox12"
-        Me.GroupBox12.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox12.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox12.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox12.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox12.TabIndex = 45
         Me.GroupBox12.TabStop = False
         Me.GroupBox12.Text = "V304"
@@ -1460,11 +1481,11 @@ Partial Class MainForm
         Me.GroupBox13.Controls.Add(Me.Label12)
         Me.GroupBox13.Controls.Add(Me.man_stn3_cyl4_max)
         Me.GroupBox13.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox13.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox13.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox13.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox13.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox13.Name = "GroupBox13"
-        Me.GroupBox13.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox13.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox13.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox13.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox13.TabIndex = 46
         Me.GroupBox13.TabStop = False
         Me.GroupBox13.Text = "Sensor"
@@ -1473,20 +1494,20 @@ Partial Class MainForm
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(23, 192)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label11.Location = New System.Drawing.Point(31, 236)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(64, 18)
+        Me.Label11.Size = New System.Drawing.Size(83, 24)
         Me.Label11.TabIndex = 46
         Me.Label11.Text = "Minimun"
         '
         'man_stn3_cyl4_min
         '
         Me.man_stn3_cyl4_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn3_cyl4_min.Location = New System.Drawing.Point(8, 147)
-        Me.man_stn3_cyl4_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn3_cyl4_min.Location = New System.Drawing.Point(11, 181)
+        Me.man_stn3_cyl4_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn3_cyl4_min.Name = "man_stn3_cyl4_min"
-        Me.man_stn3_cyl4_min.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn3_cyl4_min.Size = New System.Drawing.Size(143, 50)
         Me.man_stn3_cyl4_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn3_cyl4_min.TabIndex = 3
         Me.man_stn3_cyl4_min.TabStop = False
@@ -1495,20 +1516,20 @@ Partial Class MainForm
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(23, 96)
-        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label12.Location = New System.Drawing.Point(31, 118)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(73, 18)
+        Me.Label12.Size = New System.Drawing.Size(93, 24)
         Me.Label12.TabIndex = 2
         Me.Label12.Text = "Maximum"
         '
         'man_stn3_cyl4_max
         '
         Me.man_stn3_cyl4_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn3_cyl4_max.Location = New System.Drawing.Point(8, 51)
-        Me.man_stn3_cyl4_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn3_cyl4_max.Location = New System.Drawing.Point(11, 63)
+        Me.man_stn3_cyl4_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn3_cyl4_max.Name = "man_stn3_cyl4_max"
-        Me.man_stn3_cyl4_max.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn3_cyl4_max.Size = New System.Drawing.Size(143, 50)
         Me.man_stn3_cyl4_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn3_cyl4_max.TabIndex = 1
         Me.man_stn3_cyl4_max.TabStop = False
@@ -1518,11 +1539,11 @@ Partial Class MainForm
         Me.GroupBox14.Controls.Add(Me.btn_stn3_cyl4_bw)
         Me.GroupBox14.Controls.Add(Me.btn_stn3_cyl4_fw)
         Me.GroupBox14.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox14.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox14.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox14.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox14.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox14.Name = "GroupBox14"
-        Me.GroupBox14.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox14.Size = New System.Drawing.Size(120, 238)
+        Me.GroupBox14.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox14.Size = New System.Drawing.Size(160, 293)
         Me.GroupBox14.TabIndex = 4
         Me.GroupBox14.TabStop = False
         Me.GroupBox14.Text = "Button"
@@ -1534,9 +1555,10 @@ Partial Class MainForm
         Me.btn_stn3_cyl4_bw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn3_cyl4_bw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn3_cyl4_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn3_cyl4_bw.Location = New System.Drawing.Point(7, 125)
+        Me.btn_stn3_cyl4_bw.Location = New System.Drawing.Point(9, 154)
+        Me.btn_stn3_cyl4_bw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn3_cyl4_bw.Name = "btn_stn3_cyl4_bw"
-        Me.btn_stn3_cyl4_bw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn3_cyl4_bw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn3_cyl4_bw.TabIndex = 46
         Me.btn_stn3_cyl4_bw.Text = "Backward"
         Me.btn_stn3_cyl4_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1549,9 +1571,10 @@ Partial Class MainForm
         Me.btn_stn3_cyl4_fw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn3_cyl4_fw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn3_cyl4_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn3_cyl4_fw.Location = New System.Drawing.Point(7, 29)
+        Me.btn_stn3_cyl4_fw.Location = New System.Drawing.Point(9, 36)
+        Me.btn_stn3_cyl4_fw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn3_cyl4_fw.Name = "btn_stn3_cyl4_fw"
-        Me.btn_stn3_cyl4_fw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn3_cyl4_fw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn3_cyl4_fw.TabIndex = 0
         Me.btn_stn3_cyl4_fw.Text = "Forward"
         Me.btn_stn3_cyl4_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1563,11 +1586,11 @@ Partial Class MainForm
         Me.GroupBox6.Controls.Add(Me.GroupBox7)
         Me.GroupBox6.Controls.Add(Me.GroupBox8)
         Me.GroupBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox6.Location = New System.Drawing.Point(28, 336)
-        Me.GroupBox6.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox6.Location = New System.Drawing.Point(37, 414)
+        Me.GroupBox6.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox6.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox6.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox6.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox6.TabIndex = 45
         Me.GroupBox6.TabStop = False
         Me.GroupBox6.Text = "V302"
@@ -1579,11 +1602,11 @@ Partial Class MainForm
         Me.GroupBox7.Controls.Add(Me.Label8)
         Me.GroupBox7.Controls.Add(Me.man_stn3_cyl2_max)
         Me.GroupBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox7.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox7.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox7.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox7.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox7.Name = "GroupBox7"
-        Me.GroupBox7.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox7.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox7.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox7.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox7.TabIndex = 46
         Me.GroupBox7.TabStop = False
         Me.GroupBox7.Text = "Sensor"
@@ -1592,20 +1615,20 @@ Partial Class MainForm
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(23, 192)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Location = New System.Drawing.Point(31, 236)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(64, 18)
+        Me.Label7.Size = New System.Drawing.Size(83, 24)
         Me.Label7.TabIndex = 46
         Me.Label7.Text = "Minimun"
         '
         'man_stn3_cyl2_min
         '
         Me.man_stn3_cyl2_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn3_cyl2_min.Location = New System.Drawing.Point(8, 147)
-        Me.man_stn3_cyl2_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn3_cyl2_min.Location = New System.Drawing.Point(11, 181)
+        Me.man_stn3_cyl2_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn3_cyl2_min.Name = "man_stn3_cyl2_min"
-        Me.man_stn3_cyl2_min.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn3_cyl2_min.Size = New System.Drawing.Size(143, 50)
         Me.man_stn3_cyl2_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn3_cyl2_min.TabIndex = 3
         Me.man_stn3_cyl2_min.TabStop = False
@@ -1614,20 +1637,20 @@ Partial Class MainForm
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(23, 96)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label8.Location = New System.Drawing.Point(31, 118)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(73, 18)
+        Me.Label8.Size = New System.Drawing.Size(93, 24)
         Me.Label8.TabIndex = 2
         Me.Label8.Text = "Maximum"
         '
         'man_stn3_cyl2_max
         '
         Me.man_stn3_cyl2_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn3_cyl2_max.Location = New System.Drawing.Point(8, 51)
-        Me.man_stn3_cyl2_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn3_cyl2_max.Location = New System.Drawing.Point(11, 63)
+        Me.man_stn3_cyl2_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn3_cyl2_max.Name = "man_stn3_cyl2_max"
-        Me.man_stn3_cyl2_max.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn3_cyl2_max.Size = New System.Drawing.Size(143, 50)
         Me.man_stn3_cyl2_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn3_cyl2_max.TabIndex = 1
         Me.man_stn3_cyl2_max.TabStop = False
@@ -1637,11 +1660,11 @@ Partial Class MainForm
         Me.GroupBox8.Controls.Add(Me.btn_stn3_cyl2_bw)
         Me.GroupBox8.Controls.Add(Me.btn_stn3_cyl2_fw)
         Me.GroupBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox8.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox8.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox8.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox8.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox8.Name = "GroupBox8"
-        Me.GroupBox8.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox8.Size = New System.Drawing.Size(120, 238)
+        Me.GroupBox8.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox8.Size = New System.Drawing.Size(160, 293)
         Me.GroupBox8.TabIndex = 4
         Me.GroupBox8.TabStop = False
         Me.GroupBox8.Text = "Button"
@@ -1653,9 +1676,10 @@ Partial Class MainForm
         Me.btn_stn3_cyl2_bw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn3_cyl2_bw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn3_cyl2_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn3_cyl2_bw.Location = New System.Drawing.Point(7, 125)
+        Me.btn_stn3_cyl2_bw.Location = New System.Drawing.Point(9, 154)
+        Me.btn_stn3_cyl2_bw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn3_cyl2_bw.Name = "btn_stn3_cyl2_bw"
-        Me.btn_stn3_cyl2_bw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn3_cyl2_bw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn3_cyl2_bw.TabIndex = 46
         Me.btn_stn3_cyl2_bw.Text = "Backward"
         Me.btn_stn3_cyl2_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1668,9 +1692,10 @@ Partial Class MainForm
         Me.btn_stn3_cyl2_fw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn3_cyl2_fw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn3_cyl2_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn3_cyl2_fw.Location = New System.Drawing.Point(7, 29)
+        Me.btn_stn3_cyl2_fw.Location = New System.Drawing.Point(9, 36)
+        Me.btn_stn3_cyl2_fw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn3_cyl2_fw.Name = "btn_stn3_cyl2_fw"
-        Me.btn_stn3_cyl2_fw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn3_cyl2_fw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn3_cyl2_fw.TabIndex = 0
         Me.btn_stn3_cyl2_fw.Text = "Forward"
         Me.btn_stn3_cyl2_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1682,11 +1707,11 @@ Partial Class MainForm
         Me.GroupBox70.Controls.Add(Me.GroupBox5)
         Me.GroupBox70.Controls.Add(Me.GroupBox71)
         Me.GroupBox70.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox70.Location = New System.Drawing.Point(28, 18)
-        Me.GroupBox70.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox70.Location = New System.Drawing.Point(37, 22)
+        Me.GroupBox70.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox70.Name = "GroupBox70"
-        Me.GroupBox70.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox70.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox70.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox70.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox70.TabIndex = 45
         Me.GroupBox70.TabStop = False
         Me.GroupBox70.Text = "V301"
@@ -1698,11 +1723,11 @@ Partial Class MainForm
         Me.GroupBox5.Controls.Add(Me.Label53)
         Me.GroupBox5.Controls.Add(Me.man_stn3_cyl1_max)
         Me.GroupBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox5.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox5.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox5.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox5.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox5.TabIndex = 46
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Sensor"
@@ -1711,20 +1736,20 @@ Partial Class MainForm
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(23, 192)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Location = New System.Drawing.Point(31, 236)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(64, 18)
+        Me.Label6.Size = New System.Drawing.Size(83, 24)
         Me.Label6.TabIndex = 46
         Me.Label6.Text = "Minimun"
         '
         'man_stn3_cyl1_min
         '
         Me.man_stn3_cyl1_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn3_cyl1_min.Location = New System.Drawing.Point(8, 147)
-        Me.man_stn3_cyl1_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn3_cyl1_min.Location = New System.Drawing.Point(11, 181)
+        Me.man_stn3_cyl1_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn3_cyl1_min.Name = "man_stn3_cyl1_min"
-        Me.man_stn3_cyl1_min.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn3_cyl1_min.Size = New System.Drawing.Size(143, 50)
         Me.man_stn3_cyl1_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn3_cyl1_min.TabIndex = 3
         Me.man_stn3_cyl1_min.TabStop = False
@@ -1733,20 +1758,20 @@ Partial Class MainForm
         '
         Me.Label53.AutoSize = True
         Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label53.Location = New System.Drawing.Point(23, 96)
-        Me.Label53.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label53.Location = New System.Drawing.Point(31, 118)
+        Me.Label53.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(73, 18)
+        Me.Label53.Size = New System.Drawing.Size(93, 24)
         Me.Label53.TabIndex = 2
         Me.Label53.Text = "Maximum"
         '
         'man_stn3_cyl1_max
         '
         Me.man_stn3_cyl1_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn3_cyl1_max.Location = New System.Drawing.Point(8, 51)
-        Me.man_stn3_cyl1_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn3_cyl1_max.Location = New System.Drawing.Point(11, 63)
+        Me.man_stn3_cyl1_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn3_cyl1_max.Name = "man_stn3_cyl1_max"
-        Me.man_stn3_cyl1_max.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn3_cyl1_max.Size = New System.Drawing.Size(143, 50)
         Me.man_stn3_cyl1_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn3_cyl1_max.TabIndex = 1
         Me.man_stn3_cyl1_max.TabStop = False
@@ -1756,11 +1781,11 @@ Partial Class MainForm
         Me.GroupBox71.Controls.Add(Me.btn_stn3_cyl1_bw)
         Me.GroupBox71.Controls.Add(Me.btn_stn3_cyl1_fw)
         Me.GroupBox71.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox71.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox71.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox71.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox71.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox71.Name = "GroupBox71"
-        Me.GroupBox71.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox71.Size = New System.Drawing.Size(120, 238)
+        Me.GroupBox71.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox71.Size = New System.Drawing.Size(160, 293)
         Me.GroupBox71.TabIndex = 4
         Me.GroupBox71.TabStop = False
         Me.GroupBox71.Text = "Button"
@@ -1772,9 +1797,10 @@ Partial Class MainForm
         Me.btn_stn3_cyl1_bw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn3_cyl1_bw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn3_cyl1_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn3_cyl1_bw.Location = New System.Drawing.Point(7, 125)
+        Me.btn_stn3_cyl1_bw.Location = New System.Drawing.Point(9, 154)
+        Me.btn_stn3_cyl1_bw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn3_cyl1_bw.Name = "btn_stn3_cyl1_bw"
-        Me.btn_stn3_cyl1_bw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn3_cyl1_bw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn3_cyl1_bw.TabIndex = 46
         Me.btn_stn3_cyl1_bw.Text = "Backward"
         Me.btn_stn3_cyl1_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1787,9 +1813,10 @@ Partial Class MainForm
         Me.btn_stn3_cyl1_fw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn3_cyl1_fw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn3_cyl1_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn3_cyl1_fw.Location = New System.Drawing.Point(7, 29)
+        Me.btn_stn3_cyl1_fw.Location = New System.Drawing.Point(9, 36)
+        Me.btn_stn3_cyl1_fw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn3_cyl1_fw.Name = "btn_stn3_cyl1_fw"
-        Me.btn_stn3_cyl1_fw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn3_cyl1_fw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn3_cyl1_fw.TabIndex = 0
         Me.btn_stn3_cyl1_fw.Text = "Forward"
         Me.btn_stn3_cyl1_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1799,10 +1826,11 @@ Partial Class MainForm
         '
         Me.TabPage1.Controls.Add(Me.GroupBox74)
         Me.TabPage1.Controls.Add(Me.GroupBox75)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 38)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 45)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(1244, 658)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage1.Size = New System.Drawing.Size(1661, 813)
         Me.TabPage1.TabIndex = 3
         Me.TabPage1.Text = "Festo Controller"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -1832,9 +1860,11 @@ Partial Class MainForm
         Me.GroupBox74.Controls.Add(Me.Label103)
         Me.GroupBox74.Controls.Add(Me.Label104)
         Me.GroupBox74.Controls.Add(Me.Label107)
-        Me.GroupBox74.Location = New System.Drawing.Point(630, 54)
+        Me.GroupBox74.Location = New System.Drawing.Point(840, 66)
+        Me.GroupBox74.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox74.Name = "GroupBox74"
-        Me.GroupBox74.Size = New System.Drawing.Size(583, 565)
+        Me.GroupBox74.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox74.Size = New System.Drawing.Size(777, 695)
         Me.GroupBox74.TabIndex = 2
         Me.GroupBox74.TabStop = False
         Me.GroupBox74.Text = "Festo R"
@@ -1843,9 +1873,10 @@ Partial Class MainForm
         '
         Me.btn_Rfesto_servo.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btn_Rfesto_servo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_Rfesto_servo.Location = New System.Drawing.Point(59, 398)
+        Me.btn_Rfesto_servo.Location = New System.Drawing.Point(79, 490)
+        Me.btn_Rfesto_servo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_Rfesto_servo.Name = "btn_Rfesto_servo"
-        Me.btn_Rfesto_servo.Size = New System.Drawing.Size(118, 58)
+        Me.btn_Rfesto_servo.Size = New System.Drawing.Size(157, 71)
         Me.btn_Rfesto_servo.TabIndex = 3
         Me.btn_Rfesto_servo.Text = "SERVO ON"
         Me.btn_Rfesto_servo.UseVisualStyleBackColor = False
@@ -1854,9 +1885,10 @@ Partial Class MainForm
         '
         Me.Label99.AutoSize = True
         Me.Label99.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label99.Location = New System.Drawing.Point(496, 118)
+        Me.Label99.Location = New System.Drawing.Point(661, 145)
+        Me.Label99.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label99.Name = "Label99"
-        Me.Label99.Size = New System.Drawing.Size(53, 24)
+        Me.Label99.Size = New System.Drawing.Size(67, 29)
         Me.Label99.TabIndex = 1
         Me.Label99.Text = "EMG"
         '
@@ -1864,9 +1896,10 @@ Partial Class MainForm
         '
         Me.btn_Rfesto_power.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btn_Rfesto_power.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_Rfesto_power.Location = New System.Drawing.Point(407, 479)
+        Me.btn_Rfesto_power.Location = New System.Drawing.Point(543, 590)
+        Me.btn_Rfesto_power.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_Rfesto_power.Name = "btn_Rfesto_power"
-        Me.btn_Rfesto_power.Size = New System.Drawing.Size(118, 58)
+        Me.btn_Rfesto_power.Size = New System.Drawing.Size(157, 71)
         Me.btn_Rfesto_power.TabIndex = 3
         Me.btn_Rfesto_power.Text = "POWER RESET"
         Me.btn_Rfesto_power.UseVisualStyleBackColor = False
@@ -1875,9 +1908,10 @@ Partial Class MainForm
         '
         Me.Label100.AutoSize = True
         Me.Label100.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label100.Location = New System.Drawing.Point(276, 118)
+        Me.Label100.Location = New System.Drawing.Point(368, 145)
+        Me.Label100.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label100.Name = "Label100"
-        Me.Label100.Size = New System.Drawing.Size(49, 24)
+        Me.Label100.Size = New System.Drawing.Size(61, 29)
         Me.Label100.TabIndex = 1
         Me.Label100.Text = "ALM"
         '
@@ -1885,9 +1919,10 @@ Partial Class MainForm
         '
         Me.btn_Rfesto_alarm.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btn_Rfesto_alarm.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_Rfesto_alarm.Location = New System.Drawing.Point(407, 398)
+        Me.btn_Rfesto_alarm.Location = New System.Drawing.Point(543, 490)
+        Me.btn_Rfesto_alarm.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_Rfesto_alarm.Name = "btn_Rfesto_alarm"
-        Me.btn_Rfesto_alarm.Size = New System.Drawing.Size(118, 58)
+        Me.btn_Rfesto_alarm.Size = New System.Drawing.Size(157, 71)
         Me.btn_Rfesto_alarm.TabIndex = 3
         Me.btn_Rfesto_alarm.Text = "ALARM RESET"
         Me.btn_Rfesto_alarm.UseVisualStyleBackColor = False
@@ -1896,9 +1931,10 @@ Partial Class MainForm
         '
         Me.Label101.AutoSize = True
         Me.Label101.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label101.Location = New System.Drawing.Point(381, 118)
+        Me.Label101.Location = New System.Drawing.Point(508, 145)
+        Me.Label101.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label101.Name = "Label101"
-        Me.Label101.Size = New System.Drawing.Size(64, 24)
+        Me.Label101.Size = New System.Drawing.Size(81, 29)
         Me.Label101.TabIndex = 1
         Me.Label101.Text = "SVON"
         '
@@ -1906,9 +1942,10 @@ Partial Class MainForm
         '
         Me.btn_Rfesto_homing.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btn_Rfesto_homing.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_Rfesto_homing.Location = New System.Drawing.Point(233, 398)
+        Me.btn_Rfesto_homing.Location = New System.Drawing.Point(311, 490)
+        Me.btn_Rfesto_homing.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_Rfesto_homing.Name = "btn_Rfesto_homing"
-        Me.btn_Rfesto_homing.Size = New System.Drawing.Size(118, 58)
+        Me.btn_Rfesto_homing.Size = New System.Drawing.Size(157, 71)
         Me.btn_Rfesto_homing.TabIndex = 3
         Me.btn_Rfesto_homing.Text = "HOMING"
         Me.btn_Rfesto_homing.UseVisualStyleBackColor = False
@@ -1917,9 +1954,10 @@ Partial Class MainForm
         '
         Me.Label102.AutoSize = True
         Me.Label102.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label102.Location = New System.Drawing.Point(161, 118)
+        Me.Label102.Location = New System.Drawing.Point(215, 145)
+        Me.Label102.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label102.Name = "Label102"
-        Me.Label102.Size = New System.Drawing.Size(64, 24)
+        Me.Label102.Size = New System.Drawing.Size(81, 29)
         Me.Label102.TabIndex = 1
         Me.Label102.Text = "HEND"
         '
@@ -1927,9 +1965,10 @@ Partial Class MainForm
         '
         Me.btn_Rfesto_jisl.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btn_Rfesto_jisl.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_Rfesto_jisl.Location = New System.Drawing.Point(407, 317)
+        Me.btn_Rfesto_jisl.Location = New System.Drawing.Point(543, 390)
+        Me.btn_Rfesto_jisl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_Rfesto_jisl.Name = "btn_Rfesto_jisl"
-        Me.btn_Rfesto_jisl.Size = New System.Drawing.Size(118, 58)
+        Me.btn_Rfesto_jisl.Size = New System.Drawing.Size(157, 71)
         Me.btn_Rfesto_jisl.TabIndex = 3
         Me.btn_Rfesto_jisl.Text = "JISL"
         Me.btn_Rfesto_jisl.UseVisualStyleBackColor = False
@@ -1938,9 +1977,10 @@ Partial Class MainForm
         '
         Me.Label105.AutoSize = True
         Me.Label105.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label105.Location = New System.Drawing.Point(51, 118)
+        Me.Label105.Location = New System.Drawing.Point(68, 145)
+        Me.Label105.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label105.Name = "Label105"
-        Me.Label105.Size = New System.Drawing.Size(62, 24)
+        Me.Label105.Size = New System.Drawing.Size(80, 29)
         Me.Label105.TabIndex = 1
         Me.Label105.Text = "PEND"
         '
@@ -1948,9 +1988,10 @@ Partial Class MainForm
         '
         Me.btn_Rfesto_jog_plus.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btn_Rfesto_jog_plus.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_Rfesto_jog_plus.Location = New System.Drawing.Point(233, 317)
+        Me.btn_Rfesto_jog_plus.Location = New System.Drawing.Point(311, 390)
+        Me.btn_Rfesto_jog_plus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_Rfesto_jog_plus.Name = "btn_Rfesto_jog_plus"
-        Me.btn_Rfesto_jog_plus.Size = New System.Drawing.Size(118, 58)
+        Me.btn_Rfesto_jog_plus.Size = New System.Drawing.Size(157, 71)
         Me.btn_Rfesto_jog_plus.TabIndex = 3
         Me.btn_Rfesto_jog_plus.Text = "JOG +"
         Me.btn_Rfesto_jog_plus.UseVisualStyleBackColor = False
@@ -1959,9 +2000,10 @@ Partial Class MainForm
         '
         Me.btn_Rfesto_jog_min.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btn_Rfesto_jog_min.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_Rfesto_jog_min.Location = New System.Drawing.Point(59, 317)
+        Me.btn_Rfesto_jog_min.Location = New System.Drawing.Point(79, 390)
+        Me.btn_Rfesto_jog_min.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_Rfesto_jog_min.Name = "btn_Rfesto_jog_min"
-        Me.btn_Rfesto_jog_min.Size = New System.Drawing.Size(118, 58)
+        Me.btn_Rfesto_jog_min.Size = New System.Drawing.Size(157, 71)
         Me.btn_Rfesto_jog_min.TabIndex = 3
         Me.btn_Rfesto_jog_min.Text = "JOG -"
         Me.btn_Rfesto_jog_min.UseVisualStyleBackColor = False
@@ -1969,9 +2011,10 @@ Partial Class MainForm
         'ind_stn3_Rfesto_emg
         '
         Me.ind_stn3_Rfesto_emg.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn3_Rfesto_emg.Location = New System.Drawing.Point(495, 55)
+        Me.ind_stn3_Rfesto_emg.Location = New System.Drawing.Point(660, 68)
+        Me.ind_stn3_Rfesto_emg.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ind_stn3_Rfesto_emg.Name = "ind_stn3_Rfesto_emg"
-        Me.ind_stn3_Rfesto_emg.Size = New System.Drawing.Size(50, 50)
+        Me.ind_stn3_Rfesto_emg.Size = New System.Drawing.Size(67, 62)
         Me.ind_stn3_Rfesto_emg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn3_Rfesto_emg.TabIndex = 0
         Me.ind_stn3_Rfesto_emg.TabStop = False
@@ -1979,17 +2022,19 @@ Partial Class MainForm
         'tbx_Rfesto_alarm
         '
         Me.tbx_Rfesto_alarm.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx_Rfesto_alarm.Location = New System.Drawing.Point(193, 265)
+        Me.tbx_Rfesto_alarm.Location = New System.Drawing.Point(257, 326)
+        Me.tbx_Rfesto_alarm.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbx_Rfesto_alarm.Name = "tbx_Rfesto_alarm"
-        Me.tbx_Rfesto_alarm.Size = New System.Drawing.Size(309, 26)
+        Me.tbx_Rfesto_alarm.Size = New System.Drawing.Size(411, 30)
         Me.tbx_Rfesto_alarm.TabIndex = 2
         '
         'ind_stn3_Rfesto_svon
         '
         Me.ind_stn3_Rfesto_svon.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn3_Rfesto_svon.Location = New System.Drawing.Point(385, 55)
+        Me.ind_stn3_Rfesto_svon.Location = New System.Drawing.Point(513, 68)
+        Me.ind_stn3_Rfesto_svon.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ind_stn3_Rfesto_svon.Name = "ind_stn3_Rfesto_svon"
-        Me.ind_stn3_Rfesto_svon.Size = New System.Drawing.Size(50, 50)
+        Me.ind_stn3_Rfesto_svon.Size = New System.Drawing.Size(67, 62)
         Me.ind_stn3_Rfesto_svon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn3_Rfesto_svon.TabIndex = 0
         Me.ind_stn3_Rfesto_svon.TabStop = False
@@ -1997,17 +2042,19 @@ Partial Class MainForm
         'tbx_Rfesto_speed
         '
         Me.tbx_Rfesto_speed.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx_Rfesto_speed.Location = New System.Drawing.Point(193, 219)
+        Me.tbx_Rfesto_speed.Location = New System.Drawing.Point(257, 270)
+        Me.tbx_Rfesto_speed.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbx_Rfesto_speed.Name = "tbx_Rfesto_speed"
-        Me.tbx_Rfesto_speed.Size = New System.Drawing.Size(309, 26)
+        Me.tbx_Rfesto_speed.Size = New System.Drawing.Size(411, 30)
         Me.tbx_Rfesto_speed.TabIndex = 2
         '
         'ind_stn3_Rfesto_alm
         '
         Me.ind_stn3_Rfesto_alm.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn3_Rfesto_alm.Location = New System.Drawing.Point(275, 55)
+        Me.ind_stn3_Rfesto_alm.Location = New System.Drawing.Point(367, 68)
+        Me.ind_stn3_Rfesto_alm.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ind_stn3_Rfesto_alm.Name = "ind_stn3_Rfesto_alm"
-        Me.ind_stn3_Rfesto_alm.Size = New System.Drawing.Size(50, 50)
+        Me.ind_stn3_Rfesto_alm.Size = New System.Drawing.Size(67, 62)
         Me.ind_stn3_Rfesto_alm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn3_Rfesto_alm.TabIndex = 0
         Me.ind_stn3_Rfesto_alm.TabStop = False
@@ -2015,17 +2062,19 @@ Partial Class MainForm
         'tbx_Rfesto_position
         '
         Me.tbx_Rfesto_position.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx_Rfesto_position.Location = New System.Drawing.Point(193, 173)
+        Me.tbx_Rfesto_position.Location = New System.Drawing.Point(257, 213)
+        Me.tbx_Rfesto_position.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbx_Rfesto_position.Name = "tbx_Rfesto_position"
-        Me.tbx_Rfesto_position.Size = New System.Drawing.Size(309, 26)
+        Me.tbx_Rfesto_position.Size = New System.Drawing.Size(411, 30)
         Me.tbx_Rfesto_position.TabIndex = 2
         '
         'ind_stn3_Rfesto_hend
         '
         Me.ind_stn3_Rfesto_hend.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn3_Rfesto_hend.Location = New System.Drawing.Point(165, 55)
+        Me.ind_stn3_Rfesto_hend.Location = New System.Drawing.Point(220, 68)
+        Me.ind_stn3_Rfesto_hend.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ind_stn3_Rfesto_hend.Name = "ind_stn3_Rfesto_hend"
-        Me.ind_stn3_Rfesto_hend.Size = New System.Drawing.Size(50, 50)
+        Me.ind_stn3_Rfesto_hend.Size = New System.Drawing.Size(67, 62)
         Me.ind_stn3_Rfesto_hend.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn3_Rfesto_hend.TabIndex = 0
         Me.ind_stn3_Rfesto_hend.TabStop = False
@@ -2033,9 +2082,10 @@ Partial Class MainForm
         'ind_stn3_Rfesto_pend
         '
         Me.ind_stn3_Rfesto_pend.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn3_Rfesto_pend.Location = New System.Drawing.Point(55, 56)
+        Me.ind_stn3_Rfesto_pend.Location = New System.Drawing.Point(73, 69)
+        Me.ind_stn3_Rfesto_pend.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ind_stn3_Rfesto_pend.Name = "ind_stn3_Rfesto_pend"
-        Me.ind_stn3_Rfesto_pend.Size = New System.Drawing.Size(50, 50)
+        Me.ind_stn3_Rfesto_pend.Size = New System.Drawing.Size(67, 62)
         Me.ind_stn3_Rfesto_pend.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn3_Rfesto_pend.TabIndex = 0
         Me.ind_stn3_Rfesto_pend.TabStop = False
@@ -2044,9 +2094,10 @@ Partial Class MainForm
         '
         Me.Label103.AutoSize = True
         Me.Label103.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label103.Location = New System.Drawing.Point(52, 176)
+        Me.Label103.Location = New System.Drawing.Point(69, 217)
+        Me.Label103.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label103.Name = "Label103"
-        Me.Label103.Size = New System.Drawing.Size(69, 20)
+        Me.Label103.Size = New System.Drawing.Size(86, 25)
         Me.Label103.TabIndex = 1
         Me.Label103.Text = " Position"
         '
@@ -2054,9 +2105,10 @@ Partial Class MainForm
         '
         Me.Label104.AutoSize = True
         Me.Label104.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label104.Location = New System.Drawing.Point(55, 220)
+        Me.Label104.Location = New System.Drawing.Point(73, 271)
+        Me.Label104.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label104.Name = "Label104"
-        Me.Label104.Size = New System.Drawing.Size(56, 20)
+        Me.Label104.Size = New System.Drawing.Size(70, 25)
         Me.Label104.TabIndex = 1
         Me.Label104.Text = "Speed"
         '
@@ -2064,9 +2116,10 @@ Partial Class MainForm
         '
         Me.Label107.AutoSize = True
         Me.Label107.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label107.Location = New System.Drawing.Point(55, 268)
+        Me.Label107.Location = New System.Drawing.Point(73, 330)
+        Me.Label107.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label107.Name = "Label107"
-        Me.Label107.Size = New System.Drawing.Size(92, 20)
+        Me.Label107.Size = New System.Drawing.Size(116, 25)
         Me.Label107.TabIndex = 1
         Me.Label107.Text = "Alarm Code"
         '
@@ -2095,9 +2148,11 @@ Partial Class MainForm
         Me.GroupBox75.Controls.Add(Me.ind_stn3_Lfesto_alm)
         Me.GroupBox75.Controls.Add(Me.ind_stn3_Lfesto_hend)
         Me.GroupBox75.Controls.Add(Me.ind_stn3_Lfesto_pend)
-        Me.GroupBox75.Location = New System.Drawing.Point(25, 54)
+        Me.GroupBox75.Location = New System.Drawing.Point(33, 66)
+        Me.GroupBox75.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox75.Name = "GroupBox75"
-        Me.GroupBox75.Size = New System.Drawing.Size(583, 565)
+        Me.GroupBox75.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox75.Size = New System.Drawing.Size(777, 695)
         Me.GroupBox75.TabIndex = 2
         Me.GroupBox75.TabStop = False
         Me.GroupBox75.Text = "Festo L"
@@ -2106,9 +2161,10 @@ Partial Class MainForm
         '
         Me.btn_Lfesto_servo.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btn_Lfesto_servo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_Lfesto_servo.Location = New System.Drawing.Point(55, 398)
+        Me.btn_Lfesto_servo.Location = New System.Drawing.Point(73, 490)
+        Me.btn_Lfesto_servo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_Lfesto_servo.Name = "btn_Lfesto_servo"
-        Me.btn_Lfesto_servo.Size = New System.Drawing.Size(118, 58)
+        Me.btn_Lfesto_servo.Size = New System.Drawing.Size(157, 71)
         Me.btn_Lfesto_servo.TabIndex = 3
         Me.btn_Lfesto_servo.Text = "SERVO ON"
         Me.btn_Lfesto_servo.UseVisualStyleBackColor = False
@@ -2117,9 +2173,10 @@ Partial Class MainForm
         '
         Me.btn_Lfesto_power.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btn_Lfesto_power.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_Lfesto_power.Location = New System.Drawing.Point(403, 479)
+        Me.btn_Lfesto_power.Location = New System.Drawing.Point(537, 590)
+        Me.btn_Lfesto_power.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_Lfesto_power.Name = "btn_Lfesto_power"
-        Me.btn_Lfesto_power.Size = New System.Drawing.Size(118, 58)
+        Me.btn_Lfesto_power.Size = New System.Drawing.Size(157, 71)
         Me.btn_Lfesto_power.TabIndex = 3
         Me.btn_Lfesto_power.Text = "POWER RESET"
         Me.btn_Lfesto_power.UseVisualStyleBackColor = False
@@ -2129,9 +2186,10 @@ Partial Class MainForm
         Me.btn_Lfesto_alarm.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btn_Lfesto_alarm.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_Lfesto_alarm.ForeColor = System.Drawing.Color.Black
-        Me.btn_Lfesto_alarm.Location = New System.Drawing.Point(403, 398)
+        Me.btn_Lfesto_alarm.Location = New System.Drawing.Point(537, 490)
+        Me.btn_Lfesto_alarm.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_Lfesto_alarm.Name = "btn_Lfesto_alarm"
-        Me.btn_Lfesto_alarm.Size = New System.Drawing.Size(118, 58)
+        Me.btn_Lfesto_alarm.Size = New System.Drawing.Size(157, 71)
         Me.btn_Lfesto_alarm.TabIndex = 3
         Me.btn_Lfesto_alarm.Text = "ALARM RESET"
         Me.btn_Lfesto_alarm.UseVisualStyleBackColor = False
@@ -2140,9 +2198,10 @@ Partial Class MainForm
         '
         Me.btn_Lfesto_homing.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btn_Lfesto_homing.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_Lfesto_homing.Location = New System.Drawing.Point(229, 398)
+        Me.btn_Lfesto_homing.Location = New System.Drawing.Point(305, 490)
+        Me.btn_Lfesto_homing.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_Lfesto_homing.Name = "btn_Lfesto_homing"
-        Me.btn_Lfesto_homing.Size = New System.Drawing.Size(118, 58)
+        Me.btn_Lfesto_homing.Size = New System.Drawing.Size(157, 71)
         Me.btn_Lfesto_homing.TabIndex = 3
         Me.btn_Lfesto_homing.Text = "HOMING"
         Me.btn_Lfesto_homing.UseVisualStyleBackColor = False
@@ -2151,9 +2210,10 @@ Partial Class MainForm
         '
         Me.btn_Lfesto_jisl.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btn_Lfesto_jisl.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_Lfesto_jisl.Location = New System.Drawing.Point(403, 317)
+        Me.btn_Lfesto_jisl.Location = New System.Drawing.Point(537, 390)
+        Me.btn_Lfesto_jisl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_Lfesto_jisl.Name = "btn_Lfesto_jisl"
-        Me.btn_Lfesto_jisl.Size = New System.Drawing.Size(118, 58)
+        Me.btn_Lfesto_jisl.Size = New System.Drawing.Size(157, 71)
         Me.btn_Lfesto_jisl.TabIndex = 3
         Me.btn_Lfesto_jisl.Text = "JISL"
         Me.btn_Lfesto_jisl.UseVisualStyleBackColor = False
@@ -2162,9 +2222,10 @@ Partial Class MainForm
         '
         Me.btn_Lfesto_jog_plus.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btn_Lfesto_jog_plus.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_Lfesto_jog_plus.Location = New System.Drawing.Point(229, 317)
+        Me.btn_Lfesto_jog_plus.Location = New System.Drawing.Point(305, 390)
+        Me.btn_Lfesto_jog_plus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_Lfesto_jog_plus.Name = "btn_Lfesto_jog_plus"
-        Me.btn_Lfesto_jog_plus.Size = New System.Drawing.Size(118, 58)
+        Me.btn_Lfesto_jog_plus.Size = New System.Drawing.Size(157, 71)
         Me.btn_Lfesto_jog_plus.TabIndex = 3
         Me.btn_Lfesto_jog_plus.Text = "JOG +"
         Me.btn_Lfesto_jog_plus.UseVisualStyleBackColor = False
@@ -2173,9 +2234,10 @@ Partial Class MainForm
         '
         Me.btn_Lfesto_jog_min.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btn_Lfesto_jog_min.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_Lfesto_jog_min.Location = New System.Drawing.Point(55, 317)
+        Me.btn_Lfesto_jog_min.Location = New System.Drawing.Point(73, 390)
+        Me.btn_Lfesto_jog_min.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_Lfesto_jog_min.Name = "btn_Lfesto_jog_min"
-        Me.btn_Lfesto_jog_min.Size = New System.Drawing.Size(118, 58)
+        Me.btn_Lfesto_jog_min.Size = New System.Drawing.Size(157, 71)
         Me.btn_Lfesto_jog_min.TabIndex = 3
         Me.btn_Lfesto_jog_min.Text = "JOG -"
         Me.btn_Lfesto_jog_min.UseVisualStyleBackColor = False
@@ -2183,34 +2245,38 @@ Partial Class MainForm
         'tbx_Lfesto_alarm
         '
         Me.tbx_Lfesto_alarm.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx_Lfesto_alarm.Location = New System.Drawing.Point(189, 265)
+        Me.tbx_Lfesto_alarm.Location = New System.Drawing.Point(252, 326)
+        Me.tbx_Lfesto_alarm.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbx_Lfesto_alarm.Name = "tbx_Lfesto_alarm"
-        Me.tbx_Lfesto_alarm.Size = New System.Drawing.Size(309, 26)
+        Me.tbx_Lfesto_alarm.Size = New System.Drawing.Size(411, 30)
         Me.tbx_Lfesto_alarm.TabIndex = 2
         '
         'tbx_Lfesto_speed
         '
         Me.tbx_Lfesto_speed.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx_Lfesto_speed.Location = New System.Drawing.Point(189, 219)
+        Me.tbx_Lfesto_speed.Location = New System.Drawing.Point(252, 270)
+        Me.tbx_Lfesto_speed.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbx_Lfesto_speed.Name = "tbx_Lfesto_speed"
-        Me.tbx_Lfesto_speed.Size = New System.Drawing.Size(309, 26)
+        Me.tbx_Lfesto_speed.Size = New System.Drawing.Size(411, 30)
         Me.tbx_Lfesto_speed.TabIndex = 2
         '
         'tbx_Lfesto_position
         '
         Me.tbx_Lfesto_position.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx_Lfesto_position.Location = New System.Drawing.Point(189, 173)
+        Me.tbx_Lfesto_position.Location = New System.Drawing.Point(252, 213)
+        Me.tbx_Lfesto_position.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbx_Lfesto_position.Name = "tbx_Lfesto_position"
-        Me.tbx_Lfesto_position.Size = New System.Drawing.Size(309, 26)
+        Me.tbx_Lfesto_position.Size = New System.Drawing.Size(411, 30)
         Me.tbx_Lfesto_position.TabIndex = 2
         '
         'Label96
         '
         Me.Label96.AutoSize = True
         Me.Label96.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label96.Location = New System.Drawing.Point(496, 118)
+        Me.Label96.Location = New System.Drawing.Point(661, 145)
+        Me.Label96.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label96.Name = "Label96"
-        Me.Label96.Size = New System.Drawing.Size(53, 24)
+        Me.Label96.Size = New System.Drawing.Size(67, 29)
         Me.Label96.TabIndex = 1
         Me.Label96.Text = "EMG"
         '
@@ -2218,9 +2284,10 @@ Partial Class MainForm
         '
         Me.Label94.AutoSize = True
         Me.Label94.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label94.Location = New System.Drawing.Point(276, 118)
+        Me.Label94.Location = New System.Drawing.Point(368, 145)
+        Me.Label94.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label94.Name = "Label94"
-        Me.Label94.Size = New System.Drawing.Size(49, 24)
+        Me.Label94.Size = New System.Drawing.Size(61, 29)
         Me.Label94.TabIndex = 1
         Me.Label94.Text = "ALM"
         '
@@ -2228,9 +2295,10 @@ Partial Class MainForm
         '
         Me.Label95.AutoSize = True
         Me.Label95.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label95.Location = New System.Drawing.Point(381, 118)
+        Me.Label95.Location = New System.Drawing.Point(508, 145)
+        Me.Label95.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label95.Name = "Label95"
-        Me.Label95.Size = New System.Drawing.Size(64, 24)
+        Me.Label95.Size = New System.Drawing.Size(81, 29)
         Me.Label95.TabIndex = 1
         Me.Label95.Text = "SVON"
         '
@@ -2238,9 +2306,10 @@ Partial Class MainForm
         '
         Me.Label93.AutoSize = True
         Me.Label93.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label93.Location = New System.Drawing.Point(161, 118)
+        Me.Label93.Location = New System.Drawing.Point(215, 145)
+        Me.Label93.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label93.Name = "Label93"
-        Me.Label93.Size = New System.Drawing.Size(64, 24)
+        Me.Label93.Size = New System.Drawing.Size(81, 29)
         Me.Label93.TabIndex = 1
         Me.Label93.Text = "HEND"
         '
@@ -2248,9 +2317,10 @@ Partial Class MainForm
         '
         Me.Label98.AutoSize = True
         Me.Label98.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label98.Location = New System.Drawing.Point(51, 268)
+        Me.Label98.Location = New System.Drawing.Point(68, 330)
+        Me.Label98.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label98.Name = "Label98"
-        Me.Label98.Size = New System.Drawing.Size(92, 20)
+        Me.Label98.Size = New System.Drawing.Size(116, 25)
         Me.Label98.TabIndex = 1
         Me.Label98.Text = "Alarm Code"
         '
@@ -2258,9 +2328,10 @@ Partial Class MainForm
         '
         Me.Label106.AutoSize = True
         Me.Label106.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label106.Location = New System.Drawing.Point(51, 220)
+        Me.Label106.Location = New System.Drawing.Point(68, 271)
+        Me.Label106.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label106.Name = "Label106"
-        Me.Label106.Size = New System.Drawing.Size(56, 20)
+        Me.Label106.Size = New System.Drawing.Size(70, 25)
         Me.Label106.TabIndex = 1
         Me.Label106.Text = "Speed"
         '
@@ -2268,9 +2339,10 @@ Partial Class MainForm
         '
         Me.Label97.AutoSize = True
         Me.Label97.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label97.Location = New System.Drawing.Point(48, 176)
+        Me.Label97.Location = New System.Drawing.Point(64, 217)
+        Me.Label97.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label97.Name = "Label97"
-        Me.Label97.Size = New System.Drawing.Size(69, 20)
+        Me.Label97.Size = New System.Drawing.Size(86, 25)
         Me.Label97.TabIndex = 1
         Me.Label97.Text = " Position"
         '
@@ -2278,18 +2350,20 @@ Partial Class MainForm
         '
         Me.Label87.AutoSize = True
         Me.Label87.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label87.Location = New System.Drawing.Point(51, 118)
+        Me.Label87.Location = New System.Drawing.Point(68, 145)
+        Me.Label87.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label87.Name = "Label87"
-        Me.Label87.Size = New System.Drawing.Size(62, 24)
+        Me.Label87.Size = New System.Drawing.Size(80, 29)
         Me.Label87.TabIndex = 1
         Me.Label87.Text = "PEND"
         '
         'ind_stn3_Lfesto_emg
         '
         Me.ind_stn3_Lfesto_emg.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn3_Lfesto_emg.Location = New System.Drawing.Point(495, 55)
+        Me.ind_stn3_Lfesto_emg.Location = New System.Drawing.Point(660, 68)
+        Me.ind_stn3_Lfesto_emg.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ind_stn3_Lfesto_emg.Name = "ind_stn3_Lfesto_emg"
-        Me.ind_stn3_Lfesto_emg.Size = New System.Drawing.Size(50, 50)
+        Me.ind_stn3_Lfesto_emg.Size = New System.Drawing.Size(67, 62)
         Me.ind_stn3_Lfesto_emg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn3_Lfesto_emg.TabIndex = 0
         Me.ind_stn3_Lfesto_emg.TabStop = False
@@ -2297,9 +2371,10 @@ Partial Class MainForm
         'ind_stn3_Lfesto_svon
         '
         Me.ind_stn3_Lfesto_svon.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn3_Lfesto_svon.Location = New System.Drawing.Point(385, 55)
+        Me.ind_stn3_Lfesto_svon.Location = New System.Drawing.Point(513, 68)
+        Me.ind_stn3_Lfesto_svon.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ind_stn3_Lfesto_svon.Name = "ind_stn3_Lfesto_svon"
-        Me.ind_stn3_Lfesto_svon.Size = New System.Drawing.Size(50, 50)
+        Me.ind_stn3_Lfesto_svon.Size = New System.Drawing.Size(67, 62)
         Me.ind_stn3_Lfesto_svon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn3_Lfesto_svon.TabIndex = 0
         Me.ind_stn3_Lfesto_svon.TabStop = False
@@ -2307,9 +2382,10 @@ Partial Class MainForm
         'ind_stn3_Lfesto_alm
         '
         Me.ind_stn3_Lfesto_alm.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn3_Lfesto_alm.Location = New System.Drawing.Point(275, 55)
+        Me.ind_stn3_Lfesto_alm.Location = New System.Drawing.Point(367, 68)
+        Me.ind_stn3_Lfesto_alm.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ind_stn3_Lfesto_alm.Name = "ind_stn3_Lfesto_alm"
-        Me.ind_stn3_Lfesto_alm.Size = New System.Drawing.Size(50, 50)
+        Me.ind_stn3_Lfesto_alm.Size = New System.Drawing.Size(67, 62)
         Me.ind_stn3_Lfesto_alm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn3_Lfesto_alm.TabIndex = 0
         Me.ind_stn3_Lfesto_alm.TabStop = False
@@ -2317,9 +2393,10 @@ Partial Class MainForm
         'ind_stn3_Lfesto_hend
         '
         Me.ind_stn3_Lfesto_hend.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn3_Lfesto_hend.Location = New System.Drawing.Point(165, 55)
+        Me.ind_stn3_Lfesto_hend.Location = New System.Drawing.Point(220, 68)
+        Me.ind_stn3_Lfesto_hend.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ind_stn3_Lfesto_hend.Name = "ind_stn3_Lfesto_hend"
-        Me.ind_stn3_Lfesto_hend.Size = New System.Drawing.Size(50, 50)
+        Me.ind_stn3_Lfesto_hend.Size = New System.Drawing.Size(67, 62)
         Me.ind_stn3_Lfesto_hend.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn3_Lfesto_hend.TabIndex = 0
         Me.ind_stn3_Lfesto_hend.TabStop = False
@@ -2327,9 +2404,10 @@ Partial Class MainForm
         'ind_stn3_Lfesto_pend
         '
         Me.ind_stn3_Lfesto_pend.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn3_Lfesto_pend.Location = New System.Drawing.Point(55, 56)
+        Me.ind_stn3_Lfesto_pend.Location = New System.Drawing.Point(73, 69)
+        Me.ind_stn3_Lfesto_pend.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ind_stn3_Lfesto_pend.Name = "ind_stn3_Lfesto_pend"
-        Me.ind_stn3_Lfesto_pend.Size = New System.Drawing.Size(50, 50)
+        Me.ind_stn3_Lfesto_pend.Size = New System.Drawing.Size(67, 62)
         Me.ind_stn3_Lfesto_pend.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn3_Lfesto_pend.TabIndex = 0
         Me.ind_stn3_Lfesto_pend.TabStop = False
@@ -2338,10 +2416,11 @@ Partial Class MainForm
         '
         Me.tab_man_stn4.Controls.Add(Me.TabPage5)
         Me.tab_man_stn4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tab_man_stn4.Location = New System.Drawing.Point(86, 142)
+        Me.tab_man_stn4.Location = New System.Drawing.Point(115, 175)
+        Me.tab_man_stn4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tab_man_stn4.Name = "tab_man_stn4"
         Me.tab_man_stn4.SelectedIndex = 0
-        Me.tab_man_stn4.Size = New System.Drawing.Size(1252, 700)
+        Me.tab_man_stn4.Size = New System.Drawing.Size(1669, 862)
         Me.tab_man_stn4.TabIndex = 9
         Me.tab_man_stn4.Visible = False
         '
@@ -2349,10 +2428,11 @@ Partial Class MainForm
         '
         Me.TabPage5.Controls.Add(Me.GroupBox3)
         Me.TabPage5.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabPage5.Location = New System.Drawing.Point(4, 38)
+        Me.TabPage5.Location = New System.Drawing.Point(4, 45)
+        Me.TabPage5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage5.Size = New System.Drawing.Size(1244, 658)
+        Me.TabPage5.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage5.Size = New System.Drawing.Size(1661, 813)
         Me.TabPage5.TabIndex = 2
         Me.TabPage5.Text = "Station 4"
         Me.TabPage5.UseVisualStyleBackColor = True
@@ -2363,11 +2443,11 @@ Partial Class MainForm
         Me.GroupBox3.Controls.Add(Me.GroupBox4)
         Me.GroupBox3.Controls.Add(Me.GroupBox81)
         Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox3.Location = New System.Drawing.Point(28, 18)
-        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox3.Location = New System.Drawing.Point(37, 22)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox3.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox3.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox3.TabIndex = 47
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "V401"
@@ -2379,11 +2459,11 @@ Partial Class MainForm
         Me.GroupBox4.Controls.Add(Me.Label5)
         Me.GroupBox4.Controls.Add(Me.man_stn4_cyl1_max)
         Me.GroupBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox4.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox4.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox4.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox4.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox4.TabIndex = 46
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Sensor"
@@ -2392,20 +2472,20 @@ Partial Class MainForm
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(23, 192)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(31, 236)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(64, 18)
+        Me.Label4.Size = New System.Drawing.Size(83, 24)
         Me.Label4.TabIndex = 46
         Me.Label4.Text = "Minimun"
         '
         'man_stn4_cyl1_min
         '
         Me.man_stn4_cyl1_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn4_cyl1_min.Location = New System.Drawing.Point(8, 147)
-        Me.man_stn4_cyl1_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn4_cyl1_min.Location = New System.Drawing.Point(11, 181)
+        Me.man_stn4_cyl1_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn4_cyl1_min.Name = "man_stn4_cyl1_min"
-        Me.man_stn4_cyl1_min.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn4_cyl1_min.Size = New System.Drawing.Size(143, 50)
         Me.man_stn4_cyl1_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn4_cyl1_min.TabIndex = 3
         Me.man_stn4_cyl1_min.TabStop = False
@@ -2414,20 +2494,20 @@ Partial Class MainForm
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(23, 96)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Location = New System.Drawing.Point(31, 118)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(73, 18)
+        Me.Label5.Size = New System.Drawing.Size(93, 24)
         Me.Label5.TabIndex = 2
         Me.Label5.Text = "Maximum"
         '
         'man_stn4_cyl1_max
         '
         Me.man_stn4_cyl1_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn4_cyl1_max.Location = New System.Drawing.Point(8, 51)
-        Me.man_stn4_cyl1_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn4_cyl1_max.Location = New System.Drawing.Point(11, 63)
+        Me.man_stn4_cyl1_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn4_cyl1_max.Name = "man_stn4_cyl1_max"
-        Me.man_stn4_cyl1_max.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn4_cyl1_max.Size = New System.Drawing.Size(143, 50)
         Me.man_stn4_cyl1_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn4_cyl1_max.TabIndex = 1
         Me.man_stn4_cyl1_max.TabStop = False
@@ -2437,11 +2517,11 @@ Partial Class MainForm
         Me.GroupBox81.Controls.Add(Me.btn_stn4_cyl1_bw)
         Me.GroupBox81.Controls.Add(Me.btn_stn4_cyl1_fw)
         Me.GroupBox81.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox81.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox81.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox81.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox81.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox81.Name = "GroupBox81"
-        Me.GroupBox81.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox81.Size = New System.Drawing.Size(120, 238)
+        Me.GroupBox81.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox81.Size = New System.Drawing.Size(160, 293)
         Me.GroupBox81.TabIndex = 4
         Me.GroupBox81.TabStop = False
         Me.GroupBox81.Text = "Button"
@@ -2453,9 +2533,10 @@ Partial Class MainForm
         Me.btn_stn4_cyl1_bw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn4_cyl1_bw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn4_cyl1_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn4_cyl1_bw.Location = New System.Drawing.Point(7, 125)
+        Me.btn_stn4_cyl1_bw.Location = New System.Drawing.Point(9, 154)
+        Me.btn_stn4_cyl1_bw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn4_cyl1_bw.Name = "btn_stn4_cyl1_bw"
-        Me.btn_stn4_cyl1_bw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn4_cyl1_bw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn4_cyl1_bw.TabIndex = 46
         Me.btn_stn4_cyl1_bw.Text = "Backward"
         Me.btn_stn4_cyl1_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -2468,9 +2549,10 @@ Partial Class MainForm
         Me.btn_stn4_cyl1_fw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn4_cyl1_fw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn4_cyl1_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn4_cyl1_fw.Location = New System.Drawing.Point(7, 29)
+        Me.btn_stn4_cyl1_fw.Location = New System.Drawing.Point(9, 36)
+        Me.btn_stn4_cyl1_fw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn4_cyl1_fw.Name = "btn_stn4_cyl1_fw"
-        Me.btn_stn4_cyl1_fw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn4_cyl1_fw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn4_cyl1_fw.TabIndex = 0
         Me.btn_stn4_cyl1_fw.Text = "Forward"
         Me.btn_stn4_cyl1_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -2480,10 +2562,11 @@ Partial Class MainForm
         '
         Me.tab_man_stn5.Controls.Add(Me.TabPage6)
         Me.tab_man_stn5.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tab_man_stn5.Location = New System.Drawing.Point(86, 142)
+        Me.tab_man_stn5.Location = New System.Drawing.Point(115, 175)
+        Me.tab_man_stn5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tab_man_stn5.Name = "tab_man_stn5"
         Me.tab_man_stn5.SelectedIndex = 0
-        Me.tab_man_stn5.Size = New System.Drawing.Size(1252, 700)
+        Me.tab_man_stn5.Size = New System.Drawing.Size(1669, 862)
         Me.tab_man_stn5.TabIndex = 10
         Me.tab_man_stn5.Visible = False
         '
@@ -2493,10 +2576,11 @@ Partial Class MainForm
         Me.TabPage6.Controls.Add(Me.GroupBox21)
         Me.TabPage6.Controls.Add(Me.GroupBox18)
         Me.TabPage6.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabPage6.Location = New System.Drawing.Point(4, 38)
+        Me.TabPage6.Location = New System.Drawing.Point(4, 45)
+        Me.TabPage6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage6.Name = "TabPage6"
-        Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage6.Size = New System.Drawing.Size(1244, 658)
+        Me.TabPage6.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage6.Size = New System.Drawing.Size(1661, 813)
         Me.TabPage6.TabIndex = 2
         Me.TabPage6.Text = "Station 5"
         Me.TabPage6.UseVisualStyleBackColor = True
@@ -2507,11 +2591,11 @@ Partial Class MainForm
         Me.GroupBox24.Controls.Add(Me.GroupBox25)
         Me.GroupBox24.Controls.Add(Me.GroupBox26)
         Me.GroupBox24.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox24.Location = New System.Drawing.Point(382, 18)
-        Me.GroupBox24.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox24.Location = New System.Drawing.Point(509, 22)
+        Me.GroupBox24.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox24.Name = "GroupBox24"
-        Me.GroupBox24.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox24.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox24.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox24.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox24.TabIndex = 46
         Me.GroupBox24.TabStop = False
         Me.GroupBox24.Text = "V503"
@@ -2523,11 +2607,11 @@ Partial Class MainForm
         Me.GroupBox25.Controls.Add(Me.Label20)
         Me.GroupBox25.Controls.Add(Me.man_stn5_cyl3_max)
         Me.GroupBox25.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox25.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox25.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox25.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox25.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox25.Name = "GroupBox25"
-        Me.GroupBox25.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox25.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox25.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox25.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox25.TabIndex = 46
         Me.GroupBox25.TabStop = False
         Me.GroupBox25.Text = "Sensor"
@@ -2536,20 +2620,20 @@ Partial Class MainForm
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(23, 192)
-        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label19.Location = New System.Drawing.Point(31, 236)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(64, 18)
+        Me.Label19.Size = New System.Drawing.Size(83, 24)
         Me.Label19.TabIndex = 46
         Me.Label19.Text = "Minimun"
         '
         'man_stn5_cyl3_min
         '
         Me.man_stn5_cyl3_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn5_cyl3_min.Location = New System.Drawing.Point(8, 147)
-        Me.man_stn5_cyl3_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn5_cyl3_min.Location = New System.Drawing.Point(11, 181)
+        Me.man_stn5_cyl3_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn5_cyl3_min.Name = "man_stn5_cyl3_min"
-        Me.man_stn5_cyl3_min.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn5_cyl3_min.Size = New System.Drawing.Size(143, 50)
         Me.man_stn5_cyl3_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn5_cyl3_min.TabIndex = 3
         Me.man_stn5_cyl3_min.TabStop = False
@@ -2558,20 +2642,20 @@ Partial Class MainForm
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(23, 96)
-        Me.Label20.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label20.Location = New System.Drawing.Point(31, 118)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(73, 18)
+        Me.Label20.Size = New System.Drawing.Size(93, 24)
         Me.Label20.TabIndex = 2
         Me.Label20.Text = "Maximum"
         '
         'man_stn5_cyl3_max
         '
         Me.man_stn5_cyl3_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn5_cyl3_max.Location = New System.Drawing.Point(8, 51)
-        Me.man_stn5_cyl3_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn5_cyl3_max.Location = New System.Drawing.Point(11, 63)
+        Me.man_stn5_cyl3_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn5_cyl3_max.Name = "man_stn5_cyl3_max"
-        Me.man_stn5_cyl3_max.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn5_cyl3_max.Size = New System.Drawing.Size(143, 50)
         Me.man_stn5_cyl3_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn5_cyl3_max.TabIndex = 1
         Me.man_stn5_cyl3_max.TabStop = False
@@ -2581,11 +2665,11 @@ Partial Class MainForm
         Me.GroupBox26.Controls.Add(Me.btn_stn5_cyl3_bw)
         Me.GroupBox26.Controls.Add(Me.btn_stn5_cyl3_fw)
         Me.GroupBox26.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox26.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox26.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox26.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox26.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox26.Name = "GroupBox26"
-        Me.GroupBox26.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox26.Size = New System.Drawing.Size(120, 238)
+        Me.GroupBox26.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox26.Size = New System.Drawing.Size(160, 293)
         Me.GroupBox26.TabIndex = 4
         Me.GroupBox26.TabStop = False
         Me.GroupBox26.Text = "Button"
@@ -2597,9 +2681,10 @@ Partial Class MainForm
         Me.btn_stn5_cyl3_bw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn5_cyl3_bw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn5_cyl3_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn5_cyl3_bw.Location = New System.Drawing.Point(7, 125)
+        Me.btn_stn5_cyl3_bw.Location = New System.Drawing.Point(9, 154)
+        Me.btn_stn5_cyl3_bw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn5_cyl3_bw.Name = "btn_stn5_cyl3_bw"
-        Me.btn_stn5_cyl3_bw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn5_cyl3_bw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn5_cyl3_bw.TabIndex = 46
         Me.btn_stn5_cyl3_bw.Text = "Backward"
         Me.btn_stn5_cyl3_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -2612,9 +2697,10 @@ Partial Class MainForm
         Me.btn_stn5_cyl3_fw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn5_cyl3_fw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn5_cyl3_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn5_cyl3_fw.Location = New System.Drawing.Point(7, 29)
+        Me.btn_stn5_cyl3_fw.Location = New System.Drawing.Point(9, 36)
+        Me.btn_stn5_cyl3_fw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn5_cyl3_fw.Name = "btn_stn5_cyl3_fw"
-        Me.btn_stn5_cyl3_fw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn5_cyl3_fw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn5_cyl3_fw.TabIndex = 0
         Me.btn_stn5_cyl3_fw.Text = "Forward"
         Me.btn_stn5_cyl3_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -2626,11 +2712,11 @@ Partial Class MainForm
         Me.GroupBox21.Controls.Add(Me.GroupBox22)
         Me.GroupBox21.Controls.Add(Me.GroupBox23)
         Me.GroupBox21.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox21.Location = New System.Drawing.Point(28, 336)
-        Me.GroupBox21.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox21.Location = New System.Drawing.Point(37, 414)
+        Me.GroupBox21.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox21.Name = "GroupBox21"
-        Me.GroupBox21.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox21.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox21.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox21.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox21.TabIndex = 46
         Me.GroupBox21.TabStop = False
         Me.GroupBox21.Text = "V502"
@@ -2642,11 +2728,11 @@ Partial Class MainForm
         Me.GroupBox22.Controls.Add(Me.Label18)
         Me.GroupBox22.Controls.Add(Me.man_stn5_cyl2_max)
         Me.GroupBox22.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox22.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox22.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox22.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox22.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox22.Name = "GroupBox22"
-        Me.GroupBox22.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox22.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox22.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox22.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox22.TabIndex = 46
         Me.GroupBox22.TabStop = False
         Me.GroupBox22.Text = "Sensor"
@@ -2655,20 +2741,20 @@ Partial Class MainForm
         '
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(23, 192)
-        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label17.Location = New System.Drawing.Point(31, 236)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(64, 18)
+        Me.Label17.Size = New System.Drawing.Size(83, 24)
         Me.Label17.TabIndex = 46
         Me.Label17.Text = "Minimun"
         '
         'man_stn5_cyl2_min
         '
         Me.man_stn5_cyl2_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn5_cyl2_min.Location = New System.Drawing.Point(8, 147)
-        Me.man_stn5_cyl2_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn5_cyl2_min.Location = New System.Drawing.Point(11, 181)
+        Me.man_stn5_cyl2_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn5_cyl2_min.Name = "man_stn5_cyl2_min"
-        Me.man_stn5_cyl2_min.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn5_cyl2_min.Size = New System.Drawing.Size(143, 50)
         Me.man_stn5_cyl2_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn5_cyl2_min.TabIndex = 3
         Me.man_stn5_cyl2_min.TabStop = False
@@ -2677,20 +2763,20 @@ Partial Class MainForm
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(23, 96)
-        Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label18.Location = New System.Drawing.Point(31, 118)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(73, 18)
+        Me.Label18.Size = New System.Drawing.Size(93, 24)
         Me.Label18.TabIndex = 2
         Me.Label18.Text = "Maximum"
         '
         'man_stn5_cyl2_max
         '
         Me.man_stn5_cyl2_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn5_cyl2_max.Location = New System.Drawing.Point(8, 51)
-        Me.man_stn5_cyl2_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn5_cyl2_max.Location = New System.Drawing.Point(11, 63)
+        Me.man_stn5_cyl2_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn5_cyl2_max.Name = "man_stn5_cyl2_max"
-        Me.man_stn5_cyl2_max.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn5_cyl2_max.Size = New System.Drawing.Size(143, 50)
         Me.man_stn5_cyl2_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn5_cyl2_max.TabIndex = 1
         Me.man_stn5_cyl2_max.TabStop = False
@@ -2700,11 +2786,11 @@ Partial Class MainForm
         Me.GroupBox23.Controls.Add(Me.btn_stn5_cyl2_bw)
         Me.GroupBox23.Controls.Add(Me.btn_stn5_cyl2_fw)
         Me.GroupBox23.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox23.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox23.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox23.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox23.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox23.Name = "GroupBox23"
-        Me.GroupBox23.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox23.Size = New System.Drawing.Size(120, 238)
+        Me.GroupBox23.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox23.Size = New System.Drawing.Size(160, 293)
         Me.GroupBox23.TabIndex = 4
         Me.GroupBox23.TabStop = False
         Me.GroupBox23.Text = "Button"
@@ -2716,9 +2802,10 @@ Partial Class MainForm
         Me.btn_stn5_cyl2_bw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn5_cyl2_bw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn5_cyl2_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn5_cyl2_bw.Location = New System.Drawing.Point(7, 125)
+        Me.btn_stn5_cyl2_bw.Location = New System.Drawing.Point(9, 154)
+        Me.btn_stn5_cyl2_bw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn5_cyl2_bw.Name = "btn_stn5_cyl2_bw"
-        Me.btn_stn5_cyl2_bw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn5_cyl2_bw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn5_cyl2_bw.TabIndex = 46
         Me.btn_stn5_cyl2_bw.Text = "Backward"
         Me.btn_stn5_cyl2_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -2731,9 +2818,10 @@ Partial Class MainForm
         Me.btn_stn5_cyl2_fw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn5_cyl2_fw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn5_cyl2_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn5_cyl2_fw.Location = New System.Drawing.Point(7, 29)
+        Me.btn_stn5_cyl2_fw.Location = New System.Drawing.Point(9, 36)
+        Me.btn_stn5_cyl2_fw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn5_cyl2_fw.Name = "btn_stn5_cyl2_fw"
-        Me.btn_stn5_cyl2_fw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn5_cyl2_fw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn5_cyl2_fw.TabIndex = 0
         Me.btn_stn5_cyl2_fw.Text = "Forward"
         Me.btn_stn5_cyl2_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -2745,11 +2833,11 @@ Partial Class MainForm
         Me.GroupBox18.Controls.Add(Me.GroupBox19)
         Me.GroupBox18.Controls.Add(Me.GroupBox20)
         Me.GroupBox18.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox18.Location = New System.Drawing.Point(28, 18)
-        Me.GroupBox18.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox18.Location = New System.Drawing.Point(37, 22)
+        Me.GroupBox18.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox18.Name = "GroupBox18"
-        Me.GroupBox18.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox18.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox18.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox18.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox18.TabIndex = 46
         Me.GroupBox18.TabStop = False
         Me.GroupBox18.Text = "V501"
@@ -2761,11 +2849,11 @@ Partial Class MainForm
         Me.GroupBox19.Controls.Add(Me.Label16)
         Me.GroupBox19.Controls.Add(Me.man_stn5_cyl1_max)
         Me.GroupBox19.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox19.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox19.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox19.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox19.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox19.Name = "GroupBox19"
-        Me.GroupBox19.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox19.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox19.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox19.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox19.TabIndex = 46
         Me.GroupBox19.TabStop = False
         Me.GroupBox19.Text = "Sensor"
@@ -2774,20 +2862,20 @@ Partial Class MainForm
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(23, 192)
-        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label15.Location = New System.Drawing.Point(31, 236)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(64, 18)
+        Me.Label15.Size = New System.Drawing.Size(83, 24)
         Me.Label15.TabIndex = 46
         Me.Label15.Text = "Minimun"
         '
         'man_stn5_cyl1_min
         '
         Me.man_stn5_cyl1_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn5_cyl1_min.Location = New System.Drawing.Point(8, 147)
-        Me.man_stn5_cyl1_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn5_cyl1_min.Location = New System.Drawing.Point(11, 181)
+        Me.man_stn5_cyl1_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn5_cyl1_min.Name = "man_stn5_cyl1_min"
-        Me.man_stn5_cyl1_min.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn5_cyl1_min.Size = New System.Drawing.Size(143, 50)
         Me.man_stn5_cyl1_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn5_cyl1_min.TabIndex = 3
         Me.man_stn5_cyl1_min.TabStop = False
@@ -2796,20 +2884,20 @@ Partial Class MainForm
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(23, 96)
-        Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label16.Location = New System.Drawing.Point(31, 118)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(73, 18)
+        Me.Label16.Size = New System.Drawing.Size(93, 24)
         Me.Label16.TabIndex = 2
         Me.Label16.Text = "Maximum"
         '
         'man_stn5_cyl1_max
         '
         Me.man_stn5_cyl1_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn5_cyl1_max.Location = New System.Drawing.Point(8, 51)
-        Me.man_stn5_cyl1_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn5_cyl1_max.Location = New System.Drawing.Point(11, 63)
+        Me.man_stn5_cyl1_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn5_cyl1_max.Name = "man_stn5_cyl1_max"
-        Me.man_stn5_cyl1_max.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn5_cyl1_max.Size = New System.Drawing.Size(143, 50)
         Me.man_stn5_cyl1_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn5_cyl1_max.TabIndex = 1
         Me.man_stn5_cyl1_max.TabStop = False
@@ -2819,11 +2907,11 @@ Partial Class MainForm
         Me.GroupBox20.Controls.Add(Me.btn_stn5_cyl1_bw)
         Me.GroupBox20.Controls.Add(Me.btn_stn5_cyl1_fw)
         Me.GroupBox20.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox20.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox20.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox20.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox20.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox20.Name = "GroupBox20"
-        Me.GroupBox20.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox20.Size = New System.Drawing.Size(120, 238)
+        Me.GroupBox20.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox20.Size = New System.Drawing.Size(160, 293)
         Me.GroupBox20.TabIndex = 4
         Me.GroupBox20.TabStop = False
         Me.GroupBox20.Text = "Button"
@@ -2835,9 +2923,10 @@ Partial Class MainForm
         Me.btn_stn5_cyl1_bw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn5_cyl1_bw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn5_cyl1_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn5_cyl1_bw.Location = New System.Drawing.Point(7, 125)
+        Me.btn_stn5_cyl1_bw.Location = New System.Drawing.Point(9, 154)
+        Me.btn_stn5_cyl1_bw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn5_cyl1_bw.Name = "btn_stn5_cyl1_bw"
-        Me.btn_stn5_cyl1_bw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn5_cyl1_bw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn5_cyl1_bw.TabIndex = 46
         Me.btn_stn5_cyl1_bw.Text = "Backward"
         Me.btn_stn5_cyl1_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -2850,9 +2939,10 @@ Partial Class MainForm
         Me.btn_stn5_cyl1_fw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn5_cyl1_fw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn5_cyl1_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn5_cyl1_fw.Location = New System.Drawing.Point(7, 29)
+        Me.btn_stn5_cyl1_fw.Location = New System.Drawing.Point(9, 36)
+        Me.btn_stn5_cyl1_fw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn5_cyl1_fw.Name = "btn_stn5_cyl1_fw"
-        Me.btn_stn5_cyl1_fw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn5_cyl1_fw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn5_cyl1_fw.TabIndex = 0
         Me.btn_stn5_cyl1_fw.Text = "Forward"
         Me.btn_stn5_cyl1_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -2862,10 +2952,11 @@ Partial Class MainForm
         '
         Me.tab_man_stn6.Controls.Add(Me.TabPage7)
         Me.tab_man_stn6.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tab_man_stn6.Location = New System.Drawing.Point(86, 142)
+        Me.tab_man_stn6.Location = New System.Drawing.Point(115, 175)
+        Me.tab_man_stn6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tab_man_stn6.Name = "tab_man_stn6"
         Me.tab_man_stn6.SelectedIndex = 0
-        Me.tab_man_stn6.Size = New System.Drawing.Size(1252, 700)
+        Me.tab_man_stn6.Size = New System.Drawing.Size(1669, 862)
         Me.tab_man_stn6.TabIndex = 11
         Me.tab_man_stn6.Visible = False
         '
@@ -2875,10 +2966,11 @@ Partial Class MainForm
         Me.TabPage7.Controls.Add(Me.GroupBox30)
         Me.TabPage7.Controls.Add(Me.GroupBox33)
         Me.TabPage7.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabPage7.Location = New System.Drawing.Point(4, 38)
+        Me.TabPage7.Location = New System.Drawing.Point(4, 45)
+        Me.TabPage7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage7.Name = "TabPage7"
-        Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage7.Size = New System.Drawing.Size(1244, 658)
+        Me.TabPage7.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage7.Size = New System.Drawing.Size(1661, 813)
         Me.TabPage7.TabIndex = 2
         Me.TabPage7.Text = "Station 6"
         Me.TabPage7.UseVisualStyleBackColor = True
@@ -2889,11 +2981,11 @@ Partial Class MainForm
         Me.GroupBox27.Controls.Add(Me.GroupBox28)
         Me.GroupBox27.Controls.Add(Me.GroupBox29)
         Me.GroupBox27.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox27.Location = New System.Drawing.Point(382, 18)
-        Me.GroupBox27.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox27.Location = New System.Drawing.Point(509, 22)
+        Me.GroupBox27.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox27.Name = "GroupBox27"
-        Me.GroupBox27.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox27.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox27.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox27.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox27.TabIndex = 46
         Me.GroupBox27.TabStop = False
         Me.GroupBox27.Text = "V603"
@@ -2905,11 +2997,11 @@ Partial Class MainForm
         Me.GroupBox28.Controls.Add(Me.Label22)
         Me.GroupBox28.Controls.Add(Me.man_stn6_cyl3_max)
         Me.GroupBox28.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox28.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox28.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox28.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox28.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox28.Name = "GroupBox28"
-        Me.GroupBox28.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox28.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox28.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox28.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox28.TabIndex = 46
         Me.GroupBox28.TabStop = False
         Me.GroupBox28.Text = "Sensor"
@@ -2918,20 +3010,20 @@ Partial Class MainForm
         '
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(23, 192)
-        Me.Label21.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label21.Location = New System.Drawing.Point(31, 236)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(64, 18)
+        Me.Label21.Size = New System.Drawing.Size(83, 24)
         Me.Label21.TabIndex = 46
         Me.Label21.Text = "Minimun"
         '
         'man_stn6_cyl3_min
         '
         Me.man_stn6_cyl3_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn6_cyl3_min.Location = New System.Drawing.Point(8, 147)
-        Me.man_stn6_cyl3_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn6_cyl3_min.Location = New System.Drawing.Point(11, 181)
+        Me.man_stn6_cyl3_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn6_cyl3_min.Name = "man_stn6_cyl3_min"
-        Me.man_stn6_cyl3_min.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn6_cyl3_min.Size = New System.Drawing.Size(143, 50)
         Me.man_stn6_cyl3_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn6_cyl3_min.TabIndex = 3
         Me.man_stn6_cyl3_min.TabStop = False
@@ -2940,20 +3032,20 @@ Partial Class MainForm
         '
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(23, 96)
-        Me.Label22.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label22.Location = New System.Drawing.Point(31, 118)
+        Me.Label22.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(73, 18)
+        Me.Label22.Size = New System.Drawing.Size(93, 24)
         Me.Label22.TabIndex = 2
         Me.Label22.Text = "Maximum"
         '
         'man_stn6_cyl3_max
         '
         Me.man_stn6_cyl3_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn6_cyl3_max.Location = New System.Drawing.Point(8, 51)
-        Me.man_stn6_cyl3_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn6_cyl3_max.Location = New System.Drawing.Point(11, 63)
+        Me.man_stn6_cyl3_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn6_cyl3_max.Name = "man_stn6_cyl3_max"
-        Me.man_stn6_cyl3_max.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn6_cyl3_max.Size = New System.Drawing.Size(143, 50)
         Me.man_stn6_cyl3_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn6_cyl3_max.TabIndex = 1
         Me.man_stn6_cyl3_max.TabStop = False
@@ -2963,11 +3055,11 @@ Partial Class MainForm
         Me.GroupBox29.Controls.Add(Me.btn_stn6_cyl3_bw)
         Me.GroupBox29.Controls.Add(Me.btn_stn6_cyl3_fw)
         Me.GroupBox29.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox29.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox29.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox29.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox29.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox29.Name = "GroupBox29"
-        Me.GroupBox29.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox29.Size = New System.Drawing.Size(120, 238)
+        Me.GroupBox29.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox29.Size = New System.Drawing.Size(160, 293)
         Me.GroupBox29.TabIndex = 4
         Me.GroupBox29.TabStop = False
         Me.GroupBox29.Text = "Button"
@@ -2979,9 +3071,10 @@ Partial Class MainForm
         Me.btn_stn6_cyl3_bw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn6_cyl3_bw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn6_cyl3_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn6_cyl3_bw.Location = New System.Drawing.Point(7, 125)
+        Me.btn_stn6_cyl3_bw.Location = New System.Drawing.Point(9, 154)
+        Me.btn_stn6_cyl3_bw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn6_cyl3_bw.Name = "btn_stn6_cyl3_bw"
-        Me.btn_stn6_cyl3_bw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn6_cyl3_bw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn6_cyl3_bw.TabIndex = 46
         Me.btn_stn6_cyl3_bw.Text = "Backward"
         Me.btn_stn6_cyl3_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -2994,9 +3087,10 @@ Partial Class MainForm
         Me.btn_stn6_cyl3_fw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn6_cyl3_fw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn6_cyl3_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn6_cyl3_fw.Location = New System.Drawing.Point(7, 29)
+        Me.btn_stn6_cyl3_fw.Location = New System.Drawing.Point(9, 36)
+        Me.btn_stn6_cyl3_fw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn6_cyl3_fw.Name = "btn_stn6_cyl3_fw"
-        Me.btn_stn6_cyl3_fw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn6_cyl3_fw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn6_cyl3_fw.TabIndex = 0
         Me.btn_stn6_cyl3_fw.Text = "Forward"
         Me.btn_stn6_cyl3_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -3008,11 +3102,11 @@ Partial Class MainForm
         Me.GroupBox30.Controls.Add(Me.GroupBox31)
         Me.GroupBox30.Controls.Add(Me.GroupBox32)
         Me.GroupBox30.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox30.Location = New System.Drawing.Point(28, 336)
-        Me.GroupBox30.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox30.Location = New System.Drawing.Point(37, 414)
+        Me.GroupBox30.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox30.Name = "GroupBox30"
-        Me.GroupBox30.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox30.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox30.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox30.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox30.TabIndex = 46
         Me.GroupBox30.TabStop = False
         Me.GroupBox30.Text = "V602"
@@ -3024,11 +3118,11 @@ Partial Class MainForm
         Me.GroupBox31.Controls.Add(Me.Label24)
         Me.GroupBox31.Controls.Add(Me.man_stn6_cyl2_max)
         Me.GroupBox31.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox31.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox31.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox31.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox31.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox31.Name = "GroupBox31"
-        Me.GroupBox31.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox31.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox31.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox31.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox31.TabIndex = 46
         Me.GroupBox31.TabStop = False
         Me.GroupBox31.Text = "Sensor"
@@ -3037,20 +3131,20 @@ Partial Class MainForm
         '
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(23, 192)
-        Me.Label23.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label23.Location = New System.Drawing.Point(31, 236)
+        Me.Label23.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(64, 18)
+        Me.Label23.Size = New System.Drawing.Size(83, 24)
         Me.Label23.TabIndex = 46
         Me.Label23.Text = "Minimun"
         '
         'man_stn6_cyl2_min
         '
         Me.man_stn6_cyl2_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn6_cyl2_min.Location = New System.Drawing.Point(8, 147)
-        Me.man_stn6_cyl2_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn6_cyl2_min.Location = New System.Drawing.Point(11, 181)
+        Me.man_stn6_cyl2_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn6_cyl2_min.Name = "man_stn6_cyl2_min"
-        Me.man_stn6_cyl2_min.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn6_cyl2_min.Size = New System.Drawing.Size(143, 50)
         Me.man_stn6_cyl2_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn6_cyl2_min.TabIndex = 3
         Me.man_stn6_cyl2_min.TabStop = False
@@ -3059,20 +3153,20 @@ Partial Class MainForm
         '
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(23, 96)
-        Me.Label24.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label24.Location = New System.Drawing.Point(31, 118)
+        Me.Label24.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(73, 18)
+        Me.Label24.Size = New System.Drawing.Size(93, 24)
         Me.Label24.TabIndex = 2
         Me.Label24.Text = "Maximum"
         '
         'man_stn6_cyl2_max
         '
         Me.man_stn6_cyl2_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn6_cyl2_max.Location = New System.Drawing.Point(8, 51)
-        Me.man_stn6_cyl2_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn6_cyl2_max.Location = New System.Drawing.Point(11, 63)
+        Me.man_stn6_cyl2_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn6_cyl2_max.Name = "man_stn6_cyl2_max"
-        Me.man_stn6_cyl2_max.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn6_cyl2_max.Size = New System.Drawing.Size(143, 50)
         Me.man_stn6_cyl2_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn6_cyl2_max.TabIndex = 1
         Me.man_stn6_cyl2_max.TabStop = False
@@ -3082,11 +3176,11 @@ Partial Class MainForm
         Me.GroupBox32.Controls.Add(Me.btn_stn6_cyl2_bw)
         Me.GroupBox32.Controls.Add(Me.btn_stn6_cyl2_fw)
         Me.GroupBox32.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox32.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox32.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox32.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox32.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox32.Name = "GroupBox32"
-        Me.GroupBox32.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox32.Size = New System.Drawing.Size(120, 238)
+        Me.GroupBox32.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox32.Size = New System.Drawing.Size(160, 293)
         Me.GroupBox32.TabIndex = 4
         Me.GroupBox32.TabStop = False
         Me.GroupBox32.Text = "Button"
@@ -3098,9 +3192,10 @@ Partial Class MainForm
         Me.btn_stn6_cyl2_bw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn6_cyl2_bw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn6_cyl2_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn6_cyl2_bw.Location = New System.Drawing.Point(7, 125)
+        Me.btn_stn6_cyl2_bw.Location = New System.Drawing.Point(9, 154)
+        Me.btn_stn6_cyl2_bw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn6_cyl2_bw.Name = "btn_stn6_cyl2_bw"
-        Me.btn_stn6_cyl2_bw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn6_cyl2_bw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn6_cyl2_bw.TabIndex = 46
         Me.btn_stn6_cyl2_bw.Text = "Backward"
         Me.btn_stn6_cyl2_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -3113,9 +3208,10 @@ Partial Class MainForm
         Me.btn_stn6_cyl2_fw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn6_cyl2_fw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn6_cyl2_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn6_cyl2_fw.Location = New System.Drawing.Point(7, 29)
+        Me.btn_stn6_cyl2_fw.Location = New System.Drawing.Point(9, 36)
+        Me.btn_stn6_cyl2_fw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn6_cyl2_fw.Name = "btn_stn6_cyl2_fw"
-        Me.btn_stn6_cyl2_fw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn6_cyl2_fw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn6_cyl2_fw.TabIndex = 0
         Me.btn_stn6_cyl2_fw.Text = "Forward"
         Me.btn_stn6_cyl2_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -3127,11 +3223,11 @@ Partial Class MainForm
         Me.GroupBox33.Controls.Add(Me.GroupBox34)
         Me.GroupBox33.Controls.Add(Me.GroupBox35)
         Me.GroupBox33.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox33.Location = New System.Drawing.Point(28, 18)
-        Me.GroupBox33.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox33.Location = New System.Drawing.Point(37, 22)
+        Me.GroupBox33.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox33.Name = "GroupBox33"
-        Me.GroupBox33.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox33.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox33.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox33.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox33.TabIndex = 46
         Me.GroupBox33.TabStop = False
         Me.GroupBox33.Text = "V601"
@@ -3143,11 +3239,11 @@ Partial Class MainForm
         Me.GroupBox34.Controls.Add(Me.Label26)
         Me.GroupBox34.Controls.Add(Me.man_stn6_cyl1_max)
         Me.GroupBox34.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox34.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox34.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox34.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox34.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox34.Name = "GroupBox34"
-        Me.GroupBox34.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox34.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox34.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox34.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox34.TabIndex = 46
         Me.GroupBox34.TabStop = False
         Me.GroupBox34.Text = "Sensor"
@@ -3156,20 +3252,20 @@ Partial Class MainForm
         '
         Me.Label25.AutoSize = True
         Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(23, 192)
-        Me.Label25.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label25.Location = New System.Drawing.Point(31, 236)
+        Me.Label25.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(64, 18)
+        Me.Label25.Size = New System.Drawing.Size(83, 24)
         Me.Label25.TabIndex = 46
         Me.Label25.Text = "Minimun"
         '
         'man_stn6_cyl1_min
         '
         Me.man_stn6_cyl1_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn6_cyl1_min.Location = New System.Drawing.Point(8, 147)
-        Me.man_stn6_cyl1_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn6_cyl1_min.Location = New System.Drawing.Point(11, 181)
+        Me.man_stn6_cyl1_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn6_cyl1_min.Name = "man_stn6_cyl1_min"
-        Me.man_stn6_cyl1_min.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn6_cyl1_min.Size = New System.Drawing.Size(143, 50)
         Me.man_stn6_cyl1_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn6_cyl1_min.TabIndex = 3
         Me.man_stn6_cyl1_min.TabStop = False
@@ -3178,20 +3274,20 @@ Partial Class MainForm
         '
         Me.Label26.AutoSize = True
         Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.Location = New System.Drawing.Point(23, 96)
-        Me.Label26.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label26.Location = New System.Drawing.Point(31, 118)
+        Me.Label26.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(73, 18)
+        Me.Label26.Size = New System.Drawing.Size(93, 24)
         Me.Label26.TabIndex = 2
         Me.Label26.Text = "Maximum"
         '
         'man_stn6_cyl1_max
         '
         Me.man_stn6_cyl1_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.man_stn6_cyl1_max.Location = New System.Drawing.Point(8, 51)
-        Me.man_stn6_cyl1_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.man_stn6_cyl1_max.Location = New System.Drawing.Point(11, 63)
+        Me.man_stn6_cyl1_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.man_stn6_cyl1_max.Name = "man_stn6_cyl1_max"
-        Me.man_stn6_cyl1_max.Size = New System.Drawing.Size(107, 41)
+        Me.man_stn6_cyl1_max.Size = New System.Drawing.Size(143, 50)
         Me.man_stn6_cyl1_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.man_stn6_cyl1_max.TabIndex = 1
         Me.man_stn6_cyl1_max.TabStop = False
@@ -3201,11 +3297,11 @@ Partial Class MainForm
         Me.GroupBox35.Controls.Add(Me.btn_stn6_cyl1_bw)
         Me.GroupBox35.Controls.Add(Me.btn_stn6_cyl1_fw)
         Me.GroupBox35.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox35.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox35.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox35.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox35.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox35.Name = "GroupBox35"
-        Me.GroupBox35.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox35.Size = New System.Drawing.Size(120, 238)
+        Me.GroupBox35.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox35.Size = New System.Drawing.Size(160, 293)
         Me.GroupBox35.TabIndex = 4
         Me.GroupBox35.TabStop = False
         Me.GroupBox35.Text = "Button"
@@ -3217,9 +3313,10 @@ Partial Class MainForm
         Me.btn_stn6_cyl1_bw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn6_cyl1_bw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn6_cyl1_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn6_cyl1_bw.Location = New System.Drawing.Point(7, 125)
+        Me.btn_stn6_cyl1_bw.Location = New System.Drawing.Point(9, 154)
+        Me.btn_stn6_cyl1_bw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn6_cyl1_bw.Name = "btn_stn6_cyl1_bw"
-        Me.btn_stn6_cyl1_bw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn6_cyl1_bw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn6_cyl1_bw.TabIndex = 46
         Me.btn_stn6_cyl1_bw.Text = "Backward"
         Me.btn_stn6_cyl1_bw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -3232,9 +3329,10 @@ Partial Class MainForm
         Me.btn_stn6_cyl1_fw.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_stn6_cyl1_fw.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_stn6_cyl1_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.button_silver
-        Me.btn_stn6_cyl1_fw.Location = New System.Drawing.Point(7, 29)
+        Me.btn_stn6_cyl1_fw.Location = New System.Drawing.Point(9, 36)
+        Me.btn_stn6_cyl1_fw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_stn6_cyl1_fw.Name = "btn_stn6_cyl1_fw"
-        Me.btn_stn6_cyl1_fw.Size = New System.Drawing.Size(100, 90)
+        Me.btn_stn6_cyl1_fw.Size = New System.Drawing.Size(133, 111)
         Me.btn_stn6_cyl1_fw.TabIndex = 0
         Me.btn_stn6_cyl1_fw.Text = "Forward"
         Me.btn_stn6_cyl1_fw.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -3244,10 +3342,11 @@ Partial Class MainForm
         '
         Me.tab_mon_stn1.Controls.Add(Me.TabPage8)
         Me.tab_mon_stn1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tab_mon_stn1.Location = New System.Drawing.Point(86, 142)
+        Me.tab_mon_stn1.Location = New System.Drawing.Point(115, 175)
+        Me.tab_mon_stn1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tab_mon_stn1.Name = "tab_mon_stn1"
         Me.tab_mon_stn1.SelectedIndex = 0
-        Me.tab_mon_stn1.Size = New System.Drawing.Size(1252, 700)
+        Me.tab_mon_stn1.Size = New System.Drawing.Size(1669, 862)
         Me.tab_mon_stn1.TabIndex = 12
         Me.tab_mon_stn1.Visible = False
         '
@@ -3255,10 +3354,11 @@ Partial Class MainForm
         '
         Me.TabPage8.Controls.Add(Me.GroupBox36)
         Me.TabPage8.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabPage8.Location = New System.Drawing.Point(4, 38)
+        Me.TabPage8.Location = New System.Drawing.Point(4, 45)
+        Me.TabPage8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage8.Name = "TabPage8"
-        Me.TabPage8.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage8.Size = New System.Drawing.Size(1244, 658)
+        Me.TabPage8.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage8.Size = New System.Drawing.Size(1661, 813)
         Me.TabPage8.TabIndex = 2
         Me.TabPage8.Text = "Station 1"
         Me.TabPage8.UseVisualStyleBackColor = True
@@ -3267,9 +3367,11 @@ Partial Class MainForm
         '
         Me.GroupBox36.Controls.Add(Me.GroupBox38)
         Me.GroupBox36.Controls.Add(Me.GroupBox37)
-        Me.GroupBox36.Location = New System.Drawing.Point(400, 109)
+        Me.GroupBox36.Location = New System.Drawing.Point(533, 134)
+        Me.GroupBox36.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox36.Name = "GroupBox36"
-        Me.GroupBox36.Size = New System.Drawing.Size(402, 362)
+        Me.GroupBox36.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox36.Size = New System.Drawing.Size(536, 446)
         Me.GroupBox36.TabIndex = 2
         Me.GroupBox36.TabStop = False
         Me.GroupBox36.Text = "V101"
@@ -3280,9 +3382,11 @@ Partial Class MainForm
         Me.GroupBox38.Controls.Add(Me.Label30)
         Me.GroupBox38.Controls.Add(Me.ind_stn1_cyl1_bw)
         Me.GroupBox38.Controls.Add(Me.ind_stn1_cyl1_fw)
-        Me.GroupBox38.Location = New System.Drawing.Point(6, 52)
+        Me.GroupBox38.Location = New System.Drawing.Point(8, 64)
+        Me.GroupBox38.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox38.Name = "GroupBox38"
-        Me.GroupBox38.Size = New System.Drawing.Size(186, 266)
+        Me.GroupBox38.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox38.Size = New System.Drawing.Size(248, 327)
         Me.GroupBox38.TabIndex = 3
         Me.GroupBox38.TabStop = False
         Me.GroupBox38.Text = "Actuator"
@@ -3291,10 +3395,10 @@ Partial Class MainForm
         '
         Me.Label29.AutoSize = True
         Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.Location = New System.Drawing.Point(61, 225)
-        Me.Label29.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label29.Location = New System.Drawing.Point(81, 277)
+        Me.Label29.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(52, 18)
+        Me.Label29.Size = New System.Drawing.Size(66, 24)
         Me.Label29.TabIndex = 2
         Me.Label29.Text = "Return"
         '
@@ -3302,19 +3406,20 @@ Partial Class MainForm
         '
         Me.Label30.AutoSize = True
         Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(61, 110)
-        Me.Label30.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label30.Location = New System.Drawing.Point(81, 135)
+        Me.Label30.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(53, 18)
+        Me.Label30.Size = New System.Drawing.Size(70, 24)
         Me.Label30.TabIndex = 2
         Me.Label30.Text = "Extend"
         '
         'ind_stn1_cyl1_bw
         '
         Me.ind_stn1_cyl1_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn1_cyl1_bw.Location = New System.Drawing.Point(32, 172)
+        Me.ind_stn1_cyl1_bw.Location = New System.Drawing.Point(43, 212)
+        Me.ind_stn1_cyl1_bw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ind_stn1_cyl1_bw.Name = "ind_stn1_cyl1_bw"
-        Me.ind_stn1_cyl1_bw.Size = New System.Drawing.Size(109, 50)
+        Me.ind_stn1_cyl1_bw.Size = New System.Drawing.Size(145, 62)
         Me.ind_stn1_cyl1_bw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn1_cyl1_bw.TabIndex = 1
         Me.ind_stn1_cyl1_bw.TabStop = False
@@ -3322,9 +3427,10 @@ Partial Class MainForm
         'ind_stn1_cyl1_fw
         '
         Me.ind_stn1_cyl1_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn1_cyl1_fw.Location = New System.Drawing.Point(32, 57)
+        Me.ind_stn1_cyl1_fw.Location = New System.Drawing.Point(43, 70)
+        Me.ind_stn1_cyl1_fw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ind_stn1_cyl1_fw.Name = "ind_stn1_cyl1_fw"
-        Me.ind_stn1_cyl1_fw.Size = New System.Drawing.Size(109, 50)
+        Me.ind_stn1_cyl1_fw.Size = New System.Drawing.Size(145, 62)
         Me.ind_stn1_cyl1_fw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn1_cyl1_fw.TabIndex = 0
         Me.ind_stn1_cyl1_fw.TabStop = False
@@ -3335,9 +3441,11 @@ Partial Class MainForm
         Me.GroupBox37.Controls.Add(Me.Label28)
         Me.GroupBox37.Controls.Add(Me.mon_stn1_cyl1_min)
         Me.GroupBox37.Controls.Add(Me.mon_stn1_cyl1_max)
-        Me.GroupBox37.Location = New System.Drawing.Point(210, 52)
+        Me.GroupBox37.Location = New System.Drawing.Point(280, 64)
+        Me.GroupBox37.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox37.Name = "GroupBox37"
-        Me.GroupBox37.Size = New System.Drawing.Size(186, 266)
+        Me.GroupBox37.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox37.Size = New System.Drawing.Size(248, 327)
         Me.GroupBox37.TabIndex = 1
         Me.GroupBox37.TabStop = False
         Me.GroupBox37.Text = "Sensor"
@@ -3346,10 +3454,10 @@ Partial Class MainForm
         '
         Me.Label27.AutoSize = True
         Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(51, 225)
-        Me.Label27.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label27.Location = New System.Drawing.Point(68, 277)
+        Me.Label27.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(64, 18)
+        Me.Label27.Size = New System.Drawing.Size(83, 24)
         Me.Label27.TabIndex = 2
         Me.Label27.Text = "Minimun"
         '
@@ -3357,19 +3465,20 @@ Partial Class MainForm
         '
         Me.Label28.AutoSize = True
         Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(51, 110)
-        Me.Label28.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label28.Location = New System.Drawing.Point(68, 135)
+        Me.Label28.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(73, 18)
+        Me.Label28.Size = New System.Drawing.Size(93, 24)
         Me.Label28.TabIndex = 2
         Me.Label28.Text = "Maximum"
         '
         'mon_stn1_cyl1_min
         '
         Me.mon_stn1_cyl1_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn1_cyl1_min.Location = New System.Drawing.Point(32, 172)
+        Me.mon_stn1_cyl1_min.Location = New System.Drawing.Point(43, 212)
+        Me.mon_stn1_cyl1_min.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.mon_stn1_cyl1_min.Name = "mon_stn1_cyl1_min"
-        Me.mon_stn1_cyl1_min.Size = New System.Drawing.Size(109, 50)
+        Me.mon_stn1_cyl1_min.Size = New System.Drawing.Size(145, 62)
         Me.mon_stn1_cyl1_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn1_cyl1_min.TabIndex = 1
         Me.mon_stn1_cyl1_min.TabStop = False
@@ -3377,9 +3486,10 @@ Partial Class MainForm
         'mon_stn1_cyl1_max
         '
         Me.mon_stn1_cyl1_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn1_cyl1_max.Location = New System.Drawing.Point(32, 57)
+        Me.mon_stn1_cyl1_max.Location = New System.Drawing.Point(43, 70)
+        Me.mon_stn1_cyl1_max.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.mon_stn1_cyl1_max.Name = "mon_stn1_cyl1_max"
-        Me.mon_stn1_cyl1_max.Size = New System.Drawing.Size(109, 50)
+        Me.mon_stn1_cyl1_max.Size = New System.Drawing.Size(145, 62)
         Me.mon_stn1_cyl1_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn1_cyl1_max.TabIndex = 0
         Me.mon_stn1_cyl1_max.TabStop = False
@@ -3388,20 +3498,22 @@ Partial Class MainForm
         '
         Me.tab_mon_stn2.Controls.Add(Me.TabPage9)
         Me.tab_mon_stn2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tab_mon_stn2.Location = New System.Drawing.Point(86, 142)
+        Me.tab_mon_stn2.Location = New System.Drawing.Point(115, 175)
+        Me.tab_mon_stn2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tab_mon_stn2.Name = "tab_mon_stn2"
         Me.tab_mon_stn2.SelectedIndex = 0
-        Me.tab_mon_stn2.Size = New System.Drawing.Size(1252, 700)
+        Me.tab_mon_stn2.Size = New System.Drawing.Size(1669, 862)
         Me.tab_mon_stn2.TabIndex = 13
         Me.tab_mon_stn2.Visible = False
         '
         'TabPage9
         '
         Me.TabPage9.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabPage9.Location = New System.Drawing.Point(4, 38)
+        Me.TabPage9.Location = New System.Drawing.Point(4, 45)
+        Me.TabPage9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage9.Name = "TabPage9"
-        Me.TabPage9.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage9.Size = New System.Drawing.Size(1244, 658)
+        Me.TabPage9.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage9.Size = New System.Drawing.Size(1661, 813)
         Me.TabPage9.TabIndex = 2
         Me.TabPage9.Text = "Station 2"
         Me.TabPage9.UseVisualStyleBackColor = True
@@ -3417,10 +3529,11 @@ Partial Class MainForm
         Me.home.Controls.Add(Me.GroupBox2)
         Me.home.Controls.Add(Me.GroupBox1)
         Me.home.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.home.Location = New System.Drawing.Point(4, 38)
+        Me.home.Location = New System.Drawing.Point(4, 45)
+        Me.home.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.home.Name = "home"
-        Me.home.Padding = New System.Windows.Forms.Padding(3)
-        Me.home.Size = New System.Drawing.Size(1244, 658)
+        Me.home.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.home.Size = New System.Drawing.Size(1661, 813)
         Me.home.TabIndex = 2
         Me.home.Text = "Home"
         Me.home.UseVisualStyleBackColor = True
@@ -3431,10 +3544,10 @@ Partial Class MainForm
         Me.lbl_op_ins.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_op_ins.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_op_ins.ForeColor = System.Drawing.Color.Red
-        Me.lbl_op_ins.Location = New System.Drawing.Point(400, 39)
-        Me.lbl_op_ins.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_op_ins.Location = New System.Drawing.Point(533, 48)
+        Me.lbl_op_ins.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_op_ins.Name = "lbl_op_ins"
-        Me.lbl_op_ins.Size = New System.Drawing.Size(287, 114)
+        Me.lbl_op_ins.Size = New System.Drawing.Size(382, 140)
         Me.lbl_op_ins.TabIndex = 64
         Me.lbl_op_ins.Text = "Please Scan Product References!"
         '
@@ -3442,9 +3555,10 @@ Partial Class MainForm
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(403, 11)
+        Me.Label3.Location = New System.Drawing.Point(537, 14)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(193, 24)
+        Me.Label3.Size = New System.Drawing.Size(248, 29)
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "Operator Instructions :"
         '
@@ -3459,11 +3573,11 @@ Partial Class MainForm
         Me.GroupBox175.Controls.Add(Me.lbl_fail)
         Me.GroupBox175.Controls.Add(Me.lbl_pass)
         Me.GroupBox175.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox175.Location = New System.Drawing.Point(706, 8)
-        Me.GroupBox175.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox175.Location = New System.Drawing.Point(941, 10)
+        Me.GroupBox175.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox175.Name = "GroupBox175"
-        Me.GroupBox175.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox175.Size = New System.Drawing.Size(341, 145)
+        Me.GroupBox175.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox175.Size = New System.Drawing.Size(455, 178)
         Me.GroupBox175.TabIndex = 63
         Me.GroupBox175.TabStop = False
         Me.GroupBox175.Text = "Product Output"
@@ -3472,10 +3586,10 @@ Partial Class MainForm
         '
         Me.Label124.AutoSize = True
         Me.Label124.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label124.Location = New System.Drawing.Point(35, 113)
-        Me.Label124.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label124.Location = New System.Drawing.Point(47, 139)
+        Me.Label124.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label124.Name = "Label124"
-        Me.Label124.Size = New System.Drawing.Size(36, 18)
+        Me.Label124.Size = New System.Drawing.Size(46, 24)
         Me.Label124.TabIndex = 38
         Me.Label124.Text = "FPY"
         '
@@ -3483,10 +3597,10 @@ Partial Class MainForm
         '
         Me.Label63.AutoSize = True
         Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label63.Location = New System.Drawing.Point(35, 86)
-        Me.Label63.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label63.Location = New System.Drawing.Point(47, 106)
+        Me.Label63.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(40, 18)
+        Me.Label63.Size = New System.Drawing.Size(51, 24)
         Me.Label63.TabIndex = 39
         Me.Label63.Text = "OEE"
         '
@@ -3494,10 +3608,10 @@ Partial Class MainForm
         '
         Me.Label51.AutoSize = True
         Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label51.Location = New System.Drawing.Point(35, 59)
-        Me.Label51.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label51.Location = New System.Drawing.Point(47, 73)
+        Me.Label51.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(31, 18)
+        Me.Label51.Size = New System.Drawing.Size(40, 24)
         Me.Label51.TabIndex = 40
         Me.Label51.Text = "Fail"
         '
@@ -3505,10 +3619,10 @@ Partial Class MainForm
         '
         Me.Label33.AutoSize = True
         Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.Location = New System.Drawing.Point(35, 31)
-        Me.Label33.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label33.Location = New System.Drawing.Point(47, 38)
+        Me.Label33.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(42, 18)
+        Me.Label33.Size = New System.Drawing.Size(50, 24)
         Me.Label33.TabIndex = 41
         Me.Label33.Text = "Pass"
         '
@@ -3518,10 +3632,10 @@ Partial Class MainForm
         Me.lbl_fpy.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_fpy.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_fpy.ForeColor = System.Drawing.Color.White
-        Me.lbl_fpy.Location = New System.Drawing.Point(156, 111)
-        Me.lbl_fpy.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_fpy.Location = New System.Drawing.Point(208, 137)
+        Me.lbl_fpy.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_fpy.Name = "lbl_fpy"
-        Me.lbl_fpy.Size = New System.Drawing.Size(151, 24)
+        Me.lbl_fpy.Size = New System.Drawing.Size(201, 29)
         Me.lbl_fpy.TabIndex = 42
         Me.lbl_fpy.Text = "0 %"
         Me.lbl_fpy.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -3532,10 +3646,10 @@ Partial Class MainForm
         Me.lbl_oee.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_oee.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_oee.ForeColor = System.Drawing.Color.White
-        Me.lbl_oee.Location = New System.Drawing.Point(156, 84)
-        Me.lbl_oee.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_oee.Location = New System.Drawing.Point(208, 103)
+        Me.lbl_oee.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_oee.Name = "lbl_oee"
-        Me.lbl_oee.Size = New System.Drawing.Size(151, 24)
+        Me.lbl_oee.Size = New System.Drawing.Size(201, 29)
         Me.lbl_oee.TabIndex = 43
         Me.lbl_oee.Text = "0 %"
         Me.lbl_oee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -3546,10 +3660,10 @@ Partial Class MainForm
         Me.lbl_fail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_fail.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_fail.ForeColor = System.Drawing.Color.White
-        Me.lbl_fail.Location = New System.Drawing.Point(156, 57)
-        Me.lbl_fail.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_fail.Location = New System.Drawing.Point(208, 70)
+        Me.lbl_fail.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_fail.Name = "lbl_fail"
-        Me.lbl_fail.Size = New System.Drawing.Size(151, 24)
+        Me.lbl_fail.Size = New System.Drawing.Size(201, 29)
         Me.lbl_fail.TabIndex = 44
         Me.lbl_fail.Text = "0"
         Me.lbl_fail.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -3560,10 +3674,10 @@ Partial Class MainForm
         Me.lbl_pass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_pass.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_pass.ForeColor = System.Drawing.Color.White
-        Me.lbl_pass.Location = New System.Drawing.Point(156, 28)
-        Me.lbl_pass.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_pass.Location = New System.Drawing.Point(208, 34)
+        Me.lbl_pass.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_pass.Name = "lbl_pass"
-        Me.lbl_pass.Size = New System.Drawing.Size(151, 24)
+        Me.lbl_pass.Size = New System.Drawing.Size(201, 29)
         Me.lbl_pass.TabIndex = 45
         Me.lbl_pass.Text = "0"
         Me.lbl_pass.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -3654,11 +3768,11 @@ Partial Class MainForm
         Me.GroupBox78.Controls.Add(Me.lbl_status_1)
         Me.GroupBox78.Controls.Add(Me.lbl_status)
         Me.GroupBox78.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox78.Location = New System.Drawing.Point(400, 161)
-        Me.GroupBox78.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox78.Location = New System.Drawing.Point(533, 198)
+        Me.GroupBox78.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox78.Name = "GroupBox78"
-        Me.GroupBox78.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox78.Size = New System.Drawing.Size(648, 222)
+        Me.GroupBox78.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox78.Size = New System.Drawing.Size(864, 273)
         Me.GroupBox78.TabIndex = 62
         Me.GroupBox78.TabStop = False
         Me.GroupBox78.Text = "Production Data :"
@@ -3667,10 +3781,10 @@ Partial Class MainForm
         '
         Me.Label68.AutoSize = True
         Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label68.Location = New System.Drawing.Point(8, 345)
-        Me.Label68.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label68.Location = New System.Drawing.Point(11, 425)
+        Me.Label68.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(71, 18)
+        Me.Label68.Size = New System.Drawing.Size(90, 24)
         Me.Label68.TabIndex = 36
         Me.Label68.Text = "Unknown"
         '
@@ -3678,10 +3792,10 @@ Partial Class MainForm
         '
         Me.Label81.AutoSize = True
         Me.Label81.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label81.Location = New System.Drawing.Point(8, 286)
-        Me.Label81.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label81.Location = New System.Drawing.Point(11, 352)
+        Me.Label81.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label81.Name = "Label81"
-        Me.Label81.Size = New System.Drawing.Size(71, 18)
+        Me.Label81.Size = New System.Drawing.Size(90, 24)
         Me.Label81.TabIndex = 36
         Me.Label81.Text = "Unknown"
         '
@@ -3689,10 +3803,10 @@ Partial Class MainForm
         '
         Me.Label84.AutoSize = True
         Me.Label84.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label84.Location = New System.Drawing.Point(8, 171)
-        Me.Label84.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label84.Location = New System.Drawing.Point(11, 210)
+        Me.Label84.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label84.Name = "Label84"
-        Me.Label84.Size = New System.Drawing.Size(188, 18)
+        Me.Label84.Size = New System.Drawing.Size(234, 24)
         Me.Label84.TabIndex = 36
         Me.Label84.Text = "ST5 Camera Result RIGHT"
         '
@@ -3700,10 +3814,10 @@ Partial Class MainForm
         '
         Me.laabel2.AutoSize = True
         Me.laabel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.laabel2.Location = New System.Drawing.Point(8, 228)
-        Me.laabel2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.laabel2.Location = New System.Drawing.Point(11, 281)
+        Me.laabel2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.laabel2.Name = "laabel2"
-        Me.laabel2.Size = New System.Drawing.Size(71, 18)
+        Me.laabel2.Size = New System.Drawing.Size(90, 24)
         Me.laabel2.TabIndex = 36
         Me.laabel2.Text = "Unknown"
         '
@@ -3711,10 +3825,10 @@ Partial Class MainForm
         '
         Me.Label116.AutoSize = True
         Me.Label116.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label116.Location = New System.Drawing.Point(8, 86)
-        Me.Label116.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label116.Location = New System.Drawing.Point(11, 106)
+        Me.Label116.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label116.Name = "Label116"
-        Me.Label116.Size = New System.Drawing.Size(170, 18)
+        Me.Label116.Size = New System.Drawing.Size(217, 24)
         Me.Label116.TabIndex = 36
         Me.Label116.Text = "ST3 Measurement LEFT"
         '
@@ -3722,10 +3836,10 @@ Partial Class MainForm
         '
         Me.Label117.AutoSize = True
         Me.Label117.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label117.Location = New System.Drawing.Point(8, 315)
-        Me.Label117.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label117.Location = New System.Drawing.Point(11, 388)
+        Me.Label117.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label117.Name = "Label117"
-        Me.Label117.Size = New System.Drawing.Size(71, 18)
+        Me.Label117.Size = New System.Drawing.Size(90, 24)
         Me.Label117.TabIndex = 36
         Me.Label117.Text = "Unknown"
         '
@@ -3733,10 +3847,10 @@ Partial Class MainForm
         '
         Me.laabel3.AutoSize = True
         Me.laabel3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.laabel3.Location = New System.Drawing.Point(8, 256)
-        Me.laabel3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.laabel3.Location = New System.Drawing.Point(11, 315)
+        Me.laabel3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.laabel3.Name = "laabel3"
-        Me.laabel3.Size = New System.Drawing.Size(71, 18)
+        Me.laabel3.Size = New System.Drawing.Size(90, 24)
         Me.laabel3.TabIndex = 36
         Me.laabel3.Text = "Unknown"
         '
@@ -3744,10 +3858,10 @@ Partial Class MainForm
         '
         Me.Label257.AutoSize = True
         Me.Label257.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label257.Location = New System.Drawing.Point(8, 143)
-        Me.Label257.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label257.Location = New System.Drawing.Point(11, 176)
+        Me.Label257.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label257.Name = "Label257"
-        Me.Label257.Size = New System.Drawing.Size(182, 18)
+        Me.Label257.Size = New System.Drawing.Size(229, 24)
         Me.Label257.TabIndex = 36
         Me.Label257.Text = "ST5 Camera Result LEFT "
         '
@@ -3755,10 +3869,10 @@ Partial Class MainForm
         '
         Me.Label119.AutoSize = True
         Me.Label119.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label119.Location = New System.Drawing.Point(8, 114)
-        Me.Label119.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label119.Location = New System.Drawing.Point(11, 140)
+        Me.Label119.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label119.Name = "Label119"
-        Me.Label119.Size = New System.Drawing.Size(180, 18)
+        Me.Label119.Size = New System.Drawing.Size(227, 24)
         Me.Label119.TabIndex = 36
         Me.Label119.Text = "ST3 Measurement RIGHT"
         '
@@ -3766,10 +3880,10 @@ Partial Class MainForm
         '
         Me.laabel1.AutoSize = True
         Me.laabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.laabel1.Location = New System.Drawing.Point(8, 198)
-        Me.laabel1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.laabel1.Location = New System.Drawing.Point(11, 244)
+        Me.laabel1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.laabel1.Name = "laabel1"
-        Me.laabel1.Size = New System.Drawing.Size(106, 18)
+        Me.laabel1.Size = New System.Drawing.Size(132, 24)
         Me.laabel1.TabIndex = 36
         Me.laabel1.Text = "Product Result"
         '
@@ -3777,10 +3891,10 @@ Partial Class MainForm
         '
         Me.Label121.AutoSize = True
         Me.Label121.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label121.Location = New System.Drawing.Point(8, 57)
-        Me.Label121.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label121.Location = New System.Drawing.Point(11, 70)
+        Me.Label121.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label121.Name = "Label121"
-        Me.Label121.Size = New System.Drawing.Size(115, 18)
+        Me.Label121.Size = New System.Drawing.Size(140, 24)
         Me.Label121.TabIndex = 36
         Me.Label121.Text = "Status Pass/Fail"
         '
@@ -3789,10 +3903,10 @@ Partial Class MainForm
         Me.lbl_unscrew_status_5.BackColor = System.Drawing.Color.White
         Me.lbl_unscrew_status_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_unscrew_status_5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_unscrew_status_5.Location = New System.Drawing.Point(568, 342)
-        Me.lbl_unscrew_status_5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_unscrew_status_5.Location = New System.Drawing.Point(757, 421)
+        Me.lbl_unscrew_status_5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_unscrew_status_5.Name = "lbl_unscrew_status_5"
-        Me.lbl_unscrew_status_5.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_unscrew_status_5.Size = New System.Drawing.Size(87, 29)
         Me.lbl_unscrew_status_5.TabIndex = 37
         Me.lbl_unscrew_status_5.Text = "..."
         '
@@ -3801,10 +3915,10 @@ Partial Class MainForm
         Me.lbl_unscrew_status_4.BackColor = System.Drawing.Color.White
         Me.lbl_unscrew_status_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_unscrew_status_4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_unscrew_status_4.Location = New System.Drawing.Point(497, 342)
-        Me.lbl_unscrew_status_4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_unscrew_status_4.Location = New System.Drawing.Point(663, 421)
+        Me.lbl_unscrew_status_4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_unscrew_status_4.Name = "lbl_unscrew_status_4"
-        Me.lbl_unscrew_status_4.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_unscrew_status_4.Size = New System.Drawing.Size(87, 29)
         Me.lbl_unscrew_status_4.TabIndex = 37
         Me.lbl_unscrew_status_4.Text = "..."
         '
@@ -3813,10 +3927,10 @@ Partial Class MainForm
         Me.lbl_unscrew_status_3.BackColor = System.Drawing.Color.White
         Me.lbl_unscrew_status_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_unscrew_status_3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_unscrew_status_3.Location = New System.Drawing.Point(427, 342)
-        Me.lbl_unscrew_status_3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_unscrew_status_3.Location = New System.Drawing.Point(569, 421)
+        Me.lbl_unscrew_status_3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_unscrew_status_3.Name = "lbl_unscrew_status_3"
-        Me.lbl_unscrew_status_3.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_unscrew_status_3.Size = New System.Drawing.Size(87, 29)
         Me.lbl_unscrew_status_3.TabIndex = 37
         Me.lbl_unscrew_status_3.Text = "..."
         '
@@ -3825,10 +3939,10 @@ Partial Class MainForm
         Me.lbl_unscrew_status_2.BackColor = System.Drawing.Color.White
         Me.lbl_unscrew_status_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_unscrew_status_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_unscrew_status_2.Location = New System.Drawing.Point(356, 342)
-        Me.lbl_unscrew_status_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_unscrew_status_2.Location = New System.Drawing.Point(475, 421)
+        Me.lbl_unscrew_status_2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_unscrew_status_2.Name = "lbl_unscrew_status_2"
-        Me.lbl_unscrew_status_2.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_unscrew_status_2.Size = New System.Drawing.Size(87, 29)
         Me.lbl_unscrew_status_2.TabIndex = 37
         Me.lbl_unscrew_status_2.Text = "..."
         '
@@ -3837,10 +3951,10 @@ Partial Class MainForm
         Me.lbl_unscrew_status_1.BackColor = System.Drawing.Color.White
         Me.lbl_unscrew_status_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_unscrew_status_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_unscrew_status_1.Location = New System.Drawing.Point(285, 342)
-        Me.lbl_unscrew_status_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_unscrew_status_1.Location = New System.Drawing.Point(380, 421)
+        Me.lbl_unscrew_status_1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_unscrew_status_1.Name = "lbl_unscrew_status_1"
-        Me.lbl_unscrew_status_1.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_unscrew_status_1.Size = New System.Drawing.Size(87, 29)
         Me.lbl_unscrew_status_1.TabIndex = 37
         Me.lbl_unscrew_status_1.Text = "..."
         '
@@ -3849,10 +3963,10 @@ Partial Class MainForm
         Me.lbl_unscrew_status.BackColor = System.Drawing.Color.White
         Me.lbl_unscrew_status.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_unscrew_status.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_unscrew_status.Location = New System.Drawing.Point(215, 342)
-        Me.lbl_unscrew_status.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_unscrew_status.Location = New System.Drawing.Point(287, 421)
+        Me.lbl_unscrew_status.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_unscrew_status.Name = "lbl_unscrew_status"
-        Me.lbl_unscrew_status.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_unscrew_status.Size = New System.Drawing.Size(87, 29)
         Me.lbl_unscrew_status.TabIndex = 37
         Me.lbl_unscrew_status.Text = "..."
         '
@@ -3861,10 +3975,10 @@ Partial Class MainForm
         Me.lbl_st4_t2_5.BackColor = System.Drawing.Color.White
         Me.lbl_st4_t2_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_t2_5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_t2_5.Location = New System.Drawing.Point(568, 283)
-        Me.lbl_st4_t2_5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_t2_5.Location = New System.Drawing.Point(757, 348)
+        Me.lbl_st4_t2_5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_t2_5.Name = "lbl_st4_t2_5"
-        Me.lbl_st4_t2_5.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_t2_5.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_t2_5.TabIndex = 37
         Me.lbl_st4_t2_5.Text = "..."
         '
@@ -3873,10 +3987,10 @@ Partial Class MainForm
         Me.lbl_st4_t2_4.BackColor = System.Drawing.Color.White
         Me.lbl_st4_t2_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_t2_4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_t2_4.Location = New System.Drawing.Point(497, 283)
-        Me.lbl_st4_t2_4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_t2_4.Location = New System.Drawing.Point(663, 348)
+        Me.lbl_st4_t2_4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_t2_4.Name = "lbl_st4_t2_4"
-        Me.lbl_st4_t2_4.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_t2_4.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_t2_4.TabIndex = 37
         Me.lbl_st4_t2_4.Text = "..."
         '
@@ -3885,10 +3999,10 @@ Partial Class MainForm
         Me.lbl_st4_t2_3.BackColor = System.Drawing.Color.White
         Me.lbl_st4_t2_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_t2_3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_t2_3.Location = New System.Drawing.Point(427, 283)
-        Me.lbl_st4_t2_3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_t2_3.Location = New System.Drawing.Point(569, 348)
+        Me.lbl_st4_t2_3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_t2_3.Name = "lbl_st4_t2_3"
-        Me.lbl_st4_t2_3.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_t2_3.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_t2_3.TabIndex = 37
         Me.lbl_st4_t2_3.Text = "..."
         '
@@ -3897,10 +4011,10 @@ Partial Class MainForm
         Me.lbl_st4_t2_2.BackColor = System.Drawing.Color.White
         Me.lbl_st4_t2_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_t2_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_t2_2.Location = New System.Drawing.Point(356, 283)
-        Me.lbl_st4_t2_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_t2_2.Location = New System.Drawing.Point(475, 348)
+        Me.lbl_st4_t2_2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_t2_2.Name = "lbl_st4_t2_2"
-        Me.lbl_st4_t2_2.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_t2_2.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_t2_2.TabIndex = 37
         Me.lbl_st4_t2_2.Text = "..."
         '
@@ -3909,10 +4023,10 @@ Partial Class MainForm
         Me.lbl_st4_t2_1.BackColor = System.Drawing.Color.White
         Me.lbl_st4_t2_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_t2_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_t2_1.Location = New System.Drawing.Point(285, 283)
-        Me.lbl_st4_t2_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_t2_1.Location = New System.Drawing.Point(380, 348)
+        Me.lbl_st4_t2_1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_t2_1.Name = "lbl_st4_t2_1"
-        Me.lbl_st4_t2_1.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_t2_1.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_t2_1.TabIndex = 37
         Me.lbl_st4_t2_1.Text = "..."
         '
@@ -3921,10 +4035,10 @@ Partial Class MainForm
         Me.lbl_st4_t2.BackColor = System.Drawing.Color.White
         Me.lbl_st4_t2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_t2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_t2.Location = New System.Drawing.Point(215, 283)
-        Me.lbl_st4_t2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_t2.Location = New System.Drawing.Point(287, 348)
+        Me.lbl_st4_t2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_t2.Name = "lbl_st4_t2"
-        Me.lbl_st4_t2.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_t2.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_t2.TabIndex = 37
         Me.lbl_st4_t2.Text = "..."
         '
@@ -3933,10 +4047,10 @@ Partial Class MainForm
         Me.lbl_st4_p2_5.BackColor = System.Drawing.Color.White
         Me.lbl_st4_p2_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_p2_5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_p2_5.Location = New System.Drawing.Point(568, 169)
-        Me.lbl_st4_p2_5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_p2_5.Location = New System.Drawing.Point(757, 208)
+        Me.lbl_st4_p2_5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_p2_5.Name = "lbl_st4_p2_5"
-        Me.lbl_st4_p2_5.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_p2_5.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_p2_5.TabIndex = 37
         Me.lbl_st4_p2_5.Text = "..."
         '
@@ -3945,10 +4059,10 @@ Partial Class MainForm
         Me.lbl_st4_p2_4.BackColor = System.Drawing.Color.White
         Me.lbl_st4_p2_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_p2_4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_p2_4.Location = New System.Drawing.Point(497, 169)
-        Me.lbl_st4_p2_4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_p2_4.Location = New System.Drawing.Point(663, 208)
+        Me.lbl_st4_p2_4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_p2_4.Name = "lbl_st4_p2_4"
-        Me.lbl_st4_p2_4.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_p2_4.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_p2_4.TabIndex = 37
         Me.lbl_st4_p2_4.Text = "..."
         '
@@ -3957,10 +4071,10 @@ Partial Class MainForm
         Me.lbl_st4_p2_3.BackColor = System.Drawing.Color.White
         Me.lbl_st4_p2_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_p2_3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_p2_3.Location = New System.Drawing.Point(427, 169)
-        Me.lbl_st4_p2_3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_p2_3.Location = New System.Drawing.Point(569, 208)
+        Me.lbl_st4_p2_3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_p2_3.Name = "lbl_st4_p2_3"
-        Me.lbl_st4_p2_3.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_p2_3.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_p2_3.TabIndex = 37
         Me.lbl_st4_p2_3.Text = "..."
         '
@@ -3969,10 +4083,10 @@ Partial Class MainForm
         Me.lbl_st4_p2_2.BackColor = System.Drawing.Color.White
         Me.lbl_st4_p2_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_p2_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_p2_2.Location = New System.Drawing.Point(356, 169)
-        Me.lbl_st4_p2_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_p2_2.Location = New System.Drawing.Point(475, 208)
+        Me.lbl_st4_p2_2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_p2_2.Name = "lbl_st4_p2_2"
-        Me.lbl_st4_p2_2.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_p2_2.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_p2_2.TabIndex = 37
         Me.lbl_st4_p2_2.Text = "..."
         '
@@ -3981,10 +4095,10 @@ Partial Class MainForm
         Me.lbl_st4_p2_1.BackColor = System.Drawing.Color.White
         Me.lbl_st4_p2_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_p2_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_p2_1.Location = New System.Drawing.Point(285, 169)
-        Me.lbl_st4_p2_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_p2_1.Location = New System.Drawing.Point(380, 208)
+        Me.lbl_st4_p2_1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_p2_1.Name = "lbl_st4_p2_1"
-        Me.lbl_st4_p2_1.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_p2_1.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_p2_1.TabIndex = 37
         Me.lbl_st4_p2_1.Text = "..."
         '
@@ -3993,10 +4107,10 @@ Partial Class MainForm
         Me.lbl_st4_p2.BackColor = System.Drawing.Color.White
         Me.lbl_st4_p2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_p2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_p2.Location = New System.Drawing.Point(215, 169)
-        Me.lbl_st4_p2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_p2.Location = New System.Drawing.Point(287, 208)
+        Me.lbl_st4_p2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_p2.Name = "lbl_st4_p2"
-        Me.lbl_st4_p2.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_p2.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_p2.TabIndex = 37
         Me.lbl_st4_p2.Text = "..."
         '
@@ -4005,10 +4119,10 @@ Partial Class MainForm
         Me.lbl_diff_result_5.BackColor = System.Drawing.Color.White
         Me.lbl_diff_result_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_diff_result_5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_diff_result_5.Location = New System.Drawing.Point(568, 225)
-        Me.lbl_diff_result_5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_diff_result_5.Location = New System.Drawing.Point(757, 277)
+        Me.lbl_diff_result_5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_diff_result_5.Name = "lbl_diff_result_5"
-        Me.lbl_diff_result_5.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_diff_result_5.Size = New System.Drawing.Size(87, 29)
         Me.lbl_diff_result_5.TabIndex = 37
         Me.lbl_diff_result_5.Text = "..."
         '
@@ -4017,10 +4131,10 @@ Partial Class MainForm
         Me.lbl_diff_result_4.BackColor = System.Drawing.Color.White
         Me.lbl_diff_result_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_diff_result_4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_diff_result_4.Location = New System.Drawing.Point(497, 225)
-        Me.lbl_diff_result_4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_diff_result_4.Location = New System.Drawing.Point(663, 277)
+        Me.lbl_diff_result_4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_diff_result_4.Name = "lbl_diff_result_4"
-        Me.lbl_diff_result_4.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_diff_result_4.Size = New System.Drawing.Size(87, 29)
         Me.lbl_diff_result_4.TabIndex = 37
         Me.lbl_diff_result_4.Text = "..."
         '
@@ -4029,10 +4143,10 @@ Partial Class MainForm
         Me.lbl_diff_result_3.BackColor = System.Drawing.Color.White
         Me.lbl_diff_result_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_diff_result_3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_diff_result_3.Location = New System.Drawing.Point(427, 225)
-        Me.lbl_diff_result_3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_diff_result_3.Location = New System.Drawing.Point(569, 277)
+        Me.lbl_diff_result_3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_diff_result_3.Name = "lbl_diff_result_3"
-        Me.lbl_diff_result_3.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_diff_result_3.Size = New System.Drawing.Size(87, 29)
         Me.lbl_diff_result_3.TabIndex = 37
         Me.lbl_diff_result_3.Text = "..."
         '
@@ -4041,10 +4155,10 @@ Partial Class MainForm
         Me.lbl_diff_result_2.BackColor = System.Drawing.Color.White
         Me.lbl_diff_result_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_diff_result_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_diff_result_2.Location = New System.Drawing.Point(356, 225)
-        Me.lbl_diff_result_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_diff_result_2.Location = New System.Drawing.Point(475, 277)
+        Me.lbl_diff_result_2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_diff_result_2.Name = "lbl_diff_result_2"
-        Me.lbl_diff_result_2.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_diff_result_2.Size = New System.Drawing.Size(87, 29)
         Me.lbl_diff_result_2.TabIndex = 37
         Me.lbl_diff_result_2.Text = "..."
         '
@@ -4053,10 +4167,10 @@ Partial Class MainForm
         Me.lbl_diff_result_1.BackColor = System.Drawing.Color.White
         Me.lbl_diff_result_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_diff_result_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_diff_result_1.Location = New System.Drawing.Point(285, 225)
-        Me.lbl_diff_result_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_diff_result_1.Location = New System.Drawing.Point(380, 277)
+        Me.lbl_diff_result_1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_diff_result_1.Name = "lbl_diff_result_1"
-        Me.lbl_diff_result_1.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_diff_result_1.Size = New System.Drawing.Size(87, 29)
         Me.lbl_diff_result_1.TabIndex = 37
         Me.lbl_diff_result_1.Text = "..."
         '
@@ -4065,10 +4179,10 @@ Partial Class MainForm
         Me.lbl_diff_result.BackColor = System.Drawing.Color.White
         Me.lbl_diff_result.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_diff_result.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_diff_result.Location = New System.Drawing.Point(215, 225)
-        Me.lbl_diff_result.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_diff_result.Location = New System.Drawing.Point(287, 277)
+        Me.lbl_diff_result.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_diff_result.Name = "lbl_diff_result"
-        Me.lbl_diff_result.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_diff_result.Size = New System.Drawing.Size(87, 29)
         Me.lbl_diff_result.TabIndex = 37
         Me.lbl_diff_result.Text = "..."
         '
@@ -4077,10 +4191,10 @@ Partial Class MainForm
         Me.lbl_st2_meas_5.BackColor = System.Drawing.Color.White
         Me.lbl_st2_meas_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st2_meas_5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st2_meas_5.Location = New System.Drawing.Point(568, 84)
-        Me.lbl_st2_meas_5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st2_meas_5.Location = New System.Drawing.Point(757, 103)
+        Me.lbl_st2_meas_5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st2_meas_5.Name = "lbl_st2_meas_5"
-        Me.lbl_st2_meas_5.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st2_meas_5.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st2_meas_5.TabIndex = 37
         Me.lbl_st2_meas_5.Text = "..."
         '
@@ -4089,10 +4203,10 @@ Partial Class MainForm
         Me.lbl_st2_meas_4.BackColor = System.Drawing.Color.White
         Me.lbl_st2_meas_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st2_meas_4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st2_meas_4.Location = New System.Drawing.Point(497, 84)
-        Me.lbl_st2_meas_4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st2_meas_4.Location = New System.Drawing.Point(663, 103)
+        Me.lbl_st2_meas_4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st2_meas_4.Name = "lbl_st2_meas_4"
-        Me.lbl_st2_meas_4.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st2_meas_4.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st2_meas_4.TabIndex = 37
         Me.lbl_st2_meas_4.Text = "..."
         '
@@ -4101,10 +4215,10 @@ Partial Class MainForm
         Me.lbl_st2_meas_3.BackColor = System.Drawing.Color.White
         Me.lbl_st2_meas_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st2_meas_3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st2_meas_3.Location = New System.Drawing.Point(427, 84)
-        Me.lbl_st2_meas_3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st2_meas_3.Location = New System.Drawing.Point(569, 103)
+        Me.lbl_st2_meas_3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st2_meas_3.Name = "lbl_st2_meas_3"
-        Me.lbl_st2_meas_3.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st2_meas_3.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st2_meas_3.TabIndex = 37
         Me.lbl_st2_meas_3.Text = "..."
         '
@@ -4113,10 +4227,10 @@ Partial Class MainForm
         Me.lbl_st2_meas_2.BackColor = System.Drawing.Color.White
         Me.lbl_st2_meas_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st2_meas_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st2_meas_2.Location = New System.Drawing.Point(356, 84)
-        Me.lbl_st2_meas_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st2_meas_2.Location = New System.Drawing.Point(475, 103)
+        Me.lbl_st2_meas_2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st2_meas_2.Name = "lbl_st2_meas_2"
-        Me.lbl_st2_meas_2.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st2_meas_2.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st2_meas_2.TabIndex = 37
         Me.lbl_st2_meas_2.Text = "..."
         '
@@ -4125,10 +4239,10 @@ Partial Class MainForm
         Me.lbl_st2_meas_1.BackColor = System.Drawing.Color.White
         Me.lbl_st2_meas_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st2_meas_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st2_meas_1.Location = New System.Drawing.Point(285, 84)
-        Me.lbl_st2_meas_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st2_meas_1.Location = New System.Drawing.Point(380, 103)
+        Me.lbl_st2_meas_1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st2_meas_1.Name = "lbl_st2_meas_1"
-        Me.lbl_st2_meas_1.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st2_meas_1.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st2_meas_1.TabIndex = 37
         Me.lbl_st2_meas_1.Text = "..."
         '
@@ -4137,10 +4251,10 @@ Partial Class MainForm
         Me.lbl_st2_meas.BackColor = System.Drawing.Color.White
         Me.lbl_st2_meas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st2_meas.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st2_meas.Location = New System.Drawing.Point(215, 84)
-        Me.lbl_st2_meas.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st2_meas.Location = New System.Drawing.Point(287, 103)
+        Me.lbl_st2_meas.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st2_meas.Name = "lbl_st2_meas"
-        Me.lbl_st2_meas.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st2_meas.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st2_meas.TabIndex = 37
         Me.lbl_st2_meas.Text = "..."
         '
@@ -4149,10 +4263,10 @@ Partial Class MainForm
         Me.lbl_cot_5.BackColor = System.Drawing.Color.White
         Me.lbl_cot_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_cot_5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_cot_5.Location = New System.Drawing.Point(568, 313)
-        Me.lbl_cot_5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_cot_5.Location = New System.Drawing.Point(757, 385)
+        Me.lbl_cot_5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_cot_5.Name = "lbl_cot_5"
-        Me.lbl_cot_5.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_cot_5.Size = New System.Drawing.Size(87, 29)
         Me.lbl_cot_5.TabIndex = 37
         Me.lbl_cot_5.Text = "..."
         '
@@ -4161,10 +4275,10 @@ Partial Class MainForm
         Me.lbl_cot_4.BackColor = System.Drawing.Color.White
         Me.lbl_cot_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_cot_4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_cot_4.Location = New System.Drawing.Point(497, 313)
-        Me.lbl_cot_4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_cot_4.Location = New System.Drawing.Point(663, 385)
+        Me.lbl_cot_4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_cot_4.Name = "lbl_cot_4"
-        Me.lbl_cot_4.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_cot_4.Size = New System.Drawing.Size(87, 29)
         Me.lbl_cot_4.TabIndex = 37
         Me.lbl_cot_4.Text = "..."
         '
@@ -4173,10 +4287,10 @@ Partial Class MainForm
         Me.lbl_cot_3.BackColor = System.Drawing.Color.White
         Me.lbl_cot_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_cot_3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_cot_3.Location = New System.Drawing.Point(427, 313)
-        Me.lbl_cot_3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_cot_3.Location = New System.Drawing.Point(569, 385)
+        Me.lbl_cot_3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_cot_3.Name = "lbl_cot_3"
-        Me.lbl_cot_3.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_cot_3.Size = New System.Drawing.Size(87, 29)
         Me.lbl_cot_3.TabIndex = 37
         Me.lbl_cot_3.Text = "..."
         '
@@ -4185,10 +4299,10 @@ Partial Class MainForm
         Me.lbl_cot_2.BackColor = System.Drawing.Color.White
         Me.lbl_cot_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_cot_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_cot_2.Location = New System.Drawing.Point(356, 313)
-        Me.lbl_cot_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_cot_2.Location = New System.Drawing.Point(475, 385)
+        Me.lbl_cot_2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_cot_2.Name = "lbl_cot_2"
-        Me.lbl_cot_2.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_cot_2.Size = New System.Drawing.Size(87, 29)
         Me.lbl_cot_2.TabIndex = 37
         Me.lbl_cot_2.Text = "..."
         '
@@ -4197,10 +4311,10 @@ Partial Class MainForm
         Me.lbl_cot_1.BackColor = System.Drawing.Color.White
         Me.lbl_cot_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_cot_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_cot_1.Location = New System.Drawing.Point(285, 313)
-        Me.lbl_cot_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_cot_1.Location = New System.Drawing.Point(380, 385)
+        Me.lbl_cot_1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_cot_1.Name = "lbl_cot_1"
-        Me.lbl_cot_1.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_cot_1.Size = New System.Drawing.Size(87, 29)
         Me.lbl_cot_1.TabIndex = 37
         Me.lbl_cot_1.Text = "..."
         '
@@ -4209,10 +4323,10 @@ Partial Class MainForm
         Me.lbl_cot.BackColor = System.Drawing.Color.White
         Me.lbl_cot.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_cot.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_cot.Location = New System.Drawing.Point(215, 313)
-        Me.lbl_cot.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_cot.Location = New System.Drawing.Point(287, 385)
+        Me.lbl_cot.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_cot.Name = "lbl_cot"
-        Me.lbl_cot.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_cot.Size = New System.Drawing.Size(87, 29)
         Me.lbl_cot.TabIndex = 37
         Me.lbl_cot.Text = "..."
         '
@@ -4221,10 +4335,10 @@ Partial Class MainForm
         Me.lbl_st4_t1_5.BackColor = System.Drawing.Color.White
         Me.lbl_st4_t1_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_t1_5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_t1_5.Location = New System.Drawing.Point(568, 254)
-        Me.lbl_st4_t1_5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_t1_5.Location = New System.Drawing.Point(757, 313)
+        Me.lbl_st4_t1_5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_t1_5.Name = "lbl_st4_t1_5"
-        Me.lbl_st4_t1_5.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_t1_5.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_t1_5.TabIndex = 37
         Me.lbl_st4_t1_5.Text = "..."
         '
@@ -4233,10 +4347,10 @@ Partial Class MainForm
         Me.lbl_st4_t1_4.BackColor = System.Drawing.Color.White
         Me.lbl_st4_t1_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_t1_4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_t1_4.Location = New System.Drawing.Point(497, 254)
-        Me.lbl_st4_t1_4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_t1_4.Location = New System.Drawing.Point(663, 313)
+        Me.lbl_st4_t1_4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_t1_4.Name = "lbl_st4_t1_4"
-        Me.lbl_st4_t1_4.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_t1_4.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_t1_4.TabIndex = 37
         Me.lbl_st4_t1_4.Text = "..."
         '
@@ -4245,10 +4359,10 @@ Partial Class MainForm
         Me.lbl_st4_t1_3.BackColor = System.Drawing.Color.White
         Me.lbl_st4_t1_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_t1_3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_t1_3.Location = New System.Drawing.Point(427, 254)
-        Me.lbl_st4_t1_3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_t1_3.Location = New System.Drawing.Point(569, 313)
+        Me.lbl_st4_t1_3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_t1_3.Name = "lbl_st4_t1_3"
-        Me.lbl_st4_t1_3.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_t1_3.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_t1_3.TabIndex = 37
         Me.lbl_st4_t1_3.Text = "..."
         '
@@ -4257,10 +4371,10 @@ Partial Class MainForm
         Me.lbl_st4_t1_2.BackColor = System.Drawing.Color.White
         Me.lbl_st4_t1_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_t1_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_t1_2.Location = New System.Drawing.Point(356, 254)
-        Me.lbl_st4_t1_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_t1_2.Location = New System.Drawing.Point(475, 313)
+        Me.lbl_st4_t1_2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_t1_2.Name = "lbl_st4_t1_2"
-        Me.lbl_st4_t1_2.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_t1_2.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_t1_2.TabIndex = 37
         Me.lbl_st4_t1_2.Text = "..."
         '
@@ -4269,10 +4383,10 @@ Partial Class MainForm
         Me.lbl_st4_t1_1.BackColor = System.Drawing.Color.White
         Me.lbl_st4_t1_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_t1_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_t1_1.Location = New System.Drawing.Point(285, 254)
-        Me.lbl_st4_t1_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_t1_1.Location = New System.Drawing.Point(380, 313)
+        Me.lbl_st4_t1_1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_t1_1.Name = "lbl_st4_t1_1"
-        Me.lbl_st4_t1_1.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_t1_1.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_t1_1.TabIndex = 37
         Me.lbl_st4_t1_1.Text = "..."
         '
@@ -4281,10 +4395,10 @@ Partial Class MainForm
         Me.lbl_st4NO_res_5.BackColor = System.Drawing.Color.White
         Me.lbl_st4NO_res_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4NO_res_5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4NO_res_5.Location = New System.Drawing.Point(568, 140)
-        Me.lbl_st4NO_res_5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4NO_res_5.Location = New System.Drawing.Point(757, 172)
+        Me.lbl_st4NO_res_5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4NO_res_5.Name = "lbl_st4NO_res_5"
-        Me.lbl_st4NO_res_5.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4NO_res_5.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4NO_res_5.TabIndex = 37
         Me.lbl_st4NO_res_5.Text = "..."
         '
@@ -4293,10 +4407,10 @@ Partial Class MainForm
         Me.lbl_st4_t1.BackColor = System.Drawing.Color.White
         Me.lbl_st4_t1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_t1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_t1.Location = New System.Drawing.Point(215, 254)
-        Me.lbl_st4_t1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_t1.Location = New System.Drawing.Point(287, 313)
+        Me.lbl_st4_t1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_t1.Name = "lbl_st4_t1"
-        Me.lbl_st4_t1.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_t1.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_t1.TabIndex = 37
         Me.lbl_st4_t1.Text = "..."
         '
@@ -4305,10 +4419,10 @@ Partial Class MainForm
         Me.lbl_st4NO_res_4.BackColor = System.Drawing.Color.White
         Me.lbl_st4NO_res_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4NO_res_4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4NO_res_4.Location = New System.Drawing.Point(497, 140)
-        Me.lbl_st4NO_res_4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4NO_res_4.Location = New System.Drawing.Point(663, 172)
+        Me.lbl_st4NO_res_4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4NO_res_4.Name = "lbl_st4NO_res_4"
-        Me.lbl_st4NO_res_4.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4NO_res_4.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4NO_res_4.TabIndex = 37
         Me.lbl_st4NO_res_4.Text = "..."
         '
@@ -4317,10 +4431,10 @@ Partial Class MainForm
         Me.lbl_st4NC_res_5.BackColor = System.Drawing.Color.White
         Me.lbl_st4NC_res_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4NC_res_5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4NC_res_5.Location = New System.Drawing.Point(568, 112)
-        Me.lbl_st4NC_res_5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4NC_res_5.Location = New System.Drawing.Point(757, 138)
+        Me.lbl_st4NC_res_5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4NC_res_5.Name = "lbl_st4NC_res_5"
-        Me.lbl_st4NC_res_5.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4NC_res_5.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4NC_res_5.TabIndex = 37
         Me.lbl_st4NC_res_5.Text = "..."
         '
@@ -4329,10 +4443,10 @@ Partial Class MainForm
         Me.lbl_st4NO_res_3.BackColor = System.Drawing.Color.White
         Me.lbl_st4NO_res_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4NO_res_3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4NO_res_3.Location = New System.Drawing.Point(427, 140)
-        Me.lbl_st4NO_res_3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4NO_res_3.Location = New System.Drawing.Point(569, 172)
+        Me.lbl_st4NO_res_3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4NO_res_3.Name = "lbl_st4NO_res_3"
-        Me.lbl_st4NO_res_3.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4NO_res_3.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4NO_res_3.TabIndex = 37
         Me.lbl_st4NO_res_3.Text = "..."
         '
@@ -4341,10 +4455,10 @@ Partial Class MainForm
         Me.lbl_st4NC_res_4.BackColor = System.Drawing.Color.White
         Me.lbl_st4NC_res_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4NC_res_4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4NC_res_4.Location = New System.Drawing.Point(497, 112)
-        Me.lbl_st4NC_res_4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4NC_res_4.Location = New System.Drawing.Point(663, 138)
+        Me.lbl_st4NC_res_4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4NC_res_4.Name = "lbl_st4NC_res_4"
-        Me.lbl_st4NC_res_4.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4NC_res_4.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4NC_res_4.TabIndex = 37
         Me.lbl_st4NC_res_4.Text = "..."
         '
@@ -4353,10 +4467,10 @@ Partial Class MainForm
         Me.lbl_st4NO_res_2.BackColor = System.Drawing.Color.White
         Me.lbl_st4NO_res_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4NO_res_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4NO_res_2.Location = New System.Drawing.Point(356, 140)
-        Me.lbl_st4NO_res_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4NO_res_2.Location = New System.Drawing.Point(475, 172)
+        Me.lbl_st4NO_res_2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4NO_res_2.Name = "lbl_st4NO_res_2"
-        Me.lbl_st4NO_res_2.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4NO_res_2.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4NO_res_2.TabIndex = 37
         Me.lbl_st4NO_res_2.Text = "..."
         '
@@ -4365,10 +4479,10 @@ Partial Class MainForm
         Me.lbl_st4NC_res_3.BackColor = System.Drawing.Color.White
         Me.lbl_st4NC_res_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4NC_res_3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4NC_res_3.Location = New System.Drawing.Point(427, 112)
-        Me.lbl_st4NC_res_3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4NC_res_3.Location = New System.Drawing.Point(569, 138)
+        Me.lbl_st4NC_res_3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4NC_res_3.Name = "lbl_st4NC_res_3"
-        Me.lbl_st4NC_res_3.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4NC_res_3.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4NC_res_3.TabIndex = 37
         Me.lbl_st4NC_res_3.Text = "..."
         '
@@ -4377,10 +4491,10 @@ Partial Class MainForm
         Me.lbl_st4NO_res_1.BackColor = System.Drawing.Color.White
         Me.lbl_st4NO_res_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4NO_res_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4NO_res_1.Location = New System.Drawing.Point(285, 140)
-        Me.lbl_st4NO_res_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4NO_res_1.Location = New System.Drawing.Point(380, 172)
+        Me.lbl_st4NO_res_1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4NO_res_1.Name = "lbl_st4NO_res_1"
-        Me.lbl_st4NO_res_1.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4NO_res_1.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4NO_res_1.TabIndex = 37
         Me.lbl_st4NO_res_1.Text = "..."
         '
@@ -4389,10 +4503,10 @@ Partial Class MainForm
         Me.lbl_st4NC_res_2.BackColor = System.Drawing.Color.White
         Me.lbl_st4NC_res_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4NC_res_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4NC_res_2.Location = New System.Drawing.Point(356, 112)
-        Me.lbl_st4NC_res_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4NC_res_2.Location = New System.Drawing.Point(475, 138)
+        Me.lbl_st4NC_res_2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4NC_res_2.Name = "lbl_st4NC_res_2"
-        Me.lbl_st4NC_res_2.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4NC_res_2.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4NC_res_2.TabIndex = 37
         Me.lbl_st4NC_res_2.Text = "..."
         '
@@ -4401,10 +4515,10 @@ Partial Class MainForm
         Me.lbl_st4NO_res.BackColor = System.Drawing.Color.White
         Me.lbl_st4NO_res.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4NO_res.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4NO_res.Location = New System.Drawing.Point(215, 140)
-        Me.lbl_st4NO_res.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4NO_res.Location = New System.Drawing.Point(287, 172)
+        Me.lbl_st4NO_res.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4NO_res.Name = "lbl_st4NO_res"
-        Me.lbl_st4NO_res.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4NO_res.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4NO_res.TabIndex = 37
         Me.lbl_st4NO_res.Text = "..."
         '
@@ -4413,10 +4527,10 @@ Partial Class MainForm
         Me.lbl_st4NC_res_1.BackColor = System.Drawing.Color.White
         Me.lbl_st4NC_res_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4NC_res_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4NC_res_1.Location = New System.Drawing.Point(285, 112)
-        Me.lbl_st4NC_res_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4NC_res_1.Location = New System.Drawing.Point(380, 138)
+        Me.lbl_st4NC_res_1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4NC_res_1.Name = "lbl_st4NC_res_1"
-        Me.lbl_st4NC_res_1.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4NC_res_1.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4NC_res_1.TabIndex = 37
         Me.lbl_st4NC_res_1.Text = "..."
         '
@@ -4425,10 +4539,10 @@ Partial Class MainForm
         Me.lbl_st4NC_res.BackColor = System.Drawing.Color.White
         Me.lbl_st4NC_res.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4NC_res.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4NC_res.Location = New System.Drawing.Point(215, 112)
-        Me.lbl_st4NC_res.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4NC_res.Location = New System.Drawing.Point(287, 138)
+        Me.lbl_st4NC_res.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4NC_res.Name = "lbl_st4NC_res"
-        Me.lbl_st4NC_res.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4NC_res.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4NC_res.TabIndex = 37
         Me.lbl_st4NC_res.Text = "..."
         '
@@ -4437,10 +4551,10 @@ Partial Class MainForm
         Me.lbl_st4_p3_5.BackColor = System.Drawing.Color.White
         Me.lbl_st4_p3_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_p3_5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_p3_5.Location = New System.Drawing.Point(568, 196)
-        Me.lbl_st4_p3_5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_p3_5.Location = New System.Drawing.Point(757, 241)
+        Me.lbl_st4_p3_5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_p3_5.Name = "lbl_st4_p3_5"
-        Me.lbl_st4_p3_5.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_p3_5.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_p3_5.TabIndex = 37
         Me.lbl_st4_p3_5.Text = "..."
         '
@@ -4449,10 +4563,10 @@ Partial Class MainForm
         Me.lbl_st4_p3_4.BackColor = System.Drawing.Color.White
         Me.lbl_st4_p3_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_p3_4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_p3_4.Location = New System.Drawing.Point(497, 196)
-        Me.lbl_st4_p3_4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_p3_4.Location = New System.Drawing.Point(663, 241)
+        Me.lbl_st4_p3_4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_p3_4.Name = "lbl_st4_p3_4"
-        Me.lbl_st4_p3_4.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_p3_4.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_p3_4.TabIndex = 37
         Me.lbl_st4_p3_4.Text = "..."
         '
@@ -4461,10 +4575,10 @@ Partial Class MainForm
         Me.lbl_st4_p3_3.BackColor = System.Drawing.Color.White
         Me.lbl_st4_p3_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_p3_3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_p3_3.Location = New System.Drawing.Point(427, 196)
-        Me.lbl_st4_p3_3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_p3_3.Location = New System.Drawing.Point(569, 241)
+        Me.lbl_st4_p3_3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_p3_3.Name = "lbl_st4_p3_3"
-        Me.lbl_st4_p3_3.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_p3_3.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_p3_3.TabIndex = 37
         Me.lbl_st4_p3_3.Text = "..."
         '
@@ -4473,10 +4587,10 @@ Partial Class MainForm
         Me.lbl_st4_p3_2.BackColor = System.Drawing.Color.White
         Me.lbl_st4_p3_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_p3_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_p3_2.Location = New System.Drawing.Point(356, 196)
-        Me.lbl_st4_p3_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_p3_2.Location = New System.Drawing.Point(475, 241)
+        Me.lbl_st4_p3_2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_p3_2.Name = "lbl_st4_p3_2"
-        Me.lbl_st4_p3_2.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_p3_2.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_p3_2.TabIndex = 37
         Me.lbl_st4_p3_2.Text = "..."
         '
@@ -4485,10 +4599,10 @@ Partial Class MainForm
         Me.lbl_st4_p3_1.BackColor = System.Drawing.Color.White
         Me.lbl_st4_p3_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_p3_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_p3_1.Location = New System.Drawing.Point(285, 196)
-        Me.lbl_st4_p3_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_p3_1.Location = New System.Drawing.Point(380, 241)
+        Me.lbl_st4_p3_1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_p3_1.Name = "lbl_st4_p3_1"
-        Me.lbl_st4_p3_1.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_p3_1.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_p3_1.TabIndex = 37
         Me.lbl_st4_p3_1.Text = "..."
         '
@@ -4497,10 +4611,10 @@ Partial Class MainForm
         Me.lbl_st4_p3.BackColor = System.Drawing.Color.White
         Me.lbl_st4_p3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_st4_p3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_st4_p3.Location = New System.Drawing.Point(215, 196)
-        Me.lbl_st4_p3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_st4_p3.Location = New System.Drawing.Point(287, 241)
+        Me.lbl_st4_p3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_st4_p3.Name = "lbl_st4_p3"
-        Me.lbl_st4_p3.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_st4_p3.Size = New System.Drawing.Size(87, 29)
         Me.lbl_st4_p3.TabIndex = 37
         Me.lbl_st4_p3.Text = "..."
         '
@@ -4509,10 +4623,10 @@ Partial Class MainForm
         Me.lbl_item_6.BackColor = System.Drawing.Color.White
         Me.lbl_item_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_item_6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_item_6.Location = New System.Drawing.Point(568, 26)
-        Me.lbl_item_6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_item_6.Location = New System.Drawing.Point(757, 32)
+        Me.lbl_item_6.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_item_6.Name = "lbl_item_6"
-        Me.lbl_item_6.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_item_6.Size = New System.Drawing.Size(87, 29)
         Me.lbl_item_6.TabIndex = 37
         Me.lbl_item_6.Text = "6"
         Me.lbl_item_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -4522,10 +4636,10 @@ Partial Class MainForm
         Me.lbl_item_5.BackColor = System.Drawing.Color.White
         Me.lbl_item_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_item_5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_item_5.Location = New System.Drawing.Point(497, 26)
-        Me.lbl_item_5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_item_5.Location = New System.Drawing.Point(663, 32)
+        Me.lbl_item_5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_item_5.Name = "lbl_item_5"
-        Me.lbl_item_5.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_item_5.Size = New System.Drawing.Size(87, 29)
         Me.lbl_item_5.TabIndex = 37
         Me.lbl_item_5.Text = "5"
         Me.lbl_item_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -4535,10 +4649,10 @@ Partial Class MainForm
         Me.lbl_status_5.BackColor = System.Drawing.Color.White
         Me.lbl_status_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_status_5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_status_5.Location = New System.Drawing.Point(568, 54)
-        Me.lbl_status_5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_status_5.Location = New System.Drawing.Point(757, 66)
+        Me.lbl_status_5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_status_5.Name = "lbl_status_5"
-        Me.lbl_status_5.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_status_5.Size = New System.Drawing.Size(87, 29)
         Me.lbl_status_5.TabIndex = 37
         Me.lbl_status_5.Text = "..."
         '
@@ -4547,10 +4661,10 @@ Partial Class MainForm
         Me.lbl_item_4.BackColor = System.Drawing.Color.White
         Me.lbl_item_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_item_4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_item_4.Location = New System.Drawing.Point(427, 26)
-        Me.lbl_item_4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_item_4.Location = New System.Drawing.Point(569, 32)
+        Me.lbl_item_4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_item_4.Name = "lbl_item_4"
-        Me.lbl_item_4.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_item_4.Size = New System.Drawing.Size(87, 29)
         Me.lbl_item_4.TabIndex = 37
         Me.lbl_item_4.Text = "4"
         Me.lbl_item_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -4560,10 +4674,10 @@ Partial Class MainForm
         Me.lbl_status_4.BackColor = System.Drawing.Color.White
         Me.lbl_status_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_status_4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_status_4.Location = New System.Drawing.Point(497, 54)
-        Me.lbl_status_4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_status_4.Location = New System.Drawing.Point(663, 66)
+        Me.lbl_status_4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_status_4.Name = "lbl_status_4"
-        Me.lbl_status_4.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_status_4.Size = New System.Drawing.Size(87, 29)
         Me.lbl_status_4.TabIndex = 37
         Me.lbl_status_4.Text = "..."
         '
@@ -4572,10 +4686,10 @@ Partial Class MainForm
         Me.lbl_item_3.BackColor = System.Drawing.Color.White
         Me.lbl_item_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_item_3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_item_3.Location = New System.Drawing.Point(356, 26)
-        Me.lbl_item_3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_item_3.Location = New System.Drawing.Point(475, 32)
+        Me.lbl_item_3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_item_3.Name = "lbl_item_3"
-        Me.lbl_item_3.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_item_3.Size = New System.Drawing.Size(87, 29)
         Me.lbl_item_3.TabIndex = 37
         Me.lbl_item_3.Text = "3"
         Me.lbl_item_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -4585,10 +4699,10 @@ Partial Class MainForm
         Me.lbl_status_3.BackColor = System.Drawing.Color.White
         Me.lbl_status_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_status_3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_status_3.Location = New System.Drawing.Point(427, 54)
-        Me.lbl_status_3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_status_3.Location = New System.Drawing.Point(569, 66)
+        Me.lbl_status_3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_status_3.Name = "lbl_status_3"
-        Me.lbl_status_3.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_status_3.Size = New System.Drawing.Size(87, 29)
         Me.lbl_status_3.TabIndex = 37
         Me.lbl_status_3.Text = "..."
         '
@@ -4597,10 +4711,10 @@ Partial Class MainForm
         Me.lbl_item_2.BackColor = System.Drawing.Color.White
         Me.lbl_item_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_item_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_item_2.Location = New System.Drawing.Point(285, 26)
-        Me.lbl_item_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_item_2.Location = New System.Drawing.Point(380, 32)
+        Me.lbl_item_2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_item_2.Name = "lbl_item_2"
-        Me.lbl_item_2.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_item_2.Size = New System.Drawing.Size(87, 29)
         Me.lbl_item_2.TabIndex = 37
         Me.lbl_item_2.Text = "2"
         Me.lbl_item_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -4610,10 +4724,10 @@ Partial Class MainForm
         Me.lbl_status_2.BackColor = System.Drawing.Color.White
         Me.lbl_status_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_status_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_status_2.Location = New System.Drawing.Point(356, 54)
-        Me.lbl_status_2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_status_2.Location = New System.Drawing.Point(475, 66)
+        Me.lbl_status_2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_status_2.Name = "lbl_status_2"
-        Me.lbl_status_2.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_status_2.Size = New System.Drawing.Size(87, 29)
         Me.lbl_status_2.TabIndex = 37
         Me.lbl_status_2.Text = "..."
         '
@@ -4622,10 +4736,10 @@ Partial Class MainForm
         Me.lbl_item_1.BackColor = System.Drawing.Color.White
         Me.lbl_item_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_item_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_item_1.Location = New System.Drawing.Point(215, 26)
-        Me.lbl_item_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_item_1.Location = New System.Drawing.Point(287, 32)
+        Me.lbl_item_1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_item_1.Name = "lbl_item_1"
-        Me.lbl_item_1.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_item_1.Size = New System.Drawing.Size(87, 29)
         Me.lbl_item_1.TabIndex = 37
         Me.lbl_item_1.Text = "1"
         Me.lbl_item_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -4635,10 +4749,10 @@ Partial Class MainForm
         Me.lbl_status_1.BackColor = System.Drawing.Color.White
         Me.lbl_status_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_status_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_status_1.Location = New System.Drawing.Point(285, 54)
-        Me.lbl_status_1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_status_1.Location = New System.Drawing.Point(380, 66)
+        Me.lbl_status_1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_status_1.Name = "lbl_status_1"
-        Me.lbl_status_1.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_status_1.Size = New System.Drawing.Size(87, 29)
         Me.lbl_status_1.TabIndex = 37
         Me.lbl_status_1.Text = "..."
         '
@@ -4647,10 +4761,10 @@ Partial Class MainForm
         Me.lbl_status.BackColor = System.Drawing.Color.White
         Me.lbl_status.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbl_status.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_status.Location = New System.Drawing.Point(215, 54)
-        Me.lbl_status.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_status.Location = New System.Drawing.Point(287, 66)
+        Me.lbl_status.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lbl_status.Name = "lbl_status"
-        Me.lbl_status.Size = New System.Drawing.Size(66, 24)
+        Me.lbl_status.Size = New System.Drawing.Size(87, 29)
         Me.lbl_status.TabIndex = 37
         Me.lbl_status.Text = "..."
         '
@@ -4658,10 +4772,10 @@ Partial Class MainForm
         '
         Me.txt_alarm_copy.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txt_alarm_copy.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_alarm_copy.Location = New System.Drawing.Point(400, 419)
-        Me.txt_alarm_copy.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_alarm_copy.Location = New System.Drawing.Point(533, 516)
+        Me.txt_alarm_copy.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txt_alarm_copy.Name = "txt_alarm_copy"
-        Me.txt_alarm_copy.Size = New System.Drawing.Size(647, 129)
+        Me.txt_alarm_copy.Size = New System.Drawing.Size(861, 158)
         Me.txt_alarm_copy.TabIndex = 59
         Me.txt_alarm_copy.Text = ""
         '
@@ -4670,11 +4784,11 @@ Partial Class MainForm
         Me.GroupBox76.Controls.Add(Me.ind_plc_status)
         Me.GroupBox76.Controls.Add(Me.Label64)
         Me.GroupBox76.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox76.Location = New System.Drawing.Point(66, 555)
-        Me.GroupBox76.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox76.Location = New System.Drawing.Point(88, 683)
+        Me.GroupBox76.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox76.Name = "GroupBox76"
-        Me.GroupBox76.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox76.Size = New System.Drawing.Size(267, 75)
+        Me.GroupBox76.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox76.Size = New System.Drawing.Size(356, 92)
         Me.GroupBox76.TabIndex = 57
         Me.GroupBox76.TabStop = False
         Me.GroupBox76.Text = "PLC Status"
@@ -4682,10 +4796,10 @@ Partial Class MainForm
         'ind_plc_status
         '
         Me.ind_plc_status.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.ind_plc_status.Location = New System.Drawing.Point(21, 37)
-        Me.ind_plc_status.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_plc_status.Location = New System.Drawing.Point(28, 46)
+        Me.ind_plc_status.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_plc_status.Name = "ind_plc_status"
-        Me.ind_plc_status.Size = New System.Drawing.Size(19, 18)
+        Me.ind_plc_status.Size = New System.Drawing.Size(25, 22)
         Me.ind_plc_status.TabIndex = 33
         Me.ind_plc_status.TabStop = False
         '
@@ -4693,10 +4807,10 @@ Partial Class MainForm
         '
         Me.Label64.AutoSize = True
         Me.Label64.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label64.Location = New System.Drawing.Point(48, 37)
-        Me.Label64.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label64.Location = New System.Drawing.Point(64, 46)
+        Me.Label64.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label64.Name = "Label64"
-        Me.Label64.Size = New System.Drawing.Size(89, 20)
+        Me.Label64.Size = New System.Drawing.Size(112, 25)
         Me.Label64.TabIndex = 31
         Me.Label64.Text = "PLC Ready"
         '
@@ -4709,9 +4823,11 @@ Partial Class MainForm
         Me.GroupBox2.Controls.Add(Me.Label1)
         Me.GroupBox2.Controls.Add(Me.Label65)
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(66, 407)
+        Me.GroupBox2.Location = New System.Drawing.Point(88, 501)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(267, 141)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Size = New System.Drawing.Size(356, 174)
         Me.GroupBox2.TabIndex = 1
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "PC Status"
@@ -4719,30 +4835,30 @@ Partial Class MainForm
         'ind_software_stop
         '
         Me.ind_software_stop.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.ind_software_stop.Location = New System.Drawing.Point(13, 91)
-        Me.ind_software_stop.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_software_stop.Location = New System.Drawing.Point(17, 112)
+        Me.ind_software_stop.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_software_stop.Name = "ind_software_stop"
-        Me.ind_software_stop.Size = New System.Drawing.Size(19, 18)
+        Me.ind_software_stop.Size = New System.Drawing.Size(25, 22)
         Me.ind_software_stop.TabIndex = 35
         Me.ind_software_stop.TabStop = False
         '
         'ind_software_run
         '
         Me.ind_software_run.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.ind_software_run.Location = New System.Drawing.Point(13, 62)
-        Me.ind_software_run.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_software_run.Location = New System.Drawing.Point(17, 76)
+        Me.ind_software_run.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_software_run.Name = "ind_software_run"
-        Me.ind_software_run.Size = New System.Drawing.Size(19, 18)
+        Me.ind_software_run.Size = New System.Drawing.Size(25, 22)
         Me.ind_software_run.TabIndex = 35
         Me.ind_software_run.TabStop = False
         '
         'ind_software_open
         '
         Me.ind_software_open.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.ind_software_open.Location = New System.Drawing.Point(13, 29)
-        Me.ind_software_open.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_software_open.Location = New System.Drawing.Point(17, 36)
+        Me.ind_software_open.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_software_open.Name = "ind_software_open"
-        Me.ind_software_open.Size = New System.Drawing.Size(19, 18)
+        Me.ind_software_open.Size = New System.Drawing.Size(25, 22)
         Me.ind_software_open.TabIndex = 35
         Me.ind_software_open.TabStop = False
         '
@@ -4750,10 +4866,10 @@ Partial Class MainForm
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(40, 91)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(53, 112)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(111, 20)
+        Me.Label2.Size = New System.Drawing.Size(135, 25)
         Me.Label2.TabIndex = 34
         Me.Label2.Text = "Software Stop"
         '
@@ -4761,10 +4877,10 @@ Partial Class MainForm
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(40, 62)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(53, 76)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(107, 20)
+        Me.Label1.Size = New System.Drawing.Size(129, 25)
         Me.Label1.TabIndex = 34
         Me.Label1.Text = "Software Run"
         '
@@ -4772,10 +4888,10 @@ Partial Class MainForm
         '
         Me.Label65.AutoSize = True
         Me.Label65.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label65.Location = New System.Drawing.Point(40, 29)
-        Me.Label65.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label65.Location = New System.Drawing.Point(53, 36)
+        Me.Label65.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(116, 20)
+        Me.Label65.Size = New System.Drawing.Size(143, 25)
         Me.Label65.TabIndex = 34
         Me.Label65.Text = "Software Open"
         '
@@ -4792,9 +4908,11 @@ Partial Class MainForm
         Me.GroupBox1.Controls.Add(Me.txt_ref)
         Me.GroupBox1.Controls.Add(Me.Label80)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(66, 6)
+        Me.GroupBox1.Location = New System.Drawing.Point(88, 7)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(267, 371)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(356, 457)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Product Information"
@@ -4805,9 +4923,10 @@ Partial Class MainForm
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.icons8_stop_56
-        Me.Button2.Location = New System.Drawing.Point(160, 199)
+        Me.Button2.Location = New System.Drawing.Point(213, 245)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(80, 79)
+        Me.Button2.Size = New System.Drawing.Size(107, 97)
         Me.Button2.TabIndex = 78
         Me.Button2.Text = "Stop"
         Me.Button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -4819,9 +4938,10 @@ Partial Class MainForm
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.icons8_run_56
-        Me.Button1.Location = New System.Drawing.Point(20, 199)
+        Me.Button1.Location = New System.Drawing.Point(27, 245)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(80, 79)
+        Me.Button1.Size = New System.Drawing.Size(107, 97)
         Me.Button1.TabIndex = 77
         Me.Button1.Text = "Start"
         Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -4833,10 +4953,10 @@ Partial Class MainForm
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.icons8_erase_56
-        Me.Button5.Location = New System.Drawing.Point(160, 285)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button5.Location = New System.Drawing.Point(213, 351)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(80, 79)
+        Me.Button5.Size = New System.Drawing.Size(107, 97)
         Me.Button5.TabIndex = 76
         Me.Button5.Text = "Clear"
         Me.Button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -4849,10 +4969,10 @@ Partial Class MainForm
         Me.btn_empty.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_empty.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_empty.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.icons8_emptying_baskets_56
-        Me.btn_empty.Location = New System.Drawing.Point(20, 285)
-        Me.btn_empty.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_empty.Location = New System.Drawing.Point(27, 351)
+        Me.btn_empty.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btn_empty.Name = "btn_empty"
-        Me.btn_empty.Size = New System.Drawing.Size(80, 79)
+        Me.btn_empty.Size = New System.Drawing.Size(107, 97)
         Me.btn_empty.TabIndex = 76
         Me.btn_empty.Text = "Emptying"
         Me.btn_empty.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -4861,58 +4981,58 @@ Partial Class MainForm
         '
         'txt_po_num
         '
-        Me.txt_po_num.Location = New System.Drawing.Point(11, 163)
-        Me.txt_po_num.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_po_num.Location = New System.Drawing.Point(15, 201)
+        Me.txt_po_num.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txt_po_num.Name = "txt_po_num"
-        Me.txt_po_num.Size = New System.Drawing.Size(225, 29)
+        Me.txt_po_num.Size = New System.Drawing.Size(299, 34)
         Me.txt_po_num.TabIndex = 75
         '
         'Label85
         '
         Me.Label85.AutoSize = True
         Me.Label85.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label85.Location = New System.Drawing.Point(9, 139)
-        Me.Label85.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label85.Location = New System.Drawing.Point(12, 171)
+        Me.Label85.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label85.Name = "Label85"
-        Me.Label85.Size = New System.Drawing.Size(99, 20)
+        Me.Label85.Size = New System.Drawing.Size(126, 25)
         Me.Label85.TabIndex = 74
         Me.Label85.Text = "PO Number :"
         '
         'txt_ope_id
         '
-        Me.txt_ope_id.Location = New System.Drawing.Point(11, 106)
-        Me.txt_ope_id.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_ope_id.Location = New System.Drawing.Point(15, 130)
+        Me.txt_ope_id.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txt_ope_id.Name = "txt_ope_id"
-        Me.txt_ope_id.Size = New System.Drawing.Size(225, 29)
+        Me.txt_ope_id.Size = New System.Drawing.Size(299, 34)
         Me.txt_ope_id.TabIndex = 73
         '
         'Label83
         '
         Me.Label83.AutoSize = True
         Me.Label83.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label83.Location = New System.Drawing.Point(7, 82)
-        Me.Label83.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label83.Location = New System.Drawing.Point(9, 101)
+        Me.Label83.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label83.Name = "Label83"
-        Me.Label83.Size = New System.Drawing.Size(101, 20)
+        Me.Label83.Size = New System.Drawing.Size(124, 25)
         Me.Label83.TabIndex = 72
         Me.Label83.Text = "Operator ID :"
         '
         'txt_ref
         '
-        Me.txt_ref.Location = New System.Drawing.Point(11, 49)
-        Me.txt_ref.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_ref.Location = New System.Drawing.Point(15, 60)
+        Me.txt_ref.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txt_ref.Name = "txt_ref"
-        Me.txt_ref.Size = New System.Drawing.Size(225, 29)
+        Me.txt_ref.Size = New System.Drawing.Size(299, 34)
         Me.txt_ref.TabIndex = 71
         '
         'Label80
         '
         Me.Label80.AutoSize = True
         Me.Label80.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label80.Location = New System.Drawing.Point(7, 25)
-        Me.Label80.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label80.Location = New System.Drawing.Point(9, 31)
+        Me.Label80.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label80.Name = "Label80"
-        Me.Label80.Size = New System.Drawing.Size(100, 20)
+        Me.Label80.Size = New System.Drawing.Size(122, 25)
         Me.Label80.TabIndex = 32
         Me.Label80.Text = "References :"
         '
@@ -4920,10 +5040,11 @@ Partial Class MainForm
         '
         Me.tabHome.Controls.Add(Me.home)
         Me.tabHome.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tabHome.Location = New System.Drawing.Point(86, 142)
+        Me.tabHome.Location = New System.Drawing.Point(115, 175)
+        Me.tabHome.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tabHome.Name = "tabHome"
         Me.tabHome.SelectedIndex = 0
-        Me.tabHome.Size = New System.Drawing.Size(1252, 700)
+        Me.tabHome.Size = New System.Drawing.Size(1669, 862)
         Me.tabHome.TabIndex = 5
         Me.tabHome.Visible = False
         '
@@ -4931,10 +5052,11 @@ Partial Class MainForm
         '
         Me.tab_mon_stn3.Controls.Add(Me.TabPage10)
         Me.tab_mon_stn3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tab_mon_stn3.Location = New System.Drawing.Point(86, 142)
+        Me.tab_mon_stn3.Location = New System.Drawing.Point(115, 175)
+        Me.tab_mon_stn3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tab_mon_stn3.Name = "tab_mon_stn3"
         Me.tab_mon_stn3.SelectedIndex = 0
-        Me.tab_mon_stn3.Size = New System.Drawing.Size(1252, 700)
+        Me.tab_mon_stn3.Size = New System.Drawing.Size(1669, 862)
         Me.tab_mon_stn3.TabIndex = 14
         Me.tab_mon_stn3.Visible = False
         '
@@ -4945,10 +5067,11 @@ Partial Class MainForm
         Me.TabPage10.Controls.Add(Me.GroupBox45)
         Me.TabPage10.Controls.Add(Me.GroupBox48)
         Me.TabPage10.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabPage10.Location = New System.Drawing.Point(4, 38)
+        Me.TabPage10.Location = New System.Drawing.Point(4, 45)
+        Me.TabPage10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage10.Name = "TabPage10"
-        Me.TabPage10.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage10.Size = New System.Drawing.Size(1244, 658)
+        Me.TabPage10.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage10.Size = New System.Drawing.Size(1661, 813)
         Me.TabPage10.TabIndex = 2
         Me.TabPage10.Text = "Station 3"
         Me.TabPage10.UseVisualStyleBackColor = True
@@ -4959,11 +5082,11 @@ Partial Class MainForm
         Me.GroupBox39.Controls.Add(Me.GroupBox41)
         Me.GroupBox39.Controls.Add(Me.GroupBox40)
         Me.GroupBox39.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox39.Location = New System.Drawing.Point(158, 336)
-        Me.GroupBox39.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox39.Location = New System.Drawing.Point(211, 414)
+        Me.GroupBox39.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox39.Name = "GroupBox39"
-        Me.GroupBox39.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox39.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox39.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox39.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox39.TabIndex = 47
         Me.GroupBox39.TabStop = False
         Me.GroupBox39.Text = "V303"
@@ -4975,11 +5098,11 @@ Partial Class MainForm
         Me.GroupBox41.Controls.Add(Me.Label45)
         Me.GroupBox41.Controls.Add(Me.ind_stn3_cyl3_fw)
         Me.GroupBox41.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox41.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox41.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox41.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox41.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox41.Name = "GroupBox41"
-        Me.GroupBox41.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox41.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox41.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox41.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox41.TabIndex = 47
         Me.GroupBox41.TabStop = False
         Me.GroupBox41.Text = "Actuator"
@@ -4988,20 +5111,20 @@ Partial Class MainForm
         '
         Me.Label44.AutoSize = True
         Me.Label44.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label44.Location = New System.Drawing.Point(34, 192)
-        Me.Label44.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label44.Location = New System.Drawing.Point(45, 236)
+        Me.Label44.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(52, 18)
+        Me.Label44.Size = New System.Drawing.Size(66, 24)
         Me.Label44.TabIndex = 46
         Me.Label44.Text = "Return"
         '
         'ind_stn3_cyl3_bw
         '
         Me.ind_stn3_cyl3_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn3_cyl3_bw.Location = New System.Drawing.Point(8, 147)
-        Me.ind_stn3_cyl3_bw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn3_cyl3_bw.Location = New System.Drawing.Point(11, 181)
+        Me.ind_stn3_cyl3_bw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn3_cyl3_bw.Name = "ind_stn3_cyl3_bw"
-        Me.ind_stn3_cyl3_bw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn3_cyl3_bw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn3_cyl3_bw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn3_cyl3_bw.TabIndex = 3
         Me.ind_stn3_cyl3_bw.TabStop = False
@@ -5010,20 +5133,20 @@ Partial Class MainForm
         '
         Me.Label45.AutoSize = True
         Me.Label45.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label45.Location = New System.Drawing.Point(34, 96)
-        Me.Label45.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label45.Location = New System.Drawing.Point(45, 118)
+        Me.Label45.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(53, 18)
+        Me.Label45.Size = New System.Drawing.Size(70, 24)
         Me.Label45.TabIndex = 2
         Me.Label45.Text = "Extend"
         '
         'ind_stn3_cyl3_fw
         '
         Me.ind_stn3_cyl3_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn3_cyl3_fw.Location = New System.Drawing.Point(8, 51)
-        Me.ind_stn3_cyl3_fw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn3_cyl3_fw.Location = New System.Drawing.Point(11, 63)
+        Me.ind_stn3_cyl3_fw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn3_cyl3_fw.Name = "ind_stn3_cyl3_fw"
-        Me.ind_stn3_cyl3_fw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn3_cyl3_fw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn3_cyl3_fw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn3_cyl3_fw.TabIndex = 1
         Me.ind_stn3_cyl3_fw.TabStop = False
@@ -5035,11 +5158,11 @@ Partial Class MainForm
         Me.GroupBox40.Controls.Add(Me.Label32)
         Me.GroupBox40.Controls.Add(Me.mon_stn3_cyl3_max)
         Me.GroupBox40.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox40.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox40.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox40.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox40.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox40.Name = "GroupBox40"
-        Me.GroupBox40.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox40.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox40.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox40.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox40.TabIndex = 46
         Me.GroupBox40.TabStop = False
         Me.GroupBox40.Text = "Sensor"
@@ -5048,20 +5171,20 @@ Partial Class MainForm
         '
         Me.Label31.AutoSize = True
         Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(23, 192)
-        Me.Label31.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label31.Location = New System.Drawing.Point(31, 236)
+        Me.Label31.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(64, 18)
+        Me.Label31.Size = New System.Drawing.Size(83, 24)
         Me.Label31.TabIndex = 46
         Me.Label31.Text = "Minimun"
         '
         'mon_stn3_cyl3_min
         '
         Me.mon_stn3_cyl3_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn3_cyl3_min.Location = New System.Drawing.Point(8, 147)
-        Me.mon_stn3_cyl3_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn3_cyl3_min.Location = New System.Drawing.Point(11, 181)
+        Me.mon_stn3_cyl3_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn3_cyl3_min.Name = "mon_stn3_cyl3_min"
-        Me.mon_stn3_cyl3_min.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn3_cyl3_min.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn3_cyl3_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn3_cyl3_min.TabIndex = 3
         Me.mon_stn3_cyl3_min.TabStop = False
@@ -5070,20 +5193,20 @@ Partial Class MainForm
         '
         Me.Label32.AutoSize = True
         Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.Location = New System.Drawing.Point(23, 96)
-        Me.Label32.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label32.Location = New System.Drawing.Point(31, 118)
+        Me.Label32.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(73, 18)
+        Me.Label32.Size = New System.Drawing.Size(93, 24)
         Me.Label32.TabIndex = 2
         Me.Label32.Text = "Maximum"
         '
         'mon_stn3_cyl3_max
         '
         Me.mon_stn3_cyl3_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn3_cyl3_max.Location = New System.Drawing.Point(8, 51)
-        Me.mon_stn3_cyl3_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn3_cyl3_max.Location = New System.Drawing.Point(11, 63)
+        Me.mon_stn3_cyl3_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn3_cyl3_max.Name = "mon_stn3_cyl3_max"
-        Me.mon_stn3_cyl3_max.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn3_cyl3_max.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn3_cyl3_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn3_cyl3_max.TabIndex = 1
         Me.mon_stn3_cyl3_max.TabStop = False
@@ -5094,11 +5217,11 @@ Partial Class MainForm
         Me.GroupBox42.Controls.Add(Me.GroupBox44)
         Me.GroupBox42.Controls.Add(Me.GroupBox43)
         Me.GroupBox42.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox42.Location = New System.Drawing.Point(781, 336)
-        Me.GroupBox42.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox42.Location = New System.Drawing.Point(1041, 414)
+        Me.GroupBox42.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox42.Name = "GroupBox42"
-        Me.GroupBox42.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox42.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox42.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox42.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox42.TabIndex = 45
         Me.GroupBox42.TabStop = False
         Me.GroupBox42.Text = "V304"
@@ -5110,11 +5233,11 @@ Partial Class MainForm
         Me.GroupBox44.Controls.Add(Me.Label47)
         Me.GroupBox44.Controls.Add(Me.ind_stn3_cyl4_fw)
         Me.GroupBox44.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox44.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox44.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox44.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox44.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox44.Name = "GroupBox44"
-        Me.GroupBox44.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox44.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox44.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox44.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox44.TabIndex = 46
         Me.GroupBox44.TabStop = False
         Me.GroupBox44.Text = "Actuator"
@@ -5123,20 +5246,20 @@ Partial Class MainForm
         '
         Me.Label46.AutoSize = True
         Me.Label46.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label46.Location = New System.Drawing.Point(34, 192)
-        Me.Label46.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label46.Location = New System.Drawing.Point(45, 236)
+        Me.Label46.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(52, 18)
+        Me.Label46.Size = New System.Drawing.Size(66, 24)
         Me.Label46.TabIndex = 46
         Me.Label46.Text = "Return"
         '
         'ind_stn3_cyl4_bw
         '
         Me.ind_stn3_cyl4_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn3_cyl4_bw.Location = New System.Drawing.Point(8, 147)
-        Me.ind_stn3_cyl4_bw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn3_cyl4_bw.Location = New System.Drawing.Point(11, 181)
+        Me.ind_stn3_cyl4_bw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn3_cyl4_bw.Name = "ind_stn3_cyl4_bw"
-        Me.ind_stn3_cyl4_bw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn3_cyl4_bw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn3_cyl4_bw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn3_cyl4_bw.TabIndex = 3
         Me.ind_stn3_cyl4_bw.TabStop = False
@@ -5145,20 +5268,20 @@ Partial Class MainForm
         '
         Me.Label47.AutoSize = True
         Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label47.Location = New System.Drawing.Point(34, 96)
-        Me.Label47.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label47.Location = New System.Drawing.Point(45, 118)
+        Me.Label47.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(53, 18)
+        Me.Label47.Size = New System.Drawing.Size(70, 24)
         Me.Label47.TabIndex = 2
         Me.Label47.Text = "Extend"
         '
         'ind_stn3_cyl4_fw
         '
         Me.ind_stn3_cyl4_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn3_cyl4_fw.Location = New System.Drawing.Point(8, 51)
-        Me.ind_stn3_cyl4_fw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn3_cyl4_fw.Location = New System.Drawing.Point(11, 63)
+        Me.ind_stn3_cyl4_fw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn3_cyl4_fw.Name = "ind_stn3_cyl4_fw"
-        Me.ind_stn3_cyl4_fw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn3_cyl4_fw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn3_cyl4_fw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn3_cyl4_fw.TabIndex = 1
         Me.ind_stn3_cyl4_fw.TabStop = False
@@ -5170,11 +5293,11 @@ Partial Class MainForm
         Me.GroupBox43.Controls.Add(Me.Label35)
         Me.GroupBox43.Controls.Add(Me.mon_stn3_cyl4_max)
         Me.GroupBox43.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox43.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox43.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox43.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox43.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox43.Name = "GroupBox43"
-        Me.GroupBox43.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox43.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox43.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox43.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox43.TabIndex = 46
         Me.GroupBox43.TabStop = False
         Me.GroupBox43.Text = "Sensor"
@@ -5183,20 +5306,20 @@ Partial Class MainForm
         '
         Me.Label34.AutoSize = True
         Me.Label34.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label34.Location = New System.Drawing.Point(23, 192)
-        Me.Label34.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label34.Location = New System.Drawing.Point(31, 236)
+        Me.Label34.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(64, 18)
+        Me.Label34.Size = New System.Drawing.Size(83, 24)
         Me.Label34.TabIndex = 46
         Me.Label34.Text = "Minimun"
         '
         'mon_stn3_cyl4_min
         '
         Me.mon_stn3_cyl4_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn3_cyl4_min.Location = New System.Drawing.Point(8, 147)
-        Me.mon_stn3_cyl4_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn3_cyl4_min.Location = New System.Drawing.Point(11, 181)
+        Me.mon_stn3_cyl4_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn3_cyl4_min.Name = "mon_stn3_cyl4_min"
-        Me.mon_stn3_cyl4_min.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn3_cyl4_min.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn3_cyl4_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn3_cyl4_min.TabIndex = 3
         Me.mon_stn3_cyl4_min.TabStop = False
@@ -5205,20 +5328,20 @@ Partial Class MainForm
         '
         Me.Label35.AutoSize = True
         Me.Label35.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label35.Location = New System.Drawing.Point(23, 96)
-        Me.Label35.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label35.Location = New System.Drawing.Point(31, 118)
+        Me.Label35.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(73, 18)
+        Me.Label35.Size = New System.Drawing.Size(93, 24)
         Me.Label35.TabIndex = 2
         Me.Label35.Text = "Maximum"
         '
         'mon_stn3_cyl4_max
         '
         Me.mon_stn3_cyl4_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn3_cyl4_max.Location = New System.Drawing.Point(8, 51)
-        Me.mon_stn3_cyl4_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn3_cyl4_max.Location = New System.Drawing.Point(11, 63)
+        Me.mon_stn3_cyl4_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn3_cyl4_max.Name = "mon_stn3_cyl4_max"
-        Me.mon_stn3_cyl4_max.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn3_cyl4_max.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn3_cyl4_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn3_cyl4_max.TabIndex = 1
         Me.mon_stn3_cyl4_max.TabStop = False
@@ -5229,11 +5352,11 @@ Partial Class MainForm
         Me.GroupBox45.Controls.Add(Me.GroupBox47)
         Me.GroupBox45.Controls.Add(Me.GroupBox46)
         Me.GroupBox45.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox45.Location = New System.Drawing.Point(779, 18)
-        Me.GroupBox45.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox45.Location = New System.Drawing.Point(1039, 22)
+        Me.GroupBox45.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox45.Name = "GroupBox45"
-        Me.GroupBox45.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox45.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox45.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox45.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox45.TabIndex = 45
         Me.GroupBox45.TabStop = False
         Me.GroupBox45.Text = "V302"
@@ -5245,11 +5368,11 @@ Partial Class MainForm
         Me.GroupBox47.Controls.Add(Me.Label43)
         Me.GroupBox47.Controls.Add(Me.ind_stn3_cyl2_fw)
         Me.GroupBox47.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox47.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox47.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox47.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox47.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox47.Name = "GroupBox47"
-        Me.GroupBox47.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox47.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox47.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox47.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox47.TabIndex = 46
         Me.GroupBox47.TabStop = False
         Me.GroupBox47.Text = "Actuator"
@@ -5258,20 +5381,20 @@ Partial Class MainForm
         '
         Me.Label42.AutoSize = True
         Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.Location = New System.Drawing.Point(34, 192)
-        Me.Label42.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label42.Location = New System.Drawing.Point(45, 236)
+        Me.Label42.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(52, 18)
+        Me.Label42.Size = New System.Drawing.Size(66, 24)
         Me.Label42.TabIndex = 46
         Me.Label42.Text = "Return"
         '
         'ind_stn3_cyl2_bw
         '
         Me.ind_stn3_cyl2_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn3_cyl2_bw.Location = New System.Drawing.Point(8, 147)
-        Me.ind_stn3_cyl2_bw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn3_cyl2_bw.Location = New System.Drawing.Point(11, 181)
+        Me.ind_stn3_cyl2_bw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn3_cyl2_bw.Name = "ind_stn3_cyl2_bw"
-        Me.ind_stn3_cyl2_bw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn3_cyl2_bw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn3_cyl2_bw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn3_cyl2_bw.TabIndex = 3
         Me.ind_stn3_cyl2_bw.TabStop = False
@@ -5280,20 +5403,20 @@ Partial Class MainForm
         '
         Me.Label43.AutoSize = True
         Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label43.Location = New System.Drawing.Point(34, 96)
-        Me.Label43.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label43.Location = New System.Drawing.Point(45, 118)
+        Me.Label43.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(53, 18)
+        Me.Label43.Size = New System.Drawing.Size(70, 24)
         Me.Label43.TabIndex = 2
         Me.Label43.Text = "Extend"
         '
         'ind_stn3_cyl2_fw
         '
         Me.ind_stn3_cyl2_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn3_cyl2_fw.Location = New System.Drawing.Point(8, 51)
-        Me.ind_stn3_cyl2_fw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn3_cyl2_fw.Location = New System.Drawing.Point(11, 63)
+        Me.ind_stn3_cyl2_fw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn3_cyl2_fw.Name = "ind_stn3_cyl2_fw"
-        Me.ind_stn3_cyl2_fw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn3_cyl2_fw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn3_cyl2_fw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn3_cyl2_fw.TabIndex = 1
         Me.ind_stn3_cyl2_fw.TabStop = False
@@ -5305,11 +5428,11 @@ Partial Class MainForm
         Me.GroupBox46.Controls.Add(Me.Label37)
         Me.GroupBox46.Controls.Add(Me.mon_stn3_cyl2_max)
         Me.GroupBox46.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox46.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox46.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox46.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox46.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox46.Name = "GroupBox46"
-        Me.GroupBox46.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox46.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox46.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox46.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox46.TabIndex = 46
         Me.GroupBox46.TabStop = False
         Me.GroupBox46.Text = "Sensor"
@@ -5318,20 +5441,20 @@ Partial Class MainForm
         '
         Me.Label36.AutoSize = True
         Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.Location = New System.Drawing.Point(23, 192)
-        Me.Label36.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label36.Location = New System.Drawing.Point(31, 236)
+        Me.Label36.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(64, 18)
+        Me.Label36.Size = New System.Drawing.Size(83, 24)
         Me.Label36.TabIndex = 46
         Me.Label36.Text = "Minimun"
         '
         'mon_stn3_cyl2_min
         '
         Me.mon_stn3_cyl2_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn3_cyl2_min.Location = New System.Drawing.Point(8, 147)
-        Me.mon_stn3_cyl2_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn3_cyl2_min.Location = New System.Drawing.Point(11, 181)
+        Me.mon_stn3_cyl2_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn3_cyl2_min.Name = "mon_stn3_cyl2_min"
-        Me.mon_stn3_cyl2_min.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn3_cyl2_min.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn3_cyl2_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn3_cyl2_min.TabIndex = 3
         Me.mon_stn3_cyl2_min.TabStop = False
@@ -5340,20 +5463,20 @@ Partial Class MainForm
         '
         Me.Label37.AutoSize = True
         Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.Location = New System.Drawing.Point(23, 96)
-        Me.Label37.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label37.Location = New System.Drawing.Point(31, 118)
+        Me.Label37.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(73, 18)
+        Me.Label37.Size = New System.Drawing.Size(93, 24)
         Me.Label37.TabIndex = 2
         Me.Label37.Text = "Maximum"
         '
         'mon_stn3_cyl2_max
         '
         Me.mon_stn3_cyl2_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn3_cyl2_max.Location = New System.Drawing.Point(8, 51)
-        Me.mon_stn3_cyl2_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn3_cyl2_max.Location = New System.Drawing.Point(11, 63)
+        Me.mon_stn3_cyl2_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn3_cyl2_max.Name = "mon_stn3_cyl2_max"
-        Me.mon_stn3_cyl2_max.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn3_cyl2_max.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn3_cyl2_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn3_cyl2_max.TabIndex = 1
         Me.mon_stn3_cyl2_max.TabStop = False
@@ -5364,11 +5487,11 @@ Partial Class MainForm
         Me.GroupBox48.Controls.Add(Me.GroupBox50)
         Me.GroupBox48.Controls.Add(Me.GroupBox49)
         Me.GroupBox48.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox48.Location = New System.Drawing.Point(158, 18)
-        Me.GroupBox48.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox48.Location = New System.Drawing.Point(211, 22)
+        Me.GroupBox48.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox48.Name = "GroupBox48"
-        Me.GroupBox48.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox48.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox48.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox48.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox48.TabIndex = 45
         Me.GroupBox48.TabStop = False
         Me.GroupBox48.Text = "V301"
@@ -5380,11 +5503,11 @@ Partial Class MainForm
         Me.GroupBox50.Controls.Add(Me.Label41)
         Me.GroupBox50.Controls.Add(Me.ind_stn3_cyl1_fw)
         Me.GroupBox50.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox50.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox50.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox50.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox50.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox50.Name = "GroupBox50"
-        Me.GroupBox50.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox50.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox50.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox50.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox50.TabIndex = 46
         Me.GroupBox50.TabStop = False
         Me.GroupBox50.Text = "Actuator"
@@ -5393,20 +5516,20 @@ Partial Class MainForm
         '
         Me.Label40.AutoSize = True
         Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label40.Location = New System.Drawing.Point(34, 192)
-        Me.Label40.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label40.Location = New System.Drawing.Point(45, 236)
+        Me.Label40.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(52, 18)
+        Me.Label40.Size = New System.Drawing.Size(66, 24)
         Me.Label40.TabIndex = 46
         Me.Label40.Text = "Return"
         '
         'ind_stn3_cyl1_bw
         '
         Me.ind_stn3_cyl1_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn3_cyl1_bw.Location = New System.Drawing.Point(8, 147)
-        Me.ind_stn3_cyl1_bw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn3_cyl1_bw.Location = New System.Drawing.Point(11, 181)
+        Me.ind_stn3_cyl1_bw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn3_cyl1_bw.Name = "ind_stn3_cyl1_bw"
-        Me.ind_stn3_cyl1_bw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn3_cyl1_bw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn3_cyl1_bw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn3_cyl1_bw.TabIndex = 3
         Me.ind_stn3_cyl1_bw.TabStop = False
@@ -5415,20 +5538,20 @@ Partial Class MainForm
         '
         Me.Label41.AutoSize = True
         Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.Location = New System.Drawing.Point(34, 96)
-        Me.Label41.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label41.Location = New System.Drawing.Point(45, 118)
+        Me.Label41.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(53, 18)
+        Me.Label41.Size = New System.Drawing.Size(70, 24)
         Me.Label41.TabIndex = 2
         Me.Label41.Text = "Extend"
         '
         'ind_stn3_cyl1_fw
         '
         Me.ind_stn3_cyl1_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn3_cyl1_fw.Location = New System.Drawing.Point(8, 51)
-        Me.ind_stn3_cyl1_fw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn3_cyl1_fw.Location = New System.Drawing.Point(11, 63)
+        Me.ind_stn3_cyl1_fw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn3_cyl1_fw.Name = "ind_stn3_cyl1_fw"
-        Me.ind_stn3_cyl1_fw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn3_cyl1_fw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn3_cyl1_fw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn3_cyl1_fw.TabIndex = 1
         Me.ind_stn3_cyl1_fw.TabStop = False
@@ -5440,11 +5563,11 @@ Partial Class MainForm
         Me.GroupBox49.Controls.Add(Me.Label39)
         Me.GroupBox49.Controls.Add(Me.mon_stn3_cyl1_max)
         Me.GroupBox49.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox49.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox49.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox49.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox49.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox49.Name = "GroupBox49"
-        Me.GroupBox49.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox49.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox49.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox49.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox49.TabIndex = 46
         Me.GroupBox49.TabStop = False
         Me.GroupBox49.Text = "Sensor"
@@ -5453,20 +5576,20 @@ Partial Class MainForm
         '
         Me.Label38.AutoSize = True
         Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.Location = New System.Drawing.Point(23, 192)
-        Me.Label38.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label38.Location = New System.Drawing.Point(31, 236)
+        Me.Label38.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(64, 18)
+        Me.Label38.Size = New System.Drawing.Size(83, 24)
         Me.Label38.TabIndex = 46
         Me.Label38.Text = "Minimun"
         '
         'mon_stn3_cyl1_min
         '
         Me.mon_stn3_cyl1_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn3_cyl1_min.Location = New System.Drawing.Point(8, 147)
-        Me.mon_stn3_cyl1_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn3_cyl1_min.Location = New System.Drawing.Point(11, 181)
+        Me.mon_stn3_cyl1_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn3_cyl1_min.Name = "mon_stn3_cyl1_min"
-        Me.mon_stn3_cyl1_min.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn3_cyl1_min.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn3_cyl1_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn3_cyl1_min.TabIndex = 3
         Me.mon_stn3_cyl1_min.TabStop = False
@@ -5475,20 +5598,20 @@ Partial Class MainForm
         '
         Me.Label39.AutoSize = True
         Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.Location = New System.Drawing.Point(23, 96)
-        Me.Label39.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label39.Location = New System.Drawing.Point(31, 118)
+        Me.Label39.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(73, 18)
+        Me.Label39.Size = New System.Drawing.Size(93, 24)
         Me.Label39.TabIndex = 2
         Me.Label39.Text = "Maximum"
         '
         'mon_stn3_cyl1_max
         '
         Me.mon_stn3_cyl1_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn3_cyl1_max.Location = New System.Drawing.Point(8, 51)
-        Me.mon_stn3_cyl1_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn3_cyl1_max.Location = New System.Drawing.Point(11, 63)
+        Me.mon_stn3_cyl1_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn3_cyl1_max.Name = "mon_stn3_cyl1_max"
-        Me.mon_stn3_cyl1_max.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn3_cyl1_max.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn3_cyl1_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn3_cyl1_max.TabIndex = 1
         Me.mon_stn3_cyl1_max.TabStop = False
@@ -5497,10 +5620,11 @@ Partial Class MainForm
         '
         Me.tab_mon_stn4.Controls.Add(Me.TabPage11)
         Me.tab_mon_stn4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tab_mon_stn4.Location = New System.Drawing.Point(86, 142)
+        Me.tab_mon_stn4.Location = New System.Drawing.Point(115, 175)
+        Me.tab_mon_stn4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tab_mon_stn4.Name = "tab_mon_stn4"
         Me.tab_mon_stn4.SelectedIndex = 0
-        Me.tab_mon_stn4.Size = New System.Drawing.Size(1252, 700)
+        Me.tab_mon_stn4.Size = New System.Drawing.Size(1669, 862)
         Me.tab_mon_stn4.TabIndex = 15
         Me.tab_mon_stn4.Visible = False
         '
@@ -5508,10 +5632,11 @@ Partial Class MainForm
         '
         Me.TabPage11.Controls.Add(Me.GroupBox54)
         Me.TabPage11.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabPage11.Location = New System.Drawing.Point(4, 38)
+        Me.TabPage11.Location = New System.Drawing.Point(4, 45)
+        Me.TabPage11.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage11.Name = "TabPage11"
-        Me.TabPage11.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage11.Size = New System.Drawing.Size(1244, 658)
+        Me.TabPage11.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage11.Size = New System.Drawing.Size(1661, 813)
         Me.TabPage11.TabIndex = 2
         Me.TabPage11.Text = "Station 4"
         Me.TabPage11.UseVisualStyleBackColor = True
@@ -5520,9 +5645,11 @@ Partial Class MainForm
         '
         Me.GroupBox54.Controls.Add(Me.GroupBox55)
         Me.GroupBox54.Controls.Add(Me.GroupBox56)
-        Me.GroupBox54.Location = New System.Drawing.Point(400, 109)
+        Me.GroupBox54.Location = New System.Drawing.Point(533, 134)
+        Me.GroupBox54.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox54.Name = "GroupBox54"
-        Me.GroupBox54.Size = New System.Drawing.Size(402, 362)
+        Me.GroupBox54.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox54.Size = New System.Drawing.Size(536, 446)
         Me.GroupBox54.TabIndex = 48
         Me.GroupBox54.TabStop = False
         Me.GroupBox54.Text = "V401"
@@ -5533,9 +5660,11 @@ Partial Class MainForm
         Me.GroupBox55.Controls.Add(Me.Label55)
         Me.GroupBox55.Controls.Add(Me.ind_stn4_cyl1_bw)
         Me.GroupBox55.Controls.Add(Me.ind_stn4_cyl1_fw)
-        Me.GroupBox55.Location = New System.Drawing.Point(6, 52)
+        Me.GroupBox55.Location = New System.Drawing.Point(8, 64)
+        Me.GroupBox55.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox55.Name = "GroupBox55"
-        Me.GroupBox55.Size = New System.Drawing.Size(186, 266)
+        Me.GroupBox55.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox55.Size = New System.Drawing.Size(248, 327)
         Me.GroupBox55.TabIndex = 3
         Me.GroupBox55.TabStop = False
         Me.GroupBox55.Text = "Actuator"
@@ -5544,10 +5673,10 @@ Partial Class MainForm
         '
         Me.Label54.AutoSize = True
         Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label54.Location = New System.Drawing.Point(61, 225)
-        Me.Label54.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label54.Location = New System.Drawing.Point(81, 277)
+        Me.Label54.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(52, 18)
+        Me.Label54.Size = New System.Drawing.Size(66, 24)
         Me.Label54.TabIndex = 2
         Me.Label54.Text = "Return"
         '
@@ -5555,19 +5684,20 @@ Partial Class MainForm
         '
         Me.Label55.AutoSize = True
         Me.Label55.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label55.Location = New System.Drawing.Point(61, 110)
-        Me.Label55.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label55.Location = New System.Drawing.Point(81, 135)
+        Me.Label55.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(53, 18)
+        Me.Label55.Size = New System.Drawing.Size(70, 24)
         Me.Label55.TabIndex = 2
         Me.Label55.Text = "Extend"
         '
         'ind_stn4_cyl1_bw
         '
         Me.ind_stn4_cyl1_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn4_cyl1_bw.Location = New System.Drawing.Point(32, 172)
+        Me.ind_stn4_cyl1_bw.Location = New System.Drawing.Point(43, 212)
+        Me.ind_stn4_cyl1_bw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ind_stn4_cyl1_bw.Name = "ind_stn4_cyl1_bw"
-        Me.ind_stn4_cyl1_bw.Size = New System.Drawing.Size(109, 50)
+        Me.ind_stn4_cyl1_bw.Size = New System.Drawing.Size(145, 62)
         Me.ind_stn4_cyl1_bw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn4_cyl1_bw.TabIndex = 1
         Me.ind_stn4_cyl1_bw.TabStop = False
@@ -5575,9 +5705,10 @@ Partial Class MainForm
         'ind_stn4_cyl1_fw
         '
         Me.ind_stn4_cyl1_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn4_cyl1_fw.Location = New System.Drawing.Point(32, 57)
+        Me.ind_stn4_cyl1_fw.Location = New System.Drawing.Point(43, 70)
+        Me.ind_stn4_cyl1_fw.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ind_stn4_cyl1_fw.Name = "ind_stn4_cyl1_fw"
-        Me.ind_stn4_cyl1_fw.Size = New System.Drawing.Size(109, 50)
+        Me.ind_stn4_cyl1_fw.Size = New System.Drawing.Size(145, 62)
         Me.ind_stn4_cyl1_fw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn4_cyl1_fw.TabIndex = 0
         Me.ind_stn4_cyl1_fw.TabStop = False
@@ -5588,9 +5719,11 @@ Partial Class MainForm
         Me.GroupBox56.Controls.Add(Me.Label57)
         Me.GroupBox56.Controls.Add(Me.mon_stn4_cyl1_min)
         Me.GroupBox56.Controls.Add(Me.mon_stn4_cyl1_max)
-        Me.GroupBox56.Location = New System.Drawing.Point(210, 52)
+        Me.GroupBox56.Location = New System.Drawing.Point(280, 64)
+        Me.GroupBox56.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox56.Name = "GroupBox56"
-        Me.GroupBox56.Size = New System.Drawing.Size(186, 266)
+        Me.GroupBox56.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox56.Size = New System.Drawing.Size(248, 327)
         Me.GroupBox56.TabIndex = 1
         Me.GroupBox56.TabStop = False
         Me.GroupBox56.Text = "Sensor"
@@ -5599,10 +5732,10 @@ Partial Class MainForm
         '
         Me.Label56.AutoSize = True
         Me.Label56.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label56.Location = New System.Drawing.Point(51, 225)
-        Me.Label56.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label56.Location = New System.Drawing.Point(68, 277)
+        Me.Label56.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(64, 18)
+        Me.Label56.Size = New System.Drawing.Size(83, 24)
         Me.Label56.TabIndex = 2
         Me.Label56.Text = "Minimun"
         '
@@ -5610,19 +5743,20 @@ Partial Class MainForm
         '
         Me.Label57.AutoSize = True
         Me.Label57.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label57.Location = New System.Drawing.Point(51, 110)
-        Me.Label57.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label57.Location = New System.Drawing.Point(68, 135)
+        Me.Label57.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(73, 18)
+        Me.Label57.Size = New System.Drawing.Size(93, 24)
         Me.Label57.TabIndex = 2
         Me.Label57.Text = "Maximum"
         '
         'mon_stn4_cyl1_min
         '
         Me.mon_stn4_cyl1_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn4_cyl1_min.Location = New System.Drawing.Point(32, 172)
+        Me.mon_stn4_cyl1_min.Location = New System.Drawing.Point(43, 212)
+        Me.mon_stn4_cyl1_min.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.mon_stn4_cyl1_min.Name = "mon_stn4_cyl1_min"
-        Me.mon_stn4_cyl1_min.Size = New System.Drawing.Size(109, 50)
+        Me.mon_stn4_cyl1_min.Size = New System.Drawing.Size(145, 62)
         Me.mon_stn4_cyl1_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn4_cyl1_min.TabIndex = 1
         Me.mon_stn4_cyl1_min.TabStop = False
@@ -5630,9 +5764,10 @@ Partial Class MainForm
         'mon_stn4_cyl1_max
         '
         Me.mon_stn4_cyl1_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn4_cyl1_max.Location = New System.Drawing.Point(32, 57)
+        Me.mon_stn4_cyl1_max.Location = New System.Drawing.Point(43, 70)
+        Me.mon_stn4_cyl1_max.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.mon_stn4_cyl1_max.Name = "mon_stn4_cyl1_max"
-        Me.mon_stn4_cyl1_max.Size = New System.Drawing.Size(109, 50)
+        Me.mon_stn4_cyl1_max.Size = New System.Drawing.Size(145, 62)
         Me.mon_stn4_cyl1_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn4_cyl1_max.TabIndex = 0
         Me.mon_stn4_cyl1_max.TabStop = False
@@ -5641,10 +5776,11 @@ Partial Class MainForm
         '
         Me.tab_mon_stn5.Controls.Add(Me.TabPage12)
         Me.tab_mon_stn5.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tab_mon_stn5.Location = New System.Drawing.Point(86, 142)
+        Me.tab_mon_stn5.Location = New System.Drawing.Point(115, 175)
+        Me.tab_mon_stn5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tab_mon_stn5.Name = "tab_mon_stn5"
         Me.tab_mon_stn5.SelectedIndex = 0
-        Me.tab_mon_stn5.Size = New System.Drawing.Size(1252, 700)
+        Me.tab_mon_stn5.Size = New System.Drawing.Size(1669, 862)
         Me.tab_mon_stn5.TabIndex = 16
         Me.tab_mon_stn5.Visible = False
         '
@@ -5654,10 +5790,11 @@ Partial Class MainForm
         Me.TabPage12.Controls.Add(Me.GroupBox60)
         Me.TabPage12.Controls.Add(Me.GroupBox63)
         Me.TabPage12.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabPage12.Location = New System.Drawing.Point(4, 38)
+        Me.TabPage12.Location = New System.Drawing.Point(4, 45)
+        Me.TabPage12.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage12.Name = "TabPage12"
-        Me.TabPage12.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage12.Size = New System.Drawing.Size(1244, 658)
+        Me.TabPage12.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage12.Size = New System.Drawing.Size(1661, 813)
         Me.TabPage12.TabIndex = 2
         Me.TabPage12.Text = "Station 5"
         Me.TabPage12.UseVisualStyleBackColor = True
@@ -5668,11 +5805,11 @@ Partial Class MainForm
         Me.GroupBox57.Controls.Add(Me.GroupBox58)
         Me.GroupBox57.Controls.Add(Me.GroupBox59)
         Me.GroupBox57.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox57.Location = New System.Drawing.Point(866, 169)
-        Me.GroupBox57.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox57.Location = New System.Drawing.Point(1155, 208)
+        Me.GroupBox57.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox57.Name = "GroupBox57"
-        Me.GroupBox57.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox57.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox57.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox57.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox57.TabIndex = 47
         Me.GroupBox57.TabStop = False
         Me.GroupBox57.Text = "V503"
@@ -5684,11 +5821,11 @@ Partial Class MainForm
         Me.GroupBox58.Controls.Add(Me.Label52)
         Me.GroupBox58.Controls.Add(Me.ind_stn5_cyl3_fw)
         Me.GroupBox58.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox58.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox58.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox58.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox58.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox58.Name = "GroupBox58"
-        Me.GroupBox58.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox58.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox58.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox58.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox58.TabIndex = 46
         Me.GroupBox58.TabStop = False
         Me.GroupBox58.Text = "Actuator"
@@ -5697,20 +5834,20 @@ Partial Class MainForm
         '
         Me.Label50.AutoSize = True
         Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label50.Location = New System.Drawing.Point(34, 192)
-        Me.Label50.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label50.Location = New System.Drawing.Point(45, 236)
+        Me.Label50.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(52, 18)
+        Me.Label50.Size = New System.Drawing.Size(66, 24)
         Me.Label50.TabIndex = 46
         Me.Label50.Text = "Return"
         '
         'ind_stn5_cyl3_bw
         '
         Me.ind_stn5_cyl3_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn5_cyl3_bw.Location = New System.Drawing.Point(8, 147)
-        Me.ind_stn5_cyl3_bw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn5_cyl3_bw.Location = New System.Drawing.Point(11, 181)
+        Me.ind_stn5_cyl3_bw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn5_cyl3_bw.Name = "ind_stn5_cyl3_bw"
-        Me.ind_stn5_cyl3_bw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn5_cyl3_bw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn5_cyl3_bw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn5_cyl3_bw.TabIndex = 3
         Me.ind_stn5_cyl3_bw.TabStop = False
@@ -5719,20 +5856,20 @@ Partial Class MainForm
         '
         Me.Label52.AutoSize = True
         Me.Label52.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label52.Location = New System.Drawing.Point(34, 96)
-        Me.Label52.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label52.Location = New System.Drawing.Point(45, 118)
+        Me.Label52.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(53, 18)
+        Me.Label52.Size = New System.Drawing.Size(70, 24)
         Me.Label52.TabIndex = 2
         Me.Label52.Text = "Extend"
         '
         'ind_stn5_cyl3_fw
         '
         Me.ind_stn5_cyl3_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn5_cyl3_fw.Location = New System.Drawing.Point(8, 51)
-        Me.ind_stn5_cyl3_fw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn5_cyl3_fw.Location = New System.Drawing.Point(11, 63)
+        Me.ind_stn5_cyl3_fw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn5_cyl3_fw.Name = "ind_stn5_cyl3_fw"
-        Me.ind_stn5_cyl3_fw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn5_cyl3_fw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn5_cyl3_fw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn5_cyl3_fw.TabIndex = 1
         Me.ind_stn5_cyl3_fw.TabStop = False
@@ -5744,11 +5881,11 @@ Partial Class MainForm
         Me.GroupBox59.Controls.Add(Me.Label71)
         Me.GroupBox59.Controls.Add(Me.mon_stn5_cyl3_max)
         Me.GroupBox59.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox59.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox59.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox59.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox59.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox59.Name = "GroupBox59"
-        Me.GroupBox59.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox59.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox59.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox59.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox59.TabIndex = 46
         Me.GroupBox59.TabStop = False
         Me.GroupBox59.Text = "Sensor"
@@ -5757,20 +5894,20 @@ Partial Class MainForm
         '
         Me.Label70.AutoSize = True
         Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label70.Location = New System.Drawing.Point(23, 192)
-        Me.Label70.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label70.Location = New System.Drawing.Point(31, 236)
+        Me.Label70.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(64, 18)
+        Me.Label70.Size = New System.Drawing.Size(83, 24)
         Me.Label70.TabIndex = 46
         Me.Label70.Text = "Minimun"
         '
         'mon_stn5_cyl3_min
         '
         Me.mon_stn5_cyl3_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn5_cyl3_min.Location = New System.Drawing.Point(8, 147)
-        Me.mon_stn5_cyl3_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn5_cyl3_min.Location = New System.Drawing.Point(11, 181)
+        Me.mon_stn5_cyl3_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn5_cyl3_min.Name = "mon_stn5_cyl3_min"
-        Me.mon_stn5_cyl3_min.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn5_cyl3_min.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn5_cyl3_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn5_cyl3_min.TabIndex = 3
         Me.mon_stn5_cyl3_min.TabStop = False
@@ -5779,20 +5916,20 @@ Partial Class MainForm
         '
         Me.Label71.AutoSize = True
         Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label71.Location = New System.Drawing.Point(23, 96)
-        Me.Label71.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label71.Location = New System.Drawing.Point(31, 118)
+        Me.Label71.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(73, 18)
+        Me.Label71.Size = New System.Drawing.Size(93, 24)
         Me.Label71.TabIndex = 2
         Me.Label71.Text = "Maximum"
         '
         'mon_stn5_cyl3_max
         '
         Me.mon_stn5_cyl3_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn5_cyl3_max.Location = New System.Drawing.Point(8, 51)
-        Me.mon_stn5_cyl3_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn5_cyl3_max.Location = New System.Drawing.Point(11, 63)
+        Me.mon_stn5_cyl3_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn5_cyl3_max.Name = "mon_stn5_cyl3_max"
-        Me.mon_stn5_cyl3_max.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn5_cyl3_max.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn5_cyl3_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn5_cyl3_max.TabIndex = 1
         Me.mon_stn5_cyl3_max.TabStop = False
@@ -5803,11 +5940,11 @@ Partial Class MainForm
         Me.GroupBox60.Controls.Add(Me.GroupBox61)
         Me.GroupBox60.Controls.Add(Me.GroupBox62)
         Me.GroupBox60.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox60.Location = New System.Drawing.Point(491, 169)
-        Me.GroupBox60.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox60.Location = New System.Drawing.Point(655, 208)
+        Me.GroupBox60.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox60.Name = "GroupBox60"
-        Me.GroupBox60.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox60.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox60.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox60.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox60.TabIndex = 47
         Me.GroupBox60.TabStop = False
         Me.GroupBox60.Text = "V502"
@@ -5819,11 +5956,11 @@ Partial Class MainForm
         Me.GroupBox61.Controls.Add(Me.Label59)
         Me.GroupBox61.Controls.Add(Me.ind_stn5_cyl2_fw)
         Me.GroupBox61.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox61.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox61.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox61.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox61.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox61.Name = "GroupBox61"
-        Me.GroupBox61.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox61.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox61.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox61.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox61.TabIndex = 46
         Me.GroupBox61.TabStop = False
         Me.GroupBox61.Text = "Actuator"
@@ -5832,20 +5969,20 @@ Partial Class MainForm
         '
         Me.Label58.AutoSize = True
         Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label58.Location = New System.Drawing.Point(34, 192)
-        Me.Label58.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label58.Location = New System.Drawing.Point(45, 236)
+        Me.Label58.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(52, 18)
+        Me.Label58.Size = New System.Drawing.Size(66, 24)
         Me.Label58.TabIndex = 46
         Me.Label58.Text = "Return"
         '
         'ind_stn5_cyl2_bw
         '
         Me.ind_stn5_cyl2_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn5_cyl2_bw.Location = New System.Drawing.Point(8, 147)
-        Me.ind_stn5_cyl2_bw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn5_cyl2_bw.Location = New System.Drawing.Point(11, 181)
+        Me.ind_stn5_cyl2_bw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn5_cyl2_bw.Name = "ind_stn5_cyl2_bw"
-        Me.ind_stn5_cyl2_bw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn5_cyl2_bw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn5_cyl2_bw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn5_cyl2_bw.TabIndex = 3
         Me.ind_stn5_cyl2_bw.TabStop = False
@@ -5854,20 +5991,20 @@ Partial Class MainForm
         '
         Me.Label59.AutoSize = True
         Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label59.Location = New System.Drawing.Point(34, 96)
-        Me.Label59.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label59.Location = New System.Drawing.Point(45, 118)
+        Me.Label59.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(53, 18)
+        Me.Label59.Size = New System.Drawing.Size(70, 24)
         Me.Label59.TabIndex = 2
         Me.Label59.Text = "Extend"
         '
         'ind_stn5_cyl2_fw
         '
         Me.ind_stn5_cyl2_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn5_cyl2_fw.Location = New System.Drawing.Point(8, 51)
-        Me.ind_stn5_cyl2_fw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn5_cyl2_fw.Location = New System.Drawing.Point(11, 63)
+        Me.ind_stn5_cyl2_fw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn5_cyl2_fw.Name = "ind_stn5_cyl2_fw"
-        Me.ind_stn5_cyl2_fw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn5_cyl2_fw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn5_cyl2_fw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn5_cyl2_fw.TabIndex = 1
         Me.ind_stn5_cyl2_fw.TabStop = False
@@ -5879,11 +6016,11 @@ Partial Class MainForm
         Me.GroupBox62.Controls.Add(Me.Label69)
         Me.GroupBox62.Controls.Add(Me.mon_stn5_cyl2_max)
         Me.GroupBox62.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox62.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox62.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox62.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox62.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox62.Name = "GroupBox62"
-        Me.GroupBox62.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox62.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox62.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox62.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox62.TabIndex = 46
         Me.GroupBox62.TabStop = False
         Me.GroupBox62.Text = "Sensor"
@@ -5892,20 +6029,20 @@ Partial Class MainForm
         '
         Me.Label67.AutoSize = True
         Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label67.Location = New System.Drawing.Point(23, 192)
-        Me.Label67.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label67.Location = New System.Drawing.Point(31, 236)
+        Me.Label67.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label67.Name = "Label67"
-        Me.Label67.Size = New System.Drawing.Size(64, 18)
+        Me.Label67.Size = New System.Drawing.Size(83, 24)
         Me.Label67.TabIndex = 46
         Me.Label67.Text = "Minimun"
         '
         'mon_stn5_cyl2_min
         '
         Me.mon_stn5_cyl2_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn5_cyl2_min.Location = New System.Drawing.Point(8, 147)
-        Me.mon_stn5_cyl2_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn5_cyl2_min.Location = New System.Drawing.Point(11, 181)
+        Me.mon_stn5_cyl2_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn5_cyl2_min.Name = "mon_stn5_cyl2_min"
-        Me.mon_stn5_cyl2_min.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn5_cyl2_min.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn5_cyl2_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn5_cyl2_min.TabIndex = 3
         Me.mon_stn5_cyl2_min.TabStop = False
@@ -5914,20 +6051,20 @@ Partial Class MainForm
         '
         Me.Label69.AutoSize = True
         Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label69.Location = New System.Drawing.Point(23, 96)
-        Me.Label69.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label69.Location = New System.Drawing.Point(31, 118)
+        Me.Label69.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label69.Name = "Label69"
-        Me.Label69.Size = New System.Drawing.Size(73, 18)
+        Me.Label69.Size = New System.Drawing.Size(93, 24)
         Me.Label69.TabIndex = 2
         Me.Label69.Text = "Maximum"
         '
         'mon_stn5_cyl2_max
         '
         Me.mon_stn5_cyl2_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn5_cyl2_max.Location = New System.Drawing.Point(8, 51)
-        Me.mon_stn5_cyl2_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn5_cyl2_max.Location = New System.Drawing.Point(11, 63)
+        Me.mon_stn5_cyl2_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn5_cyl2_max.Name = "mon_stn5_cyl2_max"
-        Me.mon_stn5_cyl2_max.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn5_cyl2_max.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn5_cyl2_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn5_cyl2_max.TabIndex = 1
         Me.mon_stn5_cyl2_max.TabStop = False
@@ -5938,11 +6075,11 @@ Partial Class MainForm
         Me.GroupBox63.Controls.Add(Me.GroupBox64)
         Me.GroupBox63.Controls.Add(Me.GroupBox65)
         Me.GroupBox63.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox63.Location = New System.Drawing.Point(99, 169)
-        Me.GroupBox63.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox63.Location = New System.Drawing.Point(132, 208)
+        Me.GroupBox63.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox63.Name = "GroupBox63"
-        Me.GroupBox63.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox63.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox63.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox63.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox63.TabIndex = 47
         Me.GroupBox63.TabStop = False
         Me.GroupBox63.Text = "V501"
@@ -5954,11 +6091,11 @@ Partial Class MainForm
         Me.GroupBox64.Controls.Add(Me.Label61)
         Me.GroupBox64.Controls.Add(Me.ind_stn5_cyl1_fw)
         Me.GroupBox64.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox64.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox64.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox64.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox64.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox64.Name = "GroupBox64"
-        Me.GroupBox64.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox64.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox64.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox64.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox64.TabIndex = 46
         Me.GroupBox64.TabStop = False
         Me.GroupBox64.Text = "Actuator"
@@ -5967,20 +6104,20 @@ Partial Class MainForm
         '
         Me.Label60.AutoSize = True
         Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label60.Location = New System.Drawing.Point(34, 192)
-        Me.Label60.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label60.Location = New System.Drawing.Point(45, 236)
+        Me.Label60.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(52, 18)
+        Me.Label60.Size = New System.Drawing.Size(66, 24)
         Me.Label60.TabIndex = 46
         Me.Label60.Text = "Return"
         '
         'ind_stn5_cyl1_bw
         '
         Me.ind_stn5_cyl1_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn5_cyl1_bw.Location = New System.Drawing.Point(8, 147)
-        Me.ind_stn5_cyl1_bw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn5_cyl1_bw.Location = New System.Drawing.Point(11, 181)
+        Me.ind_stn5_cyl1_bw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn5_cyl1_bw.Name = "ind_stn5_cyl1_bw"
-        Me.ind_stn5_cyl1_bw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn5_cyl1_bw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn5_cyl1_bw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn5_cyl1_bw.TabIndex = 3
         Me.ind_stn5_cyl1_bw.TabStop = False
@@ -5989,20 +6126,20 @@ Partial Class MainForm
         '
         Me.Label61.AutoSize = True
         Me.Label61.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label61.Location = New System.Drawing.Point(34, 96)
-        Me.Label61.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label61.Location = New System.Drawing.Point(45, 118)
+        Me.Label61.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(53, 18)
+        Me.Label61.Size = New System.Drawing.Size(70, 24)
         Me.Label61.TabIndex = 2
         Me.Label61.Text = "Extend"
         '
         'ind_stn5_cyl1_fw
         '
         Me.ind_stn5_cyl1_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn5_cyl1_fw.Location = New System.Drawing.Point(8, 51)
-        Me.ind_stn5_cyl1_fw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn5_cyl1_fw.Location = New System.Drawing.Point(11, 63)
+        Me.ind_stn5_cyl1_fw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn5_cyl1_fw.Name = "ind_stn5_cyl1_fw"
-        Me.ind_stn5_cyl1_fw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn5_cyl1_fw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn5_cyl1_fw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn5_cyl1_fw.TabIndex = 1
         Me.ind_stn5_cyl1_fw.TabStop = False
@@ -6014,11 +6151,11 @@ Partial Class MainForm
         Me.GroupBox65.Controls.Add(Me.Label66)
         Me.GroupBox65.Controls.Add(Me.mon_stn5_cyl1_max)
         Me.GroupBox65.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox65.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox65.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox65.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox65.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox65.Name = "GroupBox65"
-        Me.GroupBox65.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox65.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox65.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox65.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox65.TabIndex = 46
         Me.GroupBox65.TabStop = False
         Me.GroupBox65.Text = "Sensor"
@@ -6027,20 +6164,20 @@ Partial Class MainForm
         '
         Me.Label62.AutoSize = True
         Me.Label62.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label62.Location = New System.Drawing.Point(23, 192)
-        Me.Label62.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label62.Location = New System.Drawing.Point(31, 236)
+        Me.Label62.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(64, 18)
+        Me.Label62.Size = New System.Drawing.Size(83, 24)
         Me.Label62.TabIndex = 46
         Me.Label62.Text = "Minimun"
         '
         'mon_stn5_cyl1_min
         '
         Me.mon_stn5_cyl1_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn5_cyl1_min.Location = New System.Drawing.Point(8, 147)
-        Me.mon_stn5_cyl1_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn5_cyl1_min.Location = New System.Drawing.Point(11, 181)
+        Me.mon_stn5_cyl1_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn5_cyl1_min.Name = "mon_stn5_cyl1_min"
-        Me.mon_stn5_cyl1_min.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn5_cyl1_min.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn5_cyl1_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn5_cyl1_min.TabIndex = 3
         Me.mon_stn5_cyl1_min.TabStop = False
@@ -6049,20 +6186,20 @@ Partial Class MainForm
         '
         Me.Label66.AutoSize = True
         Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label66.Location = New System.Drawing.Point(23, 96)
-        Me.Label66.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label66.Location = New System.Drawing.Point(31, 118)
+        Me.Label66.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(73, 18)
+        Me.Label66.Size = New System.Drawing.Size(93, 24)
         Me.Label66.TabIndex = 2
         Me.Label66.Text = "Maximum"
         '
         'mon_stn5_cyl1_max
         '
         Me.mon_stn5_cyl1_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn5_cyl1_max.Location = New System.Drawing.Point(8, 51)
-        Me.mon_stn5_cyl1_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn5_cyl1_max.Location = New System.Drawing.Point(11, 63)
+        Me.mon_stn5_cyl1_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn5_cyl1_max.Name = "mon_stn5_cyl1_max"
-        Me.mon_stn5_cyl1_max.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn5_cyl1_max.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn5_cyl1_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn5_cyl1_max.TabIndex = 1
         Me.mon_stn5_cyl1_max.TabStop = False
@@ -6071,10 +6208,11 @@ Partial Class MainForm
         '
         Me.tab_mon_stn6.Controls.Add(Me.TabPage13)
         Me.tab_mon_stn6.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tab_mon_stn6.Location = New System.Drawing.Point(86, 142)
+        Me.tab_mon_stn6.Location = New System.Drawing.Point(115, 175)
+        Me.tab_mon_stn6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tab_mon_stn6.Name = "tab_mon_stn6"
         Me.tab_mon_stn6.SelectedIndex = 0
-        Me.tab_mon_stn6.Size = New System.Drawing.Size(1252, 700)
+        Me.tab_mon_stn6.Size = New System.Drawing.Size(1669, 862)
         Me.tab_mon_stn6.TabIndex = 17
         Me.tab_mon_stn6.Visible = False
         '
@@ -6084,10 +6222,11 @@ Partial Class MainForm
         Me.TabPage13.Controls.Add(Me.GroupBox66)
         Me.TabPage13.Controls.Add(Me.GroupBox69)
         Me.TabPage13.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabPage13.Location = New System.Drawing.Point(4, 38)
+        Me.TabPage13.Location = New System.Drawing.Point(4, 45)
+        Me.TabPage13.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage13.Name = "TabPage13"
-        Me.TabPage13.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage13.Size = New System.Drawing.Size(1244, 658)
+        Me.TabPage13.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage13.Size = New System.Drawing.Size(1661, 813)
         Me.TabPage13.TabIndex = 2
         Me.TabPage13.Text = "Station 6"
         Me.TabPage13.UseVisualStyleBackColor = True
@@ -6098,11 +6237,11 @@ Partial Class MainForm
         Me.GroupBox51.Controls.Add(Me.GroupBox52)
         Me.GroupBox51.Controls.Add(Me.GroupBox53)
         Me.GroupBox51.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox51.Location = New System.Drawing.Point(382, 18)
-        Me.GroupBox51.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox51.Location = New System.Drawing.Point(509, 22)
+        Me.GroupBox51.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox51.Name = "GroupBox51"
-        Me.GroupBox51.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox51.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox51.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox51.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox51.TabIndex = 47
         Me.GroupBox51.TabStop = False
         Me.GroupBox51.Text = "V603"
@@ -6114,11 +6253,11 @@ Partial Class MainForm
         Me.GroupBox52.Controls.Add(Me.Label49)
         Me.GroupBox52.Controls.Add(Me.ind_stn6_cyl3_fw)
         Me.GroupBox52.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox52.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox52.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox52.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox52.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox52.Name = "GroupBox52"
-        Me.GroupBox52.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox52.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox52.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox52.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox52.TabIndex = 46
         Me.GroupBox52.TabStop = False
         Me.GroupBox52.Text = "Actuator"
@@ -6127,20 +6266,20 @@ Partial Class MainForm
         '
         Me.Label48.AutoSize = True
         Me.Label48.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label48.Location = New System.Drawing.Point(34, 192)
-        Me.Label48.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label48.Location = New System.Drawing.Point(45, 236)
+        Me.Label48.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(52, 18)
+        Me.Label48.Size = New System.Drawing.Size(66, 24)
         Me.Label48.TabIndex = 46
         Me.Label48.Text = "Return"
         '
         'ind_stn6_cyl3_bw
         '
         Me.ind_stn6_cyl3_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn6_cyl3_bw.Location = New System.Drawing.Point(8, 147)
-        Me.ind_stn6_cyl3_bw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn6_cyl3_bw.Location = New System.Drawing.Point(11, 181)
+        Me.ind_stn6_cyl3_bw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn6_cyl3_bw.Name = "ind_stn6_cyl3_bw"
-        Me.ind_stn6_cyl3_bw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn6_cyl3_bw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn6_cyl3_bw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn6_cyl3_bw.TabIndex = 3
         Me.ind_stn6_cyl3_bw.TabStop = False
@@ -6149,20 +6288,20 @@ Partial Class MainForm
         '
         Me.Label49.AutoSize = True
         Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label49.Location = New System.Drawing.Point(34, 96)
-        Me.Label49.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label49.Location = New System.Drawing.Point(45, 118)
+        Me.Label49.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(53, 18)
+        Me.Label49.Size = New System.Drawing.Size(70, 24)
         Me.Label49.TabIndex = 2
         Me.Label49.Text = "Extend"
         '
         'ind_stn6_cyl3_fw
         '
         Me.ind_stn6_cyl3_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn6_cyl3_fw.Location = New System.Drawing.Point(8, 51)
-        Me.ind_stn6_cyl3_fw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn6_cyl3_fw.Location = New System.Drawing.Point(11, 63)
+        Me.ind_stn6_cyl3_fw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn6_cyl3_fw.Name = "ind_stn6_cyl3_fw"
-        Me.ind_stn6_cyl3_fw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn6_cyl3_fw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn6_cyl3_fw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn6_cyl3_fw.TabIndex = 1
         Me.ind_stn6_cyl3_fw.TabStop = False
@@ -6174,11 +6313,11 @@ Partial Class MainForm
         Me.GroupBox53.Controls.Add(Me.Label73)
         Me.GroupBox53.Controls.Add(Me.mon_stn6_cyl3_max)
         Me.GroupBox53.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox53.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox53.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox53.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox53.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox53.Name = "GroupBox53"
-        Me.GroupBox53.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox53.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox53.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox53.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox53.TabIndex = 46
         Me.GroupBox53.TabStop = False
         Me.GroupBox53.Text = "Sensor"
@@ -6187,20 +6326,20 @@ Partial Class MainForm
         '
         Me.Label72.AutoSize = True
         Me.Label72.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label72.Location = New System.Drawing.Point(23, 192)
-        Me.Label72.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label72.Location = New System.Drawing.Point(31, 236)
+        Me.Label72.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label72.Name = "Label72"
-        Me.Label72.Size = New System.Drawing.Size(64, 18)
+        Me.Label72.Size = New System.Drawing.Size(83, 24)
         Me.Label72.TabIndex = 46
         Me.Label72.Text = "Minimun"
         '
         'mon_stn6_cyl3_min
         '
         Me.mon_stn6_cyl3_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn6_cyl3_min.Location = New System.Drawing.Point(8, 147)
-        Me.mon_stn6_cyl3_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn6_cyl3_min.Location = New System.Drawing.Point(11, 181)
+        Me.mon_stn6_cyl3_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn6_cyl3_min.Name = "mon_stn6_cyl3_min"
-        Me.mon_stn6_cyl3_min.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn6_cyl3_min.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn6_cyl3_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn6_cyl3_min.TabIndex = 3
         Me.mon_stn6_cyl3_min.TabStop = False
@@ -6209,20 +6348,20 @@ Partial Class MainForm
         '
         Me.Label73.AutoSize = True
         Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label73.Location = New System.Drawing.Point(23, 96)
-        Me.Label73.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label73.Location = New System.Drawing.Point(31, 118)
+        Me.Label73.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label73.Name = "Label73"
-        Me.Label73.Size = New System.Drawing.Size(73, 18)
+        Me.Label73.Size = New System.Drawing.Size(93, 24)
         Me.Label73.TabIndex = 2
         Me.Label73.Text = "Maximum"
         '
         'mon_stn6_cyl3_max
         '
         Me.mon_stn6_cyl3_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn6_cyl3_max.Location = New System.Drawing.Point(8, 51)
-        Me.mon_stn6_cyl3_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn6_cyl3_max.Location = New System.Drawing.Point(11, 63)
+        Me.mon_stn6_cyl3_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn6_cyl3_max.Name = "mon_stn6_cyl3_max"
-        Me.mon_stn6_cyl3_max.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn6_cyl3_max.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn6_cyl3_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn6_cyl3_max.TabIndex = 1
         Me.mon_stn6_cyl3_max.TabStop = False
@@ -6233,11 +6372,11 @@ Partial Class MainForm
         Me.GroupBox66.Controls.Add(Me.GroupBox67)
         Me.GroupBox66.Controls.Add(Me.GroupBox68)
         Me.GroupBox66.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox66.Location = New System.Drawing.Point(28, 336)
-        Me.GroupBox66.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox66.Location = New System.Drawing.Point(37, 414)
+        Me.GroupBox66.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox66.Name = "GroupBox66"
-        Me.GroupBox66.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox66.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox66.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox66.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox66.TabIndex = 47
         Me.GroupBox66.TabStop = False
         Me.GroupBox66.Text = "V602"
@@ -6249,11 +6388,11 @@ Partial Class MainForm
         Me.GroupBox67.Controls.Add(Me.Label75)
         Me.GroupBox67.Controls.Add(Me.ind_stn6_cyl2_fw)
         Me.GroupBox67.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox67.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox67.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox67.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox67.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox67.Name = "GroupBox67"
-        Me.GroupBox67.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox67.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox67.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox67.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox67.TabIndex = 46
         Me.GroupBox67.TabStop = False
         Me.GroupBox67.Text = "Actuator"
@@ -6262,20 +6401,20 @@ Partial Class MainForm
         '
         Me.Label74.AutoSize = True
         Me.Label74.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label74.Location = New System.Drawing.Point(34, 192)
-        Me.Label74.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label74.Location = New System.Drawing.Point(45, 236)
+        Me.Label74.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(52, 18)
+        Me.Label74.Size = New System.Drawing.Size(66, 24)
         Me.Label74.TabIndex = 46
         Me.Label74.Text = "Return"
         '
         'ind_stn6_cyl2_bw
         '
         Me.ind_stn6_cyl2_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn6_cyl2_bw.Location = New System.Drawing.Point(8, 147)
-        Me.ind_stn6_cyl2_bw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn6_cyl2_bw.Location = New System.Drawing.Point(11, 181)
+        Me.ind_stn6_cyl2_bw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn6_cyl2_bw.Name = "ind_stn6_cyl2_bw"
-        Me.ind_stn6_cyl2_bw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn6_cyl2_bw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn6_cyl2_bw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn6_cyl2_bw.TabIndex = 3
         Me.ind_stn6_cyl2_bw.TabStop = False
@@ -6284,20 +6423,20 @@ Partial Class MainForm
         '
         Me.Label75.AutoSize = True
         Me.Label75.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label75.Location = New System.Drawing.Point(34, 96)
-        Me.Label75.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label75.Location = New System.Drawing.Point(45, 118)
+        Me.Label75.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label75.Name = "Label75"
-        Me.Label75.Size = New System.Drawing.Size(53, 18)
+        Me.Label75.Size = New System.Drawing.Size(70, 24)
         Me.Label75.TabIndex = 2
         Me.Label75.Text = "Extend"
         '
         'ind_stn6_cyl2_fw
         '
         Me.ind_stn6_cyl2_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn6_cyl2_fw.Location = New System.Drawing.Point(8, 51)
-        Me.ind_stn6_cyl2_fw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn6_cyl2_fw.Location = New System.Drawing.Point(11, 63)
+        Me.ind_stn6_cyl2_fw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn6_cyl2_fw.Name = "ind_stn6_cyl2_fw"
-        Me.ind_stn6_cyl2_fw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn6_cyl2_fw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn6_cyl2_fw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn6_cyl2_fw.TabIndex = 1
         Me.ind_stn6_cyl2_fw.TabStop = False
@@ -6309,11 +6448,11 @@ Partial Class MainForm
         Me.GroupBox68.Controls.Add(Me.Label77)
         Me.GroupBox68.Controls.Add(Me.mon_stn6_cyl2_max)
         Me.GroupBox68.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox68.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox68.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox68.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox68.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox68.Name = "GroupBox68"
-        Me.GroupBox68.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox68.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox68.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox68.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox68.TabIndex = 46
         Me.GroupBox68.TabStop = False
         Me.GroupBox68.Text = "Sensor"
@@ -6322,20 +6461,20 @@ Partial Class MainForm
         '
         Me.Label76.AutoSize = True
         Me.Label76.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label76.Location = New System.Drawing.Point(23, 192)
-        Me.Label76.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label76.Location = New System.Drawing.Point(31, 236)
+        Me.Label76.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label76.Name = "Label76"
-        Me.Label76.Size = New System.Drawing.Size(64, 18)
+        Me.Label76.Size = New System.Drawing.Size(83, 24)
         Me.Label76.TabIndex = 46
         Me.Label76.Text = "Minimun"
         '
         'mon_stn6_cyl2_min
         '
         Me.mon_stn6_cyl2_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn6_cyl2_min.Location = New System.Drawing.Point(8, 147)
-        Me.mon_stn6_cyl2_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn6_cyl2_min.Location = New System.Drawing.Point(11, 181)
+        Me.mon_stn6_cyl2_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn6_cyl2_min.Name = "mon_stn6_cyl2_min"
-        Me.mon_stn6_cyl2_min.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn6_cyl2_min.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn6_cyl2_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn6_cyl2_min.TabIndex = 3
         Me.mon_stn6_cyl2_min.TabStop = False
@@ -6344,20 +6483,20 @@ Partial Class MainForm
         '
         Me.Label77.AutoSize = True
         Me.Label77.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label77.Location = New System.Drawing.Point(23, 96)
-        Me.Label77.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label77.Location = New System.Drawing.Point(31, 118)
+        Me.Label77.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label77.Name = "Label77"
-        Me.Label77.Size = New System.Drawing.Size(73, 18)
+        Me.Label77.Size = New System.Drawing.Size(93, 24)
         Me.Label77.TabIndex = 2
         Me.Label77.Text = "Maximum"
         '
         'mon_stn6_cyl2_max
         '
         Me.mon_stn6_cyl2_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn6_cyl2_max.Location = New System.Drawing.Point(8, 51)
-        Me.mon_stn6_cyl2_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn6_cyl2_max.Location = New System.Drawing.Point(11, 63)
+        Me.mon_stn6_cyl2_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn6_cyl2_max.Name = "mon_stn6_cyl2_max"
-        Me.mon_stn6_cyl2_max.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn6_cyl2_max.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn6_cyl2_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn6_cyl2_max.TabIndex = 1
         Me.mon_stn6_cyl2_max.TabStop = False
@@ -6368,11 +6507,11 @@ Partial Class MainForm
         Me.GroupBox69.Controls.Add(Me.GroupBox72)
         Me.GroupBox69.Controls.Add(Me.GroupBox73)
         Me.GroupBox69.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox69.Location = New System.Drawing.Point(28, 18)
-        Me.GroupBox69.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox69.Location = New System.Drawing.Point(37, 22)
+        Me.GroupBox69.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox69.Name = "GroupBox69"
-        Me.GroupBox69.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox69.Size = New System.Drawing.Size(287, 302)
+        Me.GroupBox69.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox69.Size = New System.Drawing.Size(383, 379)
         Me.GroupBox69.TabIndex = 47
         Me.GroupBox69.TabStop = False
         Me.GroupBox69.Text = "V601"
@@ -6384,11 +6523,11 @@ Partial Class MainForm
         Me.GroupBox72.Controls.Add(Me.Label79)
         Me.GroupBox72.Controls.Add(Me.ind_stn6_cyl1_fw)
         Me.GroupBox72.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox72.Location = New System.Drawing.Point(8, 32)
-        Me.GroupBox72.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox72.Location = New System.Drawing.Point(11, 39)
+        Me.GroupBox72.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox72.Name = "GroupBox72"
-        Me.GroupBox72.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox72.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox72.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox72.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox72.TabIndex = 46
         Me.GroupBox72.TabStop = False
         Me.GroupBox72.Text = "Actuator"
@@ -6397,20 +6536,20 @@ Partial Class MainForm
         '
         Me.Label78.AutoSize = True
         Me.Label78.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label78.Location = New System.Drawing.Point(34, 192)
-        Me.Label78.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label78.Location = New System.Drawing.Point(45, 236)
+        Me.Label78.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label78.Name = "Label78"
-        Me.Label78.Size = New System.Drawing.Size(52, 18)
+        Me.Label78.Size = New System.Drawing.Size(66, 24)
         Me.Label78.TabIndex = 46
         Me.Label78.Text = "Return"
         '
         'ind_stn6_cyl1_bw
         '
         Me.ind_stn6_cyl1_bw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn6_cyl1_bw.Location = New System.Drawing.Point(8, 147)
-        Me.ind_stn6_cyl1_bw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn6_cyl1_bw.Location = New System.Drawing.Point(11, 181)
+        Me.ind_stn6_cyl1_bw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn6_cyl1_bw.Name = "ind_stn6_cyl1_bw"
-        Me.ind_stn6_cyl1_bw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn6_cyl1_bw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn6_cyl1_bw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn6_cyl1_bw.TabIndex = 3
         Me.ind_stn6_cyl1_bw.TabStop = False
@@ -6419,20 +6558,20 @@ Partial Class MainForm
         '
         Me.Label79.AutoSize = True
         Me.Label79.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label79.Location = New System.Drawing.Point(34, 96)
-        Me.Label79.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label79.Location = New System.Drawing.Point(45, 118)
+        Me.Label79.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label79.Name = "Label79"
-        Me.Label79.Size = New System.Drawing.Size(53, 18)
+        Me.Label79.Size = New System.Drawing.Size(70, 24)
         Me.Label79.TabIndex = 2
         Me.Label79.Text = "Extend"
         '
         'ind_stn6_cyl1_fw
         '
         Me.ind_stn6_cyl1_fw.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.ind_stn6_cyl1_fw.Location = New System.Drawing.Point(8, 51)
-        Me.ind_stn6_cyl1_fw.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn6_cyl1_fw.Location = New System.Drawing.Point(11, 63)
+        Me.ind_stn6_cyl1_fw.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn6_cyl1_fw.Name = "ind_stn6_cyl1_fw"
-        Me.ind_stn6_cyl1_fw.Size = New System.Drawing.Size(107, 41)
+        Me.ind_stn6_cyl1_fw.Size = New System.Drawing.Size(143, 50)
         Me.ind_stn6_cyl1_fw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ind_stn6_cyl1_fw.TabIndex = 1
         Me.ind_stn6_cyl1_fw.TabStop = False
@@ -6444,11 +6583,11 @@ Partial Class MainForm
         Me.GroupBox73.Controls.Add(Me.Label86)
         Me.GroupBox73.Controls.Add(Me.mon_stn6_cyl1_max)
         Me.GroupBox73.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox73.Location = New System.Drawing.Point(155, 32)
-        Me.GroupBox73.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox73.Location = New System.Drawing.Point(207, 39)
+        Me.GroupBox73.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox73.Name = "GroupBox73"
-        Me.GroupBox73.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox73.Size = New System.Drawing.Size(124, 238)
+        Me.GroupBox73.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox73.Size = New System.Drawing.Size(165, 293)
         Me.GroupBox73.TabIndex = 46
         Me.GroupBox73.TabStop = False
         Me.GroupBox73.Text = "Sensor"
@@ -6457,20 +6596,20 @@ Partial Class MainForm
         '
         Me.Label82.AutoSize = True
         Me.Label82.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label82.Location = New System.Drawing.Point(23, 192)
-        Me.Label82.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label82.Location = New System.Drawing.Point(31, 236)
+        Me.Label82.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label82.Name = "Label82"
-        Me.Label82.Size = New System.Drawing.Size(64, 18)
+        Me.Label82.Size = New System.Drawing.Size(83, 24)
         Me.Label82.TabIndex = 46
         Me.Label82.Text = "Minimun"
         '
         'mon_stn6_cyl1_min
         '
         Me.mon_stn6_cyl1_min.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn6_cyl1_min.Location = New System.Drawing.Point(8, 147)
-        Me.mon_stn6_cyl1_min.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn6_cyl1_min.Location = New System.Drawing.Point(11, 181)
+        Me.mon_stn6_cyl1_min.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn6_cyl1_min.Name = "mon_stn6_cyl1_min"
-        Me.mon_stn6_cyl1_min.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn6_cyl1_min.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn6_cyl1_min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn6_cyl1_min.TabIndex = 3
         Me.mon_stn6_cyl1_min.TabStop = False
@@ -6479,20 +6618,20 @@ Partial Class MainForm
         '
         Me.Label86.AutoSize = True
         Me.Label86.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label86.Location = New System.Drawing.Point(23, 96)
-        Me.Label86.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label86.Location = New System.Drawing.Point(31, 118)
+        Me.Label86.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label86.Name = "Label86"
-        Me.Label86.Size = New System.Drawing.Size(73, 18)
+        Me.Label86.Size = New System.Drawing.Size(93, 24)
         Me.Label86.TabIndex = 2
         Me.Label86.Text = "Maximum"
         '
         'mon_stn6_cyl1_max
         '
         Me.mon_stn6_cyl1_max.Image = Global.ORC_Tester_and_Laser_Marking.My.Resources.Resources.led_red_off
-        Me.mon_stn6_cyl1_max.Location = New System.Drawing.Point(8, 51)
-        Me.mon_stn6_cyl1_max.Margin = New System.Windows.Forms.Padding(4)
+        Me.mon_stn6_cyl1_max.Location = New System.Drawing.Point(11, 63)
+        Me.mon_stn6_cyl1_max.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.mon_stn6_cyl1_max.Name = "mon_stn6_cyl1_max"
-        Me.mon_stn6_cyl1_max.Size = New System.Drawing.Size(107, 41)
+        Me.mon_stn6_cyl1_max.Size = New System.Drawing.Size(143, 50)
         Me.mon_stn6_cyl1_max.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.mon_stn6_cyl1_max.TabIndex = 1
         Me.mon_stn6_cyl1_max.TabStop = False
@@ -6501,10 +6640,11 @@ Partial Class MainForm
         '
         Me.tabSetting.Controls.Add(Me.setting)
         Me.tabSetting.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tabSetting.Location = New System.Drawing.Point(86, 142)
+        Me.tabSetting.Location = New System.Drawing.Point(115, 175)
+        Me.tabSetting.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tabSetting.Name = "tabSetting"
         Me.tabSetting.SelectedIndex = 0
-        Me.tabSetting.Size = New System.Drawing.Size(1252, 700)
+        Me.tabSetting.Size = New System.Drawing.Size(1669, 862)
         Me.tabSetting.TabIndex = 18
         Me.tabSetting.Visible = False
         '
@@ -6518,10 +6658,11 @@ Partial Class MainForm
         Me.setting.Controls.Add(Me.GroupBox177)
         Me.setting.Controls.Add(Me.GroupBox180)
         Me.setting.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.setting.Location = New System.Drawing.Point(4, 38)
+        Me.setting.Location = New System.Drawing.Point(4, 45)
+        Me.setting.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.setting.Name = "setting"
-        Me.setting.Padding = New System.Windows.Forms.Padding(3)
-        Me.setting.Size = New System.Drawing.Size(1244, 658)
+        Me.setting.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.setting.Size = New System.Drawing.Size(1661, 813)
         Me.setting.TabIndex = 2
         Me.setting.Text = "Configuration"
         Me.setting.UseVisualStyleBackColor = True
@@ -6538,11 +6679,11 @@ Partial Class MainForm
         Me.GroupBox179.Controls.Add(Me.txt_hostname)
         Me.GroupBox179.Controls.Add(Me.btn_apply_database)
         Me.GroupBox179.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox179.Location = New System.Drawing.Point(760, 309)
-        Me.GroupBox179.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox179.Location = New System.Drawing.Point(1013, 380)
+        Me.GroupBox179.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox179.Name = "GroupBox179"
-        Me.GroupBox179.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox179.Size = New System.Drawing.Size(375, 247)
+        Me.GroupBox179.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox179.Size = New System.Drawing.Size(500, 304)
         Me.GroupBox179.TabIndex = 69
         Me.GroupBox179.TabStop = False
         Me.GroupBox179.Text = "Database"
@@ -6551,10 +6692,10 @@ Partial Class MainForm
         '
         Me.Label254.AutoSize = True
         Me.Label254.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label254.Location = New System.Drawing.Point(7, 123)
-        Me.Label254.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label254.Location = New System.Drawing.Point(9, 151)
+        Me.Label254.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label254.Name = "Label254"
-        Me.Label254.Size = New System.Drawing.Size(86, 20)
+        Me.Label254.Size = New System.Drawing.Size(109, 25)
         Me.Label254.TabIndex = 1
         Me.Label254.Text = "Password :"
         '
@@ -6562,39 +6703,39 @@ Partial Class MainForm
         '
         Me.Label252.AutoSize = True
         Me.Label252.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label252.Location = New System.Drawing.Point(0, 43)
-        Me.Label252.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label252.Location = New System.Drawing.Point(0, 53)
+        Me.Label252.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label252.Name = "Label252"
-        Me.Label252.Size = New System.Drawing.Size(91, 20)
+        Me.Label252.Size = New System.Drawing.Size(112, 25)
         Me.Label252.TabIndex = 1
         Me.Label252.Text = "Hostname :"
         '
         'txt_database
         '
         Me.txt_database.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_database.Location = New System.Drawing.Point(123, 160)
-        Me.txt_database.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_database.Location = New System.Drawing.Point(164, 197)
+        Me.txt_database.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txt_database.Name = "txt_database"
-        Me.txt_database.Size = New System.Drawing.Size(221, 26)
+        Me.txt_database.Size = New System.Drawing.Size(293, 30)
         Me.txt_database.TabIndex = 3
         '
         'txt_username
         '
         Me.txt_username.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_username.Location = New System.Drawing.Point(123, 80)
-        Me.txt_username.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_username.Location = New System.Drawing.Point(164, 98)
+        Me.txt_username.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txt_username.Name = "txt_username"
-        Me.txt_username.Size = New System.Drawing.Size(221, 26)
+        Me.txt_username.Size = New System.Drawing.Size(293, 30)
         Me.txt_username.TabIndex = 3
         '
         'Label253
         '
         Me.Label253.AutoSize = True
         Me.Label253.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label253.Location = New System.Drawing.Point(5, 164)
-        Me.Label253.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label253.Location = New System.Drawing.Point(7, 202)
+        Me.Label253.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label253.Name = "Label253"
-        Me.Label253.Size = New System.Drawing.Size(87, 20)
+        Me.Label253.Size = New System.Drawing.Size(107, 25)
         Me.Label253.TabIndex = 1
         Me.Label253.Text = "Database :"
         '
@@ -6602,39 +6743,39 @@ Partial Class MainForm
         '
         Me.Label251.AutoSize = True
         Me.Label251.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label251.Location = New System.Drawing.Point(0, 82)
-        Me.Label251.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label251.Location = New System.Drawing.Point(0, 101)
+        Me.Label251.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label251.Name = "Label251"
-        Me.Label251.Size = New System.Drawing.Size(91, 20)
+        Me.Label251.Size = New System.Drawing.Size(113, 25)
         Me.Label251.TabIndex = 1
         Me.Label251.Text = "Username :"
         '
         'txt_password
         '
         Me.txt_password.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_password.Location = New System.Drawing.Point(123, 119)
-        Me.txt_password.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_password.Location = New System.Drawing.Point(164, 146)
+        Me.txt_password.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txt_password.Name = "txt_password"
-        Me.txt_password.Size = New System.Drawing.Size(221, 26)
+        Me.txt_password.Size = New System.Drawing.Size(293, 30)
         Me.txt_password.TabIndex = 2
         '
         'txt_hostname
         '
         Me.txt_hostname.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_hostname.Location = New System.Drawing.Point(123, 39)
-        Me.txt_hostname.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_hostname.Location = New System.Drawing.Point(164, 48)
+        Me.txt_hostname.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txt_hostname.Name = "txt_hostname"
-        Me.txt_hostname.Size = New System.Drawing.Size(221, 26)
+        Me.txt_hostname.Size = New System.Drawing.Size(293, 30)
         Me.txt_hostname.TabIndex = 2
         '
         'btn_apply_database
         '
         Me.btn_apply_database.AutoSize = True
         Me.btn_apply_database.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_apply_database.Location = New System.Drawing.Point(17, 198)
-        Me.btn_apply_database.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_apply_database.Location = New System.Drawing.Point(23, 244)
+        Me.btn_apply_database.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btn_apply_database.Name = "btn_apply_database"
-        Me.btn_apply_database.Size = New System.Drawing.Size(173, 43)
+        Me.btn_apply_database.Size = New System.Drawing.Size(231, 53)
         Me.btn_apply_database.TabIndex = 4
         Me.btn_apply_database.Text = "Save Config"
         Me.btn_apply_database.UseVisualStyleBackColor = True
@@ -6651,11 +6792,11 @@ Partial Class MainForm
         Me.GroupBox169.Controls.Add(Me.btn_open_multi)
         Me.GroupBox169.Controls.Add(Me.txt_baud_multi)
         Me.GroupBox169.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox169.Location = New System.Drawing.Point(760, 39)
-        Me.GroupBox169.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox169.Location = New System.Drawing.Point(1013, 48)
+        Me.GroupBox169.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox169.Name = "GroupBox169"
-        Me.GroupBox169.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox169.Size = New System.Drawing.Size(375, 265)
+        Me.GroupBox169.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox169.Size = New System.Drawing.Size(500, 326)
         Me.GroupBox169.TabIndex = 68
         Me.GroupBox169.TabStop = False
         Me.GroupBox169.Text = "Instrument"
@@ -6664,10 +6805,10 @@ Partial Class MainForm
         '
         Me.Label255.AutoSize = True
         Me.Label255.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label255.Location = New System.Drawing.Point(43, 41)
-        Me.Label255.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label255.Location = New System.Drawing.Point(57, 50)
+        Me.Label255.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label255.Name = "Label255"
-        Me.Label255.Size = New System.Drawing.Size(59, 20)
+        Me.Label255.Size = New System.Drawing.Size(75, 25)
         Me.Label255.TabIndex = 1
         Me.Label255.Text = "Name :"
         '
@@ -6675,10 +6816,10 @@ Partial Class MainForm
         '
         Me.Label92.AutoSize = True
         Me.Label92.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label92.Location = New System.Drawing.Point(56, 81)
-        Me.Label92.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label92.Location = New System.Drawing.Point(75, 100)
+        Me.Label92.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label92.Name = "Label92"
-        Me.Label92.Size = New System.Drawing.Size(46, 20)
+        Me.Label92.Size = New System.Drawing.Size(58, 25)
         Me.Label92.TabIndex = 1
         Me.Label92.Text = "Port :"
         '
@@ -6686,10 +6827,10 @@ Partial Class MainForm
         '
         Me.connect_multi_ind.BackColor = System.Drawing.Color.DarkRed
         Me.connect_multi_ind.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.connect_multi_ind.Location = New System.Drawing.Point(76, 160)
-        Me.connect_multi_ind.Margin = New System.Windows.Forms.Padding(4)
+        Me.connect_multi_ind.Location = New System.Drawing.Point(101, 197)
+        Me.connect_multi_ind.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.connect_multi_ind.Name = "connect_multi_ind"
-        Me.connect_multi_ind.Size = New System.Drawing.Size(26, 24)
+        Me.connect_multi_ind.Size = New System.Drawing.Size(34, 29)
         Me.connect_multi_ind.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.connect_multi_ind.TabIndex = 1
         Me.connect_multi_ind.TabStop = False
@@ -6698,39 +6839,39 @@ Partial Class MainForm
         '
         Me.Label226.AutoSize = True
         Me.Label226.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label226.Location = New System.Drawing.Point(19, 121)
-        Me.Label226.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label226.Location = New System.Drawing.Point(25, 149)
+        Me.Label226.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label226.Name = "Label226"
-        Me.Label226.Size = New System.Drawing.Size(83, 20)
+        Me.Label226.Size = New System.Drawing.Size(102, 25)
         Me.Label226.TabIndex = 1
         Me.Label226.Text = "Baudrate :"
         '
         'txt_name_multi
         '
         Me.txt_name_multi.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_name_multi.Location = New System.Drawing.Point(123, 38)
-        Me.txt_name_multi.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_name_multi.Location = New System.Drawing.Point(164, 47)
+        Me.txt_name_multi.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txt_name_multi.Name = "txt_name_multi"
-        Me.txt_name_multi.Size = New System.Drawing.Size(221, 26)
+        Me.txt_name_multi.Size = New System.Drawing.Size(293, 30)
         Me.txt_name_multi.TabIndex = 2
         '
         'txt_port_multi
         '
         Me.txt_port_multi.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_port_multi.Location = New System.Drawing.Point(123, 78)
-        Me.txt_port_multi.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_port_multi.Location = New System.Drawing.Point(164, 96)
+        Me.txt_port_multi.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txt_port_multi.Name = "txt_port_multi"
-        Me.txt_port_multi.Size = New System.Drawing.Size(221, 26)
+        Me.txt_port_multi.Size = New System.Drawing.Size(293, 30)
         Me.txt_port_multi.TabIndex = 2
         '
         'btn_apply_multi
         '
         Me.btn_apply_multi.AutoSize = True
         Me.btn_apply_multi.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_apply_multi.Location = New System.Drawing.Point(225, 195)
-        Me.btn_apply_multi.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_apply_multi.Location = New System.Drawing.Point(300, 240)
+        Me.btn_apply_multi.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btn_apply_multi.Name = "btn_apply_multi"
-        Me.btn_apply_multi.Size = New System.Drawing.Size(128, 43)
+        Me.btn_apply_multi.Size = New System.Drawing.Size(173, 53)
         Me.btn_apply_multi.TabIndex = 4
         Me.btn_apply_multi.Text = "Save Config"
         Me.btn_apply_multi.UseVisualStyleBackColor = True
@@ -6739,10 +6880,10 @@ Partial Class MainForm
         '
         Me.btn_open_multi.AutoSize = True
         Me.btn_open_multi.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_open_multi.Location = New System.Drawing.Point(16, 193)
-        Me.btn_open_multi.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_open_multi.Location = New System.Drawing.Point(21, 238)
+        Me.btn_open_multi.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btn_open_multi.Name = "btn_open_multi"
-        Me.btn_open_multi.Size = New System.Drawing.Size(148, 43)
+        Me.btn_open_multi.Size = New System.Drawing.Size(197, 53)
         Me.btn_open_multi.TabIndex = 4
         Me.btn_open_multi.Text = "Open Port"
         Me.btn_open_multi.UseVisualStyleBackColor = True
@@ -6750,30 +6891,30 @@ Partial Class MainForm
         'txt_baud_multi
         '
         Me.txt_baud_multi.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_baud_multi.Location = New System.Drawing.Point(123, 118)
-        Me.txt_baud_multi.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_baud_multi.Location = New System.Drawing.Point(164, 145)
+        Me.txt_baud_multi.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txt_baud_multi.Name = "txt_baud_multi"
-        Me.txt_baud_multi.Size = New System.Drawing.Size(221, 26)
+        Me.txt_baud_multi.Size = New System.Drawing.Size(293, 30)
         Me.txt_baud_multi.TabIndex = 3
         '
         'rtbSetting
         '
         Me.rtbSetting.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rtbSetting.Location = New System.Drawing.Point(428, 579)
-        Me.rtbSetting.Margin = New System.Windows.Forms.Padding(4)
+        Me.rtbSetting.Location = New System.Drawing.Point(571, 713)
+        Me.rtbSetting.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.rtbSetting.Name = "rtbSetting"
-        Me.rtbSetting.Size = New System.Drawing.Size(657, 64)
+        Me.rtbSetting.Size = New System.Drawing.Size(875, 78)
         Me.rtbSetting.TabIndex = 67
         Me.rtbSetting.Text = ""
         '
         'GroupBox176
         '
         Me.GroupBox176.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox176.Location = New System.Drawing.Point(429, 31)
-        Me.GroupBox176.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox176.Location = New System.Drawing.Point(572, 38)
+        Me.GroupBox176.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox176.Name = "GroupBox176"
-        Me.GroupBox176.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox176.Size = New System.Drawing.Size(285, 525)
+        Me.GroupBox176.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox176.Size = New System.Drawing.Size(380, 646)
         Me.GroupBox176.TabIndex = 66
         Me.GroupBox176.TabStop = False
         Me.GroupBox176.Text = "Station Downgrade"
@@ -6794,11 +6935,11 @@ Partial Class MainForm
         Me.grp_plc.Controls.Add(Me.Label90)
         Me.grp_plc.Controls.Add(Me.Label91)
         Me.grp_plc.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.grp_plc.Location = New System.Drawing.Point(27, 212)
-        Me.grp_plc.Margin = New System.Windows.Forms.Padding(4)
+        Me.grp_plc.Location = New System.Drawing.Point(36, 261)
+        Me.grp_plc.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.grp_plc.Name = "grp_plc"
-        Me.grp_plc.Padding = New System.Windows.Forms.Padding(4)
-        Me.grp_plc.Size = New System.Drawing.Size(287, 431)
+        Me.grp_plc.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.grp_plc.Size = New System.Drawing.Size(383, 530)
         Me.grp_plc.TabIndex = 63
         Me.grp_plc.TabStop = False
         Me.grp_plc.Text = "PLC"
@@ -6807,10 +6948,10 @@ Partial Class MainForm
         '
         Me.ind_connect_plc.BackColor = System.Drawing.Color.Green
         Me.ind_connect_plc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.ind_connect_plc.Location = New System.Drawing.Point(60, 113)
-        Me.ind_connect_plc.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_connect_plc.Location = New System.Drawing.Point(80, 139)
+        Me.ind_connect_plc.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_connect_plc.Name = "ind_connect_plc"
-        Me.ind_connect_plc.Size = New System.Drawing.Size(26, 24)
+        Me.ind_connect_plc.Size = New System.Drawing.Size(34, 29)
         Me.ind_connect_plc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.ind_connect_plc.TabIndex = 1
         Me.ind_connect_plc.TabStop = False
@@ -6819,10 +6960,10 @@ Partial Class MainForm
         '
         Me.btn_write.AutoSize = True
         Me.btn_write.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_write.Location = New System.Drawing.Point(151, 328)
-        Me.btn_write.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_write.Location = New System.Drawing.Point(201, 404)
+        Me.btn_write.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btn_write.Name = "btn_write"
-        Me.btn_write.Size = New System.Drawing.Size(112, 43)
+        Me.btn_write.Size = New System.Drawing.Size(149, 53)
         Me.btn_write.TabIndex = 4
         Me.btn_write.Text = "Write"
         Me.btn_write.UseVisualStyleBackColor = True
@@ -6831,10 +6972,10 @@ Partial Class MainForm
         '
         Me.btn_save_plc.AutoSize = True
         Me.btn_save_plc.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_save_plc.Location = New System.Drawing.Point(151, 145)
-        Me.btn_save_plc.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_save_plc.Location = New System.Drawing.Point(201, 178)
+        Me.btn_save_plc.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btn_save_plc.Name = "btn_save_plc"
-        Me.btn_save_plc.Size = New System.Drawing.Size(128, 43)
+        Me.btn_save_plc.Size = New System.Drawing.Size(173, 53)
         Me.btn_save_plc.TabIndex = 4
         Me.btn_save_plc.Text = "Save Config"
         Me.btn_save_plc.UseVisualStyleBackColor = True
@@ -6843,10 +6984,10 @@ Partial Class MainForm
         '
         Me.btn_connect_plc.AutoSize = True
         Me.btn_connect_plc.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_connect_plc.Location = New System.Drawing.Point(8, 145)
-        Me.btn_connect_plc.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_connect_plc.Location = New System.Drawing.Point(11, 178)
+        Me.btn_connect_plc.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btn_connect_plc.Name = "btn_connect_plc"
-        Me.btn_connect_plc.Size = New System.Drawing.Size(128, 43)
+        Me.btn_connect_plc.Size = New System.Drawing.Size(171, 53)
         Me.btn_connect_plc.TabIndex = 4
         Me.btn_connect_plc.Text = "Connect"
         Me.btn_connect_plc.UseVisualStyleBackColor = True
@@ -6855,10 +6996,10 @@ Partial Class MainForm
         '
         Me.btn_read.AutoSize = True
         Me.btn_read.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_read.Location = New System.Drawing.Point(24, 328)
-        Me.btn_read.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_read.Location = New System.Drawing.Point(32, 404)
+        Me.btn_read.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btn_read.Name = "btn_read"
-        Me.btn_read.Size = New System.Drawing.Size(112, 43)
+        Me.btn_read.Size = New System.Drawing.Size(149, 53)
         Me.btn_read.TabIndex = 4
         Me.btn_read.Text = "Read"
         Me.btn_read.UseVisualStyleBackColor = True
@@ -6866,58 +7007,58 @@ Partial Class MainForm
         'txt_port_plc
         '
         Me.txt_port_plc.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_port_plc.Location = New System.Drawing.Point(120, 70)
-        Me.txt_port_plc.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_port_plc.Location = New System.Drawing.Point(160, 86)
+        Me.txt_port_plc.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txt_port_plc.Name = "txt_port_plc"
-        Me.txt_port_plc.Size = New System.Drawing.Size(148, 26)
+        Me.txt_port_plc.Size = New System.Drawing.Size(196, 30)
         Me.txt_port_plc.TabIndex = 3
         '
         'txtValue
         '
         Me.txtValue.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtValue.Location = New System.Drawing.Point(125, 267)
-        Me.txtValue.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtValue.Location = New System.Drawing.Point(167, 329)
+        Me.txtValue.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txtValue.Name = "txtValue"
-        Me.txtValue.Size = New System.Drawing.Size(148, 26)
+        Me.txtValue.Size = New System.Drawing.Size(196, 30)
         Me.txtValue.TabIndex = 3
         '
         'txt_ip_plc
         '
         Me.txt_ip_plc.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_ip_plc.Location = New System.Drawing.Point(120, 30)
-        Me.txt_ip_plc.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_ip_plc.Location = New System.Drawing.Point(160, 37)
+        Me.txt_ip_plc.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txt_ip_plc.Name = "txt_ip_plc"
-        Me.txt_ip_plc.Size = New System.Drawing.Size(148, 26)
+        Me.txt_ip_plc.Size = New System.Drawing.Size(196, 30)
         Me.txt_ip_plc.TabIndex = 2
         '
         'Label88
         '
         Me.Label88.AutoSize = True
         Me.Label88.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label88.Location = New System.Drawing.Point(8, 70)
-        Me.Label88.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label88.Location = New System.Drawing.Point(11, 86)
+        Me.Label88.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label88.Name = "Label88"
-        Me.Label88.Size = New System.Drawing.Size(80, 20)
+        Me.Label88.Size = New System.Drawing.Size(104, 25)
         Me.Label88.TabIndex = 1
         Me.Label88.Text = "TCP Port :"
         '
         'txtAddress
         '
         Me.txtAddress.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAddress.Location = New System.Drawing.Point(125, 226)
-        Me.txtAddress.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtAddress.Location = New System.Drawing.Point(167, 278)
+        Me.txtAddress.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txtAddress.Name = "txtAddress"
-        Me.txtAddress.Size = New System.Drawing.Size(148, 26)
+        Me.txtAddress.Size = New System.Drawing.Size(196, 30)
         Me.txtAddress.TabIndex = 2
         '
         'Label89
         '
         Me.Label89.AutoSize = True
         Me.Label89.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label89.Location = New System.Drawing.Point(41, 271)
-        Me.Label89.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label89.Location = New System.Drawing.Point(55, 334)
+        Me.Label89.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label89.Name = "Label89"
-        Me.Label89.Size = New System.Drawing.Size(58, 20)
+        Me.Label89.Size = New System.Drawing.Size(74, 25)
         Me.Label89.TabIndex = 1
         Me.Label89.Text = "Value :"
         '
@@ -6925,10 +7066,10 @@ Partial Class MainForm
         '
         Me.Label90.AutoSize = True
         Me.Label90.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label90.Location = New System.Drawing.Point(5, 36)
-        Me.Label90.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label90.Location = New System.Drawing.Point(7, 44)
+        Me.Label90.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label90.Name = "Label90"
-        Me.Label90.Size = New System.Drawing.Size(82, 20)
+        Me.Label90.Size = New System.Drawing.Size(104, 25)
         Me.Label90.TabIndex = 1
         Me.Label90.Text = "Server IP :"
         '
@@ -6936,10 +7077,10 @@ Partial Class MainForm
         '
         Me.Label91.AutoSize = True
         Me.Label91.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label91.Location = New System.Drawing.Point(21, 230)
-        Me.Label91.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label91.Location = New System.Drawing.Point(28, 283)
+        Me.Label91.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label91.Name = "Label91"
-        Me.Label91.Size = New System.Drawing.Size(76, 20)
+        Me.Label91.Size = New System.Drawing.Size(96, 25)
         Me.Label91.TabIndex = 1
         Me.Label91.Text = "Address :"
         '
@@ -6958,11 +7099,11 @@ Partial Class MainForm
         Me.GroupBox177.Controls.Add(Me.ind_stn_4)
         Me.GroupBox177.Controls.Add(Me.ind_stn_1)
         Me.GroupBox177.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox177.Location = New System.Drawing.Point(27, 21)
-        Me.GroupBox177.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox177.Location = New System.Drawing.Point(36, 26)
+        Me.GroupBox177.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox177.Name = "GroupBox177"
-        Me.GroupBox177.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox177.Size = New System.Drawing.Size(287, 153)
+        Me.GroupBox177.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox177.Size = New System.Drawing.Size(383, 188)
         Me.GroupBox177.TabIndex = 62
         Me.GroupBox177.TabStop = False
         Me.GroupBox177.Text = "Station Status"
@@ -6971,10 +7112,10 @@ Partial Class MainForm
         '
         Me.Label231.AutoSize = True
         Me.Label231.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label231.Location = New System.Drawing.Point(177, 107)
-        Me.Label231.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label231.Location = New System.Drawing.Point(236, 132)
+        Me.Label231.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label231.Name = "Label231"
-        Me.Label231.Size = New System.Drawing.Size(73, 20)
+        Me.Label231.Size = New System.Drawing.Size(89, 25)
         Me.Label231.TabIndex = 0
         Me.Label231.Text = "Station 6"
         '
@@ -6982,10 +7123,10 @@ Partial Class MainForm
         '
         Me.Label217.AutoSize = True
         Me.Label217.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label217.Location = New System.Drawing.Point(39, 107)
-        Me.Label217.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label217.Location = New System.Drawing.Point(52, 132)
+        Me.Label217.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label217.Name = "Label217"
-        Me.Label217.Size = New System.Drawing.Size(73, 20)
+        Me.Label217.Size = New System.Drawing.Size(89, 25)
         Me.Label217.TabIndex = 0
         Me.Label217.Text = "Station 3"
         '
@@ -6993,10 +7134,10 @@ Partial Class MainForm
         '
         Me.Label228.AutoSize = True
         Me.Label228.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label228.Location = New System.Drawing.Point(177, 75)
-        Me.Label228.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label228.Location = New System.Drawing.Point(236, 92)
+        Me.Label228.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label228.Name = "Label228"
-        Me.Label228.Size = New System.Drawing.Size(73, 20)
+        Me.Label228.Size = New System.Drawing.Size(89, 25)
         Me.Label228.TabIndex = 0
         Me.Label228.Text = "Station 5"
         '
@@ -7004,10 +7145,10 @@ Partial Class MainForm
         '
         Me.Label200.AutoSize = True
         Me.Label200.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label200.Location = New System.Drawing.Point(39, 75)
-        Me.Label200.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label200.Location = New System.Drawing.Point(52, 92)
+        Me.Label200.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label200.Name = "Label200"
-        Me.Label200.Size = New System.Drawing.Size(73, 20)
+        Me.Label200.Size = New System.Drawing.Size(89, 25)
         Me.Label200.TabIndex = 0
         Me.Label200.Text = "Station 2"
         '
@@ -7015,10 +7156,10 @@ Partial Class MainForm
         '
         Me.Label227.AutoSize = True
         Me.Label227.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label227.Location = New System.Drawing.Point(177, 43)
-        Me.Label227.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label227.Location = New System.Drawing.Point(236, 53)
+        Me.Label227.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label227.Name = "Label227"
-        Me.Label227.Size = New System.Drawing.Size(73, 20)
+        Me.Label227.Size = New System.Drawing.Size(89, 25)
         Me.Label227.TabIndex = 0
         Me.Label227.Text = "Station 4"
         '
@@ -7026,10 +7167,10 @@ Partial Class MainForm
         '
         Me.Label183.AutoSize = True
         Me.Label183.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label183.Location = New System.Drawing.Point(39, 43)
-        Me.Label183.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label183.Location = New System.Drawing.Point(52, 53)
+        Me.Label183.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label183.Name = "Label183"
-        Me.Label183.Size = New System.Drawing.Size(77, 20)
+        Me.Label183.Size = New System.Drawing.Size(94, 25)
         Me.Label183.TabIndex = 0
         Me.Label183.Text = "Station 1 "
         '
@@ -7037,10 +7178,10 @@ Partial Class MainForm
         '
         Me.ind_stn_6.BackColor = System.Drawing.Color.Green
         Me.ind_stn_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.ind_stn_6.Location = New System.Drawing.Point(145, 107)
-        Me.ind_stn_6.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn_6.Location = New System.Drawing.Point(193, 132)
+        Me.ind_stn_6.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn_6.Name = "ind_stn_6"
-        Me.ind_stn_6.Size = New System.Drawing.Size(26, 24)
+        Me.ind_stn_6.Size = New System.Drawing.Size(34, 29)
         Me.ind_stn_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.ind_stn_6.TabIndex = 1
         Me.ind_stn_6.TabStop = False
@@ -7049,10 +7190,10 @@ Partial Class MainForm
         '
         Me.ind_stn_3.BackColor = System.Drawing.Color.Green
         Me.ind_stn_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.ind_stn_3.Location = New System.Drawing.Point(7, 107)
-        Me.ind_stn_3.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn_3.Location = New System.Drawing.Point(9, 132)
+        Me.ind_stn_3.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn_3.Name = "ind_stn_3"
-        Me.ind_stn_3.Size = New System.Drawing.Size(26, 24)
+        Me.ind_stn_3.Size = New System.Drawing.Size(34, 29)
         Me.ind_stn_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.ind_stn_3.TabIndex = 1
         Me.ind_stn_3.TabStop = False
@@ -7061,10 +7202,10 @@ Partial Class MainForm
         '
         Me.ind_stn_5.BackColor = System.Drawing.Color.Green
         Me.ind_stn_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.ind_stn_5.Location = New System.Drawing.Point(145, 75)
-        Me.ind_stn_5.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn_5.Location = New System.Drawing.Point(193, 92)
+        Me.ind_stn_5.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn_5.Name = "ind_stn_5"
-        Me.ind_stn_5.Size = New System.Drawing.Size(26, 24)
+        Me.ind_stn_5.Size = New System.Drawing.Size(34, 29)
         Me.ind_stn_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.ind_stn_5.TabIndex = 1
         Me.ind_stn_5.TabStop = False
@@ -7073,10 +7214,10 @@ Partial Class MainForm
         '
         Me.ind_stn_2.BackColor = System.Drawing.Color.Green
         Me.ind_stn_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.ind_stn_2.Location = New System.Drawing.Point(7, 75)
-        Me.ind_stn_2.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn_2.Location = New System.Drawing.Point(9, 92)
+        Me.ind_stn_2.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn_2.Name = "ind_stn_2"
-        Me.ind_stn_2.Size = New System.Drawing.Size(26, 24)
+        Me.ind_stn_2.Size = New System.Drawing.Size(34, 29)
         Me.ind_stn_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.ind_stn_2.TabIndex = 1
         Me.ind_stn_2.TabStop = False
@@ -7085,10 +7226,10 @@ Partial Class MainForm
         '
         Me.ind_stn_4.BackColor = System.Drawing.Color.Green
         Me.ind_stn_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.ind_stn_4.Location = New System.Drawing.Point(145, 43)
-        Me.ind_stn_4.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn_4.Location = New System.Drawing.Point(193, 53)
+        Me.ind_stn_4.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn_4.Name = "ind_stn_4"
-        Me.ind_stn_4.Size = New System.Drawing.Size(26, 24)
+        Me.ind_stn_4.Size = New System.Drawing.Size(34, 29)
         Me.ind_stn_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.ind_stn_4.TabIndex = 1
         Me.ind_stn_4.TabStop = False
@@ -7097,10 +7238,10 @@ Partial Class MainForm
         '
         Me.ind_stn_1.BackColor = System.Drawing.Color.Green
         Me.ind_stn_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.ind_stn_1.Location = New System.Drawing.Point(7, 43)
-        Me.ind_stn_1.Margin = New System.Windows.Forms.Padding(4)
+        Me.ind_stn_1.Location = New System.Drawing.Point(9, 53)
+        Me.ind_stn_1.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ind_stn_1.Name = "ind_stn_1"
-        Me.ind_stn_1.Size = New System.Drawing.Size(26, 24)
+        Me.ind_stn_1.Size = New System.Drawing.Size(34, 29)
         Me.ind_stn_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.ind_stn_1.TabIndex = 1
         Me.ind_stn_1.TabStop = False
@@ -7115,11 +7256,11 @@ Partial Class MainForm
         Me.GroupBox180.Controls.Add(Me.txtPort_laser)
         Me.GroupBox180.Controls.Add(Me.btn_connect_laser)
         Me.GroupBox180.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox180.Location = New System.Drawing.Point(27, 448)
-        Me.GroupBox180.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox180.Location = New System.Drawing.Point(36, 551)
+        Me.GroupBox180.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox180.Name = "GroupBox180"
-        Me.GroupBox180.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox180.Size = New System.Drawing.Size(287, 196)
+        Me.GroupBox180.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox180.Size = New System.Drawing.Size(383, 241)
         Me.GroupBox180.TabIndex = 65
         Me.GroupBox180.TabStop = False
         Me.GroupBox180.Text = "Laser"
@@ -7128,20 +7269,20 @@ Partial Class MainForm
         'txtIP_laser
         '
         Me.txtIP_laser.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIP_laser.Location = New System.Drawing.Point(120, 25)
-        Me.txtIP_laser.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtIP_laser.Location = New System.Drawing.Point(160, 31)
+        Me.txtIP_laser.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txtIP_laser.Name = "txtIP_laser"
-        Me.txtIP_laser.Size = New System.Drawing.Size(148, 26)
+        Me.txtIP_laser.Size = New System.Drawing.Size(196, 30)
         Me.txtIP_laser.TabIndex = 2
         '
         'connect_laser_ind
         '
         Me.connect_laser_ind.BackColor = System.Drawing.Color.Green
         Me.connect_laser_ind.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.connect_laser_ind.Location = New System.Drawing.Point(60, 96)
-        Me.connect_laser_ind.Margin = New System.Windows.Forms.Padding(4)
+        Me.connect_laser_ind.Location = New System.Drawing.Point(80, 118)
+        Me.connect_laser_ind.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.connect_laser_ind.Name = "connect_laser_ind"
-        Me.connect_laser_ind.Size = New System.Drawing.Size(26, 24)
+        Me.connect_laser_ind.Size = New System.Drawing.Size(34, 29)
         Me.connect_laser_ind.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.connect_laser_ind.TabIndex = 1
         Me.connect_laser_ind.TabStop = False
@@ -7150,10 +7291,10 @@ Partial Class MainForm
         '
         Me.Label256.AutoSize = True
         Me.Label256.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label256.Location = New System.Drawing.Point(5, 31)
-        Me.Label256.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label256.Location = New System.Drawing.Point(7, 38)
+        Me.Label256.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label256.Name = "Label256"
-        Me.Label256.Size = New System.Drawing.Size(82, 20)
+        Me.Label256.Size = New System.Drawing.Size(104, 25)
         Me.Label256.TabIndex = 1
         Me.Label256.Text = "Server IP :"
         '
@@ -7161,10 +7302,10 @@ Partial Class MainForm
         '
         Me.btn_save_laser.AutoSize = True
         Me.btn_save_laser.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_save_laser.Location = New System.Drawing.Point(151, 125)
-        Me.btn_save_laser.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_save_laser.Location = New System.Drawing.Point(201, 154)
+        Me.btn_save_laser.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btn_save_laser.Name = "btn_save_laser"
-        Me.btn_save_laser.Size = New System.Drawing.Size(128, 43)
+        Me.btn_save_laser.Size = New System.Drawing.Size(173, 53)
         Me.btn_save_laser.TabIndex = 4
         Me.btn_save_laser.Text = "Save Config"
         Me.btn_save_laser.UseVisualStyleBackColor = True
@@ -7173,30 +7314,30 @@ Partial Class MainForm
         '
         Me.Label258.AutoSize = True
         Me.Label258.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label258.Location = New System.Drawing.Point(8, 65)
-        Me.Label258.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label258.Location = New System.Drawing.Point(11, 80)
+        Me.Label258.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label258.Name = "Label258"
-        Me.Label258.Size = New System.Drawing.Size(80, 20)
+        Me.Label258.Size = New System.Drawing.Size(104, 25)
         Me.Label258.TabIndex = 1
         Me.Label258.Text = "TCP Port :"
         '
         'txtPort_laser
         '
         Me.txtPort_laser.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPort_laser.Location = New System.Drawing.Point(120, 65)
-        Me.txtPort_laser.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtPort_laser.Location = New System.Drawing.Point(160, 80)
+        Me.txtPort_laser.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txtPort_laser.Name = "txtPort_laser"
-        Me.txtPort_laser.Size = New System.Drawing.Size(148, 26)
+        Me.txtPort_laser.Size = New System.Drawing.Size(196, 30)
         Me.txtPort_laser.TabIndex = 3
         '
         'btn_connect_laser
         '
         Me.btn_connect_laser.AutoSize = True
         Me.btn_connect_laser.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_connect_laser.Location = New System.Drawing.Point(8, 125)
-        Me.btn_connect_laser.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_connect_laser.Location = New System.Drawing.Point(11, 154)
+        Me.btn_connect_laser.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btn_connect_laser.Name = "btn_connect_laser"
-        Me.btn_connect_laser.Size = New System.Drawing.Size(128, 43)
+        Me.btn_connect_laser.Size = New System.Drawing.Size(171, 53)
         Me.btn_connect_laser.TabIndex = 4
         Me.btn_connect_laser.Text = "Connect"
         Me.btn_connect_laser.UseVisualStyleBackColor = True
@@ -7212,10 +7353,11 @@ Partial Class MainForm
         '
         Me.tabReferences.Controls.Add(Me.TabPage14)
         Me.tabReferences.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tabReferences.Location = New System.Drawing.Point(86, 142)
+        Me.tabReferences.Location = New System.Drawing.Point(115, 175)
+        Me.tabReferences.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tabReferences.Name = "tabReferences"
         Me.tabReferences.SelectedIndex = 0
-        Me.tabReferences.Size = New System.Drawing.Size(1252, 700)
+        Me.tabReferences.Size = New System.Drawing.Size(1669, 862)
         Me.tabReferences.TabIndex = 19
         Me.tabReferences.Visible = False
         '
@@ -7224,10 +7366,11 @@ Partial Class MainForm
         Me.TabPage14.Controls.Add(Me.dgv_ref)
         Me.TabPage14.Controls.Add(Me.GroupBox_Control)
         Me.TabPage14.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabPage14.Location = New System.Drawing.Point(4, 38)
+        Me.TabPage14.Location = New System.Drawing.Point(4, 45)
+        Me.TabPage14.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage14.Name = "TabPage14"
-        Me.TabPage14.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage14.Size = New System.Drawing.Size(1244, 658)
+        Me.TabPage14.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage14.Size = New System.Drawing.Size(1661, 813)
         Me.TabPage14.TabIndex = 2
         Me.TabPage14.Text = "References"
         Me.TabPage14.UseVisualStyleBackColor = True
@@ -7235,10 +7378,11 @@ Partial Class MainForm
         'dgv_ref
         '
         Me.dgv_ref.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgv_ref.Location = New System.Drawing.Point(421, 45)
+        Me.dgv_ref.Location = New System.Drawing.Point(561, 55)
+        Me.dgv_ref.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.dgv_ref.Name = "dgv_ref"
         Me.dgv_ref.RowHeadersWidth = 51
-        Me.dgv_ref.Size = New System.Drawing.Size(795, 487)
+        Me.dgv_ref.Size = New System.Drawing.Size(1060, 599)
         Me.dgv_ref.TabIndex = 68
         '
         'GroupBox_Control
@@ -7271,9 +7415,11 @@ Partial Class MainForm
         Me.GroupBox_Control.Controls.Add(Me.Label242)
         Me.GroupBox_Control.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox_Control.ForeColor = System.Drawing.Color.Black
-        Me.GroupBox_Control.Location = New System.Drawing.Point(63, 33)
+        Me.GroupBox_Control.Location = New System.Drawing.Point(84, 41)
+        Me.GroupBox_Control.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox_Control.Name = "GroupBox_Control"
-        Me.GroupBox_Control.Size = New System.Drawing.Size(320, 500)
+        Me.GroupBox_Control.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox_Control.Size = New System.Drawing.Size(427, 615)
         Me.GroupBox_Control.TabIndex = 67
         Me.GroupBox_Control.TabStop = False
         Me.GroupBox_Control.Text = "Control"
@@ -7281,28 +7427,31 @@ Partial Class MainForm
         'tbx_camera_program
         '
         Me.tbx_camera_program.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx_camera_program.Location = New System.Drawing.Point(197, 369)
+        Me.tbx_camera_program.Location = New System.Drawing.Point(263, 454)
+        Me.tbx_camera_program.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbx_camera_program.MaxLength = 32
         Me.tbx_camera_program.Name = "tbx_camera_program"
-        Me.tbx_camera_program.Size = New System.Drawing.Size(112, 26)
+        Me.tbx_camera_program.Size = New System.Drawing.Size(148, 30)
         Me.tbx_camera_program.TabIndex = 6
         '
         'tbx_Ldist
         '
         Me.tbx_Ldist.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx_Ldist.Location = New System.Drawing.Point(196, 209)
+        Me.tbx_Ldist.Location = New System.Drawing.Point(261, 257)
+        Me.tbx_Ldist.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbx_Ldist.MaxLength = 32
         Me.tbx_Ldist.Name = "tbx_Ldist"
-        Me.tbx_Ldist.Size = New System.Drawing.Size(112, 26)
+        Me.tbx_Ldist.Size = New System.Drawing.Size(148, 30)
         Me.tbx_Ldist.TabIndex = 6
         '
         'Label247
         '
         Me.Label247.AutoSize = True
         Me.Label247.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label247.Location = New System.Drawing.Point(18, 372)
+        Me.Label247.Location = New System.Drawing.Point(24, 458)
+        Me.Label247.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label247.Name = "Label247"
-        Me.Label247.Size = New System.Drawing.Size(129, 20)
+        Me.Label247.Size = New System.Drawing.Size(161, 25)
         Me.Label247.TabIndex = 18
         Me.Label247.Text = "Camera Program"
         '
@@ -7310,37 +7459,41 @@ Partial Class MainForm
         '
         Me.Label237.AutoSize = True
         Me.Label237.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label237.Location = New System.Drawing.Point(17, 212)
+        Me.Label237.Location = New System.Drawing.Point(23, 261)
+        Me.Label237.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label237.Name = "Label237"
-        Me.Label237.Size = New System.Drawing.Size(160, 20)
+        Me.Label237.Size = New System.Drawing.Size(196, 25)
         Me.Label237.TabIndex = 18
         Me.Label237.Text = "Festo LEFT Distance"
         '
         'tbx_laser_template
         '
         Me.tbx_laser_template.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx_laser_template.Location = New System.Drawing.Point(197, 337)
+        Me.tbx_laser_template.Location = New System.Drawing.Point(263, 415)
+        Me.tbx_laser_template.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbx_laser_template.MaxLength = 32
         Me.tbx_laser_template.Name = "tbx_laser_template"
-        Me.tbx_laser_template.Size = New System.Drawing.Size(112, 26)
+        Me.tbx_laser_template.Size = New System.Drawing.Size(148, 30)
         Me.tbx_laser_template.TabIndex = 5
         '
         'tbx_oring
         '
         Me.tbx_oring.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx_oring.Location = New System.Drawing.Point(196, 177)
+        Me.tbx_oring.Location = New System.Drawing.Point(261, 218)
+        Me.tbx_oring.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbx_oring.MaxLength = 32
         Me.tbx_oring.Name = "tbx_oring"
-        Me.tbx_oring.Size = New System.Drawing.Size(112, 26)
+        Me.tbx_oring.Size = New System.Drawing.Size(148, 30)
         Me.tbx_oring.TabIndex = 5
         '
         'Label246
         '
         Me.Label246.AutoSize = True
         Me.Label246.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label246.Location = New System.Drawing.Point(18, 340)
+        Me.Label246.Location = New System.Drawing.Point(24, 418)
+        Me.Label246.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label246.Name = "Label246"
-        Me.Label246.Size = New System.Drawing.Size(119, 20)
+        Me.Label246.Size = New System.Drawing.Size(148, 25)
         Me.Label246.TabIndex = 16
         Me.Label246.Text = "Laser Template"
         '
@@ -7348,18 +7501,20 @@ Partial Class MainForm
         '
         Me.Label238.AutoSize = True
         Me.Label238.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label238.Location = New System.Drawing.Point(17, 180)
+        Me.Label238.Location = New System.Drawing.Point(23, 222)
+        Me.Label238.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label238.Name = "Label238"
-        Me.Label238.Size = New System.Drawing.Size(96, 20)
+        Me.Label238.Size = New System.Drawing.Size(122, 25)
         Me.Label238.TabIndex = 16
         Me.Label238.Text = "Oring Check"
         '
         'btn_update
         '
         Me.btn_update.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_update.Location = New System.Drawing.Point(116, 414)
+        Me.btn_update.Location = New System.Drawing.Point(155, 510)
+        Me.btn_update.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_update.Name = "btn_update"
-        Me.btn_update.Size = New System.Drawing.Size(85, 59)
+        Me.btn_update.Size = New System.Drawing.Size(113, 73)
         Me.btn_update.TabIndex = 13
         Me.btn_update.Text = "Update"
         Me.btn_update.UseVisualStyleBackColor = True
@@ -7367,46 +7522,51 @@ Partial Class MainForm
         'tbx_Rspeed
         '
         Me.tbx_Rspeed.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx_Rspeed.Location = New System.Drawing.Point(197, 305)
+        Me.tbx_Rspeed.Location = New System.Drawing.Point(263, 375)
+        Me.tbx_Rspeed.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbx_Rspeed.MaxLength = 32
         Me.tbx_Rspeed.Name = "tbx_Rspeed"
-        Me.tbx_Rspeed.Size = New System.Drawing.Size(112, 26)
+        Me.tbx_Rspeed.Size = New System.Drawing.Size(148, 30)
         Me.tbx_Rspeed.TabIndex = 4
         '
         'tbx_lvl_toler
         '
         Me.tbx_lvl_toler.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx_lvl_toler.Location = New System.Drawing.Point(196, 145)
+        Me.tbx_lvl_toler.Location = New System.Drawing.Point(261, 178)
+        Me.tbx_lvl_toler.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbx_lvl_toler.MaxLength = 32
         Me.tbx_lvl_toler.Name = "tbx_lvl_toler"
-        Me.tbx_lvl_toler.Size = New System.Drawing.Size(112, 26)
+        Me.tbx_lvl_toler.Size = New System.Drawing.Size(148, 30)
         Me.tbx_lvl_toler.TabIndex = 4
         '
         'tbx_Lspeed
         '
         Me.tbx_Lspeed.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx_Lspeed.Location = New System.Drawing.Point(197, 273)
+        Me.tbx_Lspeed.Location = New System.Drawing.Point(263, 336)
+        Me.tbx_Lspeed.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbx_Lspeed.MaxLength = 32
         Me.tbx_Lspeed.Name = "tbx_Lspeed"
-        Me.tbx_Lspeed.Size = New System.Drawing.Size(112, 26)
+        Me.tbx_Lspeed.Size = New System.Drawing.Size(148, 30)
         Me.tbx_Lspeed.TabIndex = 3
         '
         'tbx_lvl_dist
         '
         Me.tbx_lvl_dist.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx_lvl_dist.Location = New System.Drawing.Point(196, 113)
+        Me.tbx_lvl_dist.Location = New System.Drawing.Point(261, 139)
+        Me.tbx_lvl_dist.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbx_lvl_dist.MaxLength = 32
         Me.tbx_lvl_dist.Name = "tbx_lvl_dist"
-        Me.tbx_lvl_dist.Size = New System.Drawing.Size(112, 26)
+        Me.tbx_lvl_dist.Size = New System.Drawing.Size(148, 30)
         Me.tbx_lvl_dist.TabIndex = 3
         '
         'Label245
         '
         Me.Label245.AutoSize = True
         Me.Label245.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label245.Location = New System.Drawing.Point(18, 308)
+        Me.Label245.Location = New System.Drawing.Point(24, 379)
+        Me.Label245.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label245.Name = "Label245"
-        Me.Label245.Size = New System.Drawing.Size(143, 20)
+        Me.Label245.Size = New System.Drawing.Size(173, 25)
         Me.Label245.TabIndex = 13
         Me.Label245.Text = "Festo Right Speed"
         '
@@ -7414,9 +7574,10 @@ Partial Class MainForm
         '
         Me.Label239.AutoSize = True
         Me.Label239.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label239.Location = New System.Drawing.Point(17, 148)
+        Me.Label239.Location = New System.Drawing.Point(23, 182)
+        Me.Label239.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label239.Name = "Label239"
-        Me.Label239.Size = New System.Drawing.Size(120, 20)
+        Me.Label239.Size = New System.Drawing.Size(152, 25)
         Me.Label239.TabIndex = 13
         Me.Label239.Text = "Level Tolerance"
         '
@@ -7424,9 +7585,10 @@ Partial Class MainForm
         '
         Me.Label244.AutoSize = True
         Me.Label244.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label244.Location = New System.Drawing.Point(18, 276)
+        Me.Label244.Location = New System.Drawing.Point(24, 340)
+        Me.Label244.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label244.Name = "Label244"
-        Me.Label244.Size = New System.Drawing.Size(133, 20)
+        Me.Label244.Size = New System.Drawing.Size(161, 25)
         Me.Label244.TabIndex = 12
         Me.Label244.Text = "Festo Left Speed"
         '
@@ -7434,18 +7596,20 @@ Partial Class MainForm
         '
         Me.Label240.AutoSize = True
         Me.Label240.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label240.Location = New System.Drawing.Point(17, 116)
+        Me.Label240.Location = New System.Drawing.Point(23, 143)
+        Me.Label240.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label240.Name = "Label240"
-        Me.Label240.Size = New System.Drawing.Size(113, 20)
+        Me.Label240.Size = New System.Drawing.Size(140, 25)
         Me.Label240.TabIndex = 12
         Me.Label240.Text = "Level Distance"
         '
         'btn_delete
         '
         Me.btn_delete.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_delete.Location = New System.Drawing.Point(214, 414)
+        Me.btn_delete.Location = New System.Drawing.Point(285, 510)
+        Me.btn_delete.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_delete.Name = "btn_delete"
-        Me.btn_delete.Size = New System.Drawing.Size(85, 59)
+        Me.btn_delete.Size = New System.Drawing.Size(113, 73)
         Me.btn_delete.TabIndex = 14
         Me.btn_delete.Text = "Delete"
         Me.btn_delete.UseVisualStyleBackColor = True
@@ -7453,9 +7617,10 @@ Partial Class MainForm
         'btn_add
         '
         Me.btn_add.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_add.Location = New System.Drawing.Point(22, 414)
+        Me.btn_add.Location = New System.Drawing.Point(29, 510)
+        Me.btn_add.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_add.Name = "btn_add"
-        Me.btn_add.Size = New System.Drawing.Size(80, 59)
+        Me.btn_add.Size = New System.Drawing.Size(107, 73)
         Me.btn_add.TabIndex = 12
         Me.btn_add.Text = "Add"
         Me.btn_add.UseVisualStyleBackColor = True
@@ -7463,47 +7628,52 @@ Partial Class MainForm
         'tbx_Rdist
         '
         Me.tbx_Rdist.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx_Rdist.Location = New System.Drawing.Point(197, 241)
+        Me.tbx_Rdist.Location = New System.Drawing.Point(263, 297)
+        Me.tbx_Rdist.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbx_Rdist.MaxLength = 32
         Me.tbx_Rdist.Name = "tbx_Rdist"
-        Me.tbx_Rdist.Size = New System.Drawing.Size(112, 26)
+        Me.tbx_Rdist.Size = New System.Drawing.Size(148, 30)
         Me.tbx_Rdist.TabIndex = 2
         '
         'tbx_punching
         '
         Me.tbx_punching.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx_punching.Location = New System.Drawing.Point(196, 81)
+        Me.tbx_punching.Location = New System.Drawing.Point(261, 100)
+        Me.tbx_punching.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbx_punching.MaxLength = 32
         Me.tbx_punching.Name = "tbx_punching"
-        Me.tbx_punching.Size = New System.Drawing.Size(112, 26)
+        Me.tbx_punching.Size = New System.Drawing.Size(148, 30)
         Me.tbx_punching.TabIndex = 2
         '
         'Label243
         '
         Me.Label243.AutoSize = True
         Me.Label243.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label243.Location = New System.Drawing.Point(18, 244)
+        Me.Label243.Location = New System.Drawing.Point(24, 300)
+        Me.Label243.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label243.Name = "Label243"
-        Me.Label243.Size = New System.Drawing.Size(172, 20)
+        Me.Label243.Size = New System.Drawing.Size(207, 25)
         Me.Label243.TabIndex = 7
         Me.Label243.Text = "Festo RIGHT Distance"
         '
         'tbx_ref
         '
         Me.tbx_ref.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx_ref.Location = New System.Drawing.Point(196, 49)
+        Me.tbx_ref.Location = New System.Drawing.Point(261, 60)
+        Me.tbx_ref.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tbx_ref.MaxLength = 32
         Me.tbx_ref.Name = "tbx_ref"
-        Me.tbx_ref.Size = New System.Drawing.Size(112, 26)
+        Me.tbx_ref.Size = New System.Drawing.Size(148, 30)
         Me.tbx_ref.TabIndex = 1
         '
         'Label241
         '
         Me.Label241.AutoSize = True
         Me.Label241.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label241.Location = New System.Drawing.Point(17, 84)
+        Me.Label241.Location = New System.Drawing.Point(23, 103)
+        Me.Label241.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label241.Name = "Label241"
-        Me.Label241.Size = New System.Drawing.Size(119, 20)
+        Me.Label241.Size = New System.Drawing.Size(149, 25)
         Me.Label241.TabIndex = 7
         Me.Label241.Text = "Punching Mode"
         '
@@ -7511,9 +7681,10 @@ Partial Class MainForm
         '
         Me.Label242.AutoSize = True
         Me.Label242.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label242.Location = New System.Drawing.Point(17, 52)
+        Me.Label242.Location = New System.Drawing.Point(23, 64)
+        Me.Label242.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label242.Name = "Label242"
-        Me.Label242.Size = New System.Drawing.Size(92, 20)
+        Me.Label242.Size = New System.Drawing.Size(111, 25)
         Me.Label242.TabIndex = 6
         Me.Label242.Text = "References"
         '
@@ -7521,10 +7692,11 @@ Partial Class MainForm
         '
         Me.tabLog.Controls.Add(Me.TabPage15)
         Me.tabLog.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tabLog.Location = New System.Drawing.Point(86, 142)
+        Me.tabLog.Location = New System.Drawing.Point(115, 175)
+        Me.tabLog.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tabLog.Name = "tabLog"
         Me.tabLog.SelectedIndex = 0
-        Me.tabLog.Size = New System.Drawing.Size(1252, 700)
+        Me.tabLog.Size = New System.Drawing.Size(1669, 862)
         Me.tabLog.TabIndex = 20
         Me.tabLog.Visible = False
         '
@@ -7534,10 +7706,11 @@ Partial Class MainForm
         Me.TabPage15.Controls.Add(Me.TabControl1)
         Me.TabPage15.Controls.Add(Me.dgv_log)
         Me.TabPage15.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabPage15.Location = New System.Drawing.Point(4, 38)
+        Me.TabPage15.Location = New System.Drawing.Point(4, 45)
+        Me.TabPage15.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage15.Name = "TabPage15"
-        Me.TabPage15.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage15.Size = New System.Drawing.Size(1244, 658)
+        Me.TabPage15.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage15.Size = New System.Drawing.Size(1661, 813)
         Me.TabPage15.TabIndex = 2
         Me.TabPage15.Text = "Data Logger"
         Me.TabPage15.UseVisualStyleBackColor = True
@@ -7548,11 +7721,11 @@ Partial Class MainForm
         Me.GroupBox182.Controls.Add(Me.RTB_LOG)
         Me.GroupBox182.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox182.ForeColor = System.Drawing.Color.Black
-        Me.GroupBox182.Location = New System.Drawing.Point(733, 470)
-        Me.GroupBox182.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox182.Location = New System.Drawing.Point(977, 578)
+        Me.GroupBox182.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox182.Name = "GroupBox182"
-        Me.GroupBox182.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox182.Size = New System.Drawing.Size(493, 181)
+        Me.GroupBox182.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox182.Size = New System.Drawing.Size(657, 223)
         Me.GroupBox182.TabIndex = 73
         Me.GroupBox182.TabStop = False
         Me.GroupBox182.Text = "Status"
@@ -7562,11 +7735,11 @@ Partial Class MainForm
         Me.RTB_LOG.BackColor = System.Drawing.Color.White
         Me.RTB_LOG.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RTB_LOG.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.RTB_LOG.Location = New System.Drawing.Point(8, 31)
-        Me.RTB_LOG.Margin = New System.Windows.Forms.Padding(4)
+        Me.RTB_LOG.Location = New System.Drawing.Point(11, 38)
+        Me.RTB_LOG.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.RTB_LOG.Name = "RTB_LOG"
         Me.RTB_LOG.ReadOnly = True
-        Me.RTB_LOG.Size = New System.Drawing.Size(464, 136)
+        Me.RTB_LOG.Size = New System.Drawing.Size(617, 166)
         Me.RTB_LOG.TabIndex = 0
         Me.RTB_LOG.Text = ""
         '
@@ -7575,11 +7748,11 @@ Partial Class MainForm
         Me.TabControl1.Controls.Add(Me.TabPage16)
         Me.TabControl1.Controls.Add(Me.TabPage17)
         Me.TabControl1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabControl1.Location = New System.Drawing.Point(7, 470)
-        Me.TabControl1.Margin = New System.Windows.Forms.Padding(4)
+        Me.TabControl1.Location = New System.Drawing.Point(9, 578)
+        Me.TabControl1.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(704, 181)
+        Me.TabControl1.Size = New System.Drawing.Size(939, 223)
         Me.TabControl1.TabIndex = 72
         '
         'TabPage16
@@ -7589,11 +7762,11 @@ Partial Class MainForm
         Me.TabPage16.Controls.Add(Me.GroupBox174)
         Me.TabPage16.Controls.Add(Me.GroupBox181)
         Me.TabPage16.Controls.Add(Me.btn_search)
-        Me.TabPage16.Location = New System.Drawing.Point(4, 29)
-        Me.TabPage16.Margin = New System.Windows.Forms.Padding(4)
+        Me.TabPage16.Location = New System.Drawing.Point(4, 34)
+        Me.TabPage16.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.TabPage16.Name = "TabPage16"
-        Me.TabPage16.Padding = New System.Windows.Forms.Padding(4)
-        Me.TabPage16.Size = New System.Drawing.Size(696, 148)
+        Me.TabPage16.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.TabPage16.Size = New System.Drawing.Size(931, 185)
         Me.TabPage16.TabIndex = 0
         Me.TabPage16.Text = "Datalog Finder"
         Me.TabPage16.UseVisualStyleBackColor = True
@@ -7601,10 +7774,10 @@ Partial Class MainForm
         'rbByREF
         '
         Me.rbByREF.AutoSize = True
-        Me.rbByREF.Location = New System.Drawing.Point(459, 41)
-        Me.rbByREF.Margin = New System.Windows.Forms.Padding(4)
+        Me.rbByREF.Location = New System.Drawing.Point(612, 50)
+        Me.rbByREF.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.rbByREF.Name = "rbByREF"
-        Me.rbByREF.Size = New System.Drawing.Size(145, 24)
+        Me.rbByREF.Size = New System.Drawing.Size(173, 29)
         Me.rbByREF.TabIndex = 13
         Me.rbByREF.TabStop = True
         Me.rbByREF.Text = "By References"
@@ -7613,10 +7786,10 @@ Partial Class MainForm
         'rbBydate
         '
         Me.rbBydate.AutoSize = True
-        Me.rbBydate.Location = New System.Drawing.Point(459, 9)
-        Me.rbBydate.Margin = New System.Windows.Forms.Padding(4)
+        Me.rbBydate.Location = New System.Drawing.Point(612, 11)
+        Me.rbBydate.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.rbBydate.Name = "rbBydate"
-        Me.rbBydate.Size = New System.Drawing.Size(91, 24)
+        Me.rbBydate.Size = New System.Drawing.Size(109, 29)
         Me.rbBydate.TabIndex = 12
         Me.rbBydate.TabStop = True
         Me.rbBydate.Text = "By Date"
@@ -7626,11 +7799,11 @@ Partial Class MainForm
         '
         Me.GroupBox174.Controls.Add(Me.tbSearchREF)
         Me.GroupBox174.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox174.Location = New System.Drawing.Point(3, 89)
-        Me.GroupBox174.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox174.Location = New System.Drawing.Point(4, 110)
+        Me.GroupBox174.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox174.Name = "GroupBox174"
-        Me.GroupBox174.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox174.Size = New System.Drawing.Size(417, 53)
+        Me.GroupBox174.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox174.Size = New System.Drawing.Size(556, 65)
         Me.GroupBox174.TabIndex = 11
         Me.GroupBox174.TabStop = False
         Me.GroupBox174.Text = "By References"
@@ -7640,10 +7813,10 @@ Partial Class MainForm
         Me.tbSearchREF.BackColor = System.Drawing.SystemColors.Control
         Me.tbSearchREF.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tbSearchREF.ForeColor = System.Drawing.Color.Black
-        Me.tbSearchREF.Location = New System.Drawing.Point(12, 20)
-        Me.tbSearchREF.Margin = New System.Windows.Forms.Padding(4)
+        Me.tbSearchREF.Location = New System.Drawing.Point(16, 25)
+        Me.tbSearchREF.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.tbSearchREF.Name = "tbSearchREF"
-        Me.tbSearchREF.Size = New System.Drawing.Size(396, 22)
+        Me.tbSearchREF.Size = New System.Drawing.Size(527, 26)
         Me.tbSearchREF.TabIndex = 24
         '
         'GroupBox181
@@ -7653,11 +7826,11 @@ Partial Class MainForm
         Me.GroupBox181.Controls.Add(Me.DateTimePickerEndDate)
         Me.GroupBox181.Controls.Add(Me.DateTimePickerStartDate)
         Me.GroupBox181.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox181.Location = New System.Drawing.Point(3, -1)
-        Me.GroupBox181.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox181.Location = New System.Drawing.Point(4, -1)
+        Me.GroupBox181.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.GroupBox181.Name = "GroupBox181"
-        Me.GroupBox181.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox181.Size = New System.Drawing.Size(417, 90)
+        Me.GroupBox181.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.GroupBox181.Size = New System.Drawing.Size(556, 111)
         Me.GroupBox181.TabIndex = 10
         Me.GroupBox181.TabStop = False
         Me.GroupBox181.Text = "By Date"
@@ -7666,10 +7839,10 @@ Partial Class MainForm
         '
         Me.Label249.AutoSize = True
         Me.Label249.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label249.Location = New System.Drawing.Point(21, 21)
-        Me.Label249.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label249.Location = New System.Drawing.Point(28, 26)
+        Me.Label249.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label249.Name = "Label249"
-        Me.Label249.Size = New System.Drawing.Size(71, 15)
+        Me.Label249.Size = New System.Drawing.Size(84, 18)
         Me.Label249.TabIndex = 1
         Me.Label249.Text = "Start Date"
         '
@@ -7677,37 +7850,37 @@ Partial Class MainForm
         '
         Me.Label250.AutoSize = True
         Me.Label250.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label250.Location = New System.Drawing.Point(21, 55)
-        Me.Label250.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label250.Location = New System.Drawing.Point(28, 68)
+        Me.Label250.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label250.Name = "Label250"
-        Me.Label250.Size = New System.Drawing.Size(66, 15)
+        Me.Label250.Size = New System.Drawing.Size(77, 18)
         Me.Label250.TabIndex = 3
         Me.Label250.Text = "End Date"
         '
         'DateTimePickerEndDate
         '
         Me.DateTimePickerEndDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePickerEndDate.Location = New System.Drawing.Point(143, 50)
-        Me.DateTimePickerEndDate.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePickerEndDate.Location = New System.Drawing.Point(191, 62)
+        Me.DateTimePickerEndDate.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.DateTimePickerEndDate.Name = "DateTimePickerEndDate"
-        Me.DateTimePickerEndDate.Size = New System.Drawing.Size(265, 20)
+        Me.DateTimePickerEndDate.Size = New System.Drawing.Size(352, 23)
         Me.DateTimePickerEndDate.TabIndex = 2
         '
         'DateTimePickerStartDate
         '
         Me.DateTimePickerStartDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePickerStartDate.Location = New System.Drawing.Point(143, 16)
-        Me.DateTimePickerStartDate.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePickerStartDate.Location = New System.Drawing.Point(191, 20)
+        Me.DateTimePickerStartDate.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.DateTimePickerStartDate.Name = "DateTimePickerStartDate"
-        Me.DateTimePickerStartDate.Size = New System.Drawing.Size(265, 20)
+        Me.DateTimePickerStartDate.Size = New System.Drawing.Size(352, 23)
         Me.DateTimePickerStartDate.TabIndex = 0
         '
         'btn_search
         '
-        Me.btn_search.Location = New System.Drawing.Point(428, 81)
-        Me.btn_search.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_search.Location = New System.Drawing.Point(571, 100)
+        Me.btn_search.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btn_search.Name = "btn_search"
-        Me.btn_search.Size = New System.Drawing.Size(263, 60)
+        Me.btn_search.Size = New System.Drawing.Size(351, 74)
         Me.btn_search.TabIndex = 9
         Me.btn_search.Text = "Search"
         Me.btn_search.UseVisualStyleBackColor = True
@@ -7718,11 +7891,11 @@ Partial Class MainForm
         Me.TabPage17.Controls.Add(Me.ProgressBarExport)
         Me.TabPage17.Controls.Add(Me.txtFileLocation)
         Me.TabPage17.Controls.Add(Me.btn_export)
-        Me.TabPage17.Location = New System.Drawing.Point(4, 29)
-        Me.TabPage17.Margin = New System.Windows.Forms.Padding(4)
+        Me.TabPage17.Location = New System.Drawing.Point(4, 34)
+        Me.TabPage17.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.TabPage17.Name = "TabPage17"
-        Me.TabPage17.Padding = New System.Windows.Forms.Padding(4)
-        Me.TabPage17.Size = New System.Drawing.Size(696, 148)
+        Me.TabPage17.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.TabPage17.Size = New System.Drawing.Size(931, 185)
         Me.TabPage17.TabIndex = 1
         Me.TabPage17.Text = "Export"
         Me.TabPage17.UseVisualStyleBackColor = True
@@ -7730,20 +7903,20 @@ Partial Class MainForm
         'btn_fileLocation
         '
         Me.btn_fileLocation.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_fileLocation.Location = New System.Drawing.Point(113, 92)
-        Me.btn_fileLocation.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_fileLocation.Location = New System.Drawing.Point(151, 113)
+        Me.btn_fileLocation.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btn_fileLocation.Name = "btn_fileLocation"
-        Me.btn_fileLocation.Size = New System.Drawing.Size(207, 43)
+        Me.btn_fileLocation.Size = New System.Drawing.Size(276, 53)
         Me.btn_fileLocation.TabIndex = 14
         Me.btn_fileLocation.Text = "Select File Location"
         Me.btn_fileLocation.UseVisualStyleBackColor = True
         '
         'ProgressBarExport
         '
-        Me.ProgressBarExport.Location = New System.Drawing.Point(113, 46)
-        Me.ProgressBarExport.Margin = New System.Windows.Forms.Padding(4)
+        Me.ProgressBarExport.Location = New System.Drawing.Point(151, 57)
+        Me.ProgressBarExport.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.ProgressBarExport.Name = "ProgressBarExport"
-        Me.ProgressBarExport.Size = New System.Drawing.Size(467, 28)
+        Me.ProgressBarExport.Size = New System.Drawing.Size(623, 34)
         Me.ProgressBarExport.TabIndex = 13
         '
         'txtFileLocation
@@ -7751,19 +7924,19 @@ Partial Class MainForm
         Me.txtFileLocation.BackColor = System.Drawing.SystemColors.Control
         Me.txtFileLocation.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtFileLocation.ForeColor = System.Drawing.Color.Black
-        Me.txtFileLocation.Location = New System.Drawing.Point(113, 6)
-        Me.txtFileLocation.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtFileLocation.Location = New System.Drawing.Point(151, 7)
+        Me.txtFileLocation.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txtFileLocation.Name = "txtFileLocation"
-        Me.txtFileLocation.Size = New System.Drawing.Size(465, 22)
+        Me.txtFileLocation.Size = New System.Drawing.Size(619, 26)
         Me.txtFileLocation.TabIndex = 12
         '
         'btn_export
         '
         Me.btn_export.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_export.Location = New System.Drawing.Point(373, 92)
-        Me.btn_export.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_export.Location = New System.Drawing.Point(497, 113)
+        Me.btn_export.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btn_export.Name = "btn_export"
-        Me.btn_export.Size = New System.Drawing.Size(207, 43)
+        Me.btn_export.Size = New System.Drawing.Size(276, 53)
         Me.btn_export.TabIndex = 11
         Me.btn_export.Text = "Export"
         Me.btn_export.UseVisualStyleBackColor = True
@@ -7771,22 +7944,25 @@ Partial Class MainForm
         'dgv_log
         '
         Me.dgv_log.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgv_log.Location = New System.Drawing.Point(7, 7)
-        Me.dgv_log.Margin = New System.Windows.Forms.Padding(4)
+        Me.dgv_log.Location = New System.Drawing.Point(9, 9)
+        Me.dgv_log.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.dgv_log.Name = "dgv_log"
         Me.dgv_log.RowHeadersWidth = 51
-        Me.dgv_log.Size = New System.Drawing.Size(1230, 456)
+        Me.dgv_log.Size = New System.Drawing.Size(1640, 561)
         Me.dgv_log.TabIndex = 69
         '
         'MainForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1424, 845)
+        Me.ClientSize = New System.Drawing.Size(1899, 1040)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.panel11111)
         Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.tab_man_stn3)
+        Me.Controls.Add(Me.tab_man_stn2)
+        Me.Controls.Add(Me.tab_man_stn1)
         Me.Controls.Add(Me.tabHome)
         Me.Controls.Add(Me.tabReferences)
         Me.Controls.Add(Me.tabLog)
@@ -7800,9 +7976,7 @@ Partial Class MainForm
         Me.Controls.Add(Me.tab_man_stn6)
         Me.Controls.Add(Me.tab_man_stn5)
         Me.Controls.Add(Me.tab_man_stn4)
-        Me.Controls.Add(Me.tab_man_stn3)
-        Me.Controls.Add(Me.tab_man_stn2)
-        Me.Controls.Add(Me.tab_man_stn1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "MainForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "MainForm"

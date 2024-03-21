@@ -307,10 +307,10 @@ Public Class MainForm
 
     Private Sub btn_read_Click(sender As Object, e As EventArgs) Handles btn_read.Click
         Try
-            Dim address As Integer = Integer.Parse(txtAddress.Text) - 1
+            Dim address As Integer = Integer.Parse(txtAddress.Text)
             Dim readValue As Integer = Modbus.ReadModbus(address, 1)(0)
 
-            rtbSetting.Text = $"Value at address {address + 1}: {readValue}"
+            rtbSetting.Text = $"Value at address {address}: {readValue}"
         Catch ex As Exception
             rtbSetting.Text = $"Failed to read data : {ex.Message}"
         End Try
@@ -319,13 +319,13 @@ Public Class MainForm
     Private Sub btn_write_Click(sender As Object, e As EventArgs) Handles btn_write.Click
         Try
 
-            Dim address As Integer = Integer.Parse(txtAddress.Text) - 1
+            Dim address As Integer = Integer.Parse(txtAddress.Text)
             Dim value As Integer = Integer.Parse(txtValue.Text)
 
 
             Modbus.WriteModbus(address, value)
 
-            rtbSetting.Text = $"Successfully write value {value} at Address {address + 1}"
+            rtbSetting.Text = $"Successfully write value {value} at Address {address}"
         Catch ex As Exception
 
             rtbSetting.Text = $"Failed to write data: {ex.Message}"
@@ -346,7 +346,7 @@ Public Class MainForm
     '    End If
     'End Sub
 
-    Private Sub btn_stn1_cyl1_fw_Click(sender As Object, e As EventArgs)
+    Private Sub btn_stn1_cyl1_fw_Click(sender As Object, e As EventArgs) Handles btn_stn1_cyl1_fw.Click
         If btn_stn1_cyl1_bw.Text = "Is Backward" Then
             btn_stn1_cyl1_bw.PerformClick()
         End If
@@ -364,7 +364,7 @@ Public Class MainForm
         End If
     End Sub
 
-    Private Sub btn_stn1_cyl1_bw_Click(sender As Object, e As EventArgs)
+    Private Sub btn_stn1_cyl1_bw_Click(sender As Object, e As EventArgs) Handles btn_stn1_cyl1_bw.Click
         If btn_stn1_cyl1_fw.Text = "Is Forward" Then
             btn_stn1_cyl1_fw.PerformClick()
         End If
@@ -518,7 +518,7 @@ Public Class MainForm
 
     'Button Manual Station 4
 
-    Private Sub btn_stn4_cyl1_fw_Click(sender As Object, e As EventArgs)
+    Private Sub btn_stn4_cyl1_fw_Click(sender As Object, e As EventArgs) Handles btn_stn4_cyl1_fw.Click
         If btn_stn4_cyl1_bw.Text = "Is Backward" Then
             btn_stn4_cyl1_bw.PerformClick()
         End If
@@ -534,7 +534,7 @@ Public Class MainForm
         End If
     End Sub
 
-    Private Sub btn_stn4_cyl1_bw_Click(sender As Object, e As EventArgs)
+    Private Sub btn_stn4_cyl1_bw_Click(sender As Object, e As EventArgs) Handles btn_stn4_cyl1_bw.Click
         If btn_stn4_cyl1_fw.Text = "Is Forward" Then
             btn_stn4_cyl1_fw.PerformClick()
         End If
